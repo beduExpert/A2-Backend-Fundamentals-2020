@@ -1,28 +1,141 @@
+# Ejercicio 1
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Objetivo
 
-## Titulo del Ejemplo
+Crear un servicio de MongoDB en la nube, configurar la conexión de un host remoto a tráves de una interfaz de MongoDB.
 
-### OBJETIVO
+## Requerimientos
 
-- Lo que esperamos que el alumno aprenda
+- Conexión a internet
+- Almacenamiento disponible para la instalación de MongoDB Shell
+- Instalación de Nodejs a partir de la versión 12.0
 
-#### REQUISITOS
+## Desarrollo
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+### Creando un cluster en MongoDB Atlas
 
-#### DESARROLLO
+MongoDB atlas es la manera más rápida
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Entra a la siguiente dirección [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas/register) y regístrate 
+2. Elige la opción de crear un "Shared Cluster" de manera gratuita
+3. Aquí puedes dejar las opciones por defecto y continuar al siguiente paso
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+    ![img/Screen_Shot_2020-06-14_at_10.17.13.png](img/Screen_Shot_2020-06-14_at_10.17.13.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+    Después serás dirigido a una pantalla dónde nos avisarán cuándo el cluster haya sido lanzado
 
-![imagen](https://picsum.photos/200/300)
+4. Una vez que esté listo presiona el botón de connect que está debajo del nombre de tu cluster. 
 
+    ![img/Screen_Shot_2020-06-14_at_10.26.03.png](img/Screen_Shot_2020-06-14_at_10.26.03.png)
 
+    4.1 Añade tu dirección IP para poder hacer peticiones desde tu computadora al cluster. Por seguridad cada que estés en una conexión de internet diferente debes añadir de nuevo tu IP para que solo tú puedas hacer peticiones al clúster.
+
+    4.2 Crea un usuario y contraseña para administrar atlas
+
+5. Elige tu método de conexión
+
+### Instalar MongoDB Shell
+
+MongoDB Shell es una interfaz para MongoDB, se puede usar para consultar datos, actualizar datos, así como realizar operaciones administrativas. 
+
+**MacOS X**
+
+Instalación con Homebrew:
+
+Prerequisitos: 
+
+- [Nodejs](https://nodejs.org/es/) versión mínima de 12.0.0
+
+1. Instalar Homebrew
+
+    Para seguir los pasos de instalación [Homebrew](https://brew.sh/)
+
+2. Copia y el siguiente comando
+
+    ```bash
+    brew tap mongodb/brew
+    ```
+
+3. Instalar **mongosh** package:
+
+    ```bash
+    brew install mongosh
+    ```
+
+**Windows**
+
+1. Ir a [MongoDB Download Center](https://www.mongodb.com/try/download/shell) y descargar el archivo para tu sistema operativo
+2. Extraer los archivos del archivo descargado en la ubicación deseada de tu sistema de archivos
+3. Agregar una variable de entorno para el binario de MongoDB Shell:
+    1. Abrir **Panel de Control.**
+    2. En **Sistema y Seguridad** dar clic en **Sistema.**
+    3. Clic en **Configuración Avanzada del Sistema**. Luego, **Propiedades del Sistema** en la ventana desplegada.
+    4. Clic en **Variables de Entorno.**
+    5. En *Variables del sistema*, select **Path** and clic en **Edit**. Luego, **Editar variable de entorno** en la ventana desplegada.
+    6. Clic **New** y agrega la ruta del archivo binario **mongosh**.
+    7. Clic **Ok** para confirmar los cambios. Luego **Ok** de nuevo.
+    8. Para verificar que la configuración haya tenido éxito, abre la terminal y ejecuta:
+
+        ```bash
+        mongosh --help
+        ```
+
+**Linux**
+
+1. Ir a [MongoDB Download Center](https://www.mongodb.com/try/download/shell) y descargar el archivo para tu sistema operativo
+2. Extraer los archivos del archivo descargado en la ubicación deseada de tu sistema de archivos
+3. Extraer los archivos del archivo descargado
+
+    ```bash
+    tar -zxvf path/to/archive
+    ```
+
+4. Agregar variable de entorno para el binario de MongoDB Shell:
+    - Ejecuta:
+
+         Actualiza **/path/to/mongosh** de acuerdo al directorio de instalación
+
+        ```bash
+        sudo cp /path/to/mongosh /usr/local/bin/
+        ```
+
+    - Ejecuta
+
+        ```bash
+        sudo ln -s  /path/to/mongosh /usr/local/bin/
+        ```
+
+### Conexión a clúster con MongoDB Shell
+
+1. Inicia sesión en [https://account.mongodb.com/account/login](https://account.mongodb.com/account/login?nds=true)
+2. Seleccionar **Connect** en el dashboard
+
+    ![img/Screen_Shot_2020-06-18_at_11.10.43.png](img/Screen_Shot_2020-06-18_at_11.10.43.png)
+
+3. Seleccionar **Connect with the mongo shell**
+
+    ![img/Screen_Shot_2020-06-18_at_11.16.44.png](img/Screen_Shot_2020-06-18_at_11.16.44.png)
+
+4. Clic **I have the mongo shell installed** y copiar la url que nos proporcione
+
+    ![img/Screen_Shot_2020-06-18_at_11.18.13.png](img/Screen_Shot_2020-06-18_at_11.18.13.png)
+
+Dónde, 
+
+```bash
+mongo "mongodb+srv://cluster0-xmea4.mongodb.net/<*dbname*>" --username <*username*>
+```
+
+<*dbname*> : Es el nombre de la base de datos
+
+<*username*> : Nombre de usuario 
+
+5. Reemplaza los valores indicados y ejecuta el comando anterior.
+
+### Reto 1
+
+Crea un cluster en MongoDB Atlas y has la configuración de los pasos anteriores.
+
+### Reto 2
+
+Conéctate al cluster con MongoDB Shell sigue los pasos ya explicados.
