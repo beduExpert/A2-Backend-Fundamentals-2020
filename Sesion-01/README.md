@@ -1,23 +1,11 @@
-**# Back-end Fundamentals
+# Sesión 1 - Consola
 
+[Prework](Prework/README.md)
 
-Descripción del modulo y las herramientas que se utilizarán. 
+[Navegación (File system)](Ejemplo-01/README.md)
 
-## ¿Quién puede tomar este curso?
+[Editando Archivos](Ejemplo-02/README.md)
 
-Conocimientos previos que debe tener el alumno para poder tomar este curso
+[Instalando paquetes](Ejemplo-03/README.md)
 
-## [Proyecto](./proyecto)
-
-En caso de que hubiera un o mini-proyectos por sesión, se describen aquí.
-
-## [Temario técnico](./sesiones)
-
-- Consola
-- Adminstradores de servidore
-- Arquitectura de software
-- Fundamentos de Base de Datos(BD) relacionales
-- Fundaments de SQL y MariDB
-- **Sequelize
-- Funamentos de Base de Datos(BD) no relacionales
-- **Mongoose
+[Postwork](Postwork/README.md)
