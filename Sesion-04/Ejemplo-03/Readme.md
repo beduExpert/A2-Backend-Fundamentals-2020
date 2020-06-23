@@ -1,28 +1,175 @@
+# Ejemplo 3
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Objetivo
 
-## Titulo del Ejemplo
+Entender los objetos de petición y respuesta que nos provee ExpressJS y cómo utilizarlos para agregar funcionalidad a nuestra API.
 
-### OBJETIVO
+## Requerimientos
 
-- Lo que esperamos que el alumno aprenda
+Se recomienda tener NodeJS LTS instalado y funcionando correctamente. También es recomendable estar familiarizado con Javascript y programación orientada a objetos.
 
-#### REQUISITOS
+## Desarrollo
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+En nuestra carpeta `models/` crearemos las clases de nuestras tres entidades con su respectivo nombre de archivo. Revisa que cada archivo tenga un código similar al siguiente
 
-#### DESARROLLO
+1. Archivo `models/Mascota.js`
 
-Agrega las instrucciones generales del ejemplo o reto
+```jsx
+// Mascota.js
+/** Clase que representa un animalito a adoptar */
+class Mascota {
+  constructor(id, nombre, categoria, fotos, descripcion, anunciante, ubicacion) {
+    this.id = id;
+    this.nombre = nombre; // nombre de la mascota (o titulo del anuncio)
+    this.categoria = categoria; // perro | gato | otro
+    this.fotos = fotos; // links a las fotografías
+    this.descripcion = descripcion; // descripción del anuncio
+    this.anunciante = anunciante; // contacto con la persona que anuncia al animalito
+    this.ubicacion = ubicacion; // muy importante
+  }
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+}
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+module.exports = Mascota;
+```
 
-![imagen](https://picsum.photos/200/300)
+2. Archivo `models/Usuario.js`
 
+```jsx
+// Usuario.js
+/** Clase que representa a un usuario de la plataforma*/
+class Usuario {
+  constructor(id, username, nombre, apellido, email, password, ubicacion, telefono, bio, tipo) {
+    this.id = id;
+    this.username = username;
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.password = password;
+    this.ubicacion = ubicacion;
+    this.telefono = telefono;
+    this.bio = bio;
+    this.fotos = fotos;
+    this.tipo = tipo; // tipo normal o anunciante
+  }
+}
 
+module.exports = Usuario;
+```
+
+3. Archivo `models/Solicitud.js`
+
+```jsx
+// Solicitud.js
+/** Clase que representa una solicitud de adopción */
+class Solicitud {
+  constructor(id, idMascota, fechaDeCreacion, idUsuarioAnunciante, idUsuarioSolicitante, estado) {
+    this.id = id;
+    this.idMascota = idMascota;
+    this.fechaDeCreacion = fechaDeCreacion;
+    this.idUsuarioAnunciante = idUsuarioAnunciante;
+    this.idUsuarioSolicitante = idUsuarioSolicitante;
+    this.estado = estado;
+  }
+
+}
+
+module.exports = Solicitud;
+```
+
+### Creando nuestros controladores
+
+4. En la carpeta `controllers/` crearemos el archivo `usuarios.js` con la siguiente estructura:
+
+```jsx
+/*  Archivo controllers/usuarios.js
+ *  Simulando la respuesta de objetos Usuario
+ *  en un futuro aquí se utilizarán los modelos
+ */
+
+const Usuario = require('../models/Usuario')
+
+function crearUsuario(req, res) {
+  // Instanciaremos un nuevo usuario utilizando la clase usuario
+  var usuario = new Usuario(req.body)
+  res.status(201).send(usuario)
+}
+
+function obtenerUsuarios(req, res) {
+  // Simulando dos usuarios y respondiendolos
+  var usuario1 = new Usuario(1, 'Juan', 'Vega', 'juan@vega.com')
+  var usuario1 = new Usuario(2, 'Monserrat', 'Vega', 'mon@vega.com')
+  res.send([usuario1, usuario2])
+}
+
+function modificarUsuario(req, res) {
+  // simulando un usuario previamente existente que el usuario utili
+  var usuario1 = new Usuario(req.params.id, 'Juan', 'Vega', 'juan@vega.com')
+  var modificaciones = req.body
+  usuario1 = { ...usuario1, ...modificaciones }
+  res.send(usuario1)
+}
+
+function eliminarUsuario(req, res) {
+  res.status(200).send(`Usuario ${req.params.id} eliminado`);
+}
+
+module.exports = {
+  crearUsuario,
+  obtenerUsuarios,
+  modificarUsuario,
+  eliminarUsuario
+}
+```
+
+En el código anterior jugamos con las clases de Javascript para simular el comportamiento esperado de nuestra API en las primeras tres funciones.
+
+Es importante entender los dos argumentos de nuestras funciones, (req y res).
+
+El objeto [Request (req)](http://expressjs.com/es/4x/api.html#req) contiene un gran número de propiedades referentes a la petición HTTP como los parámetros, los *headers,* el cuerpo de la petición, y más.
+
+[Response (res)](http://expressjs.com/es/4x/api.html#res) es el objeto que utilizamos para componer la respuesta que enviaremos  con el método send.
+
+5. Modificaremos el archivo `routes/usuarios.js` con la siguiente estructura:
+
+```jsx
+// Estructura del CRUD
+const router = require('express').Router();
+const {
+  crearUsuario,
+  obtenerUsuarios,
+  modificarUsuario,
+  eliminarUsuario
+} = require('../controllers/usuarios')
+
+router.get('/', obtenerUsuarios)
+router.post('/', crearUsuario)
+router.put('/:id', modificarUsuario)
+router.delete('/:id', eliminarUsuario)
+
+module.exports = router;
+```
+
+Lo que aquí sucedió es que hemos externalizado el código de nuestro router a funciones independientes en nuestra carpeta de controladores.
+
+## Ejercicio 3
+
+Con tu servidor corriendo vuelve a ejecutar las siguientes peticiones con insomnia o postman
+
+- GET [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
+- POST [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
+- PUT [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)/42
+- DELETE [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)/42
+
+Analiza las respuestas y que es lo que sucede en cada caso.
+
+## Ejercicio 4
+
+1. Ahora crea los controladores para las mascotas y las solicitudes con una estructura similar a la anterior.
+2.  Planteando el siguiente escenario responde la pregunta.
+Contemplando que si pides (GET) solicitudes en el endpoint `v1/solicitudes` este nos devolverá un listado de *todas* las solicitudes.
+¿Para obtener únicamente UNA solicitud de adopción que cambios implementarías?
+
+### Conclusión
+
+Aunque si bien para este caso en particular podríamos seguir trabajando con la lógica de cada *endpoint* dentro del archivo `routes/usuarios.js` cuando los proyectos van creciendo, es conveniente modularizar nuestro código, y una manera de hacerlo es externalizando funciones en los controladores.

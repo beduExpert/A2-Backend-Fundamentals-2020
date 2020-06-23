@@ -1,28 +1,122 @@
+# Ejemplo 1
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Objetivo
 
-## Titulo del Ejemplo
+Repasar los fundamentos de una API REST y configurar nuestro entorno para comenzar a desarrollar una API con NodeJS y Express.
 
-### OBJETIVO
+## Requerimientos
 
-- Lo que esperamos que el alumno aprenda
+Se recomienda tener NodeJS LTS instalado y funcionando correctamente. También es recomendable estar familiarizado con Javascript.
 
-#### REQUISITOS
+## Desarrollo
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+### ¿Qué es una API REST?
 
-#### DESARROLLO
+Una API es un conjunto de funciones y procedimientos que cumplen una o varias funciones con el fin de ser utilizadas por otro *software.* Las siglas API vienen del inglés *Application Programming Interface.* En español sería Interfaz de Programación de Aplicaciones.
 
-Agrega las instrucciones generales del ejemplo o reto
+REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo de arquitectura pensada para sistemas dedicados a la distribución de *hypermedia.* REST cuenta con los siguientes principios:
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+- Protocolo cliente/servidor sin estado.
+- Los objetos en REST siempre se manipulan a partir de la URI.
+- Acciones concretas (POST, GET, PUT y DELETE) para la transferencia de datos.
+- Uso de hipermedios para la comunicación. Para este caso en específico utilizaremos JSON cómo el hipermedio para enviar respuestas y recibir peticiones de objetos.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+## Preparando nuestro entorno de desarrollo
 
-![imagen](https://picsum.photos/200/300)
+0. Si aún no tienes NodeJS debes descargarlo desde su [sitio oficial](https://nodejs.org/en/download/) e instalarlo
 
+1. Crearemos una nueva carpeta llamada `adoptapet-api` con la siguiente estructura:
 
+    adoptapet-api/
+
+    config/
+
+    models/
+
+    controllers/
+
+    routes/
+
+    app.js
+
+2. Nos posicionaremos en esa carpeta e Iniciaremos un nuevo proyecto con el comando `npm init -y`
+3. Ejecutaremos el siguiente código 
+
+    ```bash
+    npm install express body-parser cors
+    ```
+
+4. Instalar nodemon de manera global
+
+    ```bash
+    npm install -g nodemon
+    ```
+
+    Nodemon nos servirá para agilizar el desarrollo, ya que recarga nuestro server de manera automática, de esta manera no tendremos que reiniciar el servidor manualmente cada que  realicemos cambios.
+
+    Nota: Si tienes problemas con permisos de instalación, intenta ejecutando el comando con `sudo`
+
+5. Agregar la siguientes dos líneas dentro del objeto "scripts" del archivo `package.json`:
+
+    ```bash
+    		"start": "node ./app.js",
+    		"dev": "nodemon ./app.js",
+    ```
+
+6. Verifica que tu archivo `package.json` luzca similar a esto:
+
+    ```json
+    {
+      "name": "adoptapet-api",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+    		"start": "node ./app.js",
+    		"dev": "nodemon ./app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+      }
+    }
+    ```
+
+    Aquí estarán instaladas las dependencias de nuestro proyecto.
+
+7. Ahora editaremos el archivo `app.js` con el siguiente código:
+
+    ```jsx
+    var express = require('express'),
+        bodyParser = require('body-parser'),
+        cors = require('cors');
+
+    // Objeto global de la app
+    var app = express();
+
+    // configuración de middlewares
+    app.use(cors());
+    app.use(bodyParser.urlencoded({ extended: false }));
+    app.use(bodyParser.json());
+
+    // Manejando los errores 404
+    app.use(function(req, res, next) {
+      var err = new Error('Not Found');
+      err.status = 404;
+      next(err);
+    });
+
+    // Iniciando el servidor...
+    var server = app.listen(process.env.PORT || 3000, function(){
+      console.log('Escuchando en el puerto ' + server.address().port);
+    });
+    ```
+
+8. Ingresaremos el comando `npm run dev` y si la configuración es correcta se ejecutará nodemon y veremos algo cómo esto en nuestra terminal:
+
+    ![img/Untitled.png](img/Untitled.png)
