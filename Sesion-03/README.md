@@ -1,23 +1,11 @@
-**# Back-end Fundamentals
+# Sesión 3 - Arquitectura de software
 
+[Prework - Ciclo de desarrollo de la arquitectura](Prework/README.md)
 
-Descripción del modulo y las herramientas que se utilizarán. 
+[Arquitectura cliente-servidor](Ejemplo-01/README.md)
 
-## ¿Quién puede tomar este curso?
+[AdoptaPet - Iniciando un nuevo proyecto](Ejemplo-02/README.md)
 
-Conocimientos previos que debe tener el alumno para poder tomar este curso
+[Modelo Vista Controlador](Ejemplo-03/README.md)
 
-## [Proyecto](./proyecto)
-
-En caso de que hubiera un o mini-proyectos por sesión, se describen aquí.
-
-## [Temario técnico](./sesiones)
-
-- Consola
-- Adminstradores de servidore
-- Arquitectura de software
-- Fundamentos de Base de Datos(BD) relacionales
-- Fundaments de SQL y MariDB
-- **Sequelize
-- Funamentos de Base de Datos(BD) no relacionales
-- **Mongoose
+[Postwork - Arquitectura de Microservicios](Postwork/README.md)

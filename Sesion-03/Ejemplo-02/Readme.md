@@ -1,28 +1,44 @@
+# AdoptaPet - Iniciando un nuevo proyecto
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Objetivo
 
-## Titulo del Ejemplo
+Presentar un nuevo proyecto y levantar requerimientos para cumplir con la primera etapa de planteamiento de nuestra arquitectura de software.
 
-### OBJETIVO
+## Requerimientos
 
-- Lo que esperamos que el alumno aprenda
+Cuaderno o aplicación para tomar notas y resolver preguntas.
 
-#### REQUISITOS
+## Desarrollo
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+AdoptaPet será una aplicación web que permita a la gente adoptar mascotas y poner mascotas en adopción.
 
-#### DESARROLLO
+### 1. Conociendo los requerimientos
 
-Agrega las instrucciones generales del ejemplo o reto
+Los requerimientos a grandes rasgos para este sistema son los siguientes:
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+- Publicar anuncios de mascotas en adopción
+- Visualizar las mascotas que están en adopción
+- Permitir a los usuarios interesados en adoptar una mascota registrarse y poder enviar solicitudes de adopción
+- Permitir a los cuidadores evaluar solicitudes y confirmar una adopción
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+### 2. Creando User Stories
 
-![imagen](https://picsum.photos/200/300)
+Las historias de usuario son descripciones cortas y simples de una funcionalidad contada desde la perspectiva de la persona que la desea (usuario o cliente del sistema). 
 
+Estas historias tienen una estructura simple
 
+*"Como [rol de usuario] quiero [objetivo] para [beneficio]"*
+
+Y son utilizadas por varias metodologías para poder comprender mejor los requerimientos y alinearlos con el negocio.
+
+Un ejemplo sería el siguiente:
+
+**Cómo usuario de adoptaPet quiero ver a todas las mascotas que hay en adopción para poder elegir la que más me guste.**
+
+![img/PostItHistoriaUsuario.png](img/PostItHistoriaUsuario.png)
+
+### Ejercicio 2
+
+Escribe mínimo 3 historias de usuario para definir los requerimientos de la aplicación:
+
+(Tiempo del ejercicio de 5 a 10 minutos)
