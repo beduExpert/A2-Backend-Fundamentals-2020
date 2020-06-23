@@ -1,28 +1,51 @@
+# Instalando paquetes
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+Los paquetes en los sitemas operativos unix, son programas que han sido empaquetados para su instalación y distribución.
 
-## Titulo del Ejemplo
+Distribuciones de Linux como Ubuntu y Debian cuentan con su gestor de paquetes por defecto.
 
-### OBJETIVO
+Para MacOs debemos instalar Brew siguiendo las instrucciones del siguiente enlace:
+[https://brew.sh/index_es](https://brew.sh/index_es)
 
-- Lo que esperamos que el alumno aprenda
+## Actualizando la lista de repositorios
 
-#### REQUISITOS
+Para actualizar la fuente oficial de dónde se descargaran los paquetes utilizaremos el siguiente comando:
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+`sudo apt-get update`
 
-#### DESARROLLO
+![img/Screen_Shot_2020-03-21_at_16.33.43.png](img/Screen_Shot_2020-03-21_at_16.33.43.png)
 
-Agrega las instrucciones generales del ejemplo o reto
+Al utilizar el prefijo sudo, estamos dando el permiso a nuestro gestor de paquetes de hacer cambios en nuestro sistema, así que es posible que nos solicite nuestra contraseña.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
-
-![imagen](https://picsum.photos/200/300)
+## Instalando paquetes
 
 
+**Sintaxis:** `[sudo] apt-get install [nombre del paquete o paquetes separados por espacio]`
+
+Instalaremos un paquete simple llamado cowsay ejecutando el siguiente comando:
+
+`sudo apt-get install cowsay`
+
+en caso de que nos pida confirmación para continuar ingresaremos la opción  `Y` y presionamos enter.
+
+si todo ha sido exitoso ahora tendremos un nuevo *comando* instalado en nuestra terminal el cual ejecutaremos de la siguiente manera:
+
+**Sintaxis:** `cowsay [mensaje]`
+
+![img/Untitled.png](img/Untitled.png)
+
+## Reto 3:
+
+1. Instala el paquete `fortune` desde la terminal
+2. ejecuta los siguientes comandos y observa lo que sucede.
+
+    `fortune`
+
+    `fortune -s`
+
+    `fortune | cowsay`
+
+    `fortune | cowsay -f tux`
+
+3. Instala el paquete lolcat
+4. ejecuta `fortune | cowsay | lolcat`

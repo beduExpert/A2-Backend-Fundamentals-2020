@@ -1,24 +1,82 @@
+# Navegación (File system)
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+Para navegar en nuestro sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
 
-## Titulo del Ejemplo
+### ls
 
-### OBJETIVO
+lista el contenido del directorio dónde estamos posicionados.
 
-- Lo que esperamos que el alumno aprenda
+![img/Untitled.png](img/Untitled.png)
 
-#### REQUISITOS
+### cd
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Nos permite posicionarnos en una ruta en específico, o *entrar* en una carpeta. 
 
-#### DESARROLLO
+**Sintaxis básica:** `cd [ruta o nombre de la carpeta]` 
 
-Agrega las instrucciones generales del ejemplo o reto
+![img/Untitled%201.png](img/Untitled%201.png)
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Para volver volver atrás en una ruta utilizamos `cd ..` 
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno 
+En windows los comandos tienen diversas variaciones. Si tienes problemas basta con googlear para buscar su equivalente.
+
+### mkdir
+
+Crea una nueva carpeta.
+
+**Sintaxis básica:** `mkdir [nombre carpeta]`
+
+![img/Screen_Shot_2020-03-16_at_20.13.37.png](img/Screen_Shot_2020-03-16_at_20.13.37.png)
+
+## rm
+
+eliminar archivos/directorios
+
+### touch
+
+Crea un nuevo archivo.
+
+**Sintaxis básica:** `touch [nombre del archivo con extensión]`
+
+![img/Screen_Shot_2020-03-16_at_20.35.16.png](img/Screen_Shot_2020-03-16_at_20.35.16.png)
+
+## cp
+
+Copia un nuevo archivo.
+
+**Sintaxis básica:** `cp [ruta del archivo a copiar] [nueva ruta]`
+
+![img/Untitled%202.png](img/Untitled%202.png)
+
+## mv
+
+Mover o renombrar archivos.
+
+**Sintaxis básica:** `mv [ruta del archivo] [nueva ruta / nuevo nombre]`
+
+![img/Screen_Shot_2020-06-04_at_23.40.39.png](img/Screen_Shot_2020-06-04_at_23.40.39.png)
+
+## rm
+
+Eliminar un archivo. Con la opción `-r` podemos también eliminar folders y sus contenidos de manera *recursiva.*
+
+**Sintaxis básica:** `rm [opciones] [ruta del archivo]`
+
+![img/Screen_Shot_2020-06-04_at_23.43.18.png](img/Screen_Shot_2020-06-04_at_23.43.18.png)
+
+## man
+
+Despliega información del manual de algún comando
+
+**Sintaxis Básica:** `man [nombre del comando]`
+
+El siguiente ejemplo `man man` despliega el manual del mismo comando `man` 
+
+![img/Untitled%203.png](img/Untitled%203.png)
+
+Otros ejemplos:
+
+- `man rm`
+- `man ifconfig`
+
+[Reto 1](img/Reto%201%20cb33301dd4f642598de5e30ab33a761c.md)

@@ -1,29 +1,27 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Backend Fundamentals` > `S1 - Consola`
 	
-## Titulo del Reto 
+# Reto 2
 
-### OBJETIVO 
+Con la estructura creada en el [Reto 1](../Navegaci%20n%20File%20system%2004b5baa90c064435ba38ec1a76f0522a/Reto%201%20cb33301dd4f642598de5e30ab33a761c.md) realiza las siguientes ediciones de los archivos.
 
-- Lo que esperamos que el alumno aprenda 
+1. Al archivo [README.md](http://readme.md) agrega la siguiente información:
 
-#### REQUISITOS 
+    ```markdown
+    # Consola
+    Clase de consola del curso Back-end fudamentals.
+    ```
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+2. Edita el archivo hola.sh con el siguiente código
 
-#### DESARROLLO
+    ```bash
+    echo "Hola desde la consola"
+    ```
 
-Agrega las instrucciones generales del ejemplo o reto
+3. Edita el archivo loquesea.js y agrega estas líneas
 
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+    ```jsx
+    var fecha = new Date();
+    console.log(`Fecha actual: ${fecha}`)
+    ```

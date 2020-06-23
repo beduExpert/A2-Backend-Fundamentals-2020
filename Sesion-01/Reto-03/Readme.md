@@ -1,29 +1,19 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Backend Fundamentals` > `S1 - Consola`
 	
-## Titulo del Reto 
+## Reto 3:
 
-### OBJETIVO 
+1. Instala el paquete `fortune` desde la terminal
+2. ejecuta los siguientes comandos y observa lo que sucede.
 
-- Lo que esperamos que el alumno aprenda 
+    `fortune`
 
-#### REQUISITOS 
+    `fortune -s`
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+    `fortune | cowsay`
 
-#### DESARROLLO
+    `fortune | cowsay -f tux`
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+3. Instala el paquete lolcat
+4. ejecuta `fortune | cowsay | lolcat`
