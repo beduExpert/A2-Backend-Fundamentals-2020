@@ -1,23 +1,11 @@
-**# Back-end Fundamentals
+# Sesión 2 - Administración de servidores
 
+[Prework - Diferentes tipos de servidores](Prework/README.md)
 
-Descripción del modulo y las herramientas que se utilizarán. 
+[Ejemplo 1: Usuarios y permisos](Ejemplo-01/README.md)
 
-## ¿Quién puede tomar este curso?
+[Ejemplo 2: SSH](Ejemplo-02/README.md)
 
-Conocimientos previos que debe tener el alumno para poder tomar este curso
+[Ejemplo 3: Utilizando el servidor remoto](Ejemplo-03/README.md)
 
-## [Proyecto](./proyecto)
-
-En caso de que hubiera un o mini-proyectos por sesión, se describen aquí.
-
-## [Temario técnico](./sesiones)
-
-- Consola
-- Adminstradores de servidore
-- Arquitectura de software
-- Fundamentos de Base de Datos(BD) relacionales
-- Fundaments de SQL y MariDB
-- **Sequelize
-- Funamentos de Base de Datos(BD) no relacionales
-- **Mongoose
+[Postwork: SCP](Postwork/README.md)

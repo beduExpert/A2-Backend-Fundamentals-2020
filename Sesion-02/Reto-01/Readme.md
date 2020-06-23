@@ -2,28 +2,9 @@
 
 agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
 	
-## Titulo del Reto 
+# Reto 1
 
-### OBJETIVO 
-
-- Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+1. Listar los permisos actuales de tus archivos
+2. Cambiar los permisos del archivo `index.html` a la estructura `-rwxr-xr--` 
+3. cambiar los permisos del archivo `hola.sh` a la estructura `-rwxrwxrwx`
+4. Regresar los archivos a su estructura inicial de permisos

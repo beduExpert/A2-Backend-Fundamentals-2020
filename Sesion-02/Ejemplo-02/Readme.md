@@ -1,28 +1,43 @@
+# Ejemplo 2: SSH
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Objetivo
 
-## Titulo del Ejemplo
+Conocer SSH y conectarnos a un servidor remoto.
 
-### OBJETIVO
+## Requisitos
 
-- Lo que esperamos que el alumno aprenda
+El experto debe proveer la dirección del servidor y el archivo de la llave con la cual nos conectaremos.
 
-#### REQUISITOS
+## Desarrollo
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Verifica que ssh esté instalado en tu sistema
 
-#### DESARROLLO
+    Dentro de la terminal ejecutaremos el comando `man ssh`
 
-Agrega las instrucciones generales del ejemplo o reto
+    Si está instalado veremos algo cómo esto:
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+    ![img/Untitled.png](img/Untitled.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+2. Cambiar los permisos de nuestra llave privada (archivo `.pem`)
 
-![imagen](https://picsum.photos/200/300)
+Ejecutaremos el comando chmod
 
+`sudo chmod 600`
 
+![img/Untitled%201.png](img/Untitled%201.png)
+
+3. Conectarnos con ssh por medio de la dirección y el usuario de nuestro servidor remoto
+
+**Sintaxis:** `ssh -i [ruta archivo .pem] [usuario]@[dirección]`
+
+**Ejemplo:**
+
+```bash
+ssh -i ./ec2-bedu-bkfun.pem [ubuntu@ec2-52-43-163-239.us-west-2.compute.amazonaws.com](mailto:ubuntu@ec2-52-43-163-239.us-west-2.compute.amazonaws.com)
+```
+
+Si todo salió bien podremos ver algo cómo esto
+
+![img/Screen_Shot_2020-04-06_at_18.00.01.png](img/Screen_Shot_2020-04-06_at_18.00.01.png)
+
+Lo cual significa que hemos iniciado sesión dentro de una máquina remota.
