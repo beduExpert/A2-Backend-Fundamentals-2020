@@ -1,28 +1,68 @@
+# Ejemplo 2 - Deploy con Heroku
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Objetivo
 
-## Titulo del Ejemplo
+Conocer una de las plataformas más sencillas para lanzamiento de aplicaciones de Node.js
 
-### OBJETIVO
+## Requerimientos
 
-- Lo que esperamos que el alumno aprenda
+Contar con el código de la API en una cuenta de github.
 
-#### REQUISITOS
+## Desarrollo
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Heroku es una plataforma que nos permite saltarnos muchos pasos de configuración de arquitectura y lanzar una aplicación en sencillos pasos.
 
-#### DESARROLLO
+Aunque no es lo óptimo para proyectos grandes y con necesidades muy específicas, nos permite probar aplicaciones de manera rápida y sin dolores de cabeza, y también acercarnos a comprender muchos conceptos de deploy de manera rápida, aunque no estemos conscientes de todas las implicaciones que conlleva por detrás cada configuración.
 
-Agrega las instrucciones generales del ejemplo o reto
+En pocas palabras, es recomendable utilizar Heroku cuándo estamos en una etapa de desarrolla y validación de una idea para un proyecto.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+1. Entra al sitio oficial de Heroku: [https://www.heroku.com/](https://www.heroku.com/)
+2. Crea tu cuenta en Heroku eligiendo Node.js cómo tu *Primary development language*
+3. Una vez que hayas accedido verás una pantalla cómo la siguiente.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+    ![img/Untitled.png](img/Untitled.png)
 
-![imagen](https://picsum.photos/200/300)
+    Da click sobre el botón "Create a new app".
 
+4. Elige un nombre y crea tu app.
 
+    ![img/Untitled%201.png](img/Untitled%201.png)
+
+5. Ahora en la pestaña 'settings' configura las variables de entorno para producción.
+
+    Da click en el botón "Reveal Config Vars"
+
+    ![img/Untitled%202.png](img/Untitled%202.png)
+
+    **Es importante que la variable `PORT` tenga el valor `80`** 
+
+    ![img/Untitled%203.png](img/Untitled%203.png)
+
+E**s recomendable que en `MONGODB_URI` cambies el nombre de la base de datos para así comenzar con una base de datos limpia donde solo se almacenará información del ambiente de producción.**
+ej. `MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-production>.mongodb.net/<nombre_db_production>?retryWrites=true&w=majority`
+
+En el método de deployment elige github y conecta tu cuenta de github
+
+![img/Screen_Shot_2020-06-19_at_9.10.29.png](img/Screen_Shot_2020-06-19_at_9.10.29.png)
+
+1. Busca tu repositorio y da click en conectar.
+
+    ![img/Untitled%204.png](img/Untitled%204.png)
+
+2. Una vez conectado ve a la sección *Manual Deploy* y presiona el botón "Deploy branch"
+
+    ![img/Untitled%205.png](img/Untitled%205.png)
+
+3. Una vez hecho lo anterior, presiona el botón "Open app" ubicado en el lado superior derecho de la interfaz de Heroku.
+
+    Esto abrirá la url de tu API, ahora verifica que esté funcionando dirigiendote al path /v1
+
+    Si todo está bien configurado, verás un mensaje como el siguiente:
+
+    ![img/Untitled%206.png](img/Untitled%206.png)
+
+## Reto 2
+
+Siguiendo los pasos anteriores, haz deploy de tu API.
+
+Una vez que tengas todo en producción, haz pruebas con tu

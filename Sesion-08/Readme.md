@@ -1,16 +1,11 @@
+# Sesión 8 - Deploy
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+[Prework](Prework/README.md)
 
-## Titulo de la Sesion 
+[Ejemplo 1](Ejemplo-01/README.md)
 
-### OBJETIVOS 
+[Ejemplo 2](Ejemplo-02/README.md)
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+[Ejemplo 3](Ejemplo-03/README.md)
 
-#### ORGANIZACION DE LA CLASE 
-
-- Tema que veran en el ejemplo
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+[Postwork](Postwork/README.md)

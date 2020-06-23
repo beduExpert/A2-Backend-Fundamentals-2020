@@ -1,4 +1,4 @@
-# Sesión 4 - API
+# Sesión 6 - Fundamentos de Base de Datos NoSQL (Mongo)
 
 [Prework](Prework/README.md)
 

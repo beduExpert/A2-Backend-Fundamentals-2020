@@ -1,4 +1,4 @@
-# Sesión 4 - API
+# Sesión 4 - Mongoose
 
 [Prework](Prework/README.md)
 
