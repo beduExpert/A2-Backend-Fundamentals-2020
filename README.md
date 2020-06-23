@@ -21,10 +21,10 @@ En caso de que hubiera un o mini-proyectos por sesión, se describen aquí.
 
 [Sesión 4 - API](Sesion-04)
 
-[Sesión 5 - Fundamentos de Base de Datos Relacionales(SQL)](Sesion-5)
+[Sesión 5 - Fundamentos de Base de Datos Relacionales(SQL)](Sesion-05)
 
-[Sesión 6 - Fundamentos de Base de Datos NoSQL (Mongo)](Sesion-6)
+[Sesión 6 - Fundamentos de Base de Datos NoSQL (Mongo)](Sesion-06)
 
-[Sesión 7 - Mongoose](Sesion-7)
+[Sesión 7 - Mongoose](Sesion-07)
 
-[Sesión 8 - Deploy](Sesion-8)
+[Sesión 8 - Deploy](Sesion-08)
