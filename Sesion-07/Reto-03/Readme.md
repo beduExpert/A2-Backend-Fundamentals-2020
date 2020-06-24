@@ -1,29 +1,6 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S07 - Mongoose` 
 	
-## Titulo del Reto 
+### Reto 3
 
-### OBJETIVO 
-
-- Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+1. Crea el método `modificarSolicitud` para aceptar o rechazar solicitudes, teniendo en cuenta que el usuario que está peticionando debe ser el anunciante para poder realizar cambios. Utiliza el token de acceso con [`req.usuario.id`](http://req.usuario.id) para comparar que tenga los permisos suficientes.
+2. Dado el ejercicio anterior, ¿es necesario crear un endpoint para eliminar solicitudes? ¿Cómo puede saber un usuario que su solicitud de adopción fue rechazada o aceptada?

@@ -1,29 +1,9 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S07 - Mongoose` 
 	
-## Titulo del Reto 
+## Reto 2
 
-### OBJETIVO 
+1. Crea el método `modificarMascota` teniendo en cuenta que el id del anunciante de la mascota debe ser igual al id del usuario que está peticionando para poder realizar cambios. Utiliza el token de acceso con [`req.usuario.id`](http://req.usuario.id) para comparar.
+2. Crea el método `eliminarMascota` teniendo en cuenta que el id del anunciante de la mascota debe ser igual al id del usuario que está peticionando.
+3. ¿En que otro caso se te ocurre que sea útil el método populate?
 
-- Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+    R: En una aplicación de blog por ejemplo, para obtener los comentarios de un post.

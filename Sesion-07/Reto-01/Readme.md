@@ -1,29 +1,15 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S07 - Mongoose` 
 	
-## Titulo del Reto 
+### Reto 1
 
-### OBJETIVO 
+Es momento de probar los nuevos endpoints de la API, así que ejecuta el servidor y realiza las siguientes tareas.
 
-- Lo que esperamos que el alumno aprenda 
+1. Crea una cuenta de adoptapet en el endpoint `POST [/v1/usuarios](http://localhost:3000/v1/usuarios)` guarda el token que te devuelve la petición.
+2. Obtén la información de tu perfil en el endpoint `GET [/v1/usuarios](http://localhost:3000/v1/usuarios)` ahora será necesario que cambies los headers de authenticación y pongas el token con el prefijo 'Bearer'.
 
-#### REQUISITOS 
+    Ejemplo: `Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'`
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+3. Modifica tu nombre de usuario.
+4. Modifica tu password
+5. Ahora pregúntate ¿En que caso necesitaríamos conocer información sobre otro usuario?
+6. ¿Si el usuario no tiene la propiedad `tipo` cuándo es creado en una petición POST, podemos hacer algo para asignarle un tipo?
