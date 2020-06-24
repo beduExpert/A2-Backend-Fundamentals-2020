@@ -1,15 +1,20 @@
-**# Back-end Fundamentals
+# Back-end Fundamentals
 
+Este curso tiene como objetivo brindarte las bases para comenzar a crear proyectos desarrollando del lado del servidor. 
 
-Descripción del modulo y las herramientas que se utilizarán. 
+Conocerás los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción. 
+
+Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
 
 ## ¿Quién puede tomar este curso?
+Es recomendable que tengas los siguientes conocimientos.
+- Conocimiento del lenguaje HTML.
+- Programación Orientada a Objetos.
+- Javascript o conocimiento de algún lenguaje de programación.
 
-Conocimientos previos que debe tener el alumno para poder tomar este curso
+## [Proyecto](./Sesion-03/Ejemplo-02)
 
-## [Proyecto](./proyecto)
-
-En caso de que hubiera un o mini-proyectos por sesión, se describen aquí.
+Crearemos una API desde cero para una aplicación de adopción de mascotas. 
 
 ## [Temario técnico](./sesiones)
 
