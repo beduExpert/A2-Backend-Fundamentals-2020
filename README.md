@@ -5,7 +5,7 @@ Este curso tiene como objetivo brindarte las bases para comenzar a crear proyect
 Conocerás los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción. 
 
 Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
-![Backend ](http://imgfz.com/i/q9oTCHS.png)
+![Backend](http://imgfz.com/i/q9oTCHS.png)
 
 ## ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes conocimientos.
