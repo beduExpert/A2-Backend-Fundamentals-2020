@@ -1,29 +1,5 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Backend Fundamentals` > `S3 - Arquitectura de software` 
 	
-## Titulo del Reto 
+### Reto 3
 
-### OBJETIVO 
-
-- Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+Crea las 3 clases restantes en javascript para representar nuestros modelos. Recuerda preguntarte para cada clase **¿Qué propiedades necesito guardar en el sistema? ¿Que funciones y atributos son necesarios para cumplir con mis historias de usuario?**

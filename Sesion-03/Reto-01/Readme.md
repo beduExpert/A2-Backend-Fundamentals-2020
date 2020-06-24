@@ -1,29 +1,11 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Backend Fundamentals` > `S3 - Arquitectura de software` 
 	
-## Titulo del Reto 
+## Reto 1
 
-### OBJETIVO 
+Utiliza Postman o Insomnia para resolver los siguientes puntos:
 
-- Lo que esperamos que el alumno aprenda 
+1. Crea una nueva mascota siguiendo el ejemplo 2, pero cambia el atributo `name` y opcionalmente la url de `photoUrls` añadiendo una nueva imagen. También cambia la propiedad `id` a una que tu elijas y guarda el id con cuidado.
+2. Modifica el recurso que acabas de crear cambiando el nombre.
+Para esto deberás hacer una petición `PUT` con el id del objeto a modificar cómo se ejemplifica en la [documentación de esta API](https://petstore.swagger.io/#/pet/updatePet) ([https://petstore.swagger.io/#/pet/updatePet](https://petstore.swagger.io/#/pet/updatePet)):
 
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+    ![img/Untitled%204.png](img/Untitled%204.png)

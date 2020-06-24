@@ -143,7 +143,7 @@ Una vez ejecutada la petición, obtendremos una respuesta `200` si todo ha salid
 
 ![img/Untitled%203.png](img/Untitled%203.png)
 
-## Ejercicio 2
+## Reto 1
 
 Utiliza Postman o Insomnia para resolver los siguientes puntos:
 

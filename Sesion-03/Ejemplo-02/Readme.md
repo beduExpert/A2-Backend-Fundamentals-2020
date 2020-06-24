@@ -37,7 +37,7 @@ Un ejemplo sería el siguiente:
 
 ![img/PostItHistoriaUsuario.png](img/PostItHistoriaUsuario.png)
 
-### Ejercicio 2
+### Reto 2
 
 Escribe mínimo 3 historias de usuario para definir los requerimientos de la aplicación:
 

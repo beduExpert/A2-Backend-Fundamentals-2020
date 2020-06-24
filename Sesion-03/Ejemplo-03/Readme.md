@@ -68,7 +68,7 @@ class Mascota{
 
 NOTA: Este código nos va a permitir instanciar nuevos objetos, pero para que esta información persista debemos guardarla en una base de datos, algo que veremos en las sesiones posteriores.
 
-### Ejercicio
+### Reto 3
 
 Crea las 3 clases restantes en javascript para representar nuestros modelos. Recuerda preguntarte para cada clase **¿Qué propiedades necesito guardar en el sistema? ¿Que funciones y atributos son necesarios para cumplir con mis historias de usuario?**
 
