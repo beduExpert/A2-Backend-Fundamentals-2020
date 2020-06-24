@@ -392,14 +392,14 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
         { "_id" : ObjectId("5ef03e5cd761235365aa9ca7"), "autor" : ObjectId("5ef03837d761235365aa9ca4"), "fecha_publicacion" : "2020-05-23", "texto" : "Excelente post, me ayudo a comprender más...", "puntuacion" : 5 }
         ```
 
-    ## Reto 1
+    ## Reto 3
 
     1. Construye la base de datos anterior con las colecciones necesarias, ejecuta los queries anteriores.
     2. Lee los documentos las colecciones creadas ocupando los diferentes operadores de consulta vistos al principio.
     3. Investiga y practica el ordenamiento de documentos especificando un valor.
     4. Inicia sesión en MongoDB Atlas y verifica que las colecciones y base de datos se hayan almacenado en el cluster creado.
 
-    ### Reto 2
+    ### Reto 4
 
     1. Construye la base de datos con las colecciones necesarias para Adoptapet.
     2. Crea documentos para las diferentes colecciones de Adoptapet.

@@ -1,29 +1,8 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S5 - Fundamentos de Base de Datos NoSQL (Mongo)` 
 	
-## Titulo del Reto 
+## Reto 2
 
-### OBJETIVO 
-
-- Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+1. Investiga cuál es el tamaño máximo de un documento que se puede almacenar en MongoDB.
+2. Crea un modelo embebido si es el caso para Adoptapet.
+3. Crea un modelo referencial si es el caso para Adoptapet.
+4. Reflexiona sobre cuál modelo utilizarías para implementar la base de datos Adoptapet.

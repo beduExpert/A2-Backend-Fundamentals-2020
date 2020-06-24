@@ -134,8 +134,5 @@ mongo "mongodb+srv://cluster0-xmea4.mongodb.net/<*dbname*>" --username <*usernam
 
 ### Reto 1
 
-Crea un cluster en MongoDB Atlas y has la configuración de los pasos anteriores.
-
-### Reto 2
-
-Conéctate al cluster con MongoDB Shell sigue los pasos ya explicados.
+- Crea un cluster en MongoDB Atlas y has la configuración de los pasos anteriores.
+- Conéctate al cluster con MongoDB Shell siguiendo los pasos previamente explicados.

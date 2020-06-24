@@ -1,29 +1,6 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S5 - Fundamentos de Base de Datos NoSQL (Mongo)` 
 	
-## Titulo del Reto 
+### Reto 1
 
-### OBJETIVO 
-
-- Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+- Crea un cluster en MongoDB Atlas y has la configuración de los pasos anteriores.
+- Conéctate al cluster con MongoDB Shell siguiendo los pasos previamente explicados.

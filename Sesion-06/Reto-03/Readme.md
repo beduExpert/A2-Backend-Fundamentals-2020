@@ -1,29 +1,8 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S5 - Fundamentos de Base de Datos NoSQL (Mongo)` 
 	
-## Titulo del Reto 
+## Reto 3
 
-### OBJETIVO 
-
-- Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+  1. Construye la base de datos anterior con las colecciones necesarias, ejecuta los queries anteriores.
+  2. Lee los documentos las colecciones creadas ocupando los diferentes operadores de consulta vistos al principio.
+  3. Investiga y practica el ordenamiento de documentos especificando un valor.
+  4. Inicia sesión en MongoDB Atlas y verifica que las colecciones y base de datos se hayan almacenado en el cluster creado.
