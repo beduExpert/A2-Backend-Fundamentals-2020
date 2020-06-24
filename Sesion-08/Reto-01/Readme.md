@@ -1,29 +1,7 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S08 - Deploy` 
 	
-## Titulo del Reto 
+## Reto 1
 
-### OBJETIVO 
-
-- Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+1. Una vez que hayas verificado que el consumo de variables de entorno esté en orden, si aún no lo has hecho, **inicializa un nuevo repositorio de git** con el proyecto de adoptapet.
+2.  **Es importante que antes de hacer push actualices el archivo `.gitignore`** agregando la carpeta `node_modules/` y tu archivo `env.sh`  
+3. Una vez hecho lo anterior sube tu repositorio a tu cuenta de **github.** Para la siguiente sesión será importante que tengas este repo actualizado y listo.

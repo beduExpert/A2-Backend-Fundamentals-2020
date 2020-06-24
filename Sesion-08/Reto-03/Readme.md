@@ -1,29 +1,13 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S08 - Deploy` 
 	
-## Titulo del Reto 
+### Reto 3
 
-### OBJETIVO 
+Investiga para qué sirve un certificado SSL y las ventajas que tiene para tu aplicación.
 
-- Lo que esperamos que el alumno aprenda 
+Configura un certificado SSL.
 
-#### REQUISITOS 
+Pistas:
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+- Googlea y revisa algunas alternativas para configurar esto con Heroku y tu proveedor DNS.
+- [https://github.com/nodenica/node-heroku-ssl-redirect](https://github.com/nodenica/node-heroku-ssl-redirect)
+- Investiga como funcionan herramientas como Letsencrypt, para obtener certificados de manera gratuita.

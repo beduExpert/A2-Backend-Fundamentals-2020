@@ -65,4 +65,4 @@ En el método de deployment elige github y conecta tu cuenta de github
 
 Siguiendo los pasos anteriores, haz deploy de tu API.
 
-Una vez que tengas todo en producción, haz pruebas con tu
+Una vez que tengas todo en producción, realiza las pruebas pertinentes.

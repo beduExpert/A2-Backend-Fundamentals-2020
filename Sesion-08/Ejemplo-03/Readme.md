@@ -49,7 +49,7 @@ Para configurar un dominio personalizado con Heroku primero debemos de tener un 
 5. Espera a que los cambios se vean reflejados.
 6. Una vez hecho esto accede al dominio de tu API
 
-### Ejercicio 3
+### Reto 3
 
 Investiga para qué sirve un certificado SSL y las ventajas que tiene para tu aplicación.
 
@@ -59,4 +59,4 @@ Pistas:
 
 - Googlea y revisa algunas alternativas para configurar esto con Heroku y tu proveedor DNS.
 - [https://github.com/nodenica/node-heroku-ssl-redirect](https://github.com/nodenica/node-heroku-ssl-redirect)
-- También puedes investigar cómo funcionan herramientas como Letsencrypt, para obtener certificados de manera gratuita.
+- Investiga como funcionan herramientas como Letsencrypt, para obtener certificados de manera gratuita.
