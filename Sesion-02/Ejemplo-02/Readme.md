@@ -41,3 +41,6 @@ Si todo salió bien podremos ver algo cómo esto
 ![img/Screen_Shot_2020-04-06_at_18.00.01.png](img/Screen_Shot_2020-04-06_at_18.00.01.png)
 
 Lo cual significa que hemos iniciado sesión dentro de una máquina remota.
+
+## Reto 2
+Inicia sesión en una máquina remota utilizando las llaves que te proporciona el experto y siguiendo los pasos anteriores

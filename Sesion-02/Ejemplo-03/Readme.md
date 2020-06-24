@@ -60,3 +60,7 @@ Esto renderizará nuestro archivo html
 ![img/Untitled%202.png](img/Untitled%202.png)
 
 Para salir del servidor y cerrar la conexión ejecutaremos el comando `exit`
+
+## Reto 3
+
+Con los accesos que te proporciona el experto, crea tu propio archivo con tu nombre en el servidor siguiendo los pasos del ejemplo.

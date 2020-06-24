@@ -1,6 +1,4 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+ `Backend Fundamentals` > `S2 - Administracion de servidores`
 	
 # Reto 1
 

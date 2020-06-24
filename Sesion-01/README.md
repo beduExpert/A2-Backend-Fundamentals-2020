@@ -1,11 +1,11 @@
 # Sesión 1 - Consola
 
-[Prework](Prework/README.md)
+[Prework](Prework/)
 
-[Navegación (File system)](Ejemplo-01/README.md)
+[Navegación (File system)](Ejemplo-01/)
 
-[Editando Archivos](Ejemplo-02/README.md)
+[Editando Archivos](Ejemplo-02/)
 
-[Instalando paquetes](Ejemplo-03/README.md)
+[Instalando paquetes](Ejemplo-03/)
 
-[Postwork](Postwork/README.md)
+[Postwork](Postwork/)
