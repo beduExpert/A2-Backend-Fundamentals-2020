@@ -1,29 +1,12 @@
- 
-
-`Backend Fundamentals` > `S` 
+`Backend Fundamentals` > `S4 - API` 
 	
-## Titulo del Reto 
+## Reto 3
 
-### OBJETIVO 
+Con tu servidor corriendo vuelve a ejecutar las siguientes peticiones con insomnia o postman
 
-- Lo que esperamos que el alumno aprenda 
+- GET [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
+- POST [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
+- PUT [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)/42
+- DELETE [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)/42
 
-#### REQUISITOS 
-
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+Analiza las respuestas y que es lo que sucede en cada caso.

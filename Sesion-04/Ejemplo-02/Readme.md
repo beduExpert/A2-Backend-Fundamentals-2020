@@ -183,7 +183,7 @@ module.exports = router;
 
 Si es así no olvides guardar y revisar que tu servidor se haya actualizado y esté corriendo.
 
-## Ejercicio 1
+## Reto 1
 
 1. Con tu servidor corriendo ejecuta las siguientes peticiones con insomnia o postman
     - GET [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
@@ -197,7 +197,7 @@ Si es así no olvides guardar y revisar que tu servidor se haya actualizado y es
     - PUT [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
     - DELETE [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
 
-## Ejercicio 2
+## Reto 2
 
 Crear la estructura CRUD para los anunciantes, las mascotas y las solicitudes de manera similar a lo que hicimos con el archivo `routes/usuarios.js`
 

@@ -152,7 +152,7 @@ module.exports = router;
 
 Lo que aquí sucedió es que hemos externalizado el código de nuestro router a funciones independientes en nuestra carpeta de controladores.
 
-## Ejercicio 3
+## Reto 3
 
 Con tu servidor corriendo vuelve a ejecutar las siguientes peticiones con insomnia o postman
 
@@ -163,7 +163,7 @@ Con tu servidor corriendo vuelve a ejecutar las siguientes peticiones con insomn
 
 Analiza las respuestas y que es lo que sucede en cada caso.
 
-## Ejercicio 4
+## Reto 4
 
 1. Ahora crea los controladores para las mascotas y las solicitudes con una estructura similar a la anterior.
 2.  Planteando el siguiente escenario responde la pregunta.
