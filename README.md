@@ -1,16 +1,16 @@
 # Back-end Fundamentals
 
 Este curso tiene como objetivo brindarte las bases para comenzar a crear proyectos desarrollando del lado del servidor. 
-![Imagen de backedn](http://imgfz.com/i/E6QJi39.png)
 
 Conocerás los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción. 
 
 Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
+![Aquí la descripción de la imagen por si no carga](http://imgfz.com/i/LJ9bp8s.png)
 
 ## ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes conocimientos.
 - Conocimiento del lenguaje HTML.
-- Programación Orientada a Objetos.
+- Programación Orientada a Objetos.https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png
 - Javascript o conocimiento de algún lenguaje de programación.
 
 ## [Proyecto](./Sesion-03/Ejemplo-02)
