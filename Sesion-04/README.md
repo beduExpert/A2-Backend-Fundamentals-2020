@@ -2,7 +2,7 @@
 
 [Prework](Prework/README.md)
 
-[Ejemplo 1](Ejemplo-01/README.md)
+[Ejemplo 1](Ejemplo-01/)
 
 [Ejemplo 2](Ejemplo-02/README.md)
 
