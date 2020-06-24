@@ -9,7 +9,7 @@ Todo esto con la finalidad de comprender las principales habilidades de un desar
 ## ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes conocimientos.
 - Conocimiento del lenguaje HTML.
-- Programación Orientada a Objetos.https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png
+- Programación Orientada a Objetos.
 - Javascript o conocimiento de algún lenguaje de programación.
 
 ## [Proyecto](./Sesion-03/Ejemplo-02)
