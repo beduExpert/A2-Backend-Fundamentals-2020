@@ -1,4 +1,4 @@
-`Backend Fundamentals` > `S5 - Fundamentos de Base de Datos NoSQL (Mongo)` 
+`Backend Fundamentals` > `S6 - Fundamentos de Base de Datos NoSQL (Mongo)` 
 	
 ### Reto 1
 
