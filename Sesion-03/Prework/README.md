@@ -10,7 +10,8 @@ Computadora y cuaderno o aplicación para tomar apuntes.
 
 ## Instrucciones
 
-Leer el material y tomar apuntes
+Lee el siguiente material y toma apuntes.
+Investiga a mayor detalle los conceptos listados y toma notas de ejemplos que encuentres en la web.
 
 ## Desarrollo
 
