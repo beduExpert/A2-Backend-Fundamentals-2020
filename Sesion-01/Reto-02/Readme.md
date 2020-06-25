@@ -4,9 +4,11 @@
 	
 # Reto 2
 
-Con la estructura creada en el [Reto 1](../Navegaci%20n%20File%20system%2004b5baa90c064435ba38ec1a76f0522a/Reto%201%20cb33301dd4f642598de5e30ab33a761c.md) realiza las siguientes ediciones de los archivos.
+Con la estructura creada en el [Reto 1](../Reto-01/Readme.md) realiza las siguientes ediciones de los archivos.
 
-1. Al archivo [README.md](http://) agrega la siguiente información:
+0. Verifica que el archivo se encuentre dentro de tu carpeta `<path de tu escritorio>/Bedu/Consola/`, si no existe crealo.
+
+1. Al archivo `README.md` agrega la siguiente información:
 
     ```markdown
     # Consola
