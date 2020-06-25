@@ -36,8 +36,8 @@ Si tienes problemas leyendo inglés se recomienda traducir la página automátic
 
 ## Quiz
 
-1. Si quisieras desarrollar una aplicación utilizando los mapas de google, ¿Cómo podrías comenzar? RE: Buscando la documentación de la API de Google Maps.
-2. ¿Cuáles son las operaciones más importantes relacionadas con los datos en un sistema REST? RE: GET, PUT, POST, DELETE
-3. ¿Cómo identificamos un recurso en REST? RE: por medio de su respectiva URI
-4. ¿Cuales son los lenguajes de intercambio de información más comunes que podemos responder en una API REST? RE: JSON y XML
+1. Si quisieras desarrollar una aplicación utilizando los mapas de google, ¿Cómo podrías comenzar?
+2. ¿Cuáles son las operaciones más importantes relacionadas con los datos en un sistema REST?
+3. ¿Cómo identificamos un recurso en REST?
+4. ¿Cuales son los lenguajes de intercambio de información más comunes que podemos responder en una API REST?
 5. Menciona dos ventajas del uso de REST

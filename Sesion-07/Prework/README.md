@@ -42,12 +42,6 @@ Si trabajaramos haciendo peticiones directamente al servidor de bases de datos, 
 
 1. ¿Cuál es la diferencia entre un cliente y una librería ORD/ODM?
 
-    R: El cliente solamente provee un canal de comunicación con el servidor de base de datos, un *mapper* facilita la abstracción de modelos, mapeando las representaciones de objetos de nuestra app a la representación de la BD.
-
 2. ¿Si quisiera actualizar mis modelos de AdoptaPet para trabajar con MongoDB, que librería podría utilizar?
 
-    Es recomendable utilizar Mongoose.
-
 3. ¿Si quiero trabajar con MongoDB y Javascript, podría utilizar sequelize? ¿Porqué?
-
-    No, porque sequelize solo es compatible con bases de datos SQL.
