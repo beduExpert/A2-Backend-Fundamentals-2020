@@ -105,7 +105,7 @@ Listaremos animales haciendo peticiones a una API pública:
 
 5. Dar click en la primera petición, analizar los campos del request y de la respuesta.
 
-![img/Untitled%201.png](img/Untitled%201.png)
+![img/Untitled 1.png](img/Untitled 1.png)
 
 ## Ejemplo 2 - Utilizando un cliente de peticiones
 
@@ -114,7 +114,7 @@ Listaremos animales haciendo peticiones a una API pública:
     - [Postman](https://www.postman.com/)
 2. Añadiremos una nueva mascota haciendo una petición `POST` en el siguiente URL: [https://petstore.swagger.io/v2/pet](https://petstore.swagger.io/v2/pet)
 
-    ![img/Untitled%202.png](img/Untitled%202.png)
+    ![img/Untitled 2.png](img/Untitled 2.png)
 
     El cuerpo de la petición estará en formato JSON y será cómo el siguiente:
 
@@ -141,7 +141,7 @@ Listaremos animales haciendo peticiones a una API pública:
 
 Una vez ejecutada la petición, obtendremos una respuesta `200` si todo ha salido bien
 
-![img/Untitled%203.png](img/Untitled%203.png)
+![img/Untitled 3.png](img/Untitled 3.png)
 
 ## Reto 1
 
@@ -151,4 +151,4 @@ Utiliza Postman o Insomnia para resolver los siguientes puntos:
 2. Modifica el recurso que acabas de crear cambiando el nombre.
 Para esto deberás hacer una petición `PUT` con el id del objeto a modificar cómo se ejemplifica en la [documentación de esta API](https://petstore.swagger.io/#/pet/updatePet) ([https://petstore.swagger.io/#/pet/updatePet](https://petstore.swagger.io/#/pet/updatePet)):
 
-    ![img/Untitled%204.png](img/Untitled%204.png)
+    ![img/Untitled 4.png](img/Untitled 4.png)
