@@ -8,16 +8,14 @@
 
 ## Requerimientos
 
-Git
-
-Instalar docker
-
-- Para instalar en ubuntu sigue el tutorial de este link: [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
-- Para mac y windows: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
++ [Git](https://git-scm.com/downloads)
++ Instalar **docker**
+  +  Para instalar docker en ubuntu  [sigue este tutorial](https://docs.docker.com/engine/install/ubuntu/)
+  + Para mac y windows [sigue este tutorial](https://www.docker.com/products/docker-desktop)
 
 ## Desarrollo
 
-La arquitectura de microservicios es un estilo de arquitectura dónde una aplicación es creada por medio de una colección de servicios pequeños que se ejecutan como procesos independientes. 
+La arquitectura de microservicios es un estilo de arquitectura dónde una aplicación es creada por medio de una colección de servicios pequeños que se ejecutan como procesos independientes.
 
 Algunas de sus ventajas son:
 
@@ -33,21 +31,23 @@ Para entenderlo de una forma más sencilla podemos comparar los microservicios c
 ![img/MicroservicesFowler_301b19b9d4631a2900fc19d8048105bb.png](img/MicroservicesFowler_301b19b9d4631a2900fc19d8048105bb.png)
 
 Izquierda: "Una aplicación monolítica que contiene todas sus funcionalidades en un único proceso...  y se escala replicando este monolito en múltiples servidores"
-Derecha: "En una arquitectura de Microservicios cada funcionalidad está en servicios separados... y escala distribuyendo estos servicios entre servidores, replicando cómo se vaya requiriendo." 
+Derecha: "En una arquitectura de Microservicios cada funcionalidad está en servicios separados... y escala distribuyendo estos servicios entre servidores, replicando cómo se vaya requiriendo."
 
-### Docker
+## **Docker**
 
-Docker es una de las herramientas más populares para desarrollar microservicios. 
+![instalación de docker](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FDocker_logo.png&f=1&nofb=1)
+
+Docker es una de las herramientas más populares para desarrollar microservicios.
 
 Docker nos permite correr aplicaciones y gestionar los procesos de software en contenedores, cada contenedor funcionará cómo un entorno aislado que utilizará los recursos del sistema operativo dónde docker está instalado. Un contenedor es parecido a una máquina virtual, ya que los comandos que ejecutemos dentro de un contenedor no se verán reflejados en nuestro sistema operativo, pero si se utilizarán los recursos de este mismo para correr este entorno de manera portable.
 
-Una de las ventajas más importantes de esta plataforma es la portabilidad. Cuándo desarrollamos una imagen de docker basada en software existente podemos comenzar a desarrollar con la confianza de que una vez que hagamos las configuraciones pertinentes, nuestro software será ejecutado en un entorno con las mismas características sin importar si está en la nube o nuestra computadora. 
+Una de las ventajas más importantes de esta plataforma es la portabilidad. Cuándo desarrollamos una imagen de docker basada en software existente podemos comenzar a desarrollar con la confianza de que una vez que hagamos las configuraciones pertinentes, nuestro software será ejecutado en un entorno con las mismas características sin importar si está en la nube o nuestra computadora.
 
-También el ecosistema docker permite poner a trabajar distintos contenedores de manera conjunta. Una vez dominandolo, por ejemplo, cada equipo en una empresa puede comenzar a crear sus propios servicios y levantar las instancias de bases de datos que necesiten. 
+También el ecosistema docker permite poner a trabajar distintos contenedores de manera conjunta. Una vez dominandolo, por ejemplo, cada equipo en una empresa puede comenzar a crear sus propios servicios y levantar las instancias de bases de datos que necesiten.
 
-## Ejercicio
+## **Ejercicio**
 
-1. Instalar docker en tu computadora siguiendo las instrucciones para la [instalación de docker](https://docs.docker.com/engine/install/) 
+1. Instalar docker en tu computadora siguiendo las instrucciones para la [instalación de docker](https://docs.docker.com/engine/install/)
 2. Después de instalarlo y correr docker, para probar tu instalación ejecuta el comando:
 
     ```jsx
@@ -91,7 +91,7 @@ También el ecosistema docker permite poner a trabajar distintos contenedores de
 
     ![img/Screen_Shot_2020-05-28_at_16.10.16.png](img/Screen_Shot_2020-05-28_at_16.10.16.png)
 
-    En esta primera página nos explican más a detalle el comando que ejecutamos en el paso 5. 
+    En esta primera página nos explican más a detalle el comando que ejecutamos en el paso 5.
 
     - Con la opción (flag) `-d` indicamos que queremos que se ejecute nuestro contenedor en segundo plano.
     - Con el flag `-p 80:80` estamos m*apeando* el puerto ochenta de nuestra computadora al puerto 80 del contenedor.
@@ -99,4 +99,6 @@ También el ecosistema docker permite poner a trabajar distintos contenedores de
 
     Cabe aclarar que esta página fue *servida* por medio de un contenedor utilizando los recursos de nuestro sistema operativo
 
-Si te interesa seguir aprendiendo a utilizar docker te recomendamos revisar la [documentación oficial](https://docs.docker.com/) o buscar recursos en español cómo un [curso en línea](https://www.udemy.com/share/101sQE/).
+> ⚠️ **Importante**
+>
+>Si te interesa seguir aprendiendo a utilizar docker te recomendamos revisar la [documentación oficial](https://docs.docker.com/).
