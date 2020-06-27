@@ -66,7 +66,9 @@ También el ecosistema docker permite poner a trabajar distintos contenedores de
 
     ![img/Screen_Shot_2020-05-28_at_15.57.38.png](img/Screen_Shot_2020-05-28_at_15.57.38.png)
 
-    Nota: Si estás trabajando con docker desktops en Mac/windows al instalar docker puedes seguir su guía de inicio
+    >💡 **Nota:**
+    >
+    >Si estás trabajando con docker desktops en Mac/windows al instalar docker puedes seguir su guía de inicio
 
     ![img/Screen_Shot_2020-05-28_at_15.59.43.png](img/Screen_Shot_2020-05-28_at_15.59.43.png)
 
