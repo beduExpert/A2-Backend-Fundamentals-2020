@@ -53,7 +53,7 @@ Ahora posiciónate con el mouse y teclea el comando  `pwd`
 
 ### Sistema operativo
 
->*es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes".*
+>*"es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes".*
 
 En un sentido general muy general el S.O. permite a los usuarios correr otras aplicaciones en un ordenador. Aunque es posible que otro programa se comunique directamente con el hardware, la mayoría de las aplicaciones están escritas para un S.O. en específico, esto les permite tomar ventaja de librerías preestablecidas sin preocuparse sobre detalles específicos del hardware.
 
