@@ -30,12 +30,18 @@ Para entenderlo de una forma más sencilla podemos comparar los microservicios c
 
 ![img/MicroservicesFowler_301b19b9d4631a2900fc19d8048105bb.png](img/MicroservicesFowler_301b19b9d4631a2900fc19d8048105bb.png)
 
-Izquierda: "Una aplicación monolítica que contiene todas sus funcionalidades en un único proceso...  y se escala replicando este monolito en múltiples servidores"
-Derecha: "En una arquitectura de Microservicios cada funcionalidad está en servicios separados... y escala distribuyendo estos servicios entre servidores, replicando cómo se vaya requiriendo."
+> **Izquierda:**
+>
+> "Una aplicación monolítica que contiene todas sus funcionalidades en un único proceso...  y se escala replicando este monolito en múltiples servidores"
+
+>**Derecha:**
+>
+>"En una arquitectura de Microservicios cada funcionalidad está en servicios separados... y escala distribuyendo estos servicios entre servidores, replicando cómo se vaya requiriendo."
 
 ## **Docker**
 
-![instalación de docker](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FDocker_logo.png&f=1&nofb=1)
+
+<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FDocker_logo.png&f=1&nofb=1" width="250px">
 
 Docker es una de las herramientas más populares para desarrollar microservicios.
 
