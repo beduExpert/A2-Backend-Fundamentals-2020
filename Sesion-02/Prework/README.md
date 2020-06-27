@@ -7,11 +7,9 @@
 1. Leer las publicaciones de los enlaces adjuntos
 2. Resolver las preguntas que se encuentran al final del prework.
 
-[https://www.ionos.mx/digitalguide/servidores/know-how/que-es-un-servidor-un-concepto-dos-definiciones/](https://www.ionos.mx/digitalguide/servidores/know-how/que-es-un-servidor-un-concepto-dos-definiciones/)
+Comencemos por saber
+[¿Qué es un servidor?](https://www.ionos.mx/digitalguide/servidores/know-how/que-es-un-servidor-un-concepto-dos-definiciones/) y cuales son los [tipos de servidores](https://www.ionos.mx/digitalguide/servidores/know-how/que-es-un-servidor-un-concepto-dos-definiciones/) que existen.
 
-[¿Qué es un servidor? Un concepto, dos definiciones](https://www.ionos.mx/digitalguide/servidores/know-how/que-es-un-servidor-un-concepto-dos-definiciones/)
-
-[What is a Server?](https://www.computerhope.com/jargon/s/server.htm)
 
 ## Quiz
 
