@@ -1,9 +1,6 @@
 # Prework - Diferentes tipos de servidores
 
-## **Obetivos**
-
-+ *Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas.*
-+ *Ejecutar los primeros comandos.*
+*Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas. Ejecutar los primeros comandos.*
 
 ## Instrucciones
 
@@ -113,7 +110,7 @@ Entre otra de las funciones del proxy se encuentra la generación de lo que se c
 
 ### **VPN**
 
-![FTP](https://www.navegaseguro.net/wp-content/uploads/2019/10/Qu%C3%A9-es-una-VPN.jpg)
+![FTP](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsecurethoughts.com%2Fwp-content%2Fuploads%2F2017%2F03%2Fwhat-is-a-vpn-1024x456.jpg&f=1&nofb=1)
 
 Una Virtual Private Network es una tecnología utilizada para realizar conexiones seguras a una red privada de una o varias computadoras sin que se encuentren físicamente en el mismo lugar. Ésta ayuda a proteger nuestra información, ya que al conectarnos a una VPN se genera un tipo de “túnel virtual” por el que pasa toda nuestra información, y los datos enviados o solicitados se encuentran cifrados hasta que salen de la VPN.
 
