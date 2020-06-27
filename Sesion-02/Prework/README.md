@@ -4,7 +4,7 @@
 
 ## Instrucciones
 
-1. Leer el contenido que se muestra a continuación, se que puede parecer mucha teoría, pero tienes que comprender las bases y por que suceden las cosas. 🤓
+1. Leer el contenido que se muestra a continuación, se que puede parecer mucha información, pero tienes que comprender las bases y por que suceden las cosas. 🤓
 2. Resolver las preguntas que se encuentran al final del prework.
 
 
@@ -108,7 +108,7 @@ Además, forma parte fundamental del Firewall, que es el software que protege a 
 
 Entre otra de las funciones del proxy se encuentra la generación de lo que se conoce como Caché, el cual sirve para responder rápidamente las peticiones de una red local, y esto se logra mediante una copia temporal de los datos obtenidos desde Internet. Ayuda al ahorro de tiempo y ancho de banda.
 
-## **VPN**
+### **VPN**
 
 ![FTP](https://www.navegaseguro.net/wp-content/uploads/2019/10/Qu%C3%A9-es-una-VPN.jpg)
 
