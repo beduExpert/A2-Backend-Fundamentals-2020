@@ -7,7 +7,6 @@
 ## Instrucciones
 
 1. Hacer anotaciones o crear un mapa mental con los conceptos que consideres más importantes y quieras tener a la mano durante la sesión.
-2. Resolver las preguntas que se encuentran al final del prework.
 
 ## Índice
 
@@ -35,23 +34,26 @@ Algunas de sus ventajas son:
 
 Abre la aplicación *terminal* en macOS o Linux. Verás una interfaz similar a esta:
 
++ **Terminal en Ubuntu**
+
 ![https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/original/2X/b/ba76cbf3dc8dc2cc94d26dd61c7aad3cedcd5102.png](https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/original/2X/b/ba76cbf3dc8dc2cc94d26dd61c7aad3cedcd5102.png)
 
-terminal en Ubuntu
 
 Ahora posiciónate con el mouse y teclea el comando  `pwd`
 
++ **Terminal en MacOS**
+
 ![Untitled.png](Untitled.png)
 
-terminal en MacOS
-
-Este comando imprime el directorio (carpeta) en dónde estamos posicionados.
+> 💡 **Nota:**
+>
+>El comando `pwd`  imprime el **directorio** (carpeta) en dónde estamos posicionados.
 
 ## Conceptos fundamentales
 
 ### Sistema operativo
 
-Según wikipedia: "*es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes".*
+>*es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes".*
 
 En un sentido general muy general el S.O. permite a los usuarios correr otras aplicaciones en un ordenador. Aunque es posible que otro programa se comunique directamente con el hardware, la mayoría de las aplicaciones están escritas para un S.O. en específico, esto les permite tomar ventaja de librerías preestablecidas sin preocuparse sobre detalles específicos del hardware.
 
