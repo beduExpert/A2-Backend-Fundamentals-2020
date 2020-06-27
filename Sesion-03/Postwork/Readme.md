@@ -10,8 +10,8 @@
 
 + [Git](https://git-scm.com/downloads)
 + Instalar **docker**
-  +  Para instalar docker en ubuntu  [sigue este tutorial](https://docs.docker.com/engine/install/ubuntu/)
-  + Para mac y windows [sigue este tutorial](https://www.docker.com/products/docker-desktop)
+  +  Para **instalar** docker en ubuntu  [sigue el siguiente tutorial](https://docs.docker.com/engine/install/ubuntu/)
+  + Para **instalar** docker en mac y windows [sigue el siguiente tutorial](https://www.docker.com/products/docker-desktop)
 
 ## Desarrollo
 
