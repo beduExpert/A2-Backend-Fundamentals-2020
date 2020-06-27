@@ -36,14 +36,14 @@ Abre la aplicación *terminal* en macOS o Linux. Verás una interfaz similar a e
 
 + **Terminal en Ubuntu**
 
-![https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/original/2X/b/ba76cbf3dc8dc2cc94d26dd61c7aad3cedcd5102.png](https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/original/2X/b/ba76cbf3dc8dc2cc94d26dd61c7aad3cedcd5102.png)
+![https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/original/2X/b/ba76cbf3dc8dc2cc94d26dd61c7aad3cedcd5102.png](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.comoinstalarlinux.com%2Fwp-content%2Fuploads%2Fcomo-abrir-la-terminal-en-ubuntu-linux-mint-centos-debian-02.gif&f=1&nofb=1)
 
 
 Ahora posiciónate con el mouse y teclea el comando  `pwd`
 
 + **Terminal en MacOS**
 
-![Untitled.png](Untitled.png)
+![Untitled.png](https://raw.githubusercontent.com/mikaelbr/node-notifier/master/example/input-example.gif)
 
 > 💡 **Nota:**
 >
