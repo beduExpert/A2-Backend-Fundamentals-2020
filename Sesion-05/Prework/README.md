@@ -10,9 +10,7 @@ Ver los siguientes vídeos y posteriormente contestar el cuestionario adjunto.
 
 ## Desarrollo
 
-### Artículo 1
-
-## ¿Qué es una base de datos relacional?
+# ¿Qué es una base de datos relacional?
 
 Una base de datos relacional es un tipo de base de datos que almacena y proporciona acceso a puntos de datos relacionados entre sí. Las bases de datos relacionales se basan en el modelo relacional, una forma intuitiva y directa de representar datos en tablas. En una base de datos relacional, cada fila de la tabla es un registro con un ID único llamado clave. Las columnas de la tabla contienen atributos de los datos, y cada registro generalmente tiene un valor para cada atributo, lo que facilita el establecimiento de las relaciones entre los puntos de datos.
 
@@ -70,11 +68,262 @@ Varios factores pueden guiar su decisión al momento de elegir entre tipos de ba
 
 + **¿Cuáles son nuestras necesidades de rendimiento y confiabilidad?** ¿Necesitamos un producto de alto rendimiento y alta confiabilidad? ¿Cuáles son los requisitos para el rendimiento de la consulta-respuesta? ¿Cuáles son los compromisos de los proveedores para los acuerdos de nivel de servicio (SLA) o tiempo de inactividad no planificado?
 
-[¿Qué es SQL? en 5 MINUTOS | STRUCTURED QUERY LANGUAGE](https://www.youtube.com/watch?v=rMswGXhCKJA)
+# ¿Qué es SQL?
 
-[Qué es SQL y cuales son sus usos](https://www.youtube.com/watch?v=8e4iMLTDy4w)
+![sql](https://cambiodigital-ol.com/wp-content/uploads/2020/02/sql_portada_opt.png)
 
+El Lenguaje de **Consulta Estructurado** popularmente conocido por sus siglas en inglés como **SQL**, es un tipo de lenguaje de programación que ayuda a solucionar problemas específicos o relacionados con la definición, manipulación e integridad de la información representada por los datos que se almacenan en las bases de datos.
+
+Algunos aspectos de SQL están basados en el cálculo relacional, algunos en el álgebra relacional que provienen del modelo relacional y otros a ninguno de los dos sino que son parte de SQL.
+
+## Creación y evolución de SQL
+
+En ingeniería de software toda buena historia comienza con la necesidad de resolver un problema. En los **años 70** las bases de datos comenzaban a ser el quebradero de cabeza de muchos desarrollos. La falta de un estándar claro y que cada empresa competía por imponer su solución de software hacía muy difícil, sino casi imposible, la coexistencia entre sí.
+
+En **1974**, basándose en el modelo correlacional establecido por Edgard Codd, IBM comienza a trabajar en las bases de lo que sería su base de datos SEQUEL. La idea de fondo era resolver los problemas anteriores ofreciendo una solución estandarizada a los problemas de la época.
+
+El éxito de su propuesta fue inminente entre sus clientes y entre los años **1974 a 1977** aparecieron diferentes versiones que popularizaron su integración en diferentes sistemas. Posteriormente por causas legales IBM se vió obligada a rebautizar el nombre de su proyecto a SQL
+
+Pronto las empresas de todo el mundo comenzaron a demandar soluciones de software que hicieran uso de las bondades del sistema **SQL**. Esto hizo que pronto aparecieran alternativas procedentes de otras compañias. **Oracle**, **Sybase** fueron las primeras compañías en comercializar sus productos basados en SQL lo cual contribuyó a reforzar las bases del ecosistema que estaría por crearse.
+
+SQL ya era por 1981 considerado un **estándar** pero no fue hasta 1986 cuando el **ANSI** adoptó SQL como estándar de facto para los lenguajes relacionales. Esto hizo que un año después se publicase el conjunto de normas que lo convertirán en un estándar **ISO (SQL/86)** dando lugar a diferentes revisiones hasta la fecha.
+
+## Fundamentos de SQL
+
+Con SQL podemos realizar diferentes operaciones para consultar o manipular datos. A estas operaciones solemos referirnos como operaciones **CRUD** (de Create, Read, Update y Delete). Para ello hacemos uso de cuatro instrucciones para realizar estas tareas:
+
++ **INSERT:** inserta filas en una tabla. Se corresponde con la “C” de CRUD.
++ **SELECT:** Muestra información sobre los datos almacenados en la base de datos. Dicha información puede pertenecer a una o varias tablas. Es la “R”.
++ **UPDATE:** Actualiza información de una tabla. Es, obviamente, la “U”.
++ **DELETE:** Borra filas de una tabla. Se corresponde con la “D”.
+
+Por ejemplo y para mostrar cómo funciona su sintaxis lo mejor es ver un ejemplo con SELECT. Es sin duda el comando más versátil del lenguaje SQL.
+
+```sql
+SELECT *
+FROM Nombre_Tabla_Vista
+WHERE Condiciones
+ORDER BY ListaColumnas [ ASC / DESC ]
+```
+**Por ejemplo:**
+```sql
+| nombre | apellido1 | apellido2 |
+
+  JUAN	   PEREZ	     MENDEZ
+  MARIA	   GARCIA	     BENITO
+  LUIS	   GARCIA	     PEREZ
+```
+## DDL, DML y DCL
+
+Cuando pensamos en una base de datos tenemos solemos verla como un conjunto de datos ordenados en tablas, registros e índices pero en realidad el primer paso es definir sus estructuras de datos. El lenguaje SQL permite a programadores realizar esta tarea de manera eficiente a través de un gestor de bases de datos como MySQL o PostgreSQL.
+
+Para ello SQL como estándar se estructura a su vez en 3 lenguajes independientes con las siglas **DDL**, **DML** y **DCL**.
+
+## Lenguaje de Definición de Datos DDL (Data Definition Language)
+
+Es el conjunto de instrucciones agrupadas en un lenguaje que nos permite definir estas estructuras que almacenarán los datos así como los procedimientos y funciones que permitirán consultarlos.
+
+Para definir las estructura disponemos de tres sentencias:
+
++ **CREATE**, se usa para crear una base de datos, tabla, vistas, etc.
++ **ALTER**, se utiliza para modificar la estructura, por ejemplo añadir o borrar columnas de una tabla.
++ **DROP**, con esta sentencia, podemos eliminar los objetos de la estructura, por ejemplo un índice o una secuencia.
+
+## Lenguaje de Manipulación de Datos (DML) Data Manipulation Language (DML)
+
+Se resume en el conjunto de instrucciones SQL que permite a los usuarios introducir datos para posteriormente realizar tareas de consultas o modificación de los datos que contienen las Bases de Datos.
+
+Los elementos que se utilizan para manipular los datos, son los siguientes:
+
++ **SELECT**, esta sentencia se utiliza para realizar consultas sobre los datos.
++ **INSERT**, con esta instrucción podemos insertar los valores en una base de datos.
++ **UPDATE**, sirve para modificar los valores de uno o varios registros.
++ **DELETE**, se utiliza para eliminar las finas de una tabla
+
+## Lenguaje de Control de Datos (DCL)
+
+Hasta aquí hemos visto las sentencias usadas para crear y manipular datos pero también es necesario su control y administración. De esto se encarga el lenguaje DLC (Data Control Languaje) mediante el conjunto de comandos que permiten a un administrador del sistema de bases de datos controlar el acceso a usuarios mediante la asignación de permisos o roles para realizar determinadas tareas.
+
+Los comandos para controlar los permisos son los siguientes:
+
++ **GRANT**, permite otorgar permisos.
++ **REVOKE**, elimina los permisos que previamente se han concedido.
+
+## Sistemas de gestión de bases de datos más conocidos
+
+Desde la aparición de los primeros modelos de bases de datos relacionales a comienzos de la década de los 70 hasta nuestros días la industria del software a visto nacer y morir múltiples propuestas. En una evolución constante en la actualidad podemos decir que los principales sistemas gestores de bases de datos relacionales en la actualidad son:
+
+## **MySQL:**
+
+![mysql](https://www.dydserveis.com/wp-content/uploads/2019/01/MYSQL.jpg)
+
+Es el sistema gestor de bases de datos relacional por excelencia y utilizado en la gran parte de las aplicaciones web actuales. Se ofrece bajo licencia GNU/GPL y aunque es posible adquirir una versión licenciada por Oracle (actualmente la empresa responsable de su desarrollo).
+
+**Las principales ventajas son:**
+
++ Base de datos multihilo y multiusuario
++ Facilidad de uso y gran rendimiento
++ Facilidad para instalar y configurar
++ Soporte multiplataforma
++ Soporte SSL
+
+## **MariaDB:**
+
+![mariadb](https://downloads.mariadb.org/devmedia/images/v2/MariaDB-Foundation-500x500.png?version=782492dca4047c851a115ac32c9ea427f9c79fce)
+
+Este sistema de gestión de bases de datos fue en origen un fork o derivación de MySQL debido a los modelos de licencia que Oracle lleva imponiendo a su desarrollo desde la adquisición de Sun Microsystems. Esto hizo que la comunidad moviera sus esfuerzos en la creación de un desarrollo independiente.
+
+**Entre sus principales características se encuentran:**
+
++ Aumento de motores de almacenamiento
++ Gran escalabilidad
++ Seguridad y rapidez en transacciones
++ Extensiones y nuevas características relacionadas con su aplicación para Bases de datos NoSQL.
+
+## **SQLite:**
+
+![sqlite](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png)
+
+Utilizada por multitud de aplicaciones en la actualidad se trata de una librería escrita en C que implementa la gestión de un sistema de base de datos sin necesidad de un servidor ni configuraciones. Esto lo hace muy versátil para el desarrollo de pequeñas aplicaciones de software reduciendo significativamente sus requerimientos de hardware.
+
+**Las principales características de SQLite son:**
+
++ El tamaño, al tratarse de una biblioteca, es mucho menor que otros sistemas de gestión de bases de datos.
++ Reúne los cuatro criterios ACID
+(Atomicidad, Consistencia, Aislamiento y Durabilidad) logrando gran estabilidad
++ Gran portabilidad y rendimiento
+
+## **PostgreSQL:**
+
+![PostgreSQL](https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2017/10/postgresql.png?width=1200&enable=upscale)
+
+Bajo licencia BSD este sistema de base de datos relacional está orientado a objetos. Esto ofrece a desarrolladores la posibilidad de poder trabajar de un modelo más robusto de gestión de grandes volúmenes de datos.
+
+**Sus principales características son:**
+
++ Control de Concurrencias multiversión (MVCC)
++ Flexibilidad en cuanto a lenguajes de programación que soporta
++ Es multiplataforma y opera bajo una licencia libre
++ Robustez, Eficiencia y Estabilidad
+
+## **Microsoft SQL Server:**
+
+![Microsoft SQL Server](https://d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png)
+
+Es un sistema propietario licenciado por Microsoft y se basa en el lenguaje Transact-SQL, capaz de poner a disposición de muchos usuarios grandes cantidades de datos de manera simultánea.
+
+**Sus principales características son:**
+
++ Soporte exclusivo por parte de Microsoft.
++ Escalabilidad, estabilidad y seguridad.
++ Posibilidad de cancelar consultas.
++ Potente entorno gráfico de administración que permite utilizar comandos DDL y DML.
++ Puede utilizarse en otras plataformas como Linux o Docker.
+
+## **Oracle:**
+
+![oracle](https://i1.wp.com/unaaldia.hispasec.com/wp-content/uploads/2019/01/oracle-logo.png?fit=1024%2C559&ssl=1)
+
+Además de MySQL Oracle ofrece su propia gestión de bases de datos para el mundo empresarial. En la actualidad se considera como el más robusto y completo y es utilizado habitualmente en soluciones de banca o en grandes empresas.
+
+**Sus principales características:**
+
++ Soporte de transacciones.
++ Estabilidad.
++ Escalabilidad.
++ Multiplataforma.
+
+## Comandos y sintaxis de SQL
+
++ **CREATE**
+
+Este comando crea un objeto dentro del gestor de base de datos. Puede ser una base de datos, tabla, índice, procedimiento almacenado o vista.
+
+**Ejemplo (crear una tabla):**
+
+```sql
+# CREATE TABLE Empleado
+(
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Nombre VARCHAR(50),
+Apellido VARCHAR(50),
+Direccion VARCHAR(255),
+Ciudad VARCHAR(60),
+Telefono VARCHAR(15),
+Peso VARCHAR (5),
+Edad (2),
+Actividad Específica (100),
+idCargo INT
+)
+```
+
++ **ALTER**
+
+Con este comando podemos modificar la estructura de un objeto. Se pueden agregar/quitar campos a una tabla, modificar el tipo de un campo, agregar/quitar índices a una tabla, modificar un trigger, etc.
+
+**Ejemplo (agregar columna a una tabla):**
+
+```sql
+ALTER TABLE 'NOMBRE_TABLA' ADD NUEVO_CAMPO INT;
+ALTER TABLE 'NOMBRE_TABLA' DROP COLUMN NOMBRE_COLUMNA;
+```
++ **DROP**
+
+Este comando elimina un objeto de la base de datos. Puede ser una tabla, vista, índice, trigger, función, procedimiento o cualquier otro objeto que el motor de la base de datos soporte. Se puede combinar con la sentencia ALTER.
+
+**Ejemplo:**
+
+```sql
+DROP TABLE 'NOMBRE_TABLA';
+DROP SCHEMA 'ESQUEMA;'
+DROP DATABASE 'BASEDATOS';
+```
+
++ **INSERT**
+
+Una sentencia INSERT de SQL agrega uno o más registros a una (y sólo una) tabla en una base de datos relacional.
+
+**Forma básica:**
+
+```sql
+INSERT INTO ''tabla'' (''columna1'', [''columna2,... '']) VALUES (''valor1'', [''valor2,...''])
+```
+
+**Ejemplo:**
+
+```sql
+INSERT INTO agenda_telefonica VALUES (Pedro Aguilar, 881412339);
+```
+
++ **UPDATE**
+
+Utilizada para modificar los valores de un conjunto de registros existentes en una tabla.
+
+**Ejemplo:**
+
+```sql
+UPDATE mi_tabla SET campo1 = 'nuevo valor campo1' WHERE campo2 = 'N';
+```
+
++ **DELETE**
+
+Borra uno o más registros existentes en una tabla.
+
+**Forma básica:**
+
+```sql
+DELETE FROM 'tabla' WHERE 'columna1' = 'valor1'
+```
+
+**Ejemplo:**
+
+```sql
+DELETE FROM My_table WHERE field2 = 'N';
+```
+
+En el siguiente articulo conocerás 
 [¿Que es SQL y NoSQL?](https://www.youtube.com/watch?v=CuAYLX6reXE)
+
 
 ## Quiz
 
