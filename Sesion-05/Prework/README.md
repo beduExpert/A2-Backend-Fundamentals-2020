@@ -322,7 +322,7 @@ DELETE FROM My_table WHERE field2 = 'N';
 ```
 
 En el siguiente articulo conocerás 
-[¿Que es SQL y NoSQL?](https://www.youtube.com/watch?v=CuAYLX6reXE)
+[¿Que es NoSQL?](https://aws.amazon.com/es/nosql/)
 
 
 ## Quiz
