@@ -28,7 +28,7 @@ Permite que tú puedas consumir los servicios del sistema sin saber "que hay tra
 
 Entonces una API (Application Programming Interface) es una interfaz (valga la redundancia), que permite que aplicaciones de software puedan intercambiar datos entre ellos.
 
-![api](https://imgfz.com/i/ZR9sCbk.png)
+![api](http://imgfz.com/i/ZR9sCbk.png)
 
 ### **Arquitectura de software**
 
