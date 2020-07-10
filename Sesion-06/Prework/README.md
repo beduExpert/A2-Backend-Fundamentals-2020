@@ -65,12 +65,12 @@ Alta posibilidad de tener **datos duplicados.**
 
 ## Quiz
 
-**¿Una BD relacional puede ser NoSQL?**
+¿Una BD relacional puede ser NoSQL?
 
-**¿Cuáles son las principales características que ofrece las BD NoSQL?**
+¿Cuáles son las principales características que ofrece las BD NoSQL?
 
-**¿Cuáles son los tipos de BD NoSQL? Crea un esquema si consideras necesario que te ayude a identificar cada tipo.**
+¿Cuáles son los tipos de BD NoSQL? Crea un esquema si consideras necesario que te ayude a identificar cada tipo.
 
-**Si tuvieras que implementar un BD donde la velocidad de lectura y escritura es lo primordial ¿Ocuparías SQL o NoSQL? Justifica tu respuesta.**
+Si tuvieras que implementar un BD donde la velocidad de lectura y escritura es lo primordial ¿Ocuparías SQL o NoSQL? Justifica tu respuesta.
 
-**Explica cómo funciona la atomicidad en las BD NoSQL.**
+Explica cómo funciona la atomicidad en las BD NoSQL.
