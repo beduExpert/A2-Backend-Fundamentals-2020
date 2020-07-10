@@ -52,6 +52,7 @@ Sistema que permite que equipos en una red se puedan comunicar siguiendo el prot
 
 + **Remotas:** Cuando la aplicación necesita consumir una API en un punto diferente.
 
+
 Las Apis **remotas** pueden utilizar servicios web:
 
 + **Soap:** Es un protocolo que ya dejo de ser usado
