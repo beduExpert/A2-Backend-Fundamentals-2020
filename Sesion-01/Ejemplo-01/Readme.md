@@ -6,7 +6,7 @@ Para navegar en nuestro sistema de archivos de nuestro sistema operativo podemos
 
 lista el contenido del directorio dónde estamos posicionados.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/275c0772-a834-48ba-b304-1141175bfc96/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/275c0772-a834-48ba-b304-1141175bfc96/Untitled.png)
+![1](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/275c0772-a834-48ba-b304-1141175bfc96/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200710T163817Z&X-Amz-Expires=86400&X-Amz-Signature=ddca074dd5e71a98c05e62a028f47ee80e7c906513794e3125b33d0eac8fc162&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D"Untitled.png")
 
 ### cd
 
