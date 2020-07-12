@@ -19,14 +19,14 @@
 
 La consola también conocida como terminal, shell o línea de comandos (Command-line interface) es una de las primeras maneras con las que hemos podido interactuar con una computadora. Mucho antes del *mouse*, de la interfaz gráfica y de la metáfora del escritorio, los sistemas operativos contaban con esta interfaz para recibir órdenes por medio de una pantalla y el teclado.
 
-### ¿Porque es importante saber utilizar la consola?
+### ¿Por qué es importante saber utilizar la consola?
 
-Las interfaces de línea de comandos son utilizadas por usuarios avanzados, cómo programadores y administradores de sistemas.
+Las interfaces de línea de comandos son utilizadas por usuarios avanzados, como programadores y administradores de sistemas.
 
 Algunas de sus ventajas son:
 
 1. **Flexibilidad.** Los programas gráficos suelen ser muy adecuados para realizar la tarea para la que han sido creados, pero son difíciles de adaptar para otras tareas. Los programas diseñados para ser usados en la línea de comandos suelen ser más versátiles.
-2. **Automatización.** Repetir un proceso para realizar un análisis con un programa gráfico es muy costoso puesto que es difícil describir la secuencia de clicks y doble clicks que hemos realizado.
+2. **Automatización.** Repetir un proceso para realizar un análisis con un programa gráfico es muy costoso puesto que es difícil describir la secuencia de clicks y dobles clicks que hemos realizado.
 3. **Eficiencia.** Las interfaces gráficas suelen consumir muchos recursos mientras que los programas que funcionan en línea de comandos suelen ser extraordinariamente livianos y rápidos.
 4. **Documentación.** Los procesos realizados mediante la línea de comandos son más fáciles de documentar puesto que tan sólo debemos guardar el texto que hemos introducido en la pantalla.
 
@@ -39,15 +39,15 @@ Abre la aplicación *terminal* en macOS o Linux. Verás una interfaz similar a e
 ![https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/original/2X/b/ba76cbf3dc8dc2cc94d26dd61c7aad3cedcd5102.png](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.comoinstalarlinux.com%2Fwp-content%2Fuploads%2Fcomo-abrir-la-terminal-en-ubuntu-linux-mint-centos-debian-02.gif&f=1&nofb=1)
 
 
-Ahora posiciónate con el mouse y teclea el comando  `pwd`
-
 + **Terminal en MacOS**
 
 ![Untitled.png](https://raw.githubusercontent.com/mikaelbr/node-notifier/master/example/input-example.gif)
 
+Ahora posiciónate con el mouse y teclea el comando  `pwd`.
+
 > 💡 **Nota:**
 >
->El comando `pwd`  imprime el **directorio** (carpeta) en dónde estamos posicionados.
+>El comando `pwd`  imprime el **directorio** (carpeta) en donde estamos posicionados.
 
 ## Conceptos fundamentales
 
@@ -55,13 +55,13 @@ Ahora posiciónate con el mouse y teclea el comando  `pwd`
 
 >*"es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes".*
 
-En un sentido general muy general el S.O. permite a los usuarios correr otras aplicaciones en un ordenador. Aunque es posible que otro programa se comunique directamente con el hardware, la mayoría de las aplicaciones están escritas para un S.O. en específico, esto les permite tomar ventaja de librerías preestablecidas sin preocuparse sobre detalles específicos del hardware.
+En un sentido muy general el S.O. permite a los usuarios correr otras aplicaciones en un ordenador. Aunque es posible que otro programa se comunique directamente con el hardware, la mayoría de las aplicaciones están escritas para un S.O. en específico, esto les permite tomar ventaja de librerías preestablecidas sin preocuparse sobre detalles específicos del hardware.
 
 Los recursos que maneja un S.O. son:
 
 - **Dispositivos de entrada** ej: teclado y mouse.
 - **Dispositivos de salida** ej: pantalla, bocinas, impresoras.
-- **Dispositivos de red** ej: modems, routers.
+- **Dispositivos de red** ej: módems, routers.
 - **Dispositivos de almacenamiento** ej: disco duro, usb flash.
 
 También se encarga de eficientar los recursos de memoria para las diversas aplicaciones de software instaladas.
@@ -82,7 +82,7 @@ En informática, el término Shell se emplea para referirse a aquellos programas
 
 Los Shell están diseñados para facilitar la forma en que se invocan o ejecutan los distintos programas disponibles en el computador.
 
-Es decir, un SHELL es una interface con nuestro sistema operativo. Gracias a él podremos dar las órdenes y mandatos necesarios para que nuestro sistema informático realice las tareas que necesitamos. **No debemos confundir al intérprete de comandos con el sistema operativo**. Este es solo un programa que hará de **mediador** entre nosotros y el Kernel del sistema. Un ejemplo de shell puede ser el *powershell* de windows o *bash* de linux.
+Es decir, un SHELL es una interfaz con nuestro sistema operativo. Gracias a él podremos dar las órdenes y mandatos necesarios para que nuestro sistema informático realice las tareas que necesitamos. **No debemos confundir al intérprete de comandos con el sistema operativo**. Este es sólo un programa que hará de **mediador** entre nosotros y el Kernel del sistema. Un ejemplo de shell puede ser el *powershell* de windows o *bash* de linux.
 
 ## Quiz
 
