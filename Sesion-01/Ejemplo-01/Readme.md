@@ -1,10 +1,10 @@
 # Navegación (File system)
 
-Para navegar en nuestro sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
+Para navegar en el sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
 
 ### ls
 
-lista el contenido del directorio dónde estamos posicionados.
+Lista el contenido del directorio en dónde estamos posicionados.
 
 ![1](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/275c0772-a834-48ba-b304-1141175bfc96/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200710T163817Z&X-Amz-Expires=86400&X-Amz-Signature=ddca074dd5e71a98c05e62a028f47ee80e7c906513794e3125b33d0eac8fc162&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D"Untitled.png")
 
@@ -12,7 +12,11 @@ lista el contenido del directorio dónde estamos posicionados.
 
 Nos permite posicionarnos en una ruta en específico, o *entrar* en una carpeta. 
 
-**Sintaxis básica:** `cd [ruta o nombre de la carpeta]` 
+**Sintaxis básica:** `cd [ruta o nombre de la carpeta]`
+
+> 💡 **Nota:**
+>
+> Explicar la diferencia entre rutas relativas y rutas absolutas.
 
 ![2](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/158c1c78-6c69-4de7-a6e9-f3ec23f02523/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200710T163920Z&X-Amz-Expires=86400&X-Amz-Signature=8e006d2f6c2819bffd9abf9e4e55954a14f33eec781ca2c27f85038380c66cb3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D"Untitled.png")
 
@@ -27,10 +31,6 @@ Crea una nueva carpeta.
 **Sintaxis básica:** `mkdir [nombre carpeta]`
 
 ![3](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1ceb35ef-c962-4da2-8f3b-b529cfb74643/Screen_Shot_2020-03-16_at_20.13.37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200710T164055Z&X-Amz-Expires=86400&X-Amz-Signature=2d86187d36c38626dca99dbe350694e2c2e37ebe1882fde4dc33df7f1291a101&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D"Screen_Shot_2020-03-16_at_20.13.37.png")
-
-## rm
-
-eliminar archivos/directorios
 
 ### touch
 
