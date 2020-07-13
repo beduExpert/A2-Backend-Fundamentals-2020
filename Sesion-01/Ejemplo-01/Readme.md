@@ -26,7 +26,7 @@ Crea una nueva carpeta.
 
 **Sintaxis básica:** `mkdir [nombre carpeta]`
 
-![3](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1ceb35ef-c962-4da2-8f3b-b529cfb74643/Screen_Shot_2020-03-16_at_20.13.37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200710T164055Z&X-Amz-Expires=86400&X-Amz-Signature=2d86187d36c38626dca99dbe350694e2c2e37ebe1882fde4dc33df7f1291a101&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D"Screen_Shot_2020-03-16_at_20.13.37.png")
+![3](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1ceb35ef-c962-4da2-8f3b-b529cfb74643/Screen_Shot_2020-03-16_at_20.13.37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200710T164055Z&X-Amz-Expires=86400&X-Amz-Signature=2d86187d36c38626dca99dbe350694e2c2e37ebe1882fde4dc33df7f1291a101&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D"Screen_Shot_2020-03-16_at_20.13.37.png)
 
 ## rm
 
