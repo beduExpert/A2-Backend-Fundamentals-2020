@@ -30,11 +30,11 @@ Para esto necesitamos autentificarnos cómo usuarios root
 
 Para iniciar sesión en ubuntu con usuario root ingresaremos el siguiente comando:
 
-`su -` 
+`su -i` 
 
 seguido de nuestro password si este es requerido.
 
-**Cuidado:** Al estar autenticados cómo usuarios root podemos modificar contaremos con todos los privilegios, así que podremos hacer CUALQUIER modificación al sistema operativo.
+**Cuidado:** Al estar autenticados cómo usuarios root contaremos con todos los privilegios, así que podremos hacer CUALQUIER modificación al sistema operativo.
 
 Podemos salir de la sesión escribiendo la palabra `exit` y dando enter.
 
@@ -48,7 +48,7 @@ Entraremos a nuestra carpeta Bedu de los anteriores ejemplo y ejecutaremos el co
 
 ![src/Untitled.png](src/Untitled.png)
 
-Cómo ejemplo utilizaremos los valores del archivo `hola.sh` (fila 3)
+Como ejemplo utilizaremos los valores del archivo `hola.sh` (fila 3)
 
 - **-rw-r--r--** En la primera columna obtendremos una representación de los bits de permisos cuyo primer caracter nos indica el tipo de archivo puede ser folder `d`, archivo regular `-`, o *symbolic link* `l`, los siguientes 3 caracteres serán los permisos que el propietario tiene sobre ese archivo, luego los permisos del grupo y al final los permisos globales.
 - **1** – Una cantidad de enlaces fijos (hard links). Básicamente, un enlace fijo es un nombre adicional para un archivo existente.
@@ -67,6 +67,10 @@ Si tenemos un archivo «demo.txt» y queremos que el propietario del archivo sea
 ```
 chown juan:clientes demo.txt
 ```
+
+> 💡 **Nota:**
+>
+> Para listar los grupos puedes usar el comando `groups` o para ver los grupos a los que un usuario pertenece puedes usar `groups <nombre_de_usuario>`
 
 ## Cambiando privilegios de un archivo
 
@@ -102,5 +106,5 @@ chmod -R 744 claseDos
 
 1. Listar los permisos actuales de tus archivos
 2. Cambiar los permisos del archivo `index.html` a la estructura `-rwxr-xr--` 
-3. cambiar los permisos del archivo `hola.sh` a la estructura `-rwxrwxrwx`
+3. Cambiar los permisos del archivo `hola.sh` a la estructura `-rwxrwxrwx`
 4. Regresar los archivos a su estructura inicial de permisos
