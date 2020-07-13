@@ -4,25 +4,25 @@
 
 ## Instrucciones
 
-1. Leer el contenido que se muestra a continuación, se que puede parecer mucha información, pero tienes que comprender las bases y por que suceden las cosas. 🤓
+1. Leer el contenido que se muestra a continuación, se que puede parecer mucha información, pero tienes que comprender las bases y por qué suceden las cosas. 🤓
 2. Resolver las preguntas que se encuentran al final del prework.
 
 
 ## **¿Qué es un servidor?**
 
-El término servidor tiene **dos significados** en el ámbito informático. El primero hace referencia al ordenador que pone recursos a disposición a través de una red, y el segundo se refiere al programa  que funciona en dicho ordenador. En consecuencia aparecen dos **definiciones de servidor:**
+El término servidor tiene **dos significados** en el ámbito informático. El primero hace referencia al ordenador que pone recursos a disposición a través de una red, y el segundo se refiere al programa que funciona en dicho ordenador. En consecuencia aparecen dos **definiciones de servidor:**
 
-### **Definición Servidor (hardware)**
+### **Definición de servidor (hardware)**
 
 Un servidor basado en hardware es una **máquina física** integrada en una red informática en la que, además del sistema operativo, funcionan uno o varios servidores basados en software. Una denominación alternativa para un servidor basado en hardware es **host** (término inglés para "anfitrión"). En principio, todo ordenador puede usarse como "host" con el correspondiente software para servidores.
 
-### **Definición Servidor (software):**
+### **Definición de servidor (software):**
 
 Un servidor basado en software es un **programa** que ofrece un servicio especial que otros programas denominados **clientes** (clients) pueden usar a nivel **local** o a través de una **red.** El tipo de servicio depende del tipo de software del servidor. La base de la comunicación es el modelo cliente-servidor y, en lo que concierne al intercambio de datos, entran en acción los protocolos de transmisión específicos del servicio.
 
 ## **¿Cómo funciona un servidor?**
 
-La puesta a disposición de los servicios del servidor a través de una red informática se basa en el **modelo cliente-servidor**, concepto que hace posible distribuir las tareas entre los diferentes ordenadores y hacerlas accesibles para más de un usuario final de manera independiente. Cada servicio disponible a través de una red será ofrecido por un servidor (software) que está permanentemente en espera. Este es el único modo de asegurar que los clientes como el navegador web o los clientes de correo electrónico siempre tengan la posibilidad de acceder al servidor activamente y de usar el servicio en función de sus necesidades.
+La puesta a disposición de los servicios del servidor a través de una red informática se basa en el **modelo cliente-servidor**, concepto que hace posible distribuir las tareas entre los diferentes ordenadores y hacerlas accesibles para más de un usuario final de manera independiente. Cada servicio disponible a través de una red será ofrecido por un servidor (software) que está permanentemente en espera. Este es el único modo de asegurar que los clientes, como el navegador web o los clientes de correo electrónico, siempre tengan la posibilidad de acceder al servidor activamente y de usar el servicio en función de sus necesidades.
 
 La comunicación entre un servidor y sus clientes se basa en **HTTP**, es decir, en el protocolo de transferencia de hipertexto o en su variante codificada HTTPS.
 
@@ -34,7 +34,7 @@ A continuación, el servidor web busca en sus archivos la información que se le
 
 Este resultado se le muestra a los internautas y es lo que siempre sucede cuando se navega en sitios de Internet. Cuando este proceso se completa podemos decir que el web server ha cumplido con su función.
 
-![¿Qué es un servido](https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Screenshots/client-server-modell-us.jpg)
+![¿Qué es un servidor?](https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Screenshots/client-server-modell-us.jpg)
 >Funte: 1&1 IONOS
 
 ## **¿Para qué sirve un servidor en Internet?**
@@ -51,7 +51,7 @@ Los servidores Web, también conocidos como servidores HTTP, surgen en **1990** 
 
 Éstos proporcionan las herramientas necesarias para almacenar toda la **información** contenida en una página de internet, y de igual modo enviar la información al cliente que la solicite, es decir, hacen posible lo que se conoce como hosting.
 
-Un servidor Web tiene la capacidad de atender **simultáneamente** las solicitudes de varios ordenadores; sin embargo, la eficiencia de éste puede depender de factores como la velocidad de procesamiento, el hardware, el número de solicitudes, y los contenidos web dinámicos, ya que estos últimos requieren una mayor cantidad de recursos que los contenidos estáticos.
+Un servidor Web tiene la capacidad de atender **simultáneamente** las solicitudes de varios ordenadores. Sin embargo, la eficiencia de éste puede depender de factores como la velocidad de procesamiento, el hardware, el número de solicitudes y los contenidos web dinámicos, ya que estos últimos requieren una mayor cantidad de recursos que los contenidos estáticos.
 
 Dentro de las opciones de servidores web que podrás encontrar, los más comunes son los servidores **compartidos**, **los dedicados**, y los **servidores virtuales**.
 
@@ -71,7 +71,7 @@ Este tipo de servidores se crearon tomando como base una arquitectura tipo **cli
 
 A pesar de que es uno de los protocolos más antiguos, ya que su creación data de **1971**, sigue siendo uno de los más utilizados debido a que ha ido evolucionando con el paso del tiempo y es considerado rápido, confiable y seguro.
 
-Los Servidores FTP son usados principalmente para el respaldo de datos y archivos, es decir, como un servidor de backup, sin embargo cuenta con otros usos.
+Los Servidores FTP son usados principalmente para el respaldo de datos y archivos, es decir, como un servidor de backup; sin embargo cuenta con otros usos.
 
 ### **Servidores de Correo**
 
