@@ -37,7 +37,7 @@ Si queremos subir el archivo **`archivo.txt`** de nuestro ordenador a la carpe
 scp archivo.txt usuario@dominio.com:/home/usuario
 ```
 
-si queremos copiar un archivo del servidor a nuestro 
+si queremos copiar un archivo del servidor a nuestro ordenador
 
 ```bash
 scp usuario@dominio.com:/home/usuario/archivo.txt Documentos
@@ -60,7 +60,7 @@ Si contamos con archivo de identidad (llave privada) tenemos que utilizar la opc
 Ejemplo:
 
 ```
-scp -i llaves/llave_host2.pem /home/bedu/proyecto ubuntu@18.209.88.100:/home/usuario
+scp -i llaves/llave_host2.pem /home/bedu/proyecto/archivo.txt ubuntu@18.209.88.100:/home/usuario
 ```
 
 ### FTP (File Transfer Protocol)
@@ -69,6 +69,6 @@ Cuando hacemos transferencias de archivos de manera constante, otra opción para
 
 Si quieres configurar un servidor FTP en linux aquí puedes encontrar una guía:
 
-Post: Montar servidor ftp en Linux
+Post: Montar servidor FTP en Linux
 
 Link: [https://medium.com/@oscarricardosan/montar-servidor-ftp-en-linux-37accc96571f](https://medium.com/@oscarricardosan/montar-servidor-ftp-en-linux-37accc96571f)
