@@ -1,6 +1,6 @@
  
 
-`Backend Fundamentals` > `S2 - Administracion de servidores`
+`Backend Fundamentals` > `S2 - Administración de servidores`
 	
 ## Reto 3
 

@@ -6,7 +6,7 @@ Utilizar el servidor remoto al que hemos accesado con los comandos aprendidos de
 
 ## Requisitos
 
-El experto debe proveer un servidor con Apache corriendo y con una dirección o ip pública, así cómo  las respectivas credenciales.
+El experto debe proveer un servidor con Apache corriendo y con una dirección o ip pública, así como  las respectivas credenciales.
 
 El alumno ya debe estar conectado al servidor remoto.
 
@@ -33,7 +33,7 @@ El alumno ya debe estar conectado al servidor remoto.
 </html>
 ```
 
-no olvides editarlo con tu nombre y guardar los cambios.
+No olvides editarlo con tu nombre y guardar los cambios.
 
 3. Cambiaremos al propietario del archivo con el comando 
 
@@ -55,11 +55,11 @@ no olvides editarlo con tu nombre y guardar los cambios.
 
 **Ejemplo:** [http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html](http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html)
 
-Esto renderizará nuestro archivo html
+Esto renderizará nuestro archivo html.
 
 ![img/Untitled%202.png](img/Untitled%202.png)
 
-Para salir del servidor y cerrar la conexión ejecutaremos el comando `exit`
+Para salir del servidor y cerrar la conexión ejecutaremos el comando `exit`.
 
 ## Reto 3
 
