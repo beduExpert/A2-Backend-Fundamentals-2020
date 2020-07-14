@@ -6,8 +6,7 @@ Los paquetes en los sitemas operativos unix, son **programas** que han sido empa
 
 Distribuciones de Linux como Ubuntu y Debian cuentan con su gestor de paquetes por defecto.
 
-Para MacOs debemos **instalar Brew** siguiendo las instrucciones del :
-[siguiente enlace](https://brew.sh/index_es)
+Para MacOs debemos **instalar Brew** siguiendo las instrucciones del [siguiente enlace](https://brew.sh/index_es)
 
 ## Actualizando la lista de repositorios
 
