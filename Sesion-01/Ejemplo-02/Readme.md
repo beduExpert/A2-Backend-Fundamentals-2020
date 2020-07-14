@@ -91,4 +91,4 @@ Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en e
 
 # Reto 02
 
-[`Reto-02`](../Reto-02) > `Reto-02`
+[`Reto-02`](../Reto-02) 
