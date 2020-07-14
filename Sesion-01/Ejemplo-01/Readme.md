@@ -20,8 +20,7 @@ Nos permite posicionarnos en una ruta en específico, o *entrar* en una carpeta.
 >💡 **Nota:**
 >
 >Para volver volver atrás en una ruta utilizamos `cd ..`
-
->💡 **Nota:**
+>
 >En windows los comandos tienen diversas variaciones. Si tienes problemas basta con googlear para buscar su equivalente.
 
 ### mkdir
