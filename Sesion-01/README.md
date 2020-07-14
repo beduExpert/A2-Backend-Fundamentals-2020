@@ -1,6 +1,6 @@
 # Sesión 1 - Consola
 
-## Prework :
+## :hammer_and_wrench: Prework :
 
 [ Conocer la terminal, sus principales ventajas con respecto a las interfaces gráficasy ejecutar nuestros primeros comandos.](Prework/)
 
@@ -21,6 +21,6 @@
 
 [Reto 02: Instalación de paquetes](Reto-02/)
 
-## Postwork :
+## :gear: Postwork :
 
 [Mejorando nuestra experiencia con la terminal.](Postwork/)
