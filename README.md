@@ -22,7 +22,7 @@ Crearemos una API desde cero para una aplicación de adopción de mascotas.
 
 ## [Temario técnico](./sesiones)
 
-[Sesión 01 - Consola](Sesion-01)
+[Sesión 01 - Consola](Sesion-01/#sesión-01---consola)
 
 [Sesión 02 - Administración de servidores](Sesion-02)
 
