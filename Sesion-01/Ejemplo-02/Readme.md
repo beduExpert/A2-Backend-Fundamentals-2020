@@ -87,6 +87,6 @@ Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en e
 `:set number` mostrar numeración de líneas
 
 
-# Reto 2
+# Reto 02
 
 [`Reto-02`](../Reto-02) > `Reto-02`
