@@ -15,6 +15,5 @@ Documents/
    └── README.md
    └──📂src/
       └── incicio.sh
-      └── Readme.md
-     
+      └── main.js
 ```
