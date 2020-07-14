@@ -1,10 +1,14 @@
 # Back-end Fundamentals
 
-Este curso tiene como objetivo brindarte las bases para comenzar a crear proyectos desarrollando del lado del servidor. 
+## Objetivos:
 
-Conocerás los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción. 
+- Brindarte las bases para comenzar a crear proyectos desarrollando del lado del servidor. 
 
-Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
+-Conocer los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción. 
+
+- Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
+
+<img src="https://i.ibb.co/gjZh5NM/data-hosting.png" alt="data-hosting">
 
 ## ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes conocimientos.
