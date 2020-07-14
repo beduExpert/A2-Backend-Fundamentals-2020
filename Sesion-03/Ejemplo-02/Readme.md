@@ -4,6 +4,8 @@
 
 Presentar un nuevo proyecto y levantar requerimientos para cumplir con la primera etapa de planteamiento de nuestra arquitectura de software.
 
+<img src="https://i.ibb.co/n82DkQx/focused-working.png" alt="focused-working" border="0">
+
 ## Requerimientos
 
 Cuaderno o aplicación para tomar notas y resolver preguntas.
