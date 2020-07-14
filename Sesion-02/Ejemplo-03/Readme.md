@@ -12,7 +12,7 @@ Utilizar el servidor remoto al que hemos accesado con los comandos aprendidos de
 
 ## Desarrollo
 
-1. Una vez dentro del servidor crearemos un archivo con nuestro nombre y la extensión html
+1. Una vez dentro del servidor **crearemos** un archivo con **nuestro nombre** y la extensión **html**
 
 `touch [mi_nombre].html`
 
@@ -55,7 +55,7 @@ Utilizar el servidor remoto al que hemos accesado con los comandos aprendidos de
 
 6. Si todo ha salido bien **pediremos la url** pública de nuestro servidor y entraremos a ella agregando el nombre de nuestro archivo a la ruta.
 
-**Ejemplo:** [http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html](http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html)
+[**Ejemplo**](http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html)
 
 Esto **renderizará** nuestro archivo html
 
