@@ -5,7 +5,7 @@
 ## Objetivo
 
 - Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas. 
-- Ejecutar los primeros comandos.*
+- Ejecutar los primeros comandos.
 
 ## Instrucciones
 
