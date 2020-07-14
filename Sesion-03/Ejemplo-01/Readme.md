@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Comprender las diferencias entre un cliente y un servidor web, la manera en la que se comunican y los diferentes tipos de servidores y protocolos mas comunes de la web.
+Comprender las diferencias entre un cliente y un servidor web, la manera en la que se comunican y los diferentes tipos de servidores y protocolos más comunes de la web.
 
 ## Requerimientos
 
@@ -10,11 +10,11 @@ Navegador web y cuaderno o aplicación para tomar notas.
 
 ## Desarrollo
 
-La arquitectura que gobierna la web actualmente es la arquitectura cliente-servidor
+La arquitectura que gobierna la web actualmente es la arquitectura cliente-servidor.
 
 ### **Cliente**
 
-El cliente se ocupa de hacer peticiones, recibir respuestas y presentarlas al usuario.  ****En los primeros días eran ordenadores de uso común, ahora un cliente es cualquier tipo de dispositivo capaz de enviar una petición, esto engloba smartphones y dispositivos inteligentes como bocinas, luces, refrigeradores, relojes, termostatos, etc... 
+El cliente se ocupa de hacer peticiones, recibir respuestas y presentarlas al usuario.  En los primeros días eran ordenadores de uso común, ahora un cliente es cualquier tipo de dispositivo capaz de enviar una petición, esto engloba smartphones y dispositivos inteligentes como bocinas, luces, refrigeradores, relojes, termostatos, etc.
 
 ### **Servidor**
 
@@ -29,21 +29,21 @@ Algunos ejemplos de servidores son:
 - Servidores de imágenes.
 - Servidores WEB.
 
-![img/Untitled.png](img/Untitled.png)
+<img src="img/Untitled.png" width="500">
 
 Tomando esto en cuenta es común dividir las responsabilidades y los equipos de desarrollo en ***Frontend developers*** y ***Backend developers**,* dónde los primeros se encargan de desarrollar el código que se ejecutará en un navegador, y los segundos el código y las configuraciones del lado del servidor.
 
-![img/Frontend-and-backend-frameworks.png](img/Frontend-and-backend-frameworks.png)
+<img src="img/Frontend-and-backend-frameworks.png" width="700">
 
 ## Protocolo HTTP
 
 En informática, un protocolo es únicamente una manera en la que acordamos que se comunicará un sistema.  
 
-Haciendo una analogía podemos decir que un protocolo en la vida real sería la serie de reglas del sistema postal de correo. Si hoy quisieramos enviar una carta por correo necesitaríamos escribir en un sobre el nombre y la dirección del destinatario, esta dirección a su ve contendría su código postal, también necesitaríamos un timbre y los datos del remitente. 
+Haciendo una analogía podemos decir que un protocolo en la vida real sería la serie de reglas del sistema postal de correo. Si hoy quisiéramos enviar una carta por correo necesitaríamos escribir en un sobre el nombre y la dirección del destinatario, esta dirección a su vez contendría su código postal, también necesitaríamos un timbre y los datos del remitente. 
 
-De manera similar, el protocolo base para el funcionamiento de la web es el protocolo HTTP, que significa "Hypertext Transfer Protocol". Este protocolo de petición-respuesta está basado a su vez en otros protocolos que funcionan en un nivel más bajo de la red. 
+De manera similar, el protocolo base para el funcionamiento de la web es el protocolo HTTP, que significa "Hypertext Transfer Protocol". Este protocolo de petición-respuesta está basado en otros protocolos que funcionan en un nivel más bajo de la red. 
 
-![img/HTTP__layers.png](img/HTTP__layers.png)
+<img src="img/HTTP__layers.png" width="700">
 
 Composición de la web 
 
@@ -71,7 +71,7 @@ Puedes encontrar todos los métodos existentes en el siguiente enlace: [https://
 
 ## Respuestas
 
-Las respuestas además de que pueden estar conformadas opcionalmente por un cuerpo o contenido, son definidas por un código de respuesta. Los códigos de respuesta indican si una petición se ha completado exitosamente o no, y nos brindan información sobre el estado de la respuesta. Las repuestas se dividen en 5 categorías:
+Las respuestas además de que pueden estar conformadas opcionalmente por un cuerpo o contenido, son definidas por un código de respuesta. Los códigos de respuesta indican si una petición se ha completado exitosamente o no, y nos brindan información sobre el estado de la respuesta. Las respuestas se dividen en 5 categorías:
 
 1. Informativas (`100`-`199`)
 2. Éxito (`200`–`299`),
@@ -95,26 +95,29 @@ Puedes encontrar más códigos de respuesta en los siguientes enlaces:
 ## Ejemplo 1 - Listando animalitos
 
 Listaremos animales haciendo peticiones a una API pública: 
+
 1. Abriremos una nueva pestaña de nuestro navegador
 
-2. Abrimos el inspector de elementos y nos dirigiremos a la pestaña network
+2. Abrimos el inspector de elementos y nos dirigiremos a la pestaña *Network*
 
 3. Copiamos y pegamos el siguiente enlace: [https://petstore.swagger.io/v2/pet/findByStatus?status=available](https://petstore.swagger.io/v2/pet/findByStatus?status=available)
 
 4. Observar que es lo que sucede
 
-5. Dar click en la primera petición, analizar los campos del request y de la respuesta.
+5. En la pestaña de *Network* dar click en la primera petición, analizar los campos del request y de la respuesta.
 
-![img/Untitled 1.png](img/Untitled 1.png)
+
+<img src="img/Untitled1.png" width="1000">
 
 ## Ejemplo 2 - Utilizando un cliente de peticiones
 
 1. Elegiremos e instalaremos alguno de los siguientes clientes de peticiones HTTP/HTTPS
     - [Insomnia Core](https://insomnia.rest/)
     - [Postman](https://www.postman.com/)
+
 2. Añadiremos una nueva mascota haciendo una petición `POST` en el siguiente URL: [https://petstore.swagger.io/v2/pet](https://petstore.swagger.io/v2/pet)
 
-    ![img/Untitled 2.png](img/Untitled 2.png)
+<img src="img/Untitled2.png" width="700">
 
     El cuerpo de la petición estará en formato JSON y será cómo el siguiente:
 
@@ -141,7 +144,7 @@ Listaremos animales haciendo peticiones a una API pública:
 
 Una vez ejecutada la petición, obtendremos una respuesta `200` si todo ha salido bien
 
-![img/Untitled 3.png](img/Untitled 3.png)
+<img src="img/Untitled3.png" width="900">
 
 ## Reto 1
 
@@ -149,6 +152,7 @@ Utiliza Postman o Insomnia para resolver los siguientes puntos:
 
 1. Crea una nueva mascota siguiendo el ejemplo 2, pero cambia el atributo `name` y opcionalmente la url de `photoUrls` añadiendo una nueva imagen. También cambia la propiedad `id` a una que tu elijas y guarda el id con cuidado.
 2. Modifica el recurso que acabas de crear cambiando el nombre.
-Para esto deberás hacer una petición `PUT` con el id del objeto a modificar cómo se ejemplifica en la [documentación de esta API](https://petstore.swagger.io/#/pet/updatePet) ([https://petstore.swagger.io/#/pet/updatePet](https://petstore.swagger.io/#/pet/updatePet)):
+Para esto deberás hacer una petición `PUT` con el id del objeto a modificar cómo se ejemplifica en la [documentación de esta API](https://petstore.swagger.io/#/pet/updatePet):
 
-    ![img/Untitled 4.png](img/Untitled 4.png)
+<img src="img/Untitled4.png" width="900">
+
