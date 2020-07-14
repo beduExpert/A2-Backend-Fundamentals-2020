@@ -1,5 +1,12 @@
 # Sesión 01 - Consola
 
+### Objetivo:
+
+- Utilizar la terminal, sus principales ventajas y comandos.  
+- Editar archivos e instalar paquetes en el sistema operativo por medio de la consola.
+
+## Secciones:
+
 ## :hammer_and_wrench: Prework 
 
 ### Objetivo:
