@@ -2,6 +2,7 @@
 
 Para navegar en nuestro sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
 
+
 ### ls
 
 lista el contenido del directorio dónde estamos posicionados.
@@ -16,9 +17,12 @@ Nos permite posicionarnos en una ruta en específico, o *entrar* en una carpeta.
 
 ![2](img/cd.png)
 
-Para volver volver atrás en una ruta utilizamos `cd ..`
+>💡 **Nota:**
+>
+>Para volver volver atrás en una ruta utilizamos `cd ..`
 
-En windows los comandos tienen diversas variaciones. Si tienes problemas basta con googlear para buscar su equivalente.
+>💡 **Nota:**
+>En windows los comandos tienen diversas variaciones. Si tienes problemas basta con googlear para buscar su equivalente.
 
 ### mkdir
 
