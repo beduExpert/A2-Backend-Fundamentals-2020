@@ -2,7 +2,7 @@
 
 ### Objetivo:
 
-- Gestionar usuarios y permisos de archivos, cómo conectarse, utilizar un servidor remoto por medio de ssh y a enviar archivos remotamente con SCP.
+- Gestionar usuarios y permisos de archivos, cómo conectarse, utilizar un servidor remoto por medio de ssh y enviar archivos remotamente con SCP.
 
 ## :hammer_and_wrench: [Prework: Diferentes tipos de servidores](Prework/#prework---diferentes-tipos-de-servidores)
 
