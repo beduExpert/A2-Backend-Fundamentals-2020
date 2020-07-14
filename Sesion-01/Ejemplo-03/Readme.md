@@ -1,3 +1,5 @@
+[`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Ejemplo 03`
+
 # Instalando paquetes
 
 Los paquetes en los sitemas operativos unix, son **programas** que han sido empaquetados para su instalación y distribución.
@@ -42,6 +44,6 @@ si todo ha sido exitoso ahora tendremos un nuevo ***comando*** instalado en nues
 
 ![img/Untitled.png](img/Untitled.png)
 
-## Reto 3:
+# Reto 03:
 
 [`Reto-03`](../Reto-03) > `Reto-03`
