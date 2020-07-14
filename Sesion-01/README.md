@@ -9,9 +9,6 @@
 
 ## :hammer_and_wrench: [Prework.](Prework/)
 
-### Objetivo:
-
-- Conocer la terminal, sus principales ventajas con respecto a las interfaces gráficasy ejecutar nuestros primeros comandos.
 
 ## :page_facing_up: Ejemplos:
 
@@ -32,6 +29,3 @@
 
 ## :gear: [Postwork.](Postwork/)
 
-### Objetivo:
-
-- Mejorando nuestra experiencia con la terminal.¿
