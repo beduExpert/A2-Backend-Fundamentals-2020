@@ -1,3 +1,5 @@
+[`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Ejemplo 2`
+
 # Navegación (File system)
 
 Para navegar en nuestro sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
