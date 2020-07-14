@@ -8,7 +8,7 @@
 
 - Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
 
-<img src="https://i.ibb.co/gjZh5NM/data-hosting.png" alt="data-hosting">
+<img src="https://i.ibb.co/gjZh5NM/data-hosting.png" alt="data-hosting" align="center"  hspace="10">
 
 ## ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes conocimientos.
