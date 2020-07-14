@@ -1,4 +1,4 @@
-[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md) `Postwork`
+[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md) > `Postwork`
 
 # Postwork: Transferencia de archivos a un servidor (SCP y FTP)
 
