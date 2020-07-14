@@ -53,9 +53,8 @@ Utilizar el servidor remoto al que hemos accesado con los comandos aprendidos de
 
 `sudo mv daniel-garcia.html /var/www/html/`
 
-6. Si todo ha salido bien **pediremos la url** pública de nuestro servidor y entraremos a ella agregando el nombre de nuestro archivo a la ruta.
-
-[**Ejemplo**](http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html)
+6. Si todo ha salido bien **pediremos la url** pública de nuestro servidor, entraremos a ella agregando el nombre de nuestro archivo a la ruta y veremos el
+[**resultado**](http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html)
 
 Esto **renderizará** nuestro archivo html
 
