@@ -35,3 +35,5 @@ Con la estructura creada en el [Reto 1](../Reto-01/Readme.md) realiza las siguie
     var fecha = new Date();
     console.log(`Fecha actual: ${fecha}`)
     ```
+
+[`Atrás`](../Ejemplo-02)
