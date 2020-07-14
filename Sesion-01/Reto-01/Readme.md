@@ -11,9 +11,9 @@ Crea la carpeta **bedu** dentro de **documentos** y dentro de ella crea la sigui
 ```terminal
 Documents/
 └──📂bedu/
-	   └──📂src/
-	        └── incicio.sh
-		└── Readme.md
+     └──📂src/
+	└── incicio.sh
+	└── Readme.md
      └── index.html
      └── README.md
 ```
