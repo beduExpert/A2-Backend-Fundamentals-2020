@@ -3,13 +3,13 @@
 Para navegar en nuestro sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
 
 
-### ls
+## `ls`
 
 lista el contenido del directorio dónde estamos posicionados.
 
 ![1](img/ls.png)
 
-### cd
+## `cd`
 
 Nos permite posicionarnos en una ruta en específico, o *entrar* en una carpeta.
 
@@ -23,7 +23,7 @@ Nos permite posicionarnos en una ruta en específico, o *entrar* en una carpeta.
 >
 >En windows los comandos tienen diversas variaciones. Si tienes problemas basta con googlear para buscar su equivalente.
 
-### mkdir
+## `mkdir`
 
 Crea una nueva carpeta.
 
@@ -31,11 +31,11 @@ Crea una nueva carpeta.
 
 ![2](img/mkdir.png)
 
-## rm
+## `rm`
 
 eliminar archivos/directorios
 
-### touch
+## `touch`
 
 Crea un nuevo archivo.
 
@@ -43,7 +43,7 @@ Crea un nuevo archivo.
 
 ![2](img/tocuh.png)
 
-## cp
+## `cp`
 
 Copia un nuevo archivo.
 
@@ -51,7 +51,7 @@ Copia un nuevo archivo.
 
 ![2](img/cp.png))
 
-## mv
+## `mv`
 
 Mover o renombrar archivos.
 
@@ -59,7 +59,7 @@ Mover o renombrar archivos.
 
 ![2](img/mv.png)
 
-## rm
+## `rm`
 
 Eliminar un archivo. Con la opción `-r` podemos también eliminar folders y sus contenidos de manera *recursiva.*
 
@@ -67,7 +67,7 @@ Eliminar un archivo. Con la opción `-r` podemos también eliminar folders y sus
 
 ![2](img/rm.png)
 
-## man
+## `man`
 
 Despliega información del manual de algún comando
 
