@@ -117,10 +117,3 @@ Entre otra de las funciones del proxy se encuentra la generación de lo que se c
 Una Virtual Private Network es una tecnología utilizada para realizar conexiones seguras a una red privada de una o varias computadoras sin que se encuentren físicamente en el mismo lugar. Ésta ayuda a proteger nuestra información, ya que al conectarnos a una VPN se genera un tipo de “túnel virtual” por el que pasa toda nuestra información, y los datos enviados o solicitados se encuentran cifrados hasta que salen de la VPN.
 
 Hacer uso de esta tecnología tiene ciertas ventajas. La primera y más importante de todas es, como ya se había mencionado anteriormente, la protección de tus datos. Sin embargo, otro de los grandes beneficios es el acceso a cualquier lugar de la red sin restricciones geográficas.
-
-
-
-## Quiz
-
-1. ¿Tu computadora puede ser un servidor?
-2. ¿Cuál es la función de un servidor DNS?
