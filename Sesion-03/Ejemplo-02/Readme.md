@@ -29,7 +29,7 @@ Las historias de usuario son descripciones cortas y simples de una funcionalidad
 
 Estas historias tienen una **estructura simple**
 
-*"Como **[rol de usuario]** quiero **[objetivo]** para [beneficio]"*
+*"Como **[rol de usuario]** quiero **[objetivo]** para **[beneficio]**"*
 
 Y son utilizadas por varias metodologías para poder comprender mejor los requerimientos y alinearlos con el negocio.
 
