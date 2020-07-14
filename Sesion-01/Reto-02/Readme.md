@@ -1,8 +1,8 @@
- 
-
-`Backend Fundamentals` > `S1 - Consola`
+ `Backend Fundamentals` > `S1 - Consola`
 	
 # Reto 2
+
+### Instrucciones:
 
 Con la estructura creada en el [Reto 1](../Reto-01/Readme.md) realiza las siguientes ediciones de los archivos.
 
