@@ -37,7 +37,7 @@ Para iniciar sesión en **ubuntu con usuario root ingresaremos el siguiente coma
 
 `su -`
 
-seguido de nuestro password si este es requerido.
+seguido de nuestro **password** si este es requerido.
 
 >❗**Cuidado:**
 >
