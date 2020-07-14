@@ -56,7 +56,9 @@ Esto nos mostrará una interfaz como la siguiente
 
 Te darás cuenta que vim **no** nos permite **editar** directamente cuando abrimos un archivo, ya que vim tiene diferentes **modos** de trabajo.
 
-Para activar el modo edición **(insert mode)** presionaremos la tecla `i`
+>💡 **Nota:**
+>
+>Para activar el modo edición **(insert mode)** presionaremos la tecla `i`
 
 ![img/Screen_Shot_2020-03-21_at_14.35.53.png](img/Screen_Shot_2020-03-21_at_14.35.53.png)
 
@@ -86,4 +88,4 @@ Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en e
 
 # Reto 2
 
-[`Ejemplo-02`](../../Ejemplo-02) > [`Reto-02`](../Reto-02) > `Reto-02`
+[`Ejemplo-02`](/../Ejemplo-02) > [`Reto-02`](../Reto-02) > `Reto-02`
