@@ -7,11 +7,11 @@
 
 ## Secciones:
 
-## :hammer_and_wrench: Prework 
+## :hammer_and_wrench: [`Prework.`](Prework/)
 
 ### Objetivo:
 
-- [`Conocer la terminal, sus principales ventajas con respecto a las interfaces gráficasy ejecutar nuestros primeros comandos.`](Prework/)
+- Conocer la terminal, sus principales ventajas con respecto a las interfaces gráficasy ejecutar nuestros primeros comandos.
 
 ## :page_facing_up: Ejemplos:
 
@@ -30,8 +30,8 @@
 
 - [`Reto 02: Instalación de paquetes`](Reto-02/)
 
-## :gear: Postwork :
+## :gear: [`Postwork.`](Postwork/)
 
 ### Objetivo:
 
-- [`Mejorando nuestra experiencia con la terminal.`](Postwork/)
+- Mejorando nuestra experiencia con la terminal.¿
