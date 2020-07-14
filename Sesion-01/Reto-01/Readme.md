@@ -21,3 +21,14 @@ Crea la carpeta "Bedu" en tu escritorio y dentro de ella crea la siguiente estru
     README.md
 
 index.html
+
+```terminal
+Documents/
+└── bedu/
+	└── src/
+		└── incicio.sh
+└── bedu/
+    └── index.html
+    └── README.md
+    	
+``
