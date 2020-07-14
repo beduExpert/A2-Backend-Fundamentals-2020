@@ -1,4 +1,4 @@
-# Sesión 1 - Consola
+# Sesión 01 - Consola
 
 ## :hammer_and_wrench: Prework :
 
