@@ -26,7 +26,7 @@ index.html
 Documents/
 └── bedu/
 	└── src/
-		└── incicio.sh
+	    └── incicio.sh
 └── bedu/
     └── index.html
     └── README.md
