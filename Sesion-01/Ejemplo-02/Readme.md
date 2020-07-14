@@ -88,4 +88,4 @@ Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en e
 
 # Reto 2
 
-[`Ejemplo-02`](/../Ejemplo-02) > [`Reto-02`](../Reto-02) > `Reto-02`
+[`Reto-02`](../Reto-02) > `Reto-02`
