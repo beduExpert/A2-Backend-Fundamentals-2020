@@ -1,8 +1,11 @@
+[`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Prework`
+
 # Prework
 
 ## Objetivo
 
-*Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas. Ejecutar los primeros comandos.*
+- Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas. 
+- Ejecutar los primeros comandos.*
 
 ## Instrucciones
 
@@ -10,7 +13,7 @@
 
 ## Índice
 
-1. Introducción
+1. IntroducciónEjemplo 02
 2. Conceptos fundamentales
 3. Recursos adicionales
 4. QUIZ
@@ -83,14 +86,3 @@ En informática, el término Shell se emplea para referirse a aquellos programas
 Los Shell están diseñados para facilitar la forma en que se invocan o ejecutan los distintos programas disponibles en el computador.
 
 Es decir, un SHELL es una interface con nuestro sistema operativo. Gracias a él podremos dar las órdenes y mandatos necesarios para que nuestro sistema informático realice las tareas que necesitamos. **No debemos confundir al intérprete de comandos con el sistema operativo**. Este es solo un programa que hará de **mediador** entre nosotros y el Kernel del sistema. Un ejemplo de shell puede ser el *powershell* de windows o *bash* de linux.
-
-## Quiz
-
-1. ¿Cuál es la diferencia entre el SHELL y el sistema operativo?
-2. ¿Microsoft Windows esta basado en UNIX?
-3. ¿Cuáles crees que son los beneficios de trabajar con la línea de comandos y no con una interfaz gráfica (GUI)?
-4. ¿Para qué podríamos usar la consola?
-    - a) Instalar programas
-    - b) Editar Archivos
-    - c) Organizar nuestro espacio de trabajo
-    - d) Todos
