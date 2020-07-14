@@ -7,7 +7,7 @@
 
 ## Secciones:
 
-## :hammer_and_wrench: [Prework.](Prework/)
+## :hammer_and_wrench: [Prework](Prework/)
 
 
 ## :page_facing_up: Ejemplos:
@@ -27,5 +27,5 @@
 
 - [`Reto 02: Instalación de paquetes`](Reto-02/#reto-3)
 
-## :gear: [Postwork.](Postwork/)
+## :gear: [Postwork](Postwork/#postwork)
 
