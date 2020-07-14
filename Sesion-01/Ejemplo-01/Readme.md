@@ -86,4 +86,4 @@ Otros ejemplos:
 
 # Reto 01
 
-[`Reto-01`](../Reto-01) > `Reto-01`
+[`Reto-01`](../Reto-01)
