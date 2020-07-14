@@ -1,3 +1,5 @@
+[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md) `Prework`
+
 # Prework - Diferentes tipos de servidores
 
 *Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas. Ejecutar los primeros comandos.*
