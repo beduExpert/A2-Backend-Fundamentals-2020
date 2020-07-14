@@ -1,4 +1,4 @@
-[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md) `Prework`
+[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md) > `Prework`
 
 # Prework - Diferentes tipos de servidores
 
