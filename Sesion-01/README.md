@@ -7,7 +7,7 @@
 
 ## Secciones:
 
-## :hammer_and_wrench: [`Prework.`](Prework/)
+## :hammer_and_wrench: [Prework.](Prework/)
 
 ### Objetivo:
 
@@ -30,7 +30,7 @@
 
 - [`Reto 02: Instalación de paquetes`](Reto-02/)
 
-## :gear: [`Postwork.`](Postwork/)
+## :gear: [Postwork.](Postwork/)
 
 ### Objetivo:
 
