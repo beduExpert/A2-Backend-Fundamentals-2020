@@ -49,7 +49,7 @@ Copia un nuevo archivo.
 
 **Sintaxis básica:** `cp [ruta del archivo a copiar] [nueva ruta]`
 
-![2](img/cp.png))
+![2](img/cp.png)
 
 ## `mv`
 
