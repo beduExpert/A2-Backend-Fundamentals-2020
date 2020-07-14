@@ -69,4 +69,4 @@ scp -i llaves/llave_host2.pem /home/bedu/proyecto ubuntu@18.209.88.100:/home/usu
 
 Cuando hacemos transferencias de archivos de manera constante, otra opción para enviarlos es configurando un servidor FTP.
 
-Si quieres configurar un servidor FTP en linux aquí puedes [encontrar una guía:](https://medium.com/@oscarricardosan/montar-servidor-ftp-en-linux-37accc96571f)
+Si quieres configurar un servidor FTP en linux aquí puedes [encontrar una guía](https://medium.com/@oscarricardosan/montar-servidor-ftp-en-linux-37accc96571f)
