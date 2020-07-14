@@ -5,7 +5,7 @@
 ### Instrucciones
 
 
-Crea la carpeta **bedu** en la carpeta **documentos** y dentro   de ella crea la siguiente estructura.
+Crea la carpeta **bedu** dentro de **documentos** y dentro de ella crea la siguiente estructura.
 
 
 ```terminal
