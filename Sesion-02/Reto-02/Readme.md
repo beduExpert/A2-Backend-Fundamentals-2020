@@ -4,6 +4,6 @@
 
 ## Instrucciones
 
-- Iniciar sesión en una máquina remota utilizando las llaves que te proporciona el experto y siguiendo los pasos anteriores
+- Iniciar sesión en una máquina remota utilizando las **llaves que te proporciona el experto** y siguiendo los pasos anteriores
 
 [`Atrás`](../Ejemplo-01)
