@@ -6,7 +6,9 @@
 
 Con la estructura creada en el [Reto 1](../Reto-01/Readme.md) realiza las siguientes ediciones de los archivos.
 
-0. Verifica que el archivo se encuentre dentro de tu carpeta `<path de tu escritorio>/Bedu/Consola/`, si no existe crealo.
+0. Verifica que el archivo **README.md** que se encuentra dentro de tu carpeta **bedu**. 
+
+   **Arquitectura:** `Documents/bedu/README.md`, si no existe crealo.
 
 1. Al archivo `README.md` agrega la siguiente información:
 
@@ -15,15 +17,19 @@ Con la estructura creada en el [Reto 1](../Reto-01/Readme.md) realiza las siguie
     Clase de consola del curso Back-end fudamentals.
     ```
 
-2. Edita el archivo hola.sh con el siguiente código
+2. Edita el archivo **inicio.sh** que se encuentra dentro de tu carpeta **src**. 
+
+   **Arquitectura:** `Documents/bedu/src/incicio.sh`
 
     ```bash
     echo "Hola desde la consola"
     ```
 
-3. Edita el archivo loquesea.js y agrega estas líneas
+3. Edita el archivo **main.js** que se encuentra dentro de tu carpeta **src**.
 
-    ```jsx
+   **Arquitectura:** `Documents/bedu/src/main.js`
+
+    ```js
     var fecha = new Date();
     console.log(`Fecha actual: ${fecha}`)
     ```
