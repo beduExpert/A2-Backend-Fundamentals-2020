@@ -1,4 +1,4 @@
-[`Backend Fundamentals`](../Readme.md) > `S1 - Consola`
+[`Backend Fundamentals`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 1`
 
 # Reto 1
 
