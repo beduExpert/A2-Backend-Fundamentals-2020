@@ -9,7 +9,7 @@
 ## :page_facing_up: Ejemplos:
 
 
-- [`Ejemplo 01:Navegación (File system`)](Ejemplo-01/)
+- [`Ejemplo 01: Navegación (File system`)](Ejemplo-01/)
 
 - [`Ejemplo 02: Editando Archivos`](Ejemplo-02/)
 
