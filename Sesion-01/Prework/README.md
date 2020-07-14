@@ -13,10 +13,8 @@
 
 ## Índice
 
-1. IntroducciónEjemplo 02
+1. Introducción
 2. Conceptos fundamentales
-3. Recursos adicionales
-4. QUIZ
 
 ## Introducción
 
