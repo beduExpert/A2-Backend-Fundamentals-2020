@@ -13,6 +13,7 @@ Documents/
 └──📂bedu/
    └── index.html
    └── README.md
+   └── hola.sh
    └──📂src/
       └── incicio.sh
       └── main.js
