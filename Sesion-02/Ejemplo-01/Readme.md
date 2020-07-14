@@ -1,3 +1,5 @@
+[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md/#sesión-2---administración-de-servidores) `Ejemplo 1`
+
 # Ejemplo 1: Usuarios y permisos
 
 ## Objetivo
