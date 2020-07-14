@@ -46,4 +46,4 @@ si todo ha sido exitoso ahora tendremos un nuevo ***comando*** instalado en nues
 
 # Reto 03:
 
-[`Reto-03`](../Reto-03) > `Reto-03`
+[`Reto-03`](../Reto-03)
