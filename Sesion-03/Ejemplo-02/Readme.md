@@ -18,7 +18,7 @@ Los requerimientos a grandes rasgos para este sistema son los siguientes:
 
 - Publicar anuncios de mascotas en adopción
 - Visualizar las mascotas que están en adopción
-- Permitir a los usuarios interesados en adoptar una mascota registrarse y poder enviar solicitudes de adopción
+- Permitir a los usuarios interesados en adoptar registrarse y poder enviar solicitudes de adopción
 - Permitir a los cuidadores evaluar solicitudes y confirmar una adopción
 
 ### 2. Creando User Stories
@@ -31,14 +31,14 @@ Estas historias tienen una estructura simple
 
 Y son utilizadas por varias metodologías para poder comprender mejor los requerimientos y alinearlos con el negocio.
 
+<img src="img/PostItHistoriaUsuario.png" width="300">
+
 Un ejemplo sería el siguiente:
 
 **Cómo usuario de adoptaPet quiero ver a todas las mascotas que hay en adopción para poder elegir la que más me guste.**
 
-![img/PostItHistoriaUsuario.png](img/PostItHistoriaUsuario.png)
-
 ### Reto 2
 
-Escribe mínimo 3 historias de usuario para definir los requerimientos de la aplicación:
+Escribe mínimo 3 historias de usuario para definir los requerimientos de la aplicación.
 
 (Tiempo del ejercicio de 5 a 10 minutos)
