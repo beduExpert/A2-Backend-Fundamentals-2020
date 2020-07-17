@@ -10,3 +10,6 @@
 4. Regresar los archivos a su estructura inicial de permisos
 
 [`Atrás`](../Ejemplo-01)
+
+![image](https://static.gospelidea.com/uploads/2018/03/chmod.png)
+![image](https://www.redeszone.net/app/uploads/2017/01/otorgar-permisos-fichero-o-carpeta-linux.png)
