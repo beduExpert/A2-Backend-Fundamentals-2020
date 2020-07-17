@@ -19,3 +19,5 @@
 4. Ejecuta `fortune | cowsay | lolcat`
 
 [`Atrás`](../Ejemplo-03)
+
+![image](https://i.redd.it/chibzcm23y411.png)
