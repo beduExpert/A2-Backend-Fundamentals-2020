@@ -6,4 +6,3 @@
 2. Crea el método `eliminarMascota` teniendo en cuenta que el id del anunciante de la mascota debe ser igual al id del usuario que está peticionando.
 3. ¿En que otro caso se te ocurre que sea útil el método populate?
 
-    R: En una aplicación de blog por ejemplo, para obtener los comentarios de un post.
