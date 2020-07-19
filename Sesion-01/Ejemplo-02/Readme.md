@@ -1,10 +1,12 @@
+[`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Ejemplo 02`
+
 # Editando Archivos
 
 En UNIX (Linux/MacOS) existen diversas maneras de editar un archivo sin necesidad de salir de la terminal.
 
 ## Desarrollo
 
-Editaremos un archivo sin salir de la terminal. 
+Editaremos un archivo sin salir de la terminal.
 
 Para esto podemos utilizar los siguientes dos programas que pueden ejecutarse desde la línea de comandos.
 
@@ -34,15 +36,19 @@ Ahora, copiaremos el siguiente código:
 </html>
 ```
 
-Y guardaremos el archivo con `ctrl + o`
-
-Para salir presionamos `ctrl + x`
+>💡 **Nota:**
+>
+>Para guardare un archivo utilizamos el comando `ctrl + o`
+>
+>Y para salir presionamos `ctrl + x`
 
 ## vim
 
-vim es una versión mejorada de *vi* un editor de texto que viene instalado por defecto en los sitemas UNIX. Aunque es más complejo de utilizar que nano, una vez que lo dominas será una poderosa herramienta.
+vim es una **versión mejorada de vi** un editor de texto que viene instalado por defecto en los sitemas UNIX. Aunque es más complejo de utilizar que nano, una vez que lo dominas será una **poderosa herramienta.**
 
-Abriremos el archivo anterior con el comando `vim + [nombre de archivo]` 
+**Ejemplo:**
+
+A continuación abriremos el archivo anterior con el comando `vim + [nombre de archivo]`
 
 ![img/Untitled%201.png](img/Untitled%201.png)
 
@@ -50,25 +56,29 @@ Esto nos mostrará una interfaz como la siguiente
 
 ![img/Untitled%202.png](img/Untitled%202.png)
 
-Te darás cuenta que vim no nos permite editar directamente cuando abrimos un archivo, ya que vim tiene diferentes **modos** de trabajo.
+Te darás cuenta que vim **no** nos permite **editar** directamente cuando abrimos un archivo, ya que vim tiene diferentes **modos** de trabajo.
 
-Para activar el modo edición (insert mode) presionaremos la tecla `i` 
+>💡 **Nota:**
+>
+>Para activar el modo edición **(insert mode)** presionaremos la tecla `i`
 
 ![img/Screen_Shot_2020-03-21_at_14.35.53.png](img/Screen_Shot_2020-03-21_at_14.35.53.png)
 
-ahora añadiremos la línea `<p>Editando desde VIM</p>` debajo de nuestro encabezado desplazandonos con las teclas de flecha.
+Ahora añadiremos la línea `<p>Editando desde VIM</p>` debajo de nuestro encabezado desplazandonos con las teclas de flecha.
 
 ![img/Untitled%203.png](img/Untitled%203.png)
 
-Para guardar primero debemos salir del modo edición, presionando la tecla `ESC` 
+>💡 **Nota:**
+>
+>Para guardar primero debemos salir del modo edición, presionando la tecla `ESC`
 
 ![img/Screen_Shot_2020-03-21_at_15.37.45.png](img/Screen_Shot_2020-03-21_at_15.37.45.png)
 
-Esto nos llevará al modo de comandos, aquí ingresaremos el comando `:w` para guardar, ó podemos usar `:wq` para guardar y salir, luego presionamos enter.
+Esto nos llevará al modo de comandos, aquí ingresaremos el comando `:w` para **guardar,** ó podemos usar `:wq` para **guardar y salir**, luego presionamos **enter.**
 
-Si haz seguido bien los pasos felicidades, has salido de vim sin morir en el intento.
+Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en el intento.
 
-### Mas comandos de vim
+## Mas comandos de vim
 
 `:q!` Salir sin guardar cambios
 
@@ -78,28 +88,7 @@ Si haz seguido bien los pasos felicidades, has salido de vim sin morir en el int
 
 `:set number` mostrar numeración de líneas
 
-# Reto 2
 
-Con la estructura creada en el [Reto 1](../Reto-01/Readme.md) realiza las siguientes ediciones de los archivos.
+# Reto 02
 
-0. Verifica que el archivo se encuentre dentro de tu carpeta `<path de tu escritorio>/Bedu/Consola/`, si no existe crealo.
-
-1. Al archivo `README.md` agrega la siguiente información:
-
-    ```markdown
-    # Consola
-    Clase de consola del curso Back-end fudamentals.
-    ```
-
-2. Edita el archivo hola.sh con el siguiente código
-
-    ```bash
-    echo "Hola desde la consola"
-    ```
-
-3. Edita el archivo loquesea.js y agrega estas líneas
-
-    ```jsx
-    var fecha = new Date();
-    console.log(`Fecha actual: ${fecha}`)
-    ```
+[`Reto-02`](../Reto-02) 
