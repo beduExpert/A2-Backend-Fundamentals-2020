@@ -1,3 +1,5 @@
+[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md) > `Postwork`
+
 # Postwork: Transferencia de archivos a un servidor (SCP y FTP)
 
 ## Objetivo
@@ -67,8 +69,4 @@ scp -i llaves/llave_host2.pem /home/bedu/proyecto/archivo.txt ubuntu@18.209.88.1
 
 Cuando hacemos transferencias de archivos de manera constante, otra opción para enviarlos es configurando un servidor FTP.
 
-Si quieres configurar un servidor FTP en linux aquí puedes encontrar una guía:
-
-Post: Montar servidor FTP en Linux
-
-Link: [https://medium.com/@oscarricardosan/montar-servidor-ftp-en-linux-37accc96571f](https://medium.com/@oscarricardosan/montar-servidor-ftp-en-linux-37accc96571f)
+Si quieres configurar un servidor FTP en linux aquí puedes [encontrar una guía](https://medium.com/@oscarricardosan/montar-servidor-ftp-en-linux-37accc96571f)
