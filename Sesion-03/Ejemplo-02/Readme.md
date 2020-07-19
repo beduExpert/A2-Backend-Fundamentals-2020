@@ -1,8 +1,12 @@
+[`Backend Fundamentals`](../../README.md) > [`Sesión 03: Arquitectura de software`](../README.md) `Proyecto`
+
 # AdoptaPet - Iniciando un nuevo proyecto
 
 ## Objetivo
 
 Presentar un nuevo proyecto y levantar requerimientos para cumplir con la primera etapa de planteamiento de nuestra arquitectura de software.
+
+<img src="https://i.ibb.co/n82DkQx/focused-working.png" alt="focused-working" border="0">
 
 ## Requerimientos
 
@@ -25,20 +29,13 @@ Los requerimientos a grandes rasgos para este sistema son los siguientes:
 
 Las historias de usuario son descripciones cortas y simples de una funcionalidad contada desde la perspectiva de la persona que la desea (usuario o cliente del sistema). 
 
-Estas historias tienen una estructura simple
+Estas historias tienen una **estructura simple**
 
-*"Como [rol de usuario] quiero [objetivo] para [beneficio]"*
+*"Como **[rol de usuario]** quiero **[objetivo]** para **[beneficio]**"*
 
 Y son utilizadas por varias metodologías para poder comprender mejor los requerimientos y alinearlos con el negocio.
 
-<img src="img/PostItHistoriaUsuario.png" width="300">
+**Ejemplo:**
 
-Un ejemplo sería el siguiente:
-
-**Cómo usuario de adoptaPet quiero ver a todas las mascotas que hay en adopción para poder elegir la que más me guste.**
-
-### Reto 2
-
-Escribe mínimo 3 historias de usuario para definir los requerimientos de la aplicación.
-
-(Tiempo del ejercicio de 5 a 10 minutos)
+**Como usuario de adoptaPet quiero ver a todas las mascotas que hay en adopción para poder elegir la que más me guste.**
+<img src="img/PostItHistoriaUsuario.png" alt="PostItHistoriaUsuario"  height="250" width="250" > 

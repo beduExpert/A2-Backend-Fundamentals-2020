@@ -1,23 +1,22 @@
- 
+[`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) >[`Ejemplo-01`](../Ejemplo-01) > `Reto 1`
 
-`Backend Fundamentals` > `S1 - Consola`
-	
 # Reto 1
 
 ### Instrucciones
 
-Crea la carpeta "Bedu" en tu escritorio y dentro de ella crea la siguiente estructura de archivos.
 
-- Consola
-    - Scripts
-        - src
+Crea la carpeta **bedu** dentro de **documentos** y dentro de ella crea la siguiente estructura.
 
-            loquesea.js
 
-        inicio.sh
+```terminal
+Documents/
+└──📂bedu/
+   └── index.html
+   └── README.md
+   └── hola.sh
+   └──📂src/
+      └── incicio.sh
+      └── main.js
+```
 
-        hola.sh
-
-    README.md
-
-index.html
+[`Atrás`](../Ejemplo-01)
