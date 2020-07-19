@@ -10,7 +10,7 @@ El experto debe proveer la dirección del servidor y el archivo de la llave con 
 
 ## Desarrollo
 
-1. Verifica que ssh esté instalado en tu sistema
+1. Verifica que **ssh** esté **instalado** en tu sistema
 
     Dentro de la terminal ejecutaremos el comando `man ssh`
 
@@ -20,7 +20,7 @@ El experto debe proveer la dirección del servidor y el archivo de la llave con 
 
 2. Cambiar los permisos de nuestra llave privada (archivo `.pem`)
 
-Ejecutaremos el comando chmod
+Ejecutaremos el comando `chmod`
 
 `sudo chmod 600`
 
@@ -28,7 +28,9 @@ Ejecutaremos el comando chmod
 
 3. Conectarnos con ssh por medio de la dirección y el usuario de nuestro servidor remoto
 
-**Sintaxis:** `ssh -i [ruta archivo .pem] [usuario]@[dirección]`
+**Sintaxis:**
+
+`ssh -i [ruta archivo .pem] [usuario]@[dirección]`
 
 **Ejemplo:**
 
@@ -40,7 +42,4 @@ Si todo salió bien podremos ver algo cómo esto
 
 ![img/Screen_Shot_2020-04-06_at_18.00.01.png](img/Screen_Shot_2020-04-06_at_18.00.01.png)
 
-Lo cual significa que hemos iniciado sesión dentro de una máquina remota.
-
-## Reto 2
-Inicia sesión en una máquina remota utilizando las llaves que te proporciona el experto y siguiendo los pasos anteriores
+**Lo cual significa que hemos iniciado sesión dentro de una máquina remota.**
