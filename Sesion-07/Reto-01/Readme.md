@@ -13,3 +13,5 @@ Es momento de probar los nuevos endpoints de la API, así que ejecuta el servido
 4. Modifica tu password
 5. Ahora pregúntate ¿En que caso necesitaríamos conocer información sobre otro usuario?
 6. ¿Si el usuario no tiene la propiedad `tipo` cuándo es creado en una petición POST, podemos hacer algo para asignarle un tipo?
+
+![image](https://user-images.githubusercontent.com/13757596/87738478-21ddc480-c7a3-11ea-9c9b-cf88868563ec.png)
