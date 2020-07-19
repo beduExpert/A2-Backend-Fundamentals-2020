@@ -1,10 +1,14 @@
 # Back-end Fundamentals
 
-Este curso tiene como objetivo brindarte las bases para comenzar a crear proyectos desarrollando del lado del servidor. 
+## Objetivos:
 
-Conocerás los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción. 
+- Brindarte las bases para comenzar a crear proyectos desarrollando del lado del servidor. 
 
-Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
+- Conocer los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción. 
+
+- Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
+
+<img src="https://i.ibb.co/gjZh5NM/data-hosting.png" alt="data-hosting" align="center"  hspace="10">
 
 ## ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes conocimientos.
@@ -18,18 +22,18 @@ Crearemos una API desde cero para una aplicación de adopción de mascotas.
 
 ## [Temario técnico](./sesiones)
 
-[Sesión 1 - Consola](Sesion-01)
+[Sesión 01 - Consola](Sesion-01/#sesión-01---consola)
 
-[Sesión 2 - Administración de servidores](Sesion-02)
+[Sesión 02 - Administración de servidores](Sesion-02)
 
-[Sesión 3 - Arquitectura de software](Sesion-03)
+[Sesión 03 - Arquitectura de software](Sesion-03)
 
-[Sesión 4 - API](Sesion-04)
+[Sesión 04 - API](Sesion-04)
 
-[Sesión 5 - Fundamentos de Base de Datos Relacionales(SQL)](Sesion-05)
+[Sesión 05 - Fundamentos de Base de Datos Relacionales(SQL)](Sesion-05)
 
-[Sesión 6 - Fundamentos de Base de Datos NoSQL (Mongo)](Sesion-06)
+[Sesión 06 - Fundamentos de Base de Datos NoSQL (Mongo)](Sesion-06)
 
-[Sesión 7 - Mongoose](Sesion-07)
+[Sesión 07 - Mongoose](Sesion-07)
 
-[Sesión 8 - Deploy](Sesion-08)
+[Sesión 08 - Deploy](Sesion-08)

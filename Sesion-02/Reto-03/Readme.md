@@ -1,7 +1,7 @@
- 
-
-`Backend Fundamentals` > `S2 - Administración de servidores`
+[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Ejemplo 1: Usuarios y permisos`](../README.md) >[`Ejemplo-03`](../Ejemplo-03) > `Reto 3`
 	
 ## Reto 3
 
 Con los accesos que te proporciona el experto, crea tu propio archivo con tu nombre en el servidor siguiendo los pasos del ejemplo.
+
+[`Atrás`](../Ejemplo-03)
