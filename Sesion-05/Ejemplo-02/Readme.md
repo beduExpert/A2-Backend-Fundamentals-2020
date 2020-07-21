@@ -97,11 +97,6 @@ El modelo entidad-relación se basa en los conceptos: entidad, tipo de entidad, 
 
     ![img/Screen_Shot_2020-06-14_at_21.23.16.png](img/Screen_Shot_2020-06-14_at_21.23.16.png)
 
-    ### Reto 1
-
-    - Con los ejemplos anteriores construye el modelo ER de adoptapet
-    - Construye el modelo relacional conceptual de adoptapet. No olvides la cardinalidad en las relaciones, llaves primarias y foráneas.
-
     ### Reto 2
 
     - Investiga a detalle las fases del diseño de bases datos relacionales y crea tu propio ejercicio, no olvides ponerle cierta complejidad.
