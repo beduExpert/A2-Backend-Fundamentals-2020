@@ -2,63 +2,24 @@
 	
 ## Reto 2
 
-1. Investiga cuál es el tamaño máximo de un documento que se puede almacenar en MongoDB.
-2. Crea un modelo embebido si es el caso para Adoptapet.
-3. Crea un modelo referencial si es el caso para Adoptapet.
-4. Escribe porqué y cuál sería la mejor opción para crear un modelo para implementar la base de datos Adoptapet.
+Conéctate al cluster con MongoDB Shell sigue los pasos ya explicados.
 
-Puedes basarte en los ejemplos explicados anteriormente para crear los modelos
+Utiliza el comando que ya hemos utilizado anteriormente:
 
-**Modelo Referencial**
-
-```json
-{
-   "name": "O'Reilly Media",
-   "founded": 1980,
-   "location": "CA",
-
-   "books": [123456789, 234567890, ...]
-
-}
-
-{
-    "_id": 123456789,
-    "title": "MongoDB: The Definitive Guide",
-    "author": [ "Kristina Chodorow", "Mike Dirolf" ],
-    "published_date": ISODate("2010-09-24"),
-    "pages": 216,
-    "language": "English"
-}
-
-{
-   "_id": 234567890,
-   "title": "50 Tips and Tricks for MongoDB Developer",
-   "author": "Kristina Chodorow",
-   "published_date": ISODate("2011-05-06"),
-   "pages": 68,
-   "language": "English"
-}
+```bash
+mongo "mongodb+srv://<cluster>/<bd>" --username <nombre_usuario>
 ```
 
-**Modelo Embebido**
-
-```json
-{
-   "_id": "joe",
-   "name": "Joe Bookreader",
-   "addresses": [
-                {
-                  "street": "123 Fake Street",
-                  "city": "Faketon",
-                  "state": "MA",
-                  "zip": "12345"
-                },
-                {
-                  "street": "1 Some Other Street",
-                  "city": "Boston",
-                  "state": "MA",
-                  "zip": "12345"
-                }
-              ]
- }
+```bash
+MongoDB shell version v4.2.0
+Enter password:
+connecting to: mongodb://cluster...
+2020-07-20T17:53:54.133-0500 I  NETWORK  [js] 
+2020-07-20T17:53:54.133-0500 I  CONNPOOL 
+2020-07-20T17:53:54.133-0500 I  CONNPOOL 
+2020-07-20T17:53:54.133-0500 I  CONNPOOL 
+2020-07-20T17:53:54.583-0500 I  NETWORK
+Implicit session: session { "id" : UUID("33bdb...") }
+MongoDB server version: 4.2.8
+MongoDB Enterprise Cluster0-shard-0:PRIMARY>
 ```
