@@ -97,8 +97,26 @@ El modelo entidad-relación se basa en los conceptos: entidad, tipo de entidad, 
 
     ![img/Screen_Shot_2020-06-14_at_21.23.16.png](img/Screen_Shot_2020-06-14_at_21.23.16.png)
 
-    ### Reto 2
+ 
+ ### Reto 1
 
-    - Investiga a detalle las fases del diseño de bases datos relacionales y crea tu propio ejercicio, no olvides ponerle cierta complejidad.
+  - Con los ejemplos anteriores construye el modelo ER de adoptapet
+  - Construye el modelo relacional conceptual de adoptapet. No olvides la cardinalidad en las relaciones, llaves primarias y foráneas.
+  Puedes basarte en el ejercicio visto en el ejemplo anterior
 
-        Las fases del diseño de bases de datos relacionales son: Análisis de requisitos, diseño conceptual, elección de un SGBD, diseño lógico, diseño físico, uso y mantenimiento.
+    #### Modelo ER
+
+      <img width="694" alt="Screen_Shot_2020-07-16_at_20 00 08" src="https://user-images.githubusercontent.com/13757596/87999488-9d4fb680-cac0-11ea-8da3-28e61b92207d.png">
+
+    #### Modelo Relacional
+
+    <img width="671" alt="Screen_Shot_2020-07-16_at_20 20 08" src="https://user-images.githubusercontent.com/13757596/87999490-a17bd400-cac0-11ea-9e18-69c6008c3503.png">
+
+
+  ### Reto 2
+
+  - Investiga a detalle las fases del diseño de bases datos relacionales y crea tu propio ejercicio, no olvides ponerle cierta complejidad.
+
+     :bulb: Las fases del diseño de bases de datos relacionales son: Análisis de requisitos, diseño conceptual, elección de un SGBD, diseño lógico, diseño físico, uso y mantenimiento.
+     
+  ![de248-fasesdedisenobd (1)](https://user-images.githubusercontent.com/13757596/87999687-40083500-cac1-11ea-8afe-a065ecf15f09.png)
