@@ -5,12 +5,12 @@
 1. Con tu servidor corriendo vuelve a ejecutar las siguientes peticiones con [insomnia](https://insomnia.rest/download/) o [postman](https://www.postman.com/product/api-client/)
     - GET [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
     - POST [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
-    - PUT [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)/42
-    - DELETE [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)/42
+    - PUT [http://localhost:3000/v1/usuarios/42](http://localhost:3000/v1/usuarios/42)
+    - DELETE [http://localhost:3000/v1/usuarios/42](http://localhost:3000/v1/usuarios/42)
 
-    Analiza las respuestas y que es lo que está sucediendo en cada caso.
+    Analiza las respuestas y qué es lo que está sucediendo en cada caso.
 
-2. Ahora ejecuta estás peticiones y observa que es lo que sucede
+2. Ahora ejecuta estas peticiones y observa qué es lo que sucede
     - PUT [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
     - DELETE [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
 
