@@ -46,7 +46,7 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
     npm install express body-parser cors
     ```
 
-4. Instalar nodemon de manera global
+1. Instalar nodemon de manera global
 
     ```bash
     npm install -g nodemon
@@ -56,14 +56,14 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
 
     Nota: Si tienes problemas con permisos de instalación, intenta ejecutando el comando con `sudo`
 
-5. Agregar la siguientes dos líneas dentro del objeto "scripts" del archivo `package.json`:
+1. Agregar la siguientes dos líneas dentro del objeto "scripts" del archivo `package.json`:
 
     ```bash
     "start": "node ./app.js",
     "dev": "nodemon ./app.js",
     ```
 
-6. Verifica que tu archivo `package.json` luzca similar a esto:
+1. Verifica que tu archivo `package.json` luzca similar a esto:
 
     ```json
     {
@@ -89,7 +89,7 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
 
     Aquí estarán instaladas las dependencias de nuestro proyecto.
 
-7. Ahora editaremos el archivo `app.js` con el siguiente código:
+1. Ahora editaremos el archivo `app.js` con el siguiente código:
 
     ```jsx
     var express = require('express'),
@@ -117,6 +117,6 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
     });
     ```
 
-8. Ingresaremos el comando `npm run dev` y si la configuración es correcta se ejecutará nodemon y veremos algo como esto en nuestra terminal:
+1. Ingresaremos el comando `npm run dev` y si la configuración es correcta se ejecutará nodemon y veremos algo como esto en nuestra terminal:
 
     ![img/Untitled.png](img/Untitled.png)
