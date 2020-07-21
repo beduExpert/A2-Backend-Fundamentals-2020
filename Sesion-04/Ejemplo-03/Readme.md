@@ -39,7 +39,7 @@ module.exports = Mascota;
 // Usuario.js
 /** Clase que representa a un usuario de la plataforma*/
 class Usuario {
-  constructor(id, username, nombre, apellido, email, password, ubicacion, telefono, bio, tipo) {
+  constructor(id, username, nombre, apellido, email, password, ubicacion, telefono, bio, fotos, tipo) {
     this.id = id;
     this.username = username;
     this.nombre = nombre;
@@ -98,7 +98,7 @@ function crearUsuario(req, res) {
 function obtenerUsuarios(req, res) {
   // Simulando dos usuarios y respondiendolos
   var usuario1 = new Usuario(1, 'Juan', 'Vega', 'juan@vega.com')
-  var usuario1 = new Usuario(2, 'Monserrat', 'Vega', 'mon@vega.com')
+  var usuario2 = new Usuario(2, 'Monserrat', 'Vega', 'mon@vega.com')
   res.send([usuario1, usuario2])
 }
 
@@ -126,9 +126,9 @@ En el código anterior jugamos con las clases de Javascript para simular el comp
 
 Es importante entender los dos argumentos de nuestras funciones, (req y res).
 
-El objeto [Request (req)](http://expressjs.com/es/4x/api.html#req) contiene un gran número de propiedades referentes a la petición HTTP como los parámetros, los *headers,* el cuerpo de la petición, y más.
+El objeto [Request (req)](http://expressjs.com/es/4x/api.html#req) contiene un gran número de propiedades referentes a la petición HTTP como los parámetros, los *headers,* el cuerpo de la petición y más.
 
-[Response (res)](http://expressjs.com/es/4x/api.html#res) es el objeto que utilizamos para componer la respuesta que enviaremos  con el método send.
+[Response (res)](http://expressjs.com/es/4x/api.html#res) es el objeto que utilizamos para componer la respuesta que enviaremos  con el método *send*.
 
 5. Modificaremos el archivo `routes/usuarios.js` con la siguiente estructura:
 
@@ -152,24 +152,6 @@ module.exports = router;
 
 Lo que aquí sucedió es que hemos externalizado el código de nuestro router a funciones independientes en nuestra carpeta de controladores.
 
-## Reto 3
-
-Con tu servidor corriendo vuelve a ejecutar las siguientes peticiones con insomnia o postman
-
-- GET [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
-- POST [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)
-- PUT [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)/42
-- DELETE [http://localhost:3000/v1/usuarios](http://localhost:3000/v1/usuarios)/42
-
-Analiza las respuestas y que es lo que sucede en cada caso.
-
-## Reto 4
-
-1. Ahora crea los controladores para las mascotas y las solicitudes con una estructura similar a la anterior.
-2.  Planteando el siguiente escenario responde la pregunta.
-Contemplando que si pides (GET) solicitudes en el endpoint `v1/solicitudes` este nos devolverá un listado de *todas* las solicitudes.
-¿Para obtener únicamente UNA solicitud de adopción que cambios implementarías?
-
 ### Conclusión
 
-Aunque si bien para este caso en particular podríamos seguir trabajando con la lógica de cada *endpoint* dentro del archivo `routes/usuarios.js` cuando los proyectos van creciendo, es conveniente modularizar nuestro código, y una manera de hacerlo es externalizando funciones en los controladores.
+Aunque para este caso en particular podríamos seguir trabajando con la lógica de cada *endpoint* dentro del archivo `routes/usuarios.js` cuando los proyectos van creciendo, es conveniente modularizar nuestro código, y una manera de hacerlo es externalizando funciones en los controladores.
