@@ -22,7 +22,7 @@ Los requerimientos a grandes rasgos para este sistema son los siguientes:
 
 - Publicar anuncios de mascotas en adopción
 - Visualizar las mascotas que están en adopción
-- Permitir a los usuarios interesados en adoptar una mascota registrarse y poder enviar solicitudes de adopción
+- Permitir a los usuarios interesados en adoptar registrarse y poder enviar solicitudes de adopción
 - Permitir a los cuidadores evaluar solicitudes y confirmar una adopción
 
 ### 2. Creando User Stories
@@ -37,5 +37,5 @@ Y son utilizadas por varias metodologías para poder comprender mejor los requer
 
 **Ejemplo:**
 
-**Cómo usuario de adoptaPet quiero ver a todas las mascotas que hay en adopción para poder elegir la que más me guste.**
+**Como usuario de adoptaPet quiero ver a todas las mascotas que hay en adopción para poder elegir la que más me guste.**
 <img src="img/PostItHistoriaUsuario.png" alt="PostItHistoriaUsuario"  height="250" width="250" > 
