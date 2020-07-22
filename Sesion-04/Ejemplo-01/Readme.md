@@ -14,16 +14,16 @@ Se recomienda tener NodeJS LTS instalado y funcionando correctamente. También e
 
 Una API es un conjunto de funciones y procedimientos que cumplen una o varias funciones con el fin de ser utilizadas por otro *software.* Las siglas API vienen del inglés *Application Programming Interface.* En español sería Interfaz de Programación de Aplicaciones.
 
-REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo de arquitectura pensada para sistemas dedicados a la distribución de *hypermedia.* REST cuenta con los siguientes principios:
+REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo de arquitectura pensada para sistemas dedicados a la distribución de *hypermedia*. REST cuenta con los siguientes principios:
 
 - Protocolo cliente/servidor sin estado.
 - Los objetos en REST siempre se manipulan a partir de la URI.
 - Acciones concretas (POST, GET, PUT y DELETE) para la transferencia de datos.
-- Uso de hipermedios para la comunicación. Para este caso en específico utilizaremos JSON cómo el hipermedio para enviar respuestas y recibir peticiones de objetos.
+- Uso de hipermedios para la comunicación. Para este caso en específico utilizaremos JSON como el hipermedio para enviar respuestas y recibir peticiones de objetos.
 
 ## Preparando nuestro entorno de desarrollo
 
-0. Si aún no tienes NodeJS debes descargarlo desde su [sitio oficial](https://nodejs.org/en/download/) e instalarlo
+1. Si aún no tienes NodeJS debes descargarlo desde su [sitio oficial](https://nodejs.org/en/download/) e instalarlo
 
 1. Crearemos una nueva carpeta llamada `adoptapet-api` con la siguiente estructura:
 
@@ -39,14 +39,14 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
 
     app.js
 
-2. Nos posicionaremos en esa carpeta e Iniciaremos un nuevo proyecto con el comando `npm init -y`
-3. Ejecutaremos el siguiente código 
+1. Nos posicionaremos en esa carpeta e iniciaremos un nuevo proyecto con el comando `npm init -y`
+1. Ejecutaremos el siguiente código 
 
     ```bash
     npm install express body-parser cors
     ```
 
-4. Instalar nodemon de manera global
+1. Instalar nodemon de manera global
 
     ```bash
     npm install -g nodemon
@@ -56,14 +56,14 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
 
     Nota: Si tienes problemas con permisos de instalación, intenta ejecutando el comando con `sudo`
 
-5. Agregar la siguientes dos líneas dentro del objeto "scripts" del archivo `package.json`:
+1. Agregar la siguientes dos líneas dentro del objeto "scripts" del archivo `package.json`:
 
     ```bash
-    		"start": "node ./app.js",
-    		"dev": "nodemon ./app.js",
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
     ```
 
-6. Verifica que tu archivo `package.json` luzca similar a esto:
+1. Verifica que tu archivo `package.json` luzca similar a esto:
 
     ```json
     {
@@ -72,8 +72,8 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
       "description": "",
       "main": "index.js",
       "scripts": {
-    		"start": "node ./app.js",
-    		"dev": "nodemon ./app.js",
+        "start": "node ./app.js",
+        "dev": "nodemon ./app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
       },
       "keywords": [],
@@ -89,7 +89,7 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
 
     Aquí estarán instaladas las dependencias de nuestro proyecto.
 
-7. Ahora editaremos el archivo `app.js` con el siguiente código:
+1. Ahora editaremos el archivo `app.js` con el siguiente código:
 
     ```jsx
     var express = require('express'),
@@ -117,6 +117,6 @@ REST es un acrónimo para **RE**presentational **S**tate **T**ransfer, un estilo
     });
     ```
 
-8. Ingresaremos el comando `npm run dev` y si la configuración es correcta se ejecutará nodemon y veremos algo cómo esto en nuestra terminal:
+1. Ingresaremos el comando `npm run dev` y si la configuración es correcta se ejecutará nodemon y veremos algo como esto en nuestra terminal:
 
     ![img/Untitled.png](img/Untitled.png)
