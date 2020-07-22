@@ -2,9 +2,9 @@
 	
 ### Reto 3
 
-Pobla la base de datos *restaurante* y práctica consultas avanzadas para mejorar tu habilidad con SQL.
+Pobla la base de datos *restaurante* y practica consultas avanzadas para mejorar tu habilidad con SQL.
 
-:bulb: Tip: Manipula datos entre varias tablas.
+> 💡 Tip: Manipula datos entre varias tablas.
 
 Para hacer consultas entre distintas tablas puedes utilizar la sentencia join la siguiente página web contiene ejemplos utilizando diferentes tipos de uniones, además, verás una tabla dinámica de cómo se visualiza cada consulta:
 

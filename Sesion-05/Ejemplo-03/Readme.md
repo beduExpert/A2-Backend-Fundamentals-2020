@@ -6,7 +6,7 @@ Comprender los fundamentos del lenguaje SQL y ejecutar consultas a la DB.
 
 ## Requerimientos
 
-Haber completado la instalación y configuración de MySQL
+Haber completado la instalación y configuración de MySQL.
 
 ## Desarrollo
 
@@ -491,13 +491,3 @@ into_option: {
 Y encontramos esta información en la documentación de MySQL:
 
 [MySQL :: MySQL 8.0 Reference Manual :: 13.2.10 SELECT Statement](https://dev.mysql.com/doc/refman/8.0/en/select.html)
-
-### Reto 3
-
-Pobla la base de datos *restaurante* y práctica consultas avanzadas para mejorar tu habilidad con SQL.
-
-Tip: Manipula datos entre varias tablas.
-
-### Reto 4
-
-Crea la base de datos en SQL para Adoptapet.
