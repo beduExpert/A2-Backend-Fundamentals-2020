@@ -2,12 +2,12 @@
 
 # Navegación (File system)
 
-Para navegar en nuestro sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
+Para navegar en el sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
 
 
 ## `ls`
 
-lista el contenido del directorio dónde estamos posicionados.
+Lista el contenido del directorio dónde estamos posicionados.
 
 ![1](img/ls.png)
 
@@ -23,7 +23,10 @@ Nos permite posicionarnos en una ruta en específico, o *entrar* en una carpeta.
 >
 >Para volver volver atrás en una ruta utilizamos `cd ..`
 >
+>Explicar la diferencia entre rutas relativas y rutas absolutas.
+>
 >En windows los comandos tienen diversas variaciones. Si tienes problemas basta con googlear para buscar su equivalente.
+>
 
 ## `mkdir`
 
@@ -32,10 +35,6 @@ Crea una nueva carpeta.
 **Sintaxis básica:** `mkdir [nombre carpeta]`
 
 ![2](img/mkdir.png)
-
-## `rm`
-
-eliminar archivos/directorios
 
 ## `touch`
 
