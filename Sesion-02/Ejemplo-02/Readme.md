@@ -22,7 +22,7 @@ El experto debe proveer la dirección del servidor y el archivo de la llave con 
 
 Ejecutaremos el comando `chmod`
 
-`sudo chmod 600`
+`sudo chmod 400`
 
 ![img/Untitled%201.png](img/Untitled%201.png)
 
@@ -35,10 +35,10 @@ Ejecutaremos el comando `chmod`
 **Ejemplo:**
 
 ```bash
-ssh -i ./ec2-bedu-bkfun.pem [ubuntu@ec2-52-43-163-239.us-west-2.compute.amazonaws.com](mailto:ubuntu@ec2-52-43-163-239.us-west-2.compute.amazonaws.com)
+ssh -i ./ec2-bedu-bkfun.pem ubuntu@ec2-52-43-163-239.us-west-2.compute.amazonaws.com
 ```
 
-Si todo salió bien podremos ver algo cómo esto
+Si todo salió bien podremos ver algo como esto
 
 ![img/Screen_Shot_2020-04-06_at_18.00.01.png](img/Screen_Shot_2020-04-06_at_18.00.01.png)
 
