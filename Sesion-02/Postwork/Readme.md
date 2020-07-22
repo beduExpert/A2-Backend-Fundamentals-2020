@@ -39,7 +39,7 @@ Si queremos subir el archivo **`archivo.txt`** de nuestro ordenador a la carpe
 scp archivo.txt usuario@dominio.com:/home/usuario
 ```
 
-si queremos copiar un archivo del servidor a nuestro 
+si queremos copiar un archivo del servidor a nuestro ordenador
 
 ```bash
 scp usuario@dominio.com:/home/usuario/archivo.txt Documentos
@@ -62,7 +62,7 @@ Si contamos con archivo de identidad (llave privada) tenemos que utilizar la opc
 Ejemplo:
 
 ```
-scp -i llaves/llave_host2.pem /home/bedu/proyecto ubuntu@18.209.88.100:/home/usuario
+scp -i llaves/llave_host2.pem /home/bedu/proyecto/archivo.txt ubuntu@18.209.88.100:/home/usuario
 ```
 
 ### FTP (File Transfer Protocol)
