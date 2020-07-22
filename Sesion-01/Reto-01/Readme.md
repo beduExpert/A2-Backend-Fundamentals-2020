@@ -15,7 +15,7 @@ Documents/
    └── README.md
    └── hola.sh
    └──📂src/
-      └── incicio.sh
+      └── inicio.sh
       └── main.js
 ```
 
