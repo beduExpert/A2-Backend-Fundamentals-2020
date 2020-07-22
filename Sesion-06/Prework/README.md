@@ -6,11 +6,11 @@ Conocer los fundamentos de las bases de datos no relacionales
 
 ## Instrucciones
 
-Ve el siguiente vídeo y lee los artículos, posteriormente contestar el cuestionario adjunto.
+Ve el siguiente vídeo y lee los artículos, posteriormente contesta el cuestionario adjunto.
 
 ## Desarrollo
 
-# ¿SQL vs NoSQL ¿Cuál debo usar?
+# SQL vs NoSQL ¿Cuál debo usar?
 
 ![sqlVSnosql](https://cdn.website-editor.net/192387ccd8824fdcac0b5ed96f855ec3/dms3rep/multi/nosql-vs-sql-overview-1.png)
 
@@ -23,7 +23,7 @@ La diferencia conceptual entre SQL y NoSQL, es que resuelven escenarios completa
 SQL permite combinar de forma eficiente diferentes tablas para extraer información relacionada, mientras que NoSQL no lo permite o muy limitadamente.
 
 NoSQL permite distribuir grandes cantidades de información; mientras que SQL facilita distribuir bases de datos relacionales.
-SQL permite gestionar los datos junto con las relaciones existentes entre ellos; en NoSQL no existe este tipo de utilidades.
+SQL permite gestionar los datos junto con las relaciones existentes entre ellos, en NoSQL no existe este tipo de utilidades.
 
 NoSQL permite un escalado horizontal sin problemas  por su capacidad de distribución; mientras que escalar SQL resulta más complicado.
 
@@ -33,23 +33,23 @@ No existe una respuesta concreta, porque se presume que cualquier cosa que se de
 
 En la mayoría de las opiniones, una base de datos relacional puede ser usada los siguientes ámbitos:
 
-Educación: para estructurar información, y aportar conocimiento lógico al estudiante.
-Desarrollos web: para mantener jerarquía de datos, siempre y cuando la capacidad de concurrencia, almacenamiento y mantenimiento no sean de considerable dificultad y la información sea consistente .
++ **Educación:** para estructurar información y aportar conocimiento lógico al estudiante.
++ **Desarrollos web:** para mantener jerarquía de datos, siempre y cuando la capacidad de concurrencia, almacenamiento y mantenimiento no sean de considerable dificultad y la información sea consistente .
 + **Negocios:** inteligencia y análisis de negocios, son temas que requieren el uso de SQL para facilitar el consumo de la información y la identificación de patrones en los datos.
 + **Empresarial:** porque tanto el software a la medida y el software empresarial, poseen la característica de mantener información con estructura consistente .
 
 ## Desventajas
 
-+ **Menos flexibilidad:** hay que planificar con tiempo el esquema ya que luego es más complicado actualizarlo.
-+ **El uso de relaciones** puede conllevar consultas JOIN complejas.
++ **Menos flexibilidad:** Hay que planificar con tiempo el esquema ya que luego es más complicado actualizarlo.
++ **El uso de relaciones** Puede conllevar consultas JOIN complejas.
 A veces el escalado horizontal se torna demasiado complicado.
 
 ## ¿CUÁNDO USAR NOSQL?
 
 Básicamente se utilizan en:
 
-+ **Redes sociales:** casi obligatorio.
-+ **Desarrollo Web:** debido a la poca uniformidad de la información que se encuentra en Internet; aun cuando también puede emplearse SQL.
++ **Redes sociales:** Casi obligatorio.
++ **Desarrollo Web:** Debido a la poca uniformidad de la información que se encuentra en Internet; aun cuando también puede emplearse SQL.
 + **Desarrollo Móvil:** Debido a la tendencia  en crecimiento de Bring Your Own Device.
 + **BigData:** Debido a la administración de grandísimas cantidades de información y su evidente heterogeneida.
 + **Cloud (XaaS):** “Everything as a service”; NoSQL puede adaptarse casi a cualquier necesidad del cliente, y sus particularidades.
@@ -65,12 +65,12 @@ Alta posibilidad de tener **datos duplicados.**
 
 ## Quiz
 
-¿Una BD relacional puede ser NoSQL?
+1. ¿Una BD relacional puede ser NoSQL?
 
-¿Cuáles son las principales características que ofrece las BD NoSQL?
+1. ¿Cuáles son las principales características que ofrecen las BD NoSQL?
 
-¿Cuáles son los tipos de BD NoSQL? Crea un esquema si consideras necesario que te ayude a identificar cada tipo.
+1. ¿Cuáles son los tipos de BD NoSQL? Crea un esquema, si consideras necesario, que te ayude a identificar cada tipo.
 
-Si tuvieras que implementar un BD donde la velocidad de lectura y escritura es lo primordial ¿Ocuparías SQL o NoSQL? Justifica tu respuesta.
+1. Si tuvieras que implementar una BD donde la velocidad de lectura y escritura es lo primordial ¿ocuparías SQL o NoSQL? Justifica tu respuesta.
 
-Explica cómo funciona la atomicidad en las BD NoSQL.
+1. Explica cómo funciona la atomicidad en las BD NoSQL.
