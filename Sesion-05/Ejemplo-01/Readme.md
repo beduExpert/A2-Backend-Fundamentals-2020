@@ -6,7 +6,7 @@ Comprender que es una base de datos relacional e instalar un sevidor de bases de
 
 ## Requerimientos
 
-Contar con almacenamiento suficiente y conexión a internet para instalar MySQL
+Contar con almacenamiento suficiente y conexión a internet para instalar MySQL.
 
 ## Desarrollo
 
@@ -16,7 +16,7 @@ El término base de datos se remonta a 1963. Una base de datos se puede definir 
 
 **¿Qué es un base de datos relacional?**
 
-Son bases de datos que almacenan información relacionandola por medio de tablas con columnas para la definición de atributos y filas para definir valores dónde cada tabla represente a una entidad u objeto y cada columna a un atributo de esta entidad. Por lo general cada dato de una tabla cuenta con un identificador único, con el cual puede relacionarse con uno o más datos.
+Son bases de datos que almacenan información relacionándola por medio de tablas con columnas para la definición de atributos y filas para definir valores donde cada tabla represente a una entidad u objeto y cada columna a un atributo de esta entidad. Por lo general cada dato de una tabla cuenta con un identificador único, con el cual puede relacionarse con uno o más datos.
 
 Los fundamentos de las bases de datos relacionales son la teoría de conjuntos.
 
@@ -42,7 +42,7 @@ Para asegurar que esté instalado ejecuta
 sudo mysql
 ```
 
-Y deberás ver una interfaz cómo esta
+Y deberás ver una interfaz como esta
 
 ![img/Screen_Shot_2020-06-08_at_6.58.16.png](img/Screen_Shot_2020-06-08_at_6.58.16.png)
 
@@ -54,10 +54,10 @@ Si tienes [docker](https://docs.docker.com/engine/install/) instalado puedes eje
 $ docker run -d -p 33060:3306 --name=mysql-db -e MYSQL_ROOT_PASSWORD=secret mysql
 ```
 
-- **-d**: Deatached Mode es la forma en que indicamos que corra en background.
-- **-p** : puerto, el contenedor corre en el puerto 3306 pero hacemos un *bind* para que lo escuchemos en Host el puerto 33061.
-- **–name** : para no tener que hacer referencia al hash le asignamos un nombre.
-- **-e** : environment le asignamos **la contraseña**.
+- **-d**: Detached Mode es la forma en que indicamos que corra en segundo plano.
+- **-p** : Puerto, el contenedor corre en el puerto 3306 pero hacemos un *bind* para que lo escuchemos en Host el puerto 33061.
+- **–name** : Para no tener que hacer referencia al hash le asignamos un nombre.
+- **-e** : Environment le asignamos **la contraseña**.
 
 Entra a Mysql con el siguiente comando:
 
@@ -68,8 +68,5 @@ docker exec -it mysql-db mysql -p
 ### Instalación en MacOS
 
 1. Dirígete al siguiente [link para descargar MySQL server](https://dev.mysql.com/downloads/mysql/)
-2. Selecciona tu sistema operativo y descarga el archivo .dmg 
-
-    Para instalar de esta manera tal vez sea necesario crear una cuenta en Oracle.
-
-3. Ejecuta el .dmg y sigue los pasos
+2. Selecciona tu sistema operativo y descarga el archivo `.dmg`. Para instalar de esta manera tal vez sea necesario crear una cuenta en Oracle.
+3. Ejecuta el `.dmg` y sigue los pasos.
