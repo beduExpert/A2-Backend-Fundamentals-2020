@@ -12,7 +12,7 @@ Leer el siguiente material
 
 ### Funciones y Procedimientos Almacenados
 
-**Articulo 1**
+**Artículo 1**
 
 [Cómo crear y usar una función almacenada MySQL](https://www.neoguias.com/funciones-almacenadas-mysql/)
 
@@ -22,13 +22,13 @@ Articulo 2
 
 ### Seguridad
 
-Es importante mantener la seguridad en las bases de datos de lo intentos por robar o modificar datos ya que el impacto puede ser catastrofico. La seguridad en la bases de datos se resumen a autorizaciones de lectura, actualización, eliminación, inserción de los datos, por ello, la administración de usuarios, grupos y roles será fundamental.Los SGBD tienen definida la clausula *GRANT* que permitirá conceder o revocar privilegios específicos a usuarios, grupos o roles.
+Es importante mantener la seguridad en las bases de datos de lo intentos por robar o modificar datos ya que el impacto puede ser catastrófico. La seguridad en la bases de datos se resumen a autorizaciones de lectura, actualización, eliminación, inserción de los datos, por ello, la administración de usuarios, grupos y roles será fundamental. Los SGBD tienen definida la cláusula *GRANT* que permitirá conceder o revocar privilegios específicos a usuarios, grupos o roles.
 
-**Articulo**
+**Artículo**
 
-[](https://codigofacilito.com/articulos/asignar-permisos-mysql)
+[Asignar permisos en SQL](https://codigofacilito.com/articulos/asignar-permisos-mysql)
 
-Pero más allá de diseñar un control de acceso de la bases de datos, es fundamental la creación de un plan de contingencia que incluye la creación de *backups.*
+Pero más allá de diseñar un control de acceso de la bases de datos, es fundamental la creación de un plan de contingencia que incluye la creación de *backups*.
 
 La seguridad de las bases de datos no solamente es a nivel BD, también debe ser a nivel de red, nivel de sistema operativo, seguridad incluso a nivel humano.
 
