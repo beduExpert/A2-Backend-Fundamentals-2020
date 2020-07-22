@@ -53,11 +53,10 @@ Utilizar el servidor remoto al que hemos accesado con los comandos aprendidos de
 
 `sudo mv daniel-garcia.html /var/www/html/`
 
-6. Si todo ha salido bien **pediremos la url** pública de nuestro servidor, entraremos a ella agregando el nombre de nuestro archivo a la ruta y veremos el
-[**resultado**](http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html)
+6. Si todo ha salido bien **pediremos la url** pública de nuestro servidor, entraremos a ella agregando el nombre de nuestro archivo a la ruta y veremos el [**resultado**](http://ec2-52-43-163-239.us-west-2.compute.amazonaws.com/daniel-garcia.html)
 
-Esto **renderizará** nuestro archivo **html**
+Esto renderizará nuestro archivo html.
 
 ![img/Untitled%202.png](img/Untitled%202.png)
 
-Para salir del servidor y cerrar la conexión ejecutaremos el comando `exit`
+Para salir del servidor y cerrar la conexión ejecutaremos el comando `exit`.
