@@ -10,7 +10,7 @@ Conexión a internet
 
 ## Desarrollo
 
-MongoDB es una base de datos NoSQL y orientada a documentos, por lo que, los datos se almacenan como documentos, estos documentos se almacenan en formato JSON
+MongoDB es una base de datos NoSQL y orientada a documentos, por lo que, los datos se almacenan como documentos, estos documentos se almacenan en formato JSON.
 
 Veamos un ejemplo muy gráfico:
 
@@ -26,11 +26,11 @@ Los documentos en MongoDB están compuesto por pares de campo y valor con la sig
 
 ```json
 { 
-   field1 :  value1 , 
-   field2 :  value2 , 
-   field3 :  value3 , 
+   "field1": "value1", 
+   "field2": "value2", 
+   "field3": "value3", 
    ... 
-   fieldN :  valueN 
+   "fieldN":  "valueN"
 }
 ```
 
@@ -66,14 +66,14 @@ Los datos en MongoDB tienen un esquema flexible, los documentos en una colecció
 
         ```json
         {
-           _id: "joe",
-           name: "Joe Bookreader",
-           address: {
-                      street: "123 Fake Street",
-                      city: "Faketon",
-                      state: "MA",
-                      zip: "12345"
-                    }
+           "_id": "joe",
+           "name": "Joe Bookreader",
+           "address": {
+                "street": "123 Fake Street",
+                "city": "Faketon",
+                "state": "MA",
+                "zip": "12345"
+            }
         }
         ```
 
@@ -86,19 +86,19 @@ Los datos en MongoDB tienen un esquema flexible, los documentos en una colecció
            "_id": "joe",
            "name": "Joe Bookreader",
            "addresses": [
-                        {
-                          "street": "123 Fake Street",
-                          "city": "Faketon",
-                          "state": "MA",
-                          "zip": "12345"
-                        },
-                        {
-                          "street": "1 Some Other Street",
-                          "city": "Boston",
-                          "state": "MA",
-                          "zip": "12345"
-                        }
-                      ]
+                {
+                    "street": "123 Fake Street",
+                    "city": "Faketon",
+                    "state": "MA",
+                    "zip": "12345"
+                },
+                {
+                    "street": "1 Some Other Street",
+                    "city": "Boston",
+                    "state": "MA",
+                    "zip": "12345"
+                }
+            ]
          }
         ```
 
@@ -116,30 +116,29 @@ Los datos en MongoDB tienen un esquema flexible, los documentos en una colecció
 
         ```json
         {
-           name: "O'Reilly Media",
-           founded: 1980,
-           location: "CA",
-
-           books: [123456789, 234567890, ...]
+           "name": "O'Reilly Media",
+           "founded": 1980,
+           "location": "CA",
+           "books": [123456789, 234567890, ...]
 
         }
 
         {
-            _id: 123456789,
-            title: "MongoDB: The Definitive Guide",
-            author: [ "Kristina Chodorow", "Mike Dirolf" ],
-            published_date: ISODate("2010-09-24"),
-            pages: 216,
-            language: "English"
+            "_id": 123456789,
+            "title": "MongoDB: The Definitive Guide",
+            "author": [ "Kristina Chodorow", "Mike Dirolf" ],
+            "published_date": ISODate("2010-09-24"),
+            "pages": 216,
+            "language": "English"
         }
 
         {
-           _id: 234567890,
-           title: "50 Tips and Tricks for MongoDB Developer",
-           author: "Kristina Chodorow",
-           published_date: ISODate("2011-05-06"),
-           pages: 68,
-           language: "English"
+           "_id": 234567890,
+           "title": "50 Tips and Tricks for MongoDB Developer",
+           "author": "Kristina Chodorow",
+           "published_date": ISODate("2011-05-06"),
+           "pages": 68,
+           "language": "English"
         }
         ```
 
@@ -265,10 +264,3 @@ Vamos a modelar estos documentos de las formas que ya se explicaron:
             "puntuacion": 3
         }
         ```
-
-## Reto
-
-1. Investiga cuál es el tamaño máximo de un documento que se puede almacenar en MongoDB.
-2. Crea un modelo embebido si es el caso para Adoptapet.
-3. Crea un modelo referencial si es el caso para Adoptapet.
-4. Reflexiona sobre cuál modelo utilizarías para implementar la base de datos Adoptapet.

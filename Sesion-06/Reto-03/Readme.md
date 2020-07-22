@@ -6,9 +6,9 @@
 1. Investiga cuál es el tamaño máximo de un documento que se puede almacenar en MongoDB.
 2. Crea un modelo embebido si es el caso para Adoptapet.
 3. Crea un modelo referencial si es el caso para Adoptapet.
-4. Escribe porqué y cuál sería la mejor opción para crear un modelo para implementar la base de datos Adoptapet.
+4. Escribe por qué y cuál sería la mejor opción para crear un modelo para implementar la base de datos Adoptapet.
 
-Puedes basarte en los ejemplos explicados anteriormente para crear los modelos
+Puedes basarte en los ejemplos explicados anteriormente para crear los modelos.
 
 **Modelo Referencial**
 
@@ -48,18 +48,18 @@ Puedes basarte en los ejemplos explicados anteriormente para crear los modelos
    "_id": "joe",
    "name": "Joe Bookreader",
    "addresses": [
-                {
-                  "street": "123 Fake Street",
-                  "city": "Faketon",
-                  "state": "MA",
-                  "zip": "12345"
-                },
-                {
-                  "street": "1 Some Other Street",
-                  "city": "Boston",
-                  "state": "MA",
-                  "zip": "12345"
-                }
-              ]
+        {
+          "street": "123 Fake Street",
+          "city": "Faketon",
+          "state": "MA",
+          "zip": "12345"
+        },
+        {
+          "street": "1 Some Other Street",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "12345"
+        }
+    ]
  }
 ```
