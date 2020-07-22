@@ -6,7 +6,7 @@ Comprender los fundamentos de las bases de datos y su importancia en los sistema
 
 ## Instrucciones
 
-Ver los siguientes vídeos y posteriormente contestar el cuestionario adjunto.
+Ver los siguientes videos y posteriormente contestar el cuestionario adjunto.
 
 ## Desarrollo
 
@@ -70,7 +70,7 @@ Varios factores pueden guiar su decisión al momento de elegir entre tipos de ba
 
 # ¿Qué es SQL?
 
-![sql](https://cambiodigital-ol.com/wp-content/uploads/2020/02/sql_portada_opt.png)
+<img src="https://cambiodigital-ol.com/wp-content/uploads/2020/02/sql_portada_opt.png" width="500">
 
 El Lenguaje de **Consulta Estructurado** popularmente conocido por sus siglas en inglés como **SQL**, es un tipo de lenguaje de programación que ayuda a solucionar problemas específicos o relacionados con la definición, manipulación e integridad de la información representada por los datos que se almacenan en las bases de datos.
 
@@ -155,7 +155,7 @@ Desde la aparición de los primeros modelos de bases de datos relacionales a com
 
 ## **MySQL:**
 
-![mysql](https://www.dydserveis.com/wp-content/uploads/2019/01/MYSQL.jpg)
+<img src="https://www.dydserveis.com/wp-content/uploads/2019/01/MYSQL.jpg" width="500">
 
 Es el sistema gestor de bases de datos relacional por excelencia y utilizado en la gran parte de las aplicaciones web actuales. Se ofrece bajo licencia GNU/GPL y aunque es posible adquirir una versión licenciada por Oracle (actualmente la empresa responsable de su desarrollo).
 
@@ -169,7 +169,7 @@ Es el sistema gestor de bases de datos relacional por excelencia y utilizado en 
 
 ## **MariaDB:**
 
-![mariadb](https://downloads.mariadb.org/devmedia/images/v2/MariaDB-Foundation-500x500.png?version=782492dca4047c851a115ac32c9ea427f9c79fce)
+<img src="https://downloads.mariadb.org/devmedia/images/v2/MariaDB-Foundation-500x500.png?version=782492dca4047c851a115ac32c9ea427f9c79fce" width="500">
 
 Este sistema de gestión de bases de datos fue en origen un fork o derivación de MySQL debido a los modelos de licencia que Oracle lleva imponiendo a su desarrollo desde la adquisición de Sun Microsystems. Esto hizo que la comunidad moviera sus esfuerzos en la creación de un desarrollo independiente.
 
@@ -182,7 +182,7 @@ Este sistema de gestión de bases de datos fue en origen un fork o derivación d
 
 ## **SQLite:**
 
-![sqlite](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png" width="500">
 
 Utilizada por multitud de aplicaciones en la actualidad se trata de una librería escrita en C que implementa la gestión de un sistema de base de datos sin necesidad de un servidor ni configuraciones. Esto lo hace muy versátil para el desarrollo de pequeñas aplicaciones de software reduciendo significativamente sus requerimientos de hardware.
 
@@ -195,7 +195,7 @@ Utilizada por multitud de aplicaciones en la actualidad se trata de una librerí
 
 ## **PostgreSQL:**
 
-![PostgreSQL](https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2017/10/postgresql.png?width=1200&enable=upscale)
+<img src="https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2017/10/postgresql.png?width=1200&enable=upscale" width="500">
 
 Bajo licencia BSD este sistema de base de datos relacional está orientado a objetos. Esto ofrece a desarrolladores la posibilidad de poder trabajar de un modelo más robusto de gestión de grandes volúmenes de datos.
 
@@ -208,7 +208,7 @@ Bajo licencia BSD este sistema de base de datos relacional está orientado a obj
 
 ## **Microsoft SQL Server:**
 
-![Microsoft SQL Server](https://d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png)
+<img src="https://d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png" width="500">
 
 Es un sistema propietario licenciado por Microsoft y se basa en el lenguaje Transact-SQL, capaz de poner a disposición de muchos usuarios grandes cantidades de datos de manera simultánea.
 
@@ -222,7 +222,7 @@ Es un sistema propietario licenciado por Microsoft y se basa en el lenguaje Tran
 
 ## **Oracle:**
 
-![oracle](https://i1.wp.com/unaaldia.hispasec.com/wp-content/uploads/2019/01/oracle-logo.png?fit=1024%2C559&ssl=1)
+<img src="https://i1.wp.com/unaaldia.hispasec.com/wp-content/uploads/2019/01/oracle-logo.png?fit=1024%2C559&ssl=1" width="500">
 
 Además de MySQL Oracle ofrece su propia gestión de bases de datos para el mundo empresarial. En la actualidad se considera como el más robusto y completo y es utilizado habitualmente en soluciones de banca o en grandes empresas.
 
