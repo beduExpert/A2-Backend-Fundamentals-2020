@@ -6,10 +6,11 @@
 
 1. Listar los permisos actuales de tus archivos
 2. Cambiar los permisos del archivo `index.html` a la estructura `-rwxr-xr--` 
-3. cambiar los permisos del archivo `hola.sh` a la estructura `-rwxrwxrwx`
+3. Cambiar los permisos del archivo `hola.sh` a la estructura `-rwxrwxrwx`
 4. Regresar los archivos a su estructura inicial de permisos
-
-[`Atrás`](../Ejemplo-01)
 
 ![image](https://static.gospelidea.com/uploads/2018/03/chmod.png)
 ![image](https://www.redeszone.net/app/uploads/2017/01/otorgar-permisos-fichero-o-carpeta-linux.png)
+
+
+[`Atrás`](../Ejemplo-01)

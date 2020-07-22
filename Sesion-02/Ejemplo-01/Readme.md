@@ -37,13 +37,11 @@ Para esto necesitamos **autentificarnos cómo usuarios root**
 
 Para iniciar sesión en **ubuntu con usuario root ingresaremos el siguiente comando:**
 
-`su -`
+`su -i` 
 
-seguido de nuestro **password** si este es requerido.
+Seguido de nuestro **password** si éste es requerido.
 
->❗**Cuidado:**
->
->Al estar autenticados cómo usuarios root podemos modificar contaremos con todos los privilegios, así que podremos hacer CUALQUIER modificación al sistema operativo.
+**Cuidado:** Al estar autenticados como usuarios root contaremos con todos los privilegios, así que podremos hacer CUALQUIER modificación al sistema operativo.
 
 >💡 **Nota:**
 >
@@ -53,7 +51,7 @@ seguido de nuestro **password** si este es requerido.
 
 Cada archivo tiene un **tipo de acceso para cada usuario.**
 
-Entraremos a nuestra **carpeta bedu** de los anteriores ejemplo y ejecutaremos el comando:
+Entraremos a nuestra **carpeta bedu** de los ejemplos anteriores y ejecutaremos el comando:
 
 `ls -l`
 
@@ -87,6 +85,10 @@ Si tenemos un archivo **«demo.txt»** y queremos que el propietario del archivo
 ```
 chown juan:clientes demo.txt
 ```
+
+> 💡 **Nota:**
+>
+> Para listar los grupos puedes usar el comando `groups` o para ver los grupos a los que un usuario pertenece puedes usar `groups <nombre_de_usuario>`
 
 ## Cambiando privilegios de un archivo
 
