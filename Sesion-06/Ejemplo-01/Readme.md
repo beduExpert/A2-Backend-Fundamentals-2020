@@ -14,29 +14,29 @@ Crear un servicio de MongoDB en la nube, configurar la conexión de un host remo
 
 ### Creando un cluster en MongoDB Atlas
 
-MongoDB atlas es la manera más rápida
+MongoDB atlas es la manera más rápida.
 
-1. Entra a la siguiente dirección [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas/register) y regístrate 
-2. Elige la opción de crear un "Shared Cluster" de manera gratuita
-3. Aquí puedes dejar las opciones por defecto y continuar al siguiente paso
+1. Entra a la siguiente dirección [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas/register) y regístrate.
+2. Elige la opción de crear un "Shared Cluster" de manera gratuita.
+3. Aquí puedes dejar las opciones por defecto y continuar al siguiente paso.
 
     ![img/Screen_Shot_2020-06-14_at_10.17.13.png](img/Screen_Shot_2020-06-14_at_10.17.13.png)
 
-    Después serás dirigido a una pantalla dónde nos avisarán cuándo el cluster haya sido lanzado
+    Después serás dirigido a una pantalla dónde nos avisarán cuando el cluster haya sido lanzado.
 
 4. Una vez que esté listo presiona el botón de connect que está debajo del nombre de tu cluster. 
 
     ![img/Screen_Shot_2020-06-14_at_10.26.03.png](img/Screen_Shot_2020-06-14_at_10.26.03.png)
 
-    4.1 Añade tu dirección IP para poder hacer peticiones desde tu computadora al cluster. Por seguridad cada que estés en una conexión de internet diferente debes añadir de nuevo tu IP para que solo tú puedas hacer peticiones al clúster.
+    4.1 Añade tu dirección IP para poder hacer peticiones desde tu computadora al cluster. Por seguridad cada que estés en una conexión de internet diferente debes añadir de nuevo tu IP para que sólo tú puedas hacer peticiones al clúster.
 
-    4.2 Crea un usuario y contraseña para administrar atlas
+    4.2 Crea un usuario y contraseña para administrar atlas.
 
-5. Elige tu método de conexión
+5. Elige tu método de conexión.
 
 ### Instalar MongoDB Shell
 
-MongoDB Shell es una interfaz para MongoDB, se puede usar para consultar datos, actualizar datos, así como realizar operaciones administrativas. 
+MongoDB Shell es una interfaz para MongoDB, se puede usar para consultar datos, actualizar datos, así como realizar operaciones administrativas.
 
 **MacOS X**
 
@@ -64,13 +64,13 @@ Prerequisitos:
 
 **Windows**
 
-1. Ir a [MongoDB Download Center](https://www.mongodb.com/try/download/shell) y descargar el archivo para tu sistema operativo
-2. Extraer los archivos del archivo descargado en la ubicación deseada de tu sistema de archivos
+1. Ir a [MongoDB Download Center](https://www.mongodb.com/try/download/shell) y descargar el archivo para tu sistema operativo.
+2. Extraer los archivos del archivo descargado en la ubicación deseada de tu sistema de archivos.
 3. Agregar una variable de entorno para el binario de MongoDB Shell:
     1. Abrir **Panel de Control.**
     2. En **Sistema y Seguridad** dar clic en **Sistema.**
     3. Clic en **Configuración Avanzada del Sistema**. Luego, **Propiedades del Sistema** en la ventana desplegada.
-    4. Clic en **Variables de Entorno.**
+    4. Clic en **Variables de Entorno**.
     5. En *Variables del sistema*, select **Path** and clic en **Edit**. Luego, **Editar variable de entorno** en la ventana desplegada.
     6. Clic **New** y agrega la ruta del archivo binario **mongosh**.
     7. Clic **Ok** para confirmar los cambios. Luego **Ok** de nuevo.
@@ -120,7 +120,7 @@ Prerequisitos:
 
     ![img/Screen_Shot_2020-06-18_at_11.18.13.png](img/Screen_Shot_2020-06-18_at_11.18.13.png)
 
-Dónde, 
+Donde, 
 
 ```bash
 mongo "mongodb+srv://cluster0-xmea4.mongodb.net/<*dbname*>" --username <*username*>
@@ -131,8 +131,3 @@ mongo "mongodb+srv://cluster0-xmea4.mongodb.net/<*dbname*>" --username <*usernam
 <*username*> : Nombre de usuario 
 
 5. Reemplaza los valores indicados y ejecuta el comando anterior.
-
-### Reto 1
-
-- Crea un cluster en MongoDB Atlas y has la configuración de los pasos anteriores.
-- Conéctate al cluster con MongoDB Shell siguiendo los pasos previamente explicados.

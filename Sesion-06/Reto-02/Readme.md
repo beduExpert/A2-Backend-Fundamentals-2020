@@ -2,7 +2,7 @@
 	
 ## Reto 2
 
-Conéctate al cluster con MongoDB Shell sigue los pasos ya explicados.
+Conéctate al clúster con MongoDB Shell y sigue los pasos ya explicados.
 
 Utiliza el comando que ya hemos utilizado anteriormente:
 
