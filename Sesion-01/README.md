@@ -38,6 +38,6 @@ La consola también conocida como terminal, shell o línea de comandos (Command-
 
 ## 🛡 Postwork
 
-### Mejorando nuestra experiencia con la terminal
+**Mejorando nuestra experiencia con la terminal**
 
 ZSH es una shell que mejora a bash en aspectos como el autocompletado y la navegación entre directorios...[`leer más`](Postwork/#postwork)
