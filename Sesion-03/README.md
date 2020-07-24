@@ -21,7 +21,7 @@
 
 ## :man_technologist: Retos:
 
-- [`Reto 01: Uso Postman o Insomnia`](Reto-01/#reto-1)
+- [`Reto 01: Uso de Postman o Insomnia`](Reto-01/#reto-1)
 
 - [`Reto 02: historias de usuario`](Reto-02/#reto-2)
 
