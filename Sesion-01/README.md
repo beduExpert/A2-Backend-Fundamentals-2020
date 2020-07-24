@@ -14,7 +14,7 @@
 - Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas.
 - Ejecutar los primeros comandos.
 
-### Terminal
+**Terminal**
 
 La consola también conocida como terminal, shell o línea de comandos (Command-line interface) es una de las primeras maneras con las que hemos podido interactuar con una computadora...[`leer mas`](Prework/#prework---terminal)
 
