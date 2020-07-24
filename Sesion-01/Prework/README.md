@@ -1,6 +1,6 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Prework`
 
-# Prework - Termina
+# Prework - Terminal
 
 ## Objetivo
 
