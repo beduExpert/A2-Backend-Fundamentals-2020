@@ -8,6 +8,6 @@ Utiliza Postman o Insomnia para resolver los siguientes puntos:
 2. Modifica el recurso que acabas de crear cambiando el nombre.
 Para esto deberás hacer una petición `PUT` con el id del objeto a modificar cómo se ejemplifica en la [documentación de esta API](https://petstore.swagger.io/#/pet/updatePet):
 
-<img src="../Ejemplo-01/img/Untitled%204.png" width="900">
+<img src=".https://github.com/beduExpert/A2-Backend-Fundamentals-2020/blob/master/Sesion-03/Ejemplo-01/img/Untitled4.png?raw=trueg" width="900">
 
 [`Atrás`](../Ejemplo-01)
