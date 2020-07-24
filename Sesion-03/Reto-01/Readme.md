@@ -1,4 +1,4 @@
-`Backend Fundamentals` > `S3 - Arquitectura de software` 
+[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Arquitectura de software`](../README.md) >[`Ejemplo-01`](../Ejemplo-01) > `Reto 1`
 	
 ## Reto 1
 
@@ -9,3 +9,5 @@ Utiliza Postman o Insomnia para resolver los siguientes puntos:
 Para esto deberás hacer una petición `PUT` con el id del objeto a modificar cómo se ejemplifica en la [documentación de esta API](https://petstore.swagger.io/#/pet/updatePet):
 
 <img src="../Ejemplo-01/img/Untitled%204.png" width="900">
+
+[`Atrás`](../Ejemplo-01)
