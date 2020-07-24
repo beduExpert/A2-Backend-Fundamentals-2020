@@ -10,7 +10,7 @@
 
 **Objetivo:**
 
-- Leer el contenido que se muestra a continuación, se que puede parecer mucha información, pero tienes que comprender las bases y por qué suceden las cosas. nerd_face
+- Leer el contenido que se muestra a continuación, se que puede parecer mucha información, pero tienes que comprender las bases y por qué suceden las cosas.
 - Resolver las preguntas que se encuentran al final del prework.
 
 ## ¿Qué es un servidor?
