@@ -24,6 +24,6 @@
 
 - [`Reto 02: historias de usuario`](Reto-02/#reto-2)
 
-- [`Reto 02: Clases en javascript `](Reto-02/#reto-3)
+- [`Reto 03: Clases en javascript `](Reto-02/#reto-3)
 
 ## :gear: [Postwork](Postwork/#postwork)
