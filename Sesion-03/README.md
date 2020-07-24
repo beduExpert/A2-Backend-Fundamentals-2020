@@ -43,7 +43,7 @@ La arquitectura de software es de especial importancia ya que la manera en que s
 - Familiarizarse con Docker
 - Descargar e instalar imagenes de docker y utilizarlas
 
-## Arquitectura de Microservicios
+**Arquitectura de Microservicios**
 
 La arquitectura de microservicios es un estilo de arquitectura dónde una aplicación es creada por medio de una colección de servicios pequeños que se ejecutan como procesos independientes...[`leer mas`](Postwork/#postwork---arquitectura-de-microservicios)
 
