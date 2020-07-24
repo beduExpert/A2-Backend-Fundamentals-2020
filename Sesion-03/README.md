@@ -37,7 +37,7 @@ La arquitectura de software es de especial importancia ya que la manera en que s
 
 ## :gear: Postwork
 
-**Obetivo**
+**Objetivo**
 
 - Entender las ventajas de una arquitectura basada en microservicios.
 - Familiarizarse con Docker
