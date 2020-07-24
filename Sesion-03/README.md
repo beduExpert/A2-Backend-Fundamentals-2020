@@ -1,11 +1,29 @@
-# Sesión 3 - Arquitectura de software
+# Sesión 03 -  Arquitectura de software
 
-[Prework - Ciclo de desarrollo de la arquitectura](Prework/)
+### Objetivo:
 
-[Arquitectura cliente-servidor](Ejemplo-01/)
+- Gestionar usuarios y permisos de archivos, cómo conectarse, utilizar un servidor remoto por medio de ssh, y a enviar archivos remotamente con SCP.
 
-[AdoptaPet - Iniciando un nuevo proyecto](Ejemplo-02/)
+## Secciones:
 
-[Modelo Vista Controlador](Ejemplo-03/)
+## :hammer_and_wrench: [Prework](Prework/)
 
-[Postwork - Arquitectura de Microservicios](Postwork/)
+
+## :page_facing_up: Ejemplos:
+
+
+- [`Ejemplo 01: Arquitectura cliente-servidor`)](Ejemplo-01/)
+
+- [`Ejemplo 02: AdoptaPet - Iniciando un nuevo proyecto`](Ejemplo-02/)
+
+- [`Ejemplo 03: Modelo Vista Controlador`](Ejemplo-03/)
+
+## :man_technologist: Retos:
+
+- [`Reto 01: Uso Postman o Insomnia`](Reto-01/#reto-1)
+
+- [`Reto 02: historias de usuario`](Reto-02/#reto-2)
+
+- [`Reto 02: Clases en javascript `](Reto-02/#reto-3)
+
+## :gear: [Postwork](Postwork/#postwork)
