@@ -1,24 +1,24 @@
 # Sesión 03 - Arquitectura de software
 
-**Objetivo:**
+🎯 **Objetivo:**
 
 - Gestionar usuarios y permisos de archivos, cómo conectarse, utilizar un servidor remoto por medio de ssh
 - Enviar archivos remotamente con SCP.
 
 ### Secciones:
 
-## :hammer_and_wrench: Prework
+## 🛠 Prework
 
 **Objetivo:**
 
 Conocer y comprender las diferentes etapas del desarrollo de la arquitectura de un sistema o aplicación.
 
-## Ciclo de desarrollo de la arquitectura
+**Ciclo de desarrollo de la arquitectura**
 
 La arquitectura de software es de especial importancia ya que la manera en que se estructura un sistema tiene un impacto directo sobre la capacidad de este para satisfacer lo que se conoce como los atributos de calidad del sistema...[`leer mas`](Prework/#prework---ciclo-de-desarrollo-de-la-arquitectura)
 
 
-## :page_facing_up: Ejemplos:
+## 🕵  Ejemplos:
 
 
 - [`Ejemplo 01: Arquitectura cliente-servidor`](Ejemplo-01/)
@@ -27,7 +27,7 @@ La arquitectura de software es de especial importancia ya que la manera en que s
 
 - [`Ejemplo 03: Modelo Vista Controlador`](Ejemplo-03/)
 
-## :man_technologist: Retos:
+## 💻 Retos:
 
 - [`Reto 01: Uso de Postman o Insomnia`](Reto-01/#reto-1)
 
@@ -35,7 +35,7 @@ La arquitectura de software es de especial importancia ya que la manera en que s
 
 - [`Reto 03: Clases en javascript `](Reto-03/#reto-3)
 
-## :gear: Postwork
+## 🛡 Postwork
 
 **Objetivo**
 
