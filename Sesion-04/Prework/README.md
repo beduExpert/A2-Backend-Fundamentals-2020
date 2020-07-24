@@ -22,7 +22,11 @@ La arquitectura más usada es **REST** y el formato de envío de datos más usad
 
 ### **Interfaz**
 
-Permite que tú puedas consumir los servicios del sistema sin saber "qué hay tras bambalinas". Ejemplo claro es el formulario de Login, en el cual sólo te interesa ingresar mas no saber qué pasa detrás.
+Permite que tú puedas consumir los servicios del sistema sin saber **qué hay tras bambalinas**. 
+
+**Ejemplo:**
+
+- Un formulario de Login, en el cual sólo te interesa ingresar mas no saber qué pasa detrás.
 
 ## **¿Qué es una API?**
 
