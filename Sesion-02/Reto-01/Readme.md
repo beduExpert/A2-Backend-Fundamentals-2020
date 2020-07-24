@@ -9,8 +9,5 @@
 3. Cambiar los permisos del archivo `hola.sh` a la estructura `-rwxrwxrwx`
 4. Regresar los archivos a su estructura inicial de permisos
 
-![image](https://static.gospelidea.com/uploads/2018/03/chmod.png)
-![image](https://www.redeszone.net/app/uploads/2017/01/otorgar-permisos-fichero-o-carpeta-linux.png)
-
-
-[`Atrás`](../Ejemplo-01)
+<img src="https://static.gospelidea.com/uploads/2018/03/chmod.png" width="650">
+<img src="https://www.redeszone.net/app/uploads/2017/01/otorgar-permisos-fichero-o-carpeta-linux.png" width="450">        
