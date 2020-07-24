@@ -17,4 +17,4 @@ Analiza las respuestas y qué es lo que sucede en cada caso.
 
 **Insomnia**
 
-<img src="https://user-images.githubusercontent.com/13757596/87737615-0a9dd780-c7a1-11ea-932e-a28b42d0684e.png" width="500">
+<img src="https://raw.githubusercontent.com/Gabb1995/insomnia-plugin-theme-palenight/master/material-palenight.png" width="600">
