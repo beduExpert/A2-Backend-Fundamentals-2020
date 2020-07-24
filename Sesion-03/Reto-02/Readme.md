@@ -6,4 +6,4 @@ Escribe mínimo **3 historias de usuario** para definir los requerimientos de la
 
 ![https://miro.medium.com/max/2732/1*OXgRHuX1LBXOcWEUL8-oUQ.png](https://miro.medium.com/max/2732/1*OXgRHuX1LBXOcWEUL8-oUQ.png)
 
-[`Atrás`](../Ejemplo-01)
+[`Atrás`](../Ejemplo-02)
