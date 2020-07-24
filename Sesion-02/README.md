@@ -38,7 +38,7 @@ Conocer la terminal y sus principales ventajas con respecto a las interfaces gr�
 
 **Objetivo:**
 
--Aprender a utilizar SCP y conocer FTP cómo protocolo para la transferencia de información a un servidor.
+- Aprender a utilizar SCP y conocer FTP cómo protocolo para la transferencia de información a un servidor.
 
 ## Transferencia de archivos a un servidor (SCP y FTP) 
 
