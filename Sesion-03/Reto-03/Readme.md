@@ -19,7 +19,7 @@ Crea las 3 clases restantes en javascript para representar nuestros modelos. Rec
 >
 >Los [wireframes](https://www.lucidchart.com/pages/es/que-es-un-wireframe-para-un-sitio-web) se catalogan en tres o cuatro tipos, los cuales van desde lo más básico y de baja calidad hasta lo más detallado y con interacciones prediseñadas.
 >
-<img src="https://github.com/beduExpert/A2-Backend-Fundamentals-2020/blob/master/Sesion-03/Ejemplo-03/img/wireframes.png?raw=true" width="650">
+><img src="https://github.com/beduExpert/A2-Backend-Fundamentals-2020/blob/master/Sesion-03/Ejemplo-03/img/wireframes.png?raw=true" width="700">
 >
 >Hablando estrictamente de la implementación en código, es posible entregar todas las vistas desde el backend por medio de funciones que generen y devuelvan al usuario un documento html o también ayudándonos de un motor de plantillas.
 >
