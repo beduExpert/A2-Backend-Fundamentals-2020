@@ -40,4 +40,6 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 - Comprender los conceptos fundamentales de las técnicas para el manejo de sesiones y autenticación en una API.
 
+### Sesiones en una API
+
 Para mantener el control de quién realiza peticiones a nuestra API necesitamos una manera de identificar quién está peticionando...[`leer mas`](Postwork/)
