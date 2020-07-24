@@ -22,7 +22,7 @@ Es un patrón de diseño que separa las partes de nuestra aplicación en tres el
 - **Vista:**  Compone y presenta la información que se envía al cliente y los mecanismos interacción con éste por medio de una interfaz de usuario.
 - **Controlador:** Actúa como un intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
 
-![img/flujo-mvc.png](img/flujo-mvc.png)
+<img src="https://designlopers.com/views/assets/post/Desarrollo_de_aplicaciones_profesionales_en_PHP_y_MVC.png" widrh="350">
 
 ### Flujo MVC
 
