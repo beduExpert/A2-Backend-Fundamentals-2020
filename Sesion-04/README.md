@@ -1,12 +1,12 @@
 # Sesión 4 - API
 
-**Objetivo:**
+🎯**Objetivo:**
 
 - Desarrollar una API REST con endpoints para crear, leer, actualizar y eliminar datos por medio de Express y NodeJS. 
 
 ### Secciones:
 
-## :hammer_and_wrench: Prework
+## 🛠 Prework
 
 **Objetivo:**
 
@@ -16,7 +16,7 @@
 
 Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cómo podrías hacerlo desde cero?** Demandaría muchísimo trabajo y dinero, por eso es mejor utilizar un servicio que ya exista como lo es Google Maps o conectarse a PayPal...[`leer mas`](Prework/#prework---api)
 
-## :page_facing_up: Ejemplos:
+## 🕵 Ejemplos:
 
 [`Ejemplo 1: Fundamentos de una API REST`](Ejemplo-01/)
 
@@ -24,7 +24,7 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 [`Ejemplo 3: Objetos de petición y respuesta de ExpressJS`](Ejemplo-03/)
 
-## :man_technologist: Retos:
+## 💻 Retos:
 
 - [`Reto 01:  Ejecutar peticiones con insomnia o postman`](Reto-01/#reto-1)
 
@@ -34,12 +34,12 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 - [`Reto 03: Crear controladores para mascotas y solicitudes`](Reto-04/#reto-4)
 
-## :hammer_and_wrench: Postwork
+## 🛡 Postwork
 
 **Objetivo:**
 
 - Comprender los conceptos fundamentales de las técnicas para el manejo de sesiones y autenticación en una API.
 
-### Sesiones en una API
+**Sesiones en una API**
 
 Para mantener el control de quién realiza peticiones a nuestra API necesitamos una manera de identificar quién está peticionando...[`leer mas`](Postwork/)
