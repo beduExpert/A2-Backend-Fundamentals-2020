@@ -4,7 +4,7 @@
 
 - Gestionar usuarios y permisos de archivos, cómo conectarse, utilizar un servidor remoto por medio de ssh y enviar archivos remotamente con SCP.
 
-## Secciones:
+### Secciones:
 
 ## :hammer_and_wrench: Prework
 
