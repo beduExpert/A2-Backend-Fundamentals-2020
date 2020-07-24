@@ -7,7 +7,15 @@
 
 ## Secciones:
 
-## :hammer_and_wrench: [Prework](Prework/)
+## :hammer_and_wrench: Prework
+
+**Objetivo:**
+
+Conocer y comprender las diferentes etapas del desarrollo de la arquitectura de un sistema o aplicación.
+
+## Ciclo de desarrollo de la arquitectura
+
+La arquitectura de software es de especial importancia ya que la manera en que se estructura un sistema tiene un impacto directo sobre la capacidad de este para satisfacer lo que se conoce como los atributos de calidad del sistema...[`leer mas`](Prework/)
 
 
 ## :page_facing_up: Ejemplos:
@@ -27,4 +35,16 @@
 
 - [`Reto 03: Clases en javascript `](Reto-03/#reto-3)
 
-## :gear: [Postwork](Postwork/#postwork)
+## :gear: Postwork
+
+**Obetivo**
+
+- Entender las ventajas de una arquitectura basada en microservicios.
+- Familiarizarse con Docker
+- Descargar e instalar imagenes de docker y utilizarlas
+
+## Arquitectura de Microservicios
+
+La arquitectura de microservicios es un estilo de arquitectura dónde una aplicación es creada por medio de una colección de servicios pequeños que se ejecutan como procesos independientes...[`leer mas`](Postwork/#postwork)
+
+
