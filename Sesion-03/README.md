@@ -15,7 +15,7 @@ Conocer y comprender las diferentes etapas del desarrollo de la arquitectura de 
 
 ## Ciclo de desarrollo de la arquitectura
 
-La arquitectura de software es de especial importancia ya que la manera en que se estructura un sistema tiene un impacto directo sobre la capacidad de este para satisfacer lo que se conoce como los atributos de calidad del sistema...[`leer mas`](Prework/)
+La arquitectura de software es de especial importancia ya que la manera en que se estructura un sistema tiene un impacto directo sobre la capacidad de este para satisfacer lo que se conoce como los atributos de calidad del sistema...[`leer mas`](Prework/#prework---ciclo-de-desarrollo-de-la-arquitectura)
 
 
 ## :page_facing_up: Ejemplos:
@@ -45,6 +45,6 @@ La arquitectura de software es de especial importancia ya que la manera en que s
 
 ## Arquitectura de Microservicios
 
-La arquitectura de microservicios es un estilo de arquitectura dónde una aplicación es creada por medio de una colección de servicios pequeños que se ejecutan como procesos independientes...[`leer mas`](Postwork/#postwork)
+La arquitectura de microservicios es un estilo de arquitectura dónde una aplicación es creada por medio de una colección de servicios pequeños que se ejecutan como procesos independientes...[`leer mas`](Postwork/#postwork---arquitectura-de-microservicios)
 
 
