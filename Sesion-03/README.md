@@ -1,11 +1,11 @@
 # Sesión 03 -  Arquitectura de software
 
-### Objetivo:
+**Objetivo:**
 
 - Gestionar usuarios y permisos de archivos, cómo conectarse, utilizar un servidor remoto por medio de ssh
 - Enviar archivos remotamente con SCP.
 
-## Secciones:
+### Secciones:
 
 ## :hammer_and_wrench: Prework
 
