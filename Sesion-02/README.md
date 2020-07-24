@@ -20,6 +20,6 @@
 
 - [`Reto 02: Inicir sesión en una máquina remota`](Reto-02/#reto-2)
 
-- [`Reto 02: Crea tu propio archivo en el servidor`](Reto-03/#reto-3)
+- [`Reto 03: Crea tu propio archivo en el servidor`](Reto-03/#reto-3)
 
 ## :gear: [Postwork: SCP](Postwork/#postwork-transferencia-de-archivos-a-un-servidor-scp-y-ftp)
