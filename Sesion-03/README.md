@@ -12,7 +12,7 @@
 ## :page_facing_up: Ejemplos:
 
 
-- [`Ejemplo 01: Arquitectura cliente-servidor`)](Ejemplo-01/)
+- [`Ejemplo 01: Arquitectura cliente-servidor`](Ejemplo-01/)
 
 - [`Ejemplo 02: AdoptaPet - Iniciando un nuevo proyecto`](Ejemplo-02/)
 
