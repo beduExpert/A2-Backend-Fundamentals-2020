@@ -13,9 +13,9 @@
 - Leer el contenido que se muestra a continuación, se que puede parecer mucha información, pero tienes que comprender las bases y por qué suceden las cosas.
 - Resolver las preguntas que se encuentran al final del prework.
 
-## ¿Qué es un servidor?
+## Diferentes tipos de servidores
 
-El término servidor tiene dos significados en el ámbito informático. El primero hace referencia al ordenador que pone recursos a disposición a través de una red, y el segundo se refiere al programa que funciona en dicho ordenador...[`leer mas`](Prework/#prework---diferentes-tipos-de-servidores)
+Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas. Ejecutar los primeros comandos....[`leer mas`](Prework/#prework---diferentes-tipos-de-servidores)
 
 ## :page_facing_up: Ejemplos:
 
@@ -40,6 +40,6 @@ El término servidor tiene dos significados en el ámbito informático. El prime
 
 -Aprender a utilizar SCP y conocer FTP cómo protocolo para la transferencia de información a un servidor.
 
-## Transferencia de archivos a un servidor (SCP y FTP)
+## Transferencia de archivos a un servidor (SCP y FTP) 
 
 Para transferir archivos de nuestro ordenador a un servidor remoto podemos utilizar diversas opciones. La más simple y parecida a SSH es la herramienta SCP...[`leer mas`](Postwork/#postwork-transferencia-de-archivos-a-un-servidor-scp-y-ftp)
