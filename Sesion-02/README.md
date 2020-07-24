@@ -1,6 +1,6 @@
 # Sesión 2 - Administración de servidores
 
-### Objetivo:
+**Objetivo:**
 
 - Gestionar usuarios y permisos de archivos, cómo conectarse, utilizar un servidor remoto por medio de ssh y enviar archivos remotamente con SCP.
 
