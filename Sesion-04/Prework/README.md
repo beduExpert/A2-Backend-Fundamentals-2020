@@ -101,13 +101,3 @@ Este [artículo](https://bbvaopen4u.com/es/actualidad/api-rest-que-es-y-cuales-s
 ## **Artículo 3**
 
 [JavaScript: ¿Qué demonios es un Callback?](http://developinginspanish.com/2019/03/18/javascript-que-demonios-es-un-callback/)
-
-
-
-## Quiz
-
-1. Si quisieras desarrollar una aplicación utilizando los mapas de google, ¿cómo podrías comenzar?
-2. ¿Cuáles son las operaciones más importantes relacionadas con los datos en un sistema REST?
-3. ¿Cómo identificamos un recurso en REST?
-4. ¿Cuáles son los lenguajes de intercambio de información más comunes que podemos responder en una API REST?
-5. Menciona dos ventajas del uso de REST
