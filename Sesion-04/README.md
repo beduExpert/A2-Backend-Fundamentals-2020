@@ -18,11 +18,11 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 ## 🕵 Ejemplos:
 
-[`Ejemplo 1: Fundamentos de una API REST`](Ejemplo-01/)
+- [`Ejemplo 1: Fundamentos de una API REST`](Ejemplo-01/)
 
-[`Ejemplo 2: Rutas en una API`](Ejemplo-02/)
+- [`Ejemplo 2: Rutas en una API`](Ejemplo-02/)
 
-[`Ejemplo 3: Objetos de petición y respuesta de ExpressJS`](Ejemplo-03/)
+- [`Ejemplo 3: Objetos de petición y respuesta de ExpressJS`](Ejemplo-03/)
 
 ## 💻 Retos:
 
