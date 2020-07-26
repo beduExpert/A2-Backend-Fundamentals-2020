@@ -19,11 +19,11 @@ Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, l
 
 ## 🕵 Ejemplos:
 
-[`Ejemplo 1: Instalar Mongoose y crear nuestro primer modelo para integrar nuestra API`](Ejemplo-01/)
+- [`Ejemplo 1: Instalar Mongoose y crear nuestro primer modelo para integrar nuestra API`](Ejemplo-01/)
 
-[`Ejemplo 2: Crear un nuevo modelo (Mascota) junto con la lógica de sus controladores`](Ejemplo-02/)
+- [`Ejemplo 2: Crear un nuevo modelo (Mascota) junto con la lógica de sus controladores`](Ejemplo-02/)
 
-[`Ejemplo 3: Crear un nuevo modelo (Solicitud) junto con la lógica de sus controladores`](Ejemplo-03/)
+- [`Ejemplo 3: Crear un nuevo modelo (Solicitud) junto con la lógica de sus controladores`](Ejemplo-03/)
 
 ## 💻 Retos:
 
