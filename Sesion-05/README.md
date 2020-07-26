@@ -41,5 +41,3 @@
 **Funciones y Procedimientos Almacenados**
 
 Es importante mantener la seguridad en las bases de datos de lo intentos por robar o modificar datos ya que el impacto puede ser catastrófico...[`leer mas`](Postwork/#postwork)
-
-[Postwork](Postwork/)
