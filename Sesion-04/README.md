@@ -42,4 +42,4 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 **Sesiones en una API**
 
-Para mantener el control de quién realiza peticiones a nuestra API necesitamos una manera de identificar quién está peticionando...[`leer mas`](Postwork/)
+Para mantener el control de quién realiza peticiones a nuestra API necesitamos una manera de identificar quién está peticionando...[`leer mas`](Postwork/#postwork)
