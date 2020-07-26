@@ -2,7 +2,7 @@
 
 Creación de la base de datos en SQL para Adoptapet.
 
->**Nota:**
+>💡 **Nota:**
 >
 >Recuerda la sintaxis para crear una tabla en MySQL
 
