@@ -30,7 +30,7 @@
 
 - [`Reto 03: Consultas avanzadas con SQL`](Reto-03/#reto-3)
 
-- [`Reto 04: Creación de la base de datos en SQL para Adoptapet.`](Reto-03/#reto-3)
+- [`Reto 04: Creación de la base de datos en SQL para Adoptapet.`](Reto-04/#reto-4)
 
 ## 🛡 Postwork
 
