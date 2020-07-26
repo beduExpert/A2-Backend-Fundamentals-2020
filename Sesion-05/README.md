@@ -1,6 +1,6 @@
 # Sesión 5 - Fundamentos de Base de Datos Relacionales(SQL)
 
-🎯**Objetivo:**
+🎯 **Objetivo:**
 
 - Configurar una base de datos relacional, en que casos es conveniente utilizarlas, los fundamentos de los modelos de bases de datos relacionales y el lenguaje SQL.
 
