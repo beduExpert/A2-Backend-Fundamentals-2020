@@ -1,6 +1,6 @@
 # Sesión 6 - Fundamentos de Base de Datos NoSQL (Mongo)
 
-🎯**Objetivo:**
+🎯 **Objetivo:**
 
 - Reconocer carácterísticas de las bases de datos NoSQL, configurar y utilizar MongoDB.
 - Comprender en qué casos es conveniente utilizar esta B.D. y cómo usarla. 
