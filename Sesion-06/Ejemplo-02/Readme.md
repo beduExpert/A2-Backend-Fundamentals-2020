@@ -1,4 +1,4 @@
-# Ejercicio 2
+# Ejemplo 2
 
 ## Objetivo
 
