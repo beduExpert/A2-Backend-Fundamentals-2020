@@ -34,7 +34,7 @@ La consola también conocida como terminal, shell o línea de comandos (Command-
 
 - [`Reto 02: Ediciones de archivos`](Reto-02/#reto-2)
 
-- [`Reto 02: Instalación de paquetes`](Reto-02/#reto-3)
+- [`Reto 03: Instalación de paquetes`](Reto-02/#reto-3)
 
 ## 🛡 Postwork
 
