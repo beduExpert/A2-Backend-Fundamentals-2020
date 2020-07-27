@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Crear un nuevo modelo (Solicitud) junto con la lógica de sus controladores
+Crear un nuevo modelo (Solicitud) junto con la lógica de sus controladores.
 
 ## Requerimientos
 
@@ -15,15 +15,35 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 ```jsx
 const mongoose = require("mongoose");
 
-var SolicitudSchema = new mongoose.Schema({
-  mascota: { type: mongoose.Schema.Types.ObjectId, required: true, ref: 'Mascota' },
-  anunciante: { type: mongoose.Schema.Types.ObjectId, required: true, ref: 'Usuario' },
-  solicitante: { type: mongoose.Schema.Types.ObjectId, required: true, ref: 'Usuario' },
-  estado: {type: String, enum:['aceptada', 'cancelada', 'pendiente']},
-}, { timestamps: true })
+var SolicitudSchema = new mongoose.Schema(
+  {
+    mascota: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
+      ref: "Mascota",
+    },
+    anunciante: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
+      ref: "Usuario",
+    },
+    solicitante: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
+      ref: "Usuario",
+    },
+    estado: { type: String, enum: ["aceptada", "cancelada", "pendiente"] },
+  },
+  { collection: "solicitudes", timestamps: true }
+);
 
 mongoose.model('Solicitud', SolicitudSchema)
 ```
+
+>💡 **Nota:**
+>
+> Si no se pasa el atributo `collection` en las opciones Mongoose nombrará la colección como `solicituds`, por eso es buena práctica pasar el nombre de la colección.
+>
 
 2. No olvides declarar el modelo en el archivo `app.js`
 
@@ -36,7 +56,7 @@ require('./models/Solicitud');
 ...
 ```
 
-El orden es importante, ya que el modelo usuario es utilizado dentro del modelo Mascota, entonces debe estar declarado primero.
+El orden es importante, ya que los modelos Usuario y Mascota son utilizados dentro del modelo Mascota, entonces debe estar declarado primero.
 
 3. Actualiza las rutas del archivo `routes/solicitudes.js` para usar el middleware de autorización.
 
@@ -50,11 +70,11 @@ const {
 } = require('../controllers/solicitudes')
 var auth = require('./auth');
 
-router.get('/', auth.required, obtenerSolicitud)
-router.get('/:id', auth.required, obtenerSolicitud)
-router.post('/', auth.required, crearSolicitud)
-router.put('/:id', auth.required, modificarSolicitud)
-router.delete('/:id', auth.required, eliminarSolicitud)
+router.get('/', auth.requerido, obtenerSolicitud)
+router.get('/:id', auth.requerido, obtenerSolicitud)
+router.post('/', auth.requerido, crearSolicitud)
+router.put('/:id', auth.requerido, modificarSolicitud)
+router.delete('/:id', auth.requerido, eliminarSolicitud)
 
 module.exports = router;
 ```
@@ -74,7 +94,7 @@ function crearSolicitud(req, res, next) { // POST v1/solicitudes?mascota_id=021a
     if (!mascota || err) {
       return res.sendStatus(404)
     }
-    if(mascota.estado==='adoptado'){
+    if (mascota.estado==='adoptado') {
       return res.sendStatus('La mascota ya ha sido adoptada')
     }
     // si está dispobible o pendiente podemos crear la solicitud
@@ -169,8 +189,3 @@ Aquí está el resultado de una solicitud que ha sido aceptada:
 ```
 
 Así nuestros usuarios podrán ponerse en contacto y concretar la adopción de su nuevo amigo.
-
-### Reto 3
-
-1. Crea el método `modificarSolicitud` para aceptar o rechazar solicitudes, teniendo en cuenta que el usuario que está peticionando debe ser el anunciante para poder realizar cambios. Utiliza el token de acceso con [`req.usuario.id`](http://req.usuario.id) para comparar que tenga los permisos suficientes.
-2. Dado el ejercicio anterior, ¿es necesario crear un endpoint para eliminar solicitudes? ¿Cómo puede saber un usuario que su solicitud de adopción fue rechazada o aceptada?
