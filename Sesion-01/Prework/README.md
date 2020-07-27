@@ -1,15 +1,13 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Prework`
 
-# Prework - Terminal
+# Prework
 
-## Objetivo
+## ¿Qué es la Terminal?
 
-- Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas. 
+**Objetivos:**
+
+- Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas.
 - Ejecutar los primeros comandos.
-
-## Instrucciones
-
-1. Hacer anotaciones o crear un mapa mental con los conceptos que consideres más importantes y quieras tener a la mano durante la sesión.
 
 ## Índice
 
@@ -18,7 +16,9 @@
 
 ## Introducción
 
-La consola también conocida como terminal, shell o línea de comandos (Command-line interface) es una de las primeras maneras con las que hemos podido interactuar con una computadora. Mucho antes del *mouse*, de la interfaz gráfica y de la metáfora del escritorio, los sistemas operativos contaban con esta interfaz para recibir órdenes por medio de una pantalla y el teclado.
+La consola también conocida como terminal, shell o línea de comandos (Command-line interface) es una de las primeras maneras con las que hemos podido interactuar con una computadora.
+
+Mucho antes del *mouse*, de la interfaz gráfica y de la metáfora del escritorio, los sistemas operativos contaban con esta interfaz para recibir órdenes por medio de una pantalla y el teclado.
 
 ### ¿Por qué es importante saber utilizar la consola?
 
@@ -58,7 +58,7 @@ Ahora posiciónate con el mouse y teclea el comando  `pwd`.
 
 En un sentido muy general el S.O. permite a los usuarios correr otras aplicaciones en un ordenador. Aunque es posible que otro programa se comunique directamente con el hardware, la mayoría de las aplicaciones están escritas para un S.O. en específico, esto les permite tomar ventaja de librerías preestablecidas sin preocuparse sobre detalles específicos del hardware.
 
-Los recursos que maneja un S.O. son:
+**Los recursos que maneja un S.O. son:**
 
 - **Dispositivos de entrada** ej: teclado y mouse.
 - **Dispositivos de salida** ej: pantalla, bocinas, impresoras.
