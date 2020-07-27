@@ -2,13 +2,13 @@
 
 # Proyecto - AdoptaPet
 
-## Objetivo
+**Objetivo**
 
 Presentar un nuevo proyecto y levantar requerimientos para cumplir con la primera etapa de planteamiento de nuestra arquitectura de software.
 
 <img src="http://imgfz.com/i/uA61BWt.png" alt="focused-working" width="500">
 
-## Requerimientos
+**Requerimientos**
 
 Cuaderno o aplicación para tomar notas y resolver preguntas.
 
