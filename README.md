@@ -20,7 +20,7 @@ Es recomendable que tengas los siguientes **conocimientos.**
 
 - Crearemos una API desde cero para una aplicación de adopción de mascotas. 
 
-## 📋 [Temario técnico](./sesiones)
+## 📋 [Temario](./sesiones)
 
 - [`Sesión 01 - Consola`](Sesion-01/)
 
