@@ -20,7 +20,7 @@ Para transferir archivos de nuestro ordenador a un servidor remoto podemos utili
 
 SCP (secure copy) utiliza SSH para hacer copias  de archivos transfiriéndolos con una conexión cifrada.
 
-Sintaxis:
+**Sintaxis:**
 
 ```bash
 scp [ruta archivo] [usuario]@[host]:[ruta destino]
