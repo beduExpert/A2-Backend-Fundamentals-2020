@@ -31,7 +31,7 @@
 
 - [`Reto 02: Deploy de tu API`](Reto-02/#reto-2)
 
-- [`Reto 03: certificado SSL`](Reto-02/#reto-3)
+- [`Reto 03: Certificado SSL`](Reto-02/#reto-3)
 
 ## 🛡 Postwork
 
