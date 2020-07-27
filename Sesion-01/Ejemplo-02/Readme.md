@@ -2,13 +2,7 @@
 
 # Editando Archivos
 
-En UNIX (Linux/MacOS) existen diversas maneras de editar un archivo sin necesidad de salir de la terminal.
-
-## Desarrollo
-
-Editaremos un archivo sin salir de la terminal.
-
-Para esto podemos utilizar los siguientes dos programas que pueden ejecutarse desde la línea de comandos.
+- En UNIX (Linux/MacOS) existen diversas maneras de editar un archivo sin necesidad de **salir de la terminal.**
 
 ## nano
 
@@ -88,7 +82,6 @@ Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en e
 
 `:set number` mostrar numeración de líneas
 
+-------
 
-# Reto 02
-
-[`Reto-02`](../Reto-02) 
+[`Siguiente: Reto-02`](../Reto-02)
