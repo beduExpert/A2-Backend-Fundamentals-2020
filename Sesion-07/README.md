@@ -1,4 +1,4 @@
-# Sesión 4 - Mongoose
+# Sesión 7 - Mongoose
 
 🎯 **Objetivo:**
 
