@@ -11,11 +11,11 @@
 
 **Objetivo:**
 
-- Comprender que es un ORM y su importancia en el desarrollo.
+- Comprender qué es un ORM y su importancia en el desarrollo.
 
 **¿Cómo conectar el backend con mi base de datos?**
 
-Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, la comunidad de desarrolladores de NodeJS y demás ecosistemas como Python y Java, han desarrollado herramientas que proveen una manera más eficiente de interactuar con las bases de datos...[`leer mas`](Prework/#prework)
+Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, la comunidad de desarrolladores de NodeJS y demás ecosistemas como Python y Java han desarrollado herramientas que proveen una manera más eficiente de interactuar con las bases de datos...[`leer más`](Prework/#prework)
 
 ## 🕵 Ejemplos:
 
@@ -41,4 +41,4 @@ Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, l
 
 **Desarrolla un nuevo feature para guardar mascotas favoritas**
 
-Desarrolla una nueva característica para que un usuario sea capaz guardar mascotas que ha visto y que desea adoptar en un futuro...[`leer mas`](Postwork/#postwork)
+Desarrolla una nueva característica para que un usuario sea capaz guardar mascotas que ha visto y que desea adoptar en un futuro...[`leer más`](Postwork/#postwork)
