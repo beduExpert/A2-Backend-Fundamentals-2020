@@ -9,7 +9,7 @@
 - Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas.
 - Ejecutar los primeros comandos.
 
-## Índice
+**Índice**
 
 1. Introducción
 2. Conceptos fundamentales
