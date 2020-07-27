@@ -1,5 +1,12 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) > `Ejemplo 1`
 
+**Requerimientos**
+
+Tener **instalado** sistema operativo **Linux** o **MacOS**.
+
+## Desarrollo
+
+
 # Navegación (File system)
 
 - Para navegar en el sistema de archivos de nuestro sistema operativo podemos utilizar **los siguientes comandos:**
