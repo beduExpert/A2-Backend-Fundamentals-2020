@@ -1,5 +1,11 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Ejemplo 02`
 
+**Requerimientos**
+
+Tener **instalado** sistema operativo **Linux** o **MacOS**.
+
+## Desarrollo
+
 # Editando Archivos
 
 - En UNIX (Linux/MacOS) existen diversas maneras de editar un archivo sin necesidad de **salir de la terminal.**
