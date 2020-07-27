@@ -56,11 +56,11 @@ const {
 } = require('../controllers/mascotas')
 var auth = require('./auth');
 
-router.get('/', auth.optional,obtenerMascotas)
-router.get('/:id', auth.optional, obtenerMascotas)// nuevo endpoint con todos los detalles de mascota
-router.post('/', auth.required, crearMascota)
-router.put('/:id',auth.required, modificarMascota)
-router.delete('/:id',auth.required, eliminarMascota)
+router.get('/', auth.opcional,obtenerMascotas)
+router.get('/:id', auth.opcional, obtenerMascotas)// nuevo endpoint con todos los detalles de mascota
+router.post('/', auth.requerido, crearMascota)
+router.put('/:id',auth.requerido, modificarMascota)
+router.delete('/:id',auth.requerido, eliminarMascota)
 
 module.exports = router;
 ```
@@ -71,13 +71,13 @@ module.exports = router;
 const mongoose = require('mongoose')
 const Mascota = mongoose.model('Mascota')
 
-function crearMascota(req, res) {
+function crearMascota(req, res, next) {
   var mascota = new Mascota(req.body)
   mascota.anunciante = req.usuario.id
   mascota.estado = 'disponible'
   mascota.save().then(mascota => {
     res.status(201).send(mascota)
-  })
+  }).catch(next)
 }
 
 ```
@@ -86,10 +86,9 @@ function crearMascota(req, res) {
 
 ```jsx
 function obtenerMascotas(req, res, next) {
-    Mascota.find().then(mascotas=>{
-      res.send(mascotas)
-    }).catch(next)
-  }
+  Mascota.find().then(mascotas=>{
+    res.send(mascotas)
+  }).catch(next)
 }
 ```
 
@@ -97,7 +96,7 @@ function obtenerMascotas(req, res, next) {
 
 El método populate nos sirve para *poblar* documentos que son integrados dentro de otros documentos.
 
-6. Cuándo queramos obtener una mascota en específico en el endpoint 'v1/mascotas/:id', será necesario mostrar la información de su anunciante, así que agregaremos una condición para que cuándo un id esté presente se agreguen los campos username, nombre, apellido, bio y foto del anunciante
+6. Cuando queramos obtener una mascota en específico en el endpoint 'v1/mascotas/:id', será necesario mostrar la información de su anunciante, así que agregaremos una condición para que cuándo un id esté presente se agreguen los campos username, nombre, apellido, bio y foto del anunciante
 
 ```jsx
 function obtenerMascotas(req, res, next) {
@@ -106,7 +105,7 @@ function obtenerMascotas(req, res, next) {
 			.populate('anunciante', 'username nombre apellido bio foto').then(mascotas => {
 	      res.send(mascotas)
 	    }).catch(next)
-  }else{
+  } else {
     Mascota.find().then(mascotas=>{
       res.send(mascotas)
     }).catch(next)
@@ -129,7 +128,7 @@ esto nos devolverá una respuesta cómo la siguiente:
   ],
   "_id": "5ee8f79d2ab51833d2147e26",
   "nombre": "Kalita",
-  "descripcion": "Gatito bebé enncontrado debajo de un carro necesita hogar",
+  "descripcion": "Gatito bebé encontrado debajo de un carro necesita hogar",
   "anunciante": {
     "_id": "5ee7101ee584287c9d4d44ce",
     "username": "karly",
@@ -143,11 +142,3 @@ esto nos devolverá una respuesta cómo la siguiente:
   "__v": 0
 }
 ```
-
-## Reto 2
-
-1. Crea el método `modificarMascota` teniendo en cuenta que el id del anunciante de la mascota debe ser igual al id del usuario que está peticionando para poder realizar cambios. Utiliza el token de acceso con [`req.usuario.id`](http://req.usuario.id) para comparar.
-2. Crea el método `eliminarMascota` teniendo en cuenta que el id del anunciante de la mascota debe ser igual al id del usuario que está peticionando.
-3. ¿En que otro caso se te ocurre que sea útil el método populate?
-
-    R: En una aplicación de blog por ejemplo, para obtener los comentarios de un post.
