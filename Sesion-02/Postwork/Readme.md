@@ -61,7 +61,7 @@ scp -r /home/bedu/proyecto usuario@dominio.com:/home/usuario
 
 Si contamos con archivo de identidad (llave privada) tenemos que utilizar la opción `-i` seguido de la dirección de nuestro archivo `.pem`
 
-Ejemplo:
+**Ejemplo:**
 
 ```
 scp -i llaves/llave_host2.pem /home/bedu/proyecto/archivo.txt ubuntu@18.209.88.100:/home/usuario
