@@ -1,10 +1,10 @@
 # Ejemplo 3: Utilizando el servidor remoto
 
-## Objetivo
+**Objetivo:**
 
 Utilizar el servidor remoto al que hemos accesado con los comandos aprendidos de ubuntu.
 
-## Requisitos
+**Requisitos:**
 
 - El experto debe proveer un servidor con Apache corriendo y con una dirección o ip pública, así cómo  las respectivas credenciales.
 
@@ -60,3 +60,7 @@ Esto renderizará nuestro archivo html.
 ![img/Untitled%202.png](img/Untitled%202.png)
 
 Para salir del servidor y cerrar la conexión ejecutaremos el comando `exit`.
+
+-------
+
+[`Siguiente: Reto-03`](../Reto-03)
