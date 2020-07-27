@@ -69,7 +69,7 @@ El modo **PUT** reemplaza todas las representaciones actuales del recurso de d
 
 El método **DELETE** borra un recurso en específico.
 
-Puedes encontrar todos los métodos existentes en el siguiente enlace: [https://developer.mozilla.org/es/docs/Web/HTTP/Methods](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
+Puedes encontrar todos los métodos existentes en el [siguiente enlace:](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
 
 ## Respuestas
 
@@ -88,11 +88,10 @@ Algunos de los códigos de respuesta más comunes son:
 - `404 NOT FOUND`
 - `500 Internal Server Error`
 
-Puedes encontrar más códigos de respuesta en los siguientes enlaces:
+Puedes encontrar más códigos de respuesta en los 
 
-[https://developer.mozilla.org/en-US/docs/Web/HTTP/Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-
-[https://http.cat](https://http.cat/)
+- [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [HTTP Cats](https://http.cat/)
 
 ## Ejemplo 1 - Listando animalitos
 
@@ -102,7 +101,7 @@ Listaremos animales haciendo peticiones a una API pública:
 
 2. Abrimos el inspector de elementos y nos dirigiremos a la pestaña *Network*
 
-3. Copiamos y pegamos el siguiente enlace: [https://petstore.swagger.io/v2/pet/findByStatus?status=available](https://petstore.swagger.io/v2/pet/findByStatus?status=available)
+3. Copiamos y pegamos el [siguiente enlace:](https://petstore.swagger.io/v2/pet/findByStatus?status=available)
 
 4. Observar que es lo que sucede
 
