@@ -47,7 +47,6 @@ De manera similar, el protocolo base para el funcionamiento de la web es el prot
 
 <img src="img/HTTP__layers.png" width="700">
 
-Composición de la web 
 
 ## Peticiones
 
@@ -147,13 +146,7 @@ Una vez ejecutada la petición, obtendremos una respuesta `200` si todo ha salid
 
 <img src="img/Untitled3.png" width="900">
 
-## Reto 1
+-------
 
-Utiliza Postman o Insomnia para resolver los siguientes puntos:
-
-1. Crea una nueva mascota siguiendo el ejemplo 2, pero cambia el atributo `name` y opcionalmente la url de `photoUrls` añadiendo una nueva imagen. También cambia la propiedad `id` a una que tu elijas y guarda el id con cuidado.
-2. Modifica el recurso que acabas de crear cambiando el nombre.
-Para esto deberás hacer una petición `PUT` con el id del objeto a modificar cómo se ejemplifica en la [documentación de esta API](https://petstore.swagger.io/#/pet/updatePet):
-
-<img src="img/Untitled4.png" width="900">
+[`Siguiente: Reto-01`](../Reto-01)
 
