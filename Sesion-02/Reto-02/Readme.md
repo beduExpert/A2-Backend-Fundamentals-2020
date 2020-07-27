@@ -6,6 +6,6 @@
 
 - Iniciar sesión en una máquina remota utilizando las **llaves que te proporciona el experto** y siguiendo los pasos anteriores
 
-![image](https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/09/encriptacion-simetrica-tutorial-ssh.jpg)
+<img src="https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/09/encriptacion-simetrica-tutorial-ssh.jpg" width="500">
 
-[`Atrás`](../Ejemplo-01)
+[`Atrás`](../Ejemplo-02)
