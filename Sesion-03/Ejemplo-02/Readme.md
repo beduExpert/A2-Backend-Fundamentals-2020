@@ -39,3 +39,5 @@ Y son utilizadas por varias metodologías para poder comprender mejor los requer
 
 **Como usuario de adoptaPet quiero ver a todas las mascotas que hay en adopción para poder elegir la que más me guste.**
 <img src="img/PostItHistoriaUsuario.png" alt="PostItHistoriaUsuario"  height="250" width="250" > 
+
+[`Atrás`](../Ejemplo-02)
