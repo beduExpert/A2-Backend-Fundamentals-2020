@@ -1,6 +1,6 @@
 # Back-end Fundamentals
 
-## Objetivos:
+## 🎯 Objetivos:
 
 - Brindarte las bases para comenzar a crear proyectos desarrollando del lado del servidor. 
 
@@ -10,17 +10,17 @@
 
 <img src="http://imgfz.com/i/ByKaH3Z.png" alt="data-hosting" width="500">
 
-## ¿Quién puede tomar este curso?
+## 💻 ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes conocimientos.
 - Conocimiento del lenguaje HTML.
 - Programación Orientada a Objetos.
 - Javascript o conocimiento de algún lenguaje de programación.
 
-## [Proyecto](./Sesion-03/Ejemplo-02)
+## 🚀 [Proyecto](./Sesion-03/Ejemplo-02)
 
 Crearemos una API desde cero para una aplicación de adopción de mascotas. 
 
-## [Temario técnico](./sesiones)
+## 📋 [Temario técnico](./sesiones)
 
 [Sesión 01 - Consola](Sesion-01/#sesión-01---consola)
 
