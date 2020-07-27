@@ -2,7 +2,7 @@
 
 # Navegación (File system)
 
-- Para navegar en el sistema de archivos de nuestro sistema operativo podemos utilizar los siguientes comandos
+- Para navegar en el sistema de archivos de nuestro sistema operativo podemos utilizar **los siguientes comandos:**
 
 ## `ls`
 
