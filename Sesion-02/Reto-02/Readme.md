@@ -1,4 +1,4 @@
-[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Ejemplo 1: Usuarios y permisos`](../README.md) >[`Ejemplo-02`](../Ejemplo-02) > `Reto 2`
+[`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md) >[`Ejemplo-02`](../Ejemplo-02) > `Reto 2`
 	
 ## Reto 2
 
