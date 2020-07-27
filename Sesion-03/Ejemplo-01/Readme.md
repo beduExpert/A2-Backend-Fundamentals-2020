@@ -2,13 +2,13 @@
 
 # Arquitectura cliente-servidor
 
-## Objetivo
+**Objetivo:**
 
-Comprender las diferencias entre un cliente y un servidor web, la manera en la que se comunican y los diferentes tipos de servidores y protocolos más comunes de la web.
+- Comprender las diferencias entre un cliente y un servidor web, la manera en la que se comunican y los diferentes tipos de servidores y protocolos más comunes de la web.
 
-## Requerimientos
+**Requerimientos:**
 
-Navegador web y cuaderno o aplicación para tomar notas.
+- Navegador web y cuaderno o aplicación para tomar notas.
 
 ## Desarrollo
 
