@@ -1,10 +1,10 @@
 # Ejemplo 2: SSH
 
-## Objetivo
+**Objetivo**
 
 Conocer SSH y conectarnos a un servidor remoto.
 
-## Requisitos
+**Requisitos**
 
 El experto debe proveer la dirección del servidor y el archivo de la llave con la cual nos conectaremos.
 
