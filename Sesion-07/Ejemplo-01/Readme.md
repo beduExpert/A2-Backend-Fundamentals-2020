@@ -95,7 +95,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 
     La opción `{index: true}` optimizará los queries para el campo username e email.
 
-4. Para crear un nuevo usuario con password y autenticación, añadiremos algunos *helper methods* a nuestro modelo para crear, validar contraseñas y generar el JWT. Para generar y validar hashes se utilizará el algoritmo pbkdf2 que viene en la librería crypto de Node.
+4. Para crear un nuevo usuario con password y autenticación añadiremos algunos *helper methods* a nuestro modelo para crear, validar contraseñas y generar el JWT. Para generar y validar hashes se utilizará el algoritmo pbkdf2 que viene en la librería crypto de Node.
 
     Añadiremos la siguiente línea arriba
 
@@ -148,10 +148,27 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
       return {
         username: this.username,
         email: this.email,
-        token: this.generateJWT(),
+        token: this.generarJWT()
+      };
+    };
+
+    /**
+    * Devuelve la representación de un usuario, sólo datos públicos
+    */
+    UsuarioSchema.methods.publicData = function(){
+      return {
+        id: this.id,
+        username: this.username,
+        email: this.email,
+        nombre: this.nombre,
+        apellido: this.apellido,
         bio: this.bio,
         foto: this.foto,
         tipo: this.tipo,
+        ubicacion: this.ubicacion,
+        telefono: this.telefono,
+        createdAt: this.createdAt,
+        updatedAt: this.updatedAt
       };
     };
 
@@ -161,7 +178,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 6. Añadiremos las siguientes modificaciones a nuestro archivo `app.js` teniendo cuidado de que esté arriba de la declaración de las rutas.
 
     ```jsx
-    mvar mongoose = require("mongoose");
+    var mongoose = require("mongoose");
 
     mongoose.connect(
       "mongodb+srv://<usuario>:<password>@cluster0-xmea4.mongodb.net/<dbname>?retryWrites=true&w=majority"
@@ -172,7 +189,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     // Aquí se importarán los modelos Mascota y Solicitud cuando estén listos
     ```
 
-    recuerda reemplazar los campos que están entre <> en la url de conexión con la información de tu cuenta de MongoDB Atlas
+    recuerda reemplazar los campos que están entre `<>` en la url de conexión con la información de tu cuenta de MongoDB Atlas
 
 7. No olvides instalar los paquetes necesarios
 
@@ -192,7 +209,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     };
     ```
 
-2. Crea un nuevo archivo `config/pasport.js`con lo siguiente  
+2. Crea un nuevo archivo `config/passport.js`con lo siguiente  
 
     ```jsx
     var passport = require('passport');
@@ -213,7 +230,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     }));
     ```
 
-    `LocalStrategy` inspecciona los campos `username` y `password` de las peticiones que vienen del frontend, esperando que la petición tenga el siguiente formato
+    `LocalStrategy` inspecciona los campos `username` y `password` de las peticiones que vienen del frontend, esperando que la petición tenga el siguiente formato:
 
     ```json
     {
@@ -252,11 +269,13 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     var auth = {
       requerido: jwt({
         secret: secret,
+        algorithms: ['HS256'],
         userProperty: 'usuario',
         getToken: getTokenFromHeader
       }),
       opcional: jwt({
         secret: secret,
+        algorithms: ['HS256'],
         userProperty: 'usuario',
         credentialsRequired: false,
         getToken: getTokenFromHeader
@@ -266,9 +285,9 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     module.exports = auth;
     ```
 
-    - El *middleware* `requerido` se utilizará para endpoints dónde se requiera tener una sesión y `opcional` dónde no sean necesarioas.
-    - La función `getTokenFromHeader()` es una función que utlizarán los dos midlewares para extraer el token de el header de `Authorization` de una petición http.
-    - La propiedad `userProperty` es dónde vendrá el JWT descifrado y que podrémos utilizar después en el objeto request por medio de `req.usuario`
+    - El *middleware* `requerido` se utilizará para endpoints donde se requiera tener una sesión y `opcional` donde no sean necesarioas.
+    - La función `getTokenFromHeader()` es una función que utlizarán los dos middlewares para extraer el token del header de `Authorization` de una petición http.
+    - La propiedad `userProperty` es donde vendrá el JWT descifrado y que podrémos utilizar después en el objeto request por medio de `req.usuario`
 6. Ahora utilizaremos los métodos que nos proporciona Mongoose en nuestro archivo  `controllers/usuarios.js`. 
 
     ```jsx
@@ -316,10 +335,8 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
           user.telefono = nuevaInfo.telefono
         if (typeof nuevaInfo.password !== 'undefined')
           user.crearPassword(nuevaInfo.password)
-        user.save().then(info => {
-          delete info.hash
-          delete info.salt
-          res.status(201).json(info)
+        user.save().then(updatedUser => {
+          res.status(201).json(updatedUser.publicData())
         }).catch(next)
       }).catch(next)
     }
@@ -383,17 +400,3 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 
     module.exports = router;
     ```
-
-### Reto 1
-
-Es momento de probar los nuevos endpoints de la API, así que ejecuta el servidor y realiza las siguientes tareas.
-
-1. Crea una cuenta de adoptapet en el endpoint `POST [/v1/usuarios](http://localhost:3000/v1/usuarios)` guarda el token que te devuelve la petición.
-2. Obtén la información de tu perfil en el endpoint `GET [/v1/usuarios](http://localhost:3000/v1/usuarios)` ahora será necesario que cambies los headers de authenticación y pongas el token con el prefijo 'Bearer'.
-
-    Ejemplo: `Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'`
-
-3. Modifica tu nombre de usuario.
-4. Modifica tu password
-5. Ahora pregúntate ¿En que caso necesitaríamos conocer información sobre otro usuario?
-6. ¿Si el usuario no tiene la propiedad `tipo` cuándo es creado en una petición POST, podemos hacer algo para asignarle un tipo?
