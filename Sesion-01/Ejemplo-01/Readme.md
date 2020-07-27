@@ -82,5 +82,6 @@ Otros ejemplos:
 - `man rm`
 - `man ifconfig`
 
+-------
 
 [`Siguiente: Reto-01`](../Reto-01)
