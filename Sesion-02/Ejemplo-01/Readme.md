@@ -2,12 +2,12 @@
 
 # Ejemplo 1: Usuarios y permisos
 
-## Objetivo
+**Objetivos:**
 
 - Conocer los distintos tipos de usuarios de un sistema operativo UNIX.
 - Entender los diferentes tipos de permisos de un archivo y cómo modificarlos.
 
-## Requerimientos
+**Requerimientos**
 
 Tener **instalado** sistema operativo **Linux** o **MacOS**.
 
@@ -123,3 +123,7 @@ Si quisieramos **cambiar** los permisos de un **folder** junto con todos los arc
 ```bash
 chmod -R 744 claseDos
 ```
+
+-------
+
+[`Siguiente: Reto-01`](../Reto-01)
