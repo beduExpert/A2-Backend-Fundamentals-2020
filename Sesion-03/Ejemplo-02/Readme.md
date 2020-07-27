@@ -1,12 +1,12 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 03: Arquitectura de software`](../README.md) > `Ejemplo 2`
 
-# AdoptaPet - Iniciando un nuevo proyecto
+# Proyecto - AdoptaPet
 
 ## Objetivo
 
 Presentar un nuevo proyecto y levantar requerimientos para cumplir con la primera etapa de planteamiento de nuestra arquitectura de software.
 
-<img src="https://i.ibb.co/n82DkQx/focused-working.png" alt="focused-working" border="0">
+<img src="http://imgfz.com/i/uA61BWt.png" alt="focused-working" width="500">
 
 ## Requerimientos
 
