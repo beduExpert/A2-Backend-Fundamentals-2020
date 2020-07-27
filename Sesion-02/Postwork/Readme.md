@@ -33,7 +33,7 @@ Parámetros necesarios:
 - **Ruta archivo origen:** ruta del archivo que queremos copiar.
 - **Ruta archivo destino:** ruta donde queremos copiar el archivo.
 
-Ejemplo:
+**Ejemplo:**
 
 Si queremos subir el archivo **`archivo.txt`** de nuestro ordenador a la carpeta **`/home/usuario`** del servidor, la sintaxis es la siguiente
 
