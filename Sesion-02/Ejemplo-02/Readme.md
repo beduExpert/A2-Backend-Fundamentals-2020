@@ -43,3 +43,7 @@ Si todo salió bien podremos ver algo como esto
 ![img/Screen_Shot_2020-04-06_at_18.00.01.png](img/Screen_Shot_2020-04-06_at_18.00.01.png)
 
 **Lo cual significa que hemos iniciado sesión dentro de una máquina remota.**
+
+-------
+
+[`Siguiente: Reto-02`](../Reto-02)
