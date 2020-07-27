@@ -15,7 +15,7 @@
 
 **Production (Producción)**
 
-"Poner software en producción" ó "subir a producción", son términos que se utilizan para referirnos a poner una API o app de manera disponible para los usuarios, lista para usarse...[`leer mas`](Prework/#prework)
+"Poner software en producción" ó "subir a producción", son términos que se utilizan para referirnos a poner una API o app de manera disponible para los usuarios, lista para usarse...[`leer más`](Prework/#prework)
 
 ## 🕵 Ejemplos:
 
@@ -23,7 +23,7 @@
 
 - [`Ejemplo 2: Deploy con Heroku`](Ejemplo-02/#ejemplo-2---deploy-con-heroku)
 
-- [`Ejemplo 3: Ultimos pasos`](Ejemplo-03/#ejemplo-3---últimos-pasos)
+- [`Ejemplo 3: Últimos pasos`](Ejemplo-03/#ejemplo-3---últimos-pasos)
 
 ## 💻 Retos:
 
