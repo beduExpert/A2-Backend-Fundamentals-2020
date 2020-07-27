@@ -22,18 +22,18 @@ Crearemos una API desde cero para una aplicación de adopción de mascotas.
 
 ## 📋 [Temario técnico](./sesiones)
 
-[Sesión 01 - Consola](Sesion-01/#sesión-01---consola)
+- [`Sesión 01 - Consola`](Sesion-01/#sesión-01---consola)
 
-[Sesión 02 - Administración de servidores](Sesion-02)
+- [`Sesión 02 - Administración de servidores`](Sesion-02)
 
-[Sesión 03 - Arquitectura de software](Sesion-03)
+- [`Sesión 03 - Arquitectura de software`](Sesion-03)
 
-[Sesión 04 - API](Sesion-04)
+- [`Sesión 04 - API`](Sesion-04)
 
-[Sesión 05 - Fundamentos de Base de Datos Relacionales(SQL)](Sesion-05)
+- [`Sesión 05 - Fundamentos de Base de Datos Relacionales(SQL)`](Sesion-05)
 
-[Sesión 06 - Fundamentos de Base de Datos NoSQL (Mongo)](Sesion-06)
+- [`Sesión 06 - Fundamentos de Base de Datos NoSQL (Mongo)`](Sesion-06)
 
-[Sesión 07 - Mongoose](Sesion-07)
+- [`Sesión 07 - Mongoose`](Sesion-07)
 
-[Sesión 08 - Deploy](Sesion-08)
+- [`Sesión 08 - Deploy`](Sesion-08)
