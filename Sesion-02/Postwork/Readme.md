@@ -1,12 +1,14 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 02: Administración de servidores`](../README.md) > `Postwork`
 
-# Postwork: Transferencia de archivos a un servidor (SCP y FTP)
+# Postwork: 
 
-## Objetivo
+## ¿Qué es la Transferencia de archivos a un servidor (SCP y FTP)?
+
+**Objetivo**
 
 Aprender a utilizar SCP y conocer FTP cómo protocolo para la transferencia de información a un servidor.
 
-## Requerimientos
+**Requerimientos**
 
 Acceso a un servidor remoto, su dirección IP y el archivo .pem de la llave para realizar la conexión
 
