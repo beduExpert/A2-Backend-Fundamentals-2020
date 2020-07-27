@@ -2,15 +2,13 @@
 
 # Instalando paquetes
 
-Los paquetes en los sitemas operativos unix, son **programas** que han sido empaquetados para su instalación y distribución.
-
-Distribuciones de Linux como Ubuntu y Debian cuentan con su gestor de paquetes por defecto.
-
-Para MacOs debemos **instalar Brew** siguiendo las instrucciones del [siguiente enlace](https://brew.sh/index_es)
+- Los paquetes en los sitemas operativos unix, son **programas** que han sido empaquetados para su instalación y distribución.
+- Distribuciones de Linux como Ubuntu y Debian cuentan con su gestor de paquetes por defecto.
+- Para MacOs debemos **instalar Brew** siguiendo las instrucciones del [siguiente enlace](https://brew.sh/index_es)
 
 ## Actualizando la lista de repositorios
 
-Para actualizar la fuente oficial de dónde se descargaran los paquetes utilizaremos el siguiente comando:
+- Para actualizar la fuente oficial de dónde se descargaran los paquetes utilizaremos el **siguiente comando:**
 
 `sudo apt-get update`
 
@@ -43,6 +41,6 @@ si todo ha sido exitoso ahora tendremos un nuevo ***comando*** instalado en nues
 
 ![img/Untitled.png](img/Untitled.png)
 
-# Reto 03:
+-------
 
-[`Reto-03`](../Reto-03)
+[`Siguiente: Reto-03`](../Reto-03)
