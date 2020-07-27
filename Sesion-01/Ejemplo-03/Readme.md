@@ -1,5 +1,11 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) > `Ejemplo 03`
 
+**Requerimientos**
+
+Tener **instalado** sistema operativo **Linux** o **MacOS**.
+
+## Desarrollo
+
 # Instalando paquetes
 
 - Los paquetes en los sitemas operativos unix, son **programas** que han sido empaquetados para su instalación y distribución.
