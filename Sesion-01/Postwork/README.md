@@ -1,4 +1,4 @@
-[`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Postwork`
+[`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) > `Postwork`
 
 # Postwork
 
