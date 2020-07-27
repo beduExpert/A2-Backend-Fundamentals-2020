@@ -5,7 +5,7 @@
 ### Instrucciones:
 
 1. Instala el paquete `fortune` desde la terminal.
-2. ejecuta los siguientes comandos y observa lo que sucede.
+2. Ejecuta los siguientes comandos y observa lo que sucede.
 
     `fortune`
 
@@ -18,6 +18,6 @@
 3. Instala el paquete **lolcat**
 4. Ejecuta `fortune | cowsay | lolcat`
 
-[`Atrás`](../Ejemplo-03)
+<img src="https://i.redd.it/chibzcm23y411.png" width="550">
 
-![image](https://i.redd.it/chibzcm23y411.png)
+[`Atrás`](../Ejemplo-03)
