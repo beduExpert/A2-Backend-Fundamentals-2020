@@ -6,7 +6,7 @@ Conocer conceptos para cerrar el curso y continuar aprendiendo.
 
 ## Instrucciones
 
-Leer el siguiente material, e investigar más por tu cuenta sobre los conceptos aquí mostrados.
+Leer el siguiente material e investigar más por tu cuenta sobre los conceptos aquí mostrados.
 
 ## Desarrollo
 
@@ -14,15 +14,15 @@ Ahora conoces muchos conceptos y técnicas fundamentales del desarrollo backend,
 
 ### Staging
 
-Hasta ahora hemos configurado exitosamente dos ambientes de desarrollo, staging y producción. 
+Hasta ahora hemos configurado exitosamente dos ambientes de desarrollo, development y producción. 
 
-Una práctica recomendada para organizaciones medianas y grandes es levantar un tercer ambiente llamado **staging**. Este nos será útil para probar nuevas funcionalidades y su comportamiento con las demás piezas de un sistema de software.
+Una práctica recomendada para organizaciones medianas y grandes es levantar un tercer ambiente llamado **staging**. Éste nos será útil para probar nuevas funcionalidades y su comportamiento con las demás piezas de un sistema de software.
 
-Ser capaces de probar las actualizaciones de nuestros desarrollos en un ambiente lo más similar posible a producción, nos dota de mayor capacidad y agilidad  para trabajar en equipo y desarrollar nuevas funcionalidades que aporten valor a nuestro proyecto.
+Ser capaces de probar las actualizaciones de nuestros desarrollos en un ambiente lo más similar posible a producción nos dota de mayor capacidad y agilidad  para trabajar en equipo y desarrollar nuevas funcionalidades que aporten valor a nuestro proyecto.
 
 ### Testing
 
-Al estar programando es común que probemos constantemente y de manera manual si las cosas están funcionando cómo lo esperamos. Pero para dejar constancia de cuál es el comportamiento esperado de una funcionalidad, es útil escribir pruebas automatizadas de software. El ecosistema javascript cuenta con una amplia variedad de librerías de testing.
+Al estar programando es común que probemos constantemente y de manera manual si las cosas están funcionando como lo esperamos. Pero para dejar constancia de cuál es el comportamiento esperado de una funcionalidad es útil escribir pruebas automatizadas de software. El ecosistema Javascript cuenta con una amplia variedad de librerías de testing.
 
 Aquí puedes aprender más sobre pruebas automatizadas y el desarrollo guiado por pruebas (TDD)
 
@@ -38,6 +38,6 @@ El trabajo de un buen desarrollador no es únicamente escribir buen código, sin
 
 ### Más recursos
 
-Si quieres conocer más sobre el camino del desarrollador backend y otros tipos de disciplinas, te recomendamos echarle un vistazo al *roadmap* del desarrollador.
+Si quieres conocer más sobre el camino del desarrollador backend y otros tipos de disciplinas te recomendamos echarle un vistazo al *roadmap* del desarrollador backend.
 
 [Learn to become a modern backend developer](https://roadmap.sh/backend)
