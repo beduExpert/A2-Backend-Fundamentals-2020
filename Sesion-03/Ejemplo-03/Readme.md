@@ -72,3 +72,6 @@ class Mascota{
 >
 >Este código nos va a permitir instanciar nuevos objetos, pero para que esta información persista debemos guardarla en una base de datos, algo que veremos en las sesiones posteriores.
 
+-------
+
+[`Siguiente: Reto-03`](../Reto-03)
