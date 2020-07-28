@@ -2,9 +2,8 @@
 	
 ### Reto 3
 
-Investiga para qué sirve un certificado SSL y las ventajas que tiene para tu aplicación.
-
-Configura un certificado SSL.
+1. Investiga para qué sirve un certificado SSL y las ventajas que tiene para tu aplicación.
+1. Configura un certificado SSL.
 
 Pistas:
 
