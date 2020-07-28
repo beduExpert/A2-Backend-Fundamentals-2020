@@ -1,4 +1,4 @@
-# Ejemplo 3 - últimos pasos
+# Ejemplo 3 - Últimos pasos
 
 ## Objetivo
 
@@ -6,7 +6,7 @@ Conocer y comprender los fundamentos de conceptos como dominio, DNS y configurac
 
 ## Requerimientos
 
-Contar con el código de la API en una cuenta de github y una cuenta en Heroku.
+Contar con el código de la API en una cuenta de Github y una cuenta en Heroku.
 
 Contar con un dominio y llaves de acceso a su configuración DNS. 
 
@@ -16,16 +16,16 @@ Es recomendable que la clase se ponga de acuerdo para registrar un dominio y pag
 
 ### Glosario:
 
-- **Dominio:** Un dominio (domain name) es e, nombre que utilizamos para acceder a una app por medio de palabras y no una dirección IP.  Por ejemplo, www.tudominio.com
+- **Dominio:** Un dominio (domain name) es el nombre que utilizamos para acceder a una app por medio de palabras y no una dirección IP. Por ejemplo, www.tudominio.com
 - **Subdominio:** un dominio base como [tudominio.com](http://tudominio.com) puede tener prefijos cómo [dany.tudominio.com](http://dany.tudominio.com) o el mismo www.tudominio.com. Estos pueden ser referidos a una app totalmente diferente.
-- **DNS:** (Domain Name System) o sistema de nombres de dominio
-- P**roveedor DNS:** La empresa que nos proporciona servicios de gestión de los archivos de configuración de nuestro dominio, y, comunmente  también nos permite registrar y gestionar nuevos dominios.
+- **DNS:** (Domain Name System) o sistema de nombres de dominio, es un servicio que habilita un enlace entre nombres de dominio y direcciones IP con la que están asociados.
+- **Proveedor DNS:** La empresa que nos proporciona servicios de gestión de los archivos de configuración de nuestro dominio y comúnmente también nos permite registrar y gestionar nuevos dominios.
 
 ### Conectar un dominio
 
 Para llevar a la práctica el siguiente ejercicio, es probable que necesites una tarjeta de crédito o débito. En caso de no contar con ella no debes preocuparte, estar atento a la parte teórica es suficiente.
 
-Al hacer deploy de nuestra aplicación, heroku automáticamente le asigna un dominio personalizado a nuestra API.
+Al hacer deploy de nuestra aplicación, Heroku automáticamente le asigna un dominio personalizado a nuestra API.
 
 Para configurar un dominio personalizado con Heroku primero debemos de tener un dominio registrado y acceso a sus archivos de configuración DNS.
 
@@ -33,7 +33,7 @@ Para configurar un dominio personalizado con Heroku primero debemos de tener un 
 
     ![img/Untitled.png](img/Untitled.png)
 
-2. En tu aplicación de Heroku, dirígete a settings y en la sección de Domains y añade el dominio que registraste.
+2. En tu aplicación de Heroku, dirígete a settings y en la sección de Domains añade el dominio que registraste.
 
     ![img/Untitled%201.png](img/Untitled%201.png)
 
@@ -48,15 +48,3 @@ Para configurar un dominio personalizado con Heroku primero debemos de tener un 
 
 5. Espera a que los cambios se vean reflejados.
 6. Una vez hecho esto accede al dominio de tu API
-
-### Reto 3
-
-Investiga para qué sirve un certificado SSL y las ventajas que tiene para tu aplicación.
-
-Configura un certificado SSL.
-
-Pistas:
-
-- Googlea y revisa algunas alternativas para configurar esto con Heroku y tu proveedor DNS.
-- [https://github.com/nodenica/node-heroku-ssl-redirect](https://github.com/nodenica/node-heroku-ssl-redirect)
-- Investiga como funcionan herramientas como Letsencrypt, para obtener certificados de manera gratuita.
