@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Preparación de un ambiente de producción por medio de cofiguración de variables de entorno.
+Preparación de un ambiente de producción por medio de configuración de variables de entorno.
 
 Implementar buenas prácticas de seguridad antes de subir nuestro código a un repositorio.
 
@@ -16,13 +16,20 @@ A continuación prepararemos el código de la API de adopta-pet para poder subir
 
 ### Ambientes de desarrollo
 
-El manejo de ambientes de desarrollo nos permite establecer diferentes configuraciones cuándo estamos trabajando con nuestro código. Es buena práctica establecer mínimo dos ambientes de desarrollo, los cuales pueden ser 'development' y 'production', así por ejemplo, podríamos establecer una base de datos de pruebas, ya sea de manera local o en un servidor con recursos más limitados o que utilice una base gratuita cuya consistencia de los datos no sea tan relevante cómo la de una base de datos de producción, la cuál debe estar preparada para recibir más carga de trabajo y tener alta disponibilidad.
+El manejo de ambientes de desarrollo nos permite establecer diferentes configuraciones cuando estamos trabajando con nuestro código. Es buena práctica establecer mínimo dos ambientes de desarrollo, los cuales pueden ser 'development' y 'production'.
+
+Por ejemplo, para 'development' podríamos establecer una base de datos de pruebas, ya sea de manera local o en un servidor. Ésta podría con recursos más limitados y la consistencia de sus datos no tendría que ser tan relevante como en la de base de datos de producción, la cual debe estar preparada para recibir más carga de trabajo y tener alta disponibilidad.
 
 También es común que tengamos variables que van a cambiar según las circunstancias y la plataforma donde nuestro código sea ejecutado.
 
 Si queremos compartir nuestro código por medio de un repositorio público, es importante tener cuidado con los datos sensibles a los cuales no deseamos que otras personas tengan acceso. 
 
 Una de las maneras más simples para almacenar información sin tenerla escrita directamente en el código es por medio de **variables de entorno.** 
+
+>💡 **Nota:**
+>
+> Explicar a los alumnos que también se les conoce como **variables de ambiente**
+>
 
 Para crear una variable de entorno podemos utilizar la siguiente sintaxis directamente en la terminal de nuestro sistema UNIX:
 
@@ -32,9 +39,9 @@ export NOMBRE_VARIABLE=valor
 
 Una vez guardada podrás utilizarla así
 
-```jsx
+```bash
 echo $NOMBRE_VARIABLE
-#$~ valor
+valor
 ```
 
 y para acceder a ellas con node.js utilizamos el siguiente código:
@@ -49,14 +56,14 @@ process.env.NOMBRE_VARIABLE
 
     ```bash
     export NODE_ENV='development'
-    export PORT=30000
+    export PORT=3000
     export SECRET='secret' # para mayor seguridad puedes cambiar esto por el secreto de tu preferencia
     export MONGODB_URI='mongodb+srv://<username>:<password>@cluster0-xmea4.mongodb.net/adoptapet?retryWrites=true&w=majority'
     ```
 
     Recuerda sustituir los campos entre `<>` dentro de la `MONGODB_URI`
 
-2. Para cargar las variables de manera local debes posicionarte en la ruta del archivo `[env.sh](http://env.sh)` y ejecutar
+2. Para cargar las variables de manera local debes posicionarte en la ruta del archivo `env.sh` y ejecutar
 
     ```bash
     source ./env.sh
@@ -73,7 +80,7 @@ process.env.NOMBRE_VARIABLE
     );
     ```
 
-4. Para visualizar errores explicitamente en el entorno de desarrollo puedes agregar la siguiente condición
+4. Para visualizar errores explícitamente en el entorno de desarrollo puedes agregar la siguiente condición
 
     ```jsx
     const errorhandler = require('errorhandler')
@@ -116,9 +123,3 @@ process.env.NOMBRE_VARIABLE
     Aquí estamos obteniendo la variable de entorno `SECRET` para verificar la autenticidad de los tokens de los usuarios con JWT. 
 
     Más adelante cambiaremos este *secret* en producción por algo más seguro y que puedas recordar.
-
-## Reto 1
-
-1. Una vez que hayas verificado que el consumo de variables de entorno esté en orden, si aún no lo has hecho, **inicializa un nuevo repositorio de git** con el proyecto de adoptapet.
-2.  **Es importante que antes de hacer push actualices el archivo `.gitignore`** agregando la carpeta `node_modules/` y tu archivo `env.sh`  
-3. Una vez hecho lo anterior sube tu repositorio a tu cuenta de **github.** Para la siguiente sesión será importante que tengas este repo actualizado y listo.
