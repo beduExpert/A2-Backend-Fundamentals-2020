@@ -324,11 +324,3 @@ DELETE FROM My_table WHERE field2 = 'N';
 En el siguiente articulo conocerás 
 [¿Que es NoSQL?](https://aws.amazon.com/es/nosql/)
 
-
-## Quiz
-
-1. Escribe tu propia definición de Base de Datos Relacional.
-2. ¿Qué es un Sistema de Gestión de Bases de Datos?
-3. Da un ejemplo en el que podrías utilizar una Base de Datos Relacional.
-4. ¿Qué es SQL y cuál es su uso?
-5. ¿Cuál es la diferencia entre SQL y NoSQL?
