@@ -37,11 +37,3 @@ Un ODM (Object Document Mapping) es una herramienta para trabajar con objetos en
 ### ¿Por qué esto es importante?
 
 Si trabajaramos haciendo peticiones directamente al servidor de bases de datos, implicaría realizar mucho código adicional para manejar todas las conversiones de datos a sus representaciones necesarias para ser comunicados por medio de una API. También trabajar con servidores de datos implica hacer muchas validaciones, correr pruebas y considerar la seguridad de la misma. Al utilizar una librería probada y mantenida por la comunidad, podremos ahorrarnos este trabajo y poder utilizar el tiempo restante en crear una aplicación más estable y con características de valor para el usuario final.
-
-## Quiz
-
-1. ¿Cuál es la diferencia entre un cliente y una librería ORD/ODM?
-
-2. ¿Si quisiera actualizar mis modelos de AdoptaPet para trabajar con MongoDB, que librería podría utilizar?
-
-3. ¿Si quiero trabajar con MongoDB y Javascript, podría utilizar Sequelize? ¿Por qué?
