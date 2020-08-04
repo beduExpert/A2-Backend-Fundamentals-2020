@@ -62,15 +62,3 @@ Alta posibilidad de tener **datos duplicados.**
 ### Bases de Datos NoSQL en el mercado
 
 ![img/Screen_Shot_2020-06-22_at_1.52.06.png](img/Screen_Shot_2020-06-22_at_1.52.06.png)
-
-## Quiz
-
-1. ¿Una BD relacional puede ser NoSQL?
-
-1. ¿Cuáles son las principales características que ofrecen las BD NoSQL?
-
-1. ¿Cuáles son los tipos de BD NoSQL? Crea un esquema, si consideras necesario, que te ayude a identificar cada tipo.
-
-1. Si tuvieras que implementar una BD donde la velocidad de lectura y escritura es lo primordial ¿ocuparías SQL o NoSQL? Justifica tu respuesta.
-
-1. Explica cómo funciona la atomicidad en las BD NoSQL.
