@@ -25,16 +25,16 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     para importarlo en nuestros modelos podemos hacerlo con la siguiente línea.
 
     ```jsx
-    var mongoose = require('mongoose');
+    const mongoose = require('mongoose');
     ```
 
 2. Modificaremos el modelo Usuario utilizando la clase `Schema` de mongoose.
 
     ```jsx
     // Usuario.js
-    var mongoose = require('mongoose');
+    const mongoose = require('mongoose');
 
-    var UsuarioSchema = new mongoose.Schema({
+    const UsuarioSchema = new mongoose.Schema({
       username: String,
       nombre: String,
       apellido: String, 
@@ -55,10 +55,10 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 
     ```jsx
     // Usuario.js
-    var mongoose = require("mongoose");
-    var uniqueValidator = require("mongoose-unique-validator");
+    const mongoose = require("mongoose");
+    const uniqueValidator = require("mongoose-unique-validator");
 
-    var UsuarioSchema = new mongoose.Schema(
+    const UsuarioSchema = new mongoose.Schema(
       {
         username: {
           type: String,
@@ -100,9 +100,9 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     Añadiremos la siguiente línea arriba
 
     ```jsx
-    var crypto = require('crypto');
-    var jwt = require('jsonwebtoken');
-    var secret = require('../config').secret;
+    const crypto = require('crypto');
+    const jwt = require('jsonwebtoken');
+    const secret = require('../config').secret;
     ```
 
 5. Agregamos los siguientes métodos a nuestro modelo
@@ -123,15 +123,15 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
      * Recibe el password, genera y compara el has con el de la base de datos
      */
     UsuarioSchema.methods.validarPassword = function (password) {
-      var hash = crypto
+      const hash = crypto
         .pbkdf2Sync(password, this.salt, 10000, 512, "sha512")
         .toString("hex");
       return this.hash === hash;
     };
 
     UsuarioSchema.methods.generarJWT = function() {
-      var today = new Date();
-      var exp = new Date(today);
+      const today = new Date();
+      const exp = new Date(today);
       exp.setDate(today.getDate() + 60); // 60 días antes de expirar
 
       return jwt.sign({
@@ -178,7 +178,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 6. Añadiremos las siguientes modificaciones a nuestro archivo `app.js` teniendo cuidado de que esté arriba de la declaración de las rutas.
 
     ```jsx
-    var mongoose = require("mongoose");
+    const mongoose = require("mongoose");
 
     mongoose.connect(
       "mongodb+srv://<usuario>:<password>@cluster0-xmea4.mongodb.net/<dbname>?retryWrites=true&w=majority"
@@ -212,10 +212,10 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 2. Crea un nuevo archivo `config/passport.js`con lo siguiente  
 
     ```jsx
-    var passport = require('passport');
-    var LocalStrategy = require('passport-local').Strategy;
-    var mongoose = require('mongoose');
-    var Usuario = mongoose.model('Usuario');
+    const passport = require('passport');
+    const LocalStrategy = require('passport-local').Strategy;
+    const mongoose = require('mongoose');
+    const Usuario = mongoose.model('Usuario');
 
     passport.use(new LocalStrategy({
       usernameField: 'email',
@@ -254,8 +254,8 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 5. Crearemos dos *middlewares*  en el archivo `routes/auth.js` para decodificar el código JWT
 
     ```jsx
-    var jwt = require('express-jwt');
-    var secret = require('../config').secret;
+    const jwt = require('express-jwt');
+    const secret = require('../config').secret;
 
     function getTokenFromHeader(req) {
       if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Token' ||
@@ -266,7 +266,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
       return null;
     }
 
-    var auth = {
+    const auth = {
       requerido: jwt({
         secret: secret,
         algorithms: ['HS256'],
@@ -292,9 +292,9 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 
     ```jsx
     // controllers/usuarios.js
-    var mongoose = require("mongoose")
+    const mongoose = require("mongoose")
     const Usuario = mongoose.model("Usuario")
-    var passport = require('passport');
+    const passport = require('passport');
 
     function crearUsuario(req, res, next) {
       // Instanciaremos un nuevo usuario utilizando la clase usuario
@@ -302,7 +302,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
         password = body.password
 
       delete body.password
-      var usuario = new Usuario(body)
+      const usuario = new Usuario(body)
       usuario.crearPassword(password)
       usuario.save().then(user => {
         return res.status(201).json(user.toAuthJSON())
@@ -322,7 +322,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
       console.log(req.usuario)
       Usuario.findById(req.usuario.id).then(user => {
         if (!user) { return res.sendStatus(401); }
-        var nuevaInfo = req.body
+        let nuevaInfo = req.body
         if (typeof nuevaInfo.username !== 'undefined')
           user.username = nuevaInfo.username
         if (typeof nuevaInfo.bio !== 'undefined')
@@ -389,7 +389,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
       eliminarUsuario,
       iniciarSesion
     } = require('../controllers/usuarios')
-    var auth = require('./auth');
+    const auth = require('./auth');
 
     router.get('/', auth.requerido, obtenerUsuarios)
     router.get('/:id', auth.requerido, obtenerUsuarios);
