@@ -46,4 +46,4 @@ Si todo salió bien podremos ver algo como esto
 
 -------
 
-[`Siguiente: Reto-02`](../Reto-02)
+[`Atrás: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-02/Reto-01) | [`Siguiente: Reto-02`](../Reto-02)
