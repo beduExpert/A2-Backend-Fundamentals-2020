@@ -264,3 +264,5 @@ Vamos a modelar estos documentos de las formas que ya se explicaron:
             "puntuacion": 3
         }
         ```
+
+[`Atrás: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-02) | [`Siguiente: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-03)
