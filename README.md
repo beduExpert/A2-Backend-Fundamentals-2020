@@ -18,7 +18,7 @@ Es recomendable que tengas los siguientes **conocimientos.**
 
 ## ❗ Importante
 
-+ Para este curso **se recomienda tener** de preferencia **Sistema Operativo Linux**(**[Ubuntu](https://ubuntu.com)** como distribución de prefencia) o **[Mac OS](https://www.apple.com/mx/macos/what-is/)**, **no se recomienda Windows**,no por que no sea bueno, si no por que podemos tener dificultades con los comandos que estaremos que ocuparemos en las siguientes sesiones.
++ Para este curso **se recomienda tener** de preferencia **Sistema Operativo Linux**(**[Ubuntu](https://ubuntu.com)** como distribución de prefencia) o **[Mac OS](https://www.apple.com/mx/macos/what-is/)**, **no se recomienda Windows**,no por que no sea bueno, si no por que podemos tener dificultades con los comandos que estaremos ocuparemos en las siguientes sesiones.
 + Si tienes como **Sistema Operativo Windows**, no te preocupes 😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opciones si **no quieres instalar un Sistema Operativo desde cero**.
 
 **💡 Nota:**
