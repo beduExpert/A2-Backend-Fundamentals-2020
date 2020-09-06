@@ -170,7 +170,7 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
     ```json
     {
     	"ok" : 1,
-    	"$clusterTime" : {
+    	"$clusterTime" : {[`Atrás: Reto-02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-01/Reto-02n)
     		"clusterTime" : Timestamp(1592800772, 5),
     		"signature" : {
     			"hash" : BinData(0,"Cqg3SKYxW90A98A5Xz0qScsRGP0="),
@@ -391,3 +391,5 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
         ```json
         { "_id" : ObjectId("5ef03e5cd761235365aa9ca7"), "autor" : ObjectId("5ef03837d761235365aa9ca4"), "fecha_publicacion" : "2020-05-23", "texto" : "Excelente post, me ayudo a comprender más...", "puntuacion" : 5 }
         ```
+
+[`Atrás: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-03)
