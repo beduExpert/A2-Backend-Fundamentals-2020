@@ -14,7 +14,7 @@
 <img width="913" alt="Screen_Shot_2020-07-20_at_18 55 32" src="https://user-images.githubusercontent.com/13757596/88000529-75ae1d80-cac3-11ea-823d-26bae07efaff.png">
 <img width="900" alt="Screen_Shot_2020-07-20_at_18 55 45" src="https://user-images.githubusercontent.com/13757596/88000534-78107780-cac3-11ea-94d1-5a765479196b.png">
 
-## Reto 5
+## Extra
 
 1. Construye la base de datos con las colecciones necesarias para Adoptapet.
 2. Crea documentos para las diferentes colecciones de Adoptapet.
