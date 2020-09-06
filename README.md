@@ -23,7 +23,7 @@ Es recomendable que tengas los siguientes **conocimientos.**
 
 **💡 Nota:**
 
->Para instalara Ubuntu necesitarás una [imagen ISO](https://www.aboutespanol.com/que-es-una-imagen-iso-3507896), a  continuación [podrás encontrar el link de descarga](https://ubuntu.com/download/desktop).
+>Para instalar Ubuntu necesitarás una [imagen ISO](https://www.aboutespanol.com/que-es-una-imagen-iso-3507896), a  continuación [podrás encontrar el link de descarga](https://ubuntu.com/download/desktop).
 
   ### La primera opción es crear una Maquina Virtual que contenga Ubuntu
   + Puedes usar [VirtualBox](https://www.genbeta.com/paso-a-paso/como-crear-una-maquina-virtual-en-windows-para-ejecutar-linux) ó
