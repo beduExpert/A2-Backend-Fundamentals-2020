@@ -49,4 +49,4 @@ si todo ha sido exitoso ahora tendremos un nuevo ***comando*** instalado en nues
 
 -------
 
-[`Atrás: Reto-02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-01/Reto-02n) | [`Siguiente: Reto-03`](../Reto-03)
+[`Atrás: Reto-02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-01/Reto-02) | [`Siguiente: Reto-03`](../Reto-03)
