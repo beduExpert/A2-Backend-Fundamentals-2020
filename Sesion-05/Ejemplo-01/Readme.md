@@ -71,4 +71,4 @@ docker exec -it mysql-db mysql -p
 2. Selecciona tu sistema operativo y descarga el archivo `.dmg`. Para instalar de esta manera tal vez sea necesario crear una cuenta en Oracle.
 3. Ejecuta el `.dmg` y sigue los pasos.
 
-[`Atrás: Sesión 05`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05) | [`Siguiente: Reto-03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05/Ejemplo-02)
+[`Atrás: Sesión 05`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05) | [`Siguiente: Ejemplo 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05/Ejemplo-02)
