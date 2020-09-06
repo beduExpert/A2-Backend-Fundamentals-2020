@@ -126,4 +126,4 @@ chmod -R 744 claseDos
 
 -------
 
-[`Siguiente: Reto-01`](../Reto-01)
+[`Atrás: Reto-02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-02) | [`Siguiente: Reto-01`](../Reto-01)
