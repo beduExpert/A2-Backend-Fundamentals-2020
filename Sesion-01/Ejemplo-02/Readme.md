@@ -90,4 +90,4 @@ Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en e
 
 -------
 
-[`Siguiente: Reto-02`](../Reto-02)
+[`Atŕas: Reto-01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-01/Reto-01) | [`Siguiente: Reto-02`](../Reto-02)
