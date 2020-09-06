@@ -392,4 +392,4 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
         { "_id" : ObjectId("5ef03e5cd761235365aa9ca7"), "autor" : ObjectId("5ef03837d761235365aa9ca4"), "fecha_publicacion" : "2020-05-23", "texto" : "Excelente post, me ayudo a comprender más...", "puntuacion" : 5 }
         ```
 
-[`Atrás: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-03)
+[`Atrás: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-03) | [`Siguiente: Reto 04`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-04)
