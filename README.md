@@ -31,9 +31,9 @@ Es recomendable que tengas los siguientes **conocimientos.**
   ### La segunda es:
   + [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
-## 🚀 [Proyecto](./Sesion-03/Ejemplo-02)
+## 🚀 Proyecto
 
-- Crearemos una API desde cero para una aplicación de adopción de mascotas. 
+- Crearemos una [API desde cero](./Sesion-03/Ejemplo-02) para una aplicación de adopción de mascotas. 
 
 ## 📋 Temario
 
