@@ -4,10 +4,6 @@
 
 Conocer los fundamentos de las bases de datos no relacionales
 
-## Instrucciones
-
-Ve el siguiente vídeo y lee los artículos, posteriormente contesta el cuestionario adjunto.
-
 ## Desarrollo
 
 # SQL vs NoSQL ¿Cuál debo usar?
