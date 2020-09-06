@@ -18,3 +18,5 @@ Analiza las respuestas y qué es lo que sucede en cada caso.
 **Insomnia**
 
 <img src="https://raw.githubusercontent.com/Gabb1995/insomnia-plugin-theme-palenight/master/material-palenight.png" width="600">
+
+[`Atrás: Ejemplo 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Ejemplo-03) | [`Siguiente: Reto 04`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Reto-04)
