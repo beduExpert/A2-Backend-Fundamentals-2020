@@ -18,18 +18,17 @@ Es recomendable que tengas los siguientes **conocimientos.**
 
 ## ❗ Importante
 
-+ Para este curso **se recomienda tener** de preferencia **Sistema Operativo Linux**(**[Ubuntu](https://ubuntu.com)** como distribución de prefencia) o **[Mac OS](https://www.apple.com/mx/macos/what-is/)**, no se recomienda Windows,no por que no sea bueno, pero podemos tener dificultades con los comandos que estaremos que ocuparemos en las siguientes sesiones.
-+ Si tienes un Sistema Operativo Windows, no te preocupes 😉, puedes trabajar con Ubuntu(prefentemente) y para ello existen hay varias opciones si no quieres instalar un Sistema Operativo desde cero.
++ Para este curso **se recomienda tener** de preferencia **Sistema Operativo Linux**(**[Ubuntu](https://ubuntu.com)** como distribución de prefencia) o **[Mac OS](https://www.apple.com/mx/macos/what-is/)**, **no se recomienda Windows**,no por que no sea bueno, si no por que podemos tener dificultades con los comandos que estaremos que ocuparemos en las siguientes sesiones.
++ Si tienes el **Sistema Operativo Windows**, no te preocupes 😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opciones si **no quieres instalar un Sistema Operativo desde cero**.
 
-**Nota:**
+  **Nota:**
 
-  Necesitarás una imagen ISO de la distribución de Linux llamada Ubuntu, a continuación podrás encontrar el link de descarga.
-  + [Ubuntu](https://ubuntu.com/download/desktop).
+  Para instalara Ubuntu necesitarás una [imagen ISO](https://www.aboutespanol.com/que-es-una-imagen-iso-3507896), a continuación [podrás encontrar el link de descarga](https://ubuntu.com/download/desktop).
 
-  1. Crear una Maquina Virtual que contenga Ubuntu
+  ### La primera opción es crear una Maquina Virtual que contenga Ubuntu
     + [VirtualBox](https://www.genbeta.com/paso-a-paso/como-crear-una-maquina-virtual-en-windows-para-ejecutar-linux)
     + [VMware](https://www.codigonaranja.com/instalar-linux-windows-10-usando-una-maquina-virtual)
-  2. [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
+  ### [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
 ## 🚀 [Proyecto](./Sesion-03/Ejemplo-02)
 
