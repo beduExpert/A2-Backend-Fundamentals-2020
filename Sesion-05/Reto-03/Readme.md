@@ -12,4 +12,4 @@ Para hacer consultas entre distintas tablas puedes utilizar la sentencia join la
 
 [Visual JOIN](https://joins.spathon.com/)
 
-[`Atrás: Ejemplo 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05/Ejemplo-03) | [`Siguiente: Reto 04`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05/Reto-03)
+[`Atrás: Ejemplo 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05/Ejemplo-03) | [`Siguiente: Reto 04`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05/Reto-04)
