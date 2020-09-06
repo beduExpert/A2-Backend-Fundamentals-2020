@@ -184,3 +184,5 @@ module.exports = router;
 ```
 
 Si es así no olvides guardar y revisar que tu servidor se haya actualizado y esté corriendo.
+
+[`Atrás: Ejemplo 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Ejemplo-01) | [`Siguiente: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Reto-01)
