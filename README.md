@@ -19,7 +19,7 @@ Es recomendable que tengas los siguientes **conocimientos.**
 ## ❗ Importante
 
 + Para este curso **se recomienda tener** de preferencia **Sistema Operativo Linux**(**[Ubuntu](https://ubuntu.com)** como distribución de prefencia) o **[Mac OS](https://www.apple.com/mx/macos/what-is/)**, **no se recomienda Windows**,no por que no sea bueno, si no por que podemos tener dificultades con los comandos que estaremos que ocuparemos en las siguientes sesiones.
-+ Si tienes el **Sistema Operativo Windows**, no te preocupes 😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opciones si **no quieres instalar un Sistema Operativo desde cero**.
++ Si tienes como **Sistema Operativo Windows**, no te preocupes 😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opciones si **no quieres instalar un Sistema Operativo desde cero**.
 
   **Nota:**
 
@@ -28,7 +28,8 @@ Es recomendable que tengas los siguientes **conocimientos.**
   ### La primera opción es crear una Maquina Virtual que contenga Ubuntu
     + [VirtualBox](https://www.genbeta.com/paso-a-paso/como-crear-una-maquina-virtual-en-windows-para-ejecutar-linux)
     + [VMware](https://www.codigonaranja.com/instalar-linux-windows-10-usando-una-maquina-virtual)
-  ### [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
+  ### La segunda es:
+   + [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
 ## 🚀 [Proyecto](./Sesion-03/Ejemplo-02)
 
