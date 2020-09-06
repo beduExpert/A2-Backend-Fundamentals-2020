@@ -4,10 +4,6 @@
 
 Comprender los conceptos fundamentales de las técnicas para el manejo de sesiones y autenticación en una API.
 
-## Instrucciones
-
-Leer el siguiente material y posteriormente.
-
 ## Desarrollo
 
 Para mantener el control de quién realiza peticiones a nuestra API necesitamos una manera de identificar quién está peticionando. Una vez que una API ha sido publicada cualquier humano o bot podría realizar peticiones y si no utilizamos técnicas para controlar el acceso, podríamos tener fugas de información confidencial o importante para nuestra organización.
