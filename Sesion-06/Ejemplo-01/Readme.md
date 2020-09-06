@@ -132,4 +132,4 @@ mongo "mongodb+srv://cluster0-xmea4.mongodb.net/<*dbname*>" --username <*usernam
 
 5. Reemplaza los valores indicados y ejecuta el comando anterior.
 
-[`Atrás: Sesión 06`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06) | [`Siguiente: Reto 01`]https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-01)
+[`Atrás: Sesión 06`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06) | [`Siguiente: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-01)
