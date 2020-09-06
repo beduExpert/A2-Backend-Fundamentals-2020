@@ -10,4 +10,4 @@ Creación de la base de datos en SQL para Adoptapet.
 CREATE TABLE *nombre_tabla*(*atributo1 tipo* [*restricción*], *atributo2...);*
 ```
 
-[`Atrás: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05/Reto-04)
+[`Atrás: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-05/Reto-03)
