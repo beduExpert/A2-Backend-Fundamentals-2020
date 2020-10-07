@@ -42,3 +42,8 @@ Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, l
 **Desarrolla un nuevo feature para guardar mascotas favoritas**
 
 Desarrolla una nueva característica para que un usuario sea capaz guardar mascotas que ha visto y que desea adoptar en un futuro...[`leer más`](Postwork/#postwork)
+
+
+> 💡**Importante:**
+>
+> El [resultado final](adoptapet/) del código de esta sesión está en el folder
