@@ -11,8 +11,7 @@
 [Postwork: Desarrollar un nuevo feature sobre el código que se ha trabajado hasta ahora](Postwork/)
 
 
----
-> Nota:
+> 💡**Nota:**
 >
 >El [resultado final](adoptapet/) del código de esta sesión está en el folder
 
