@@ -1,4 +1,4 @@
-# Sesión 4 - Mongoose
+# Sesión 7 - Mongoose
 
 [Prework :](Prework/)¿Qué es un ORM y su importancia en el desarrollo?
 
