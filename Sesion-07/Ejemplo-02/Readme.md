@@ -42,8 +42,6 @@ require('./models/Mascota');
 ...
 ```
 
-El orden es importante, ya que el modelo usuario es utilizado dentro del modelo Mascota, entonces debe estar declarado primero.
-
 3. Actualiza las rutas del archivo `routes/mascotas.js` para asegurar los endpoints que requieran actualizar mascotas y eliminarlas
 
 ```jsx
