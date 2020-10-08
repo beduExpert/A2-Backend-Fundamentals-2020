@@ -7,3 +7,6 @@
 3. ¿En qué otro caso se te ocurre que sea útil el método populate?
 
 ![image](https://i.stack.imgur.com/GcGMK.png)
+
+
+[`Atrás: Ejemplo 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-01) | [`Siguiente: Ejemplo 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Ejemplo-03)
