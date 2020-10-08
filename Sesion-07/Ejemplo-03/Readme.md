@@ -189,3 +189,6 @@ Aquí está el resultado de una solicitud que ha sido aceptada:
 ```
 
 Así nuestros usuarios podrán ponerse en contacto y concretar la adopción de su nuevo amigo.
+
+
+[`Atrás: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-02) | [`Siguiente: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-03)
