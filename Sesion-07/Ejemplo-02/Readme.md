@@ -34,6 +34,7 @@ Para la propiedad anunciante, crearemos una referencia el modelo Usuario que con
 
 2. Recuerda importar el modelo en `app.js` debajo de dónde importamos el modelo Usuario.
 
+
 ```jsx
 ...
 require('./models/Usuario');
@@ -140,3 +141,5 @@ esto nos devolverá una respuesta cómo la siguiente:
   "__v": 0
 }
 ```
+
+[`Atrás: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-01) | [`Siguiente: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-02)
