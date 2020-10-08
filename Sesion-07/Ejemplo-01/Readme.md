@@ -401,4 +401,4 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     module.exports = router;
     ```
     
-    [`Atrás: Sesión 07`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06) | [`Siguiente: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-01)
+    [`Atrás: Sesión 07`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07) | [`Siguiente: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-01)
