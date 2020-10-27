@@ -32,7 +32,7 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 - [`Reto 03: Ejecutar peticiones de  un CRUD con insomnia o postman`](Reto-03/#reto-3)
 
-- [`Reto 03: Crear controladores para mascotas y solicitudes`](Reto-04/#reto-4)
+- [`Reto 04: Crear controladores para mascotas y solicitudes`](Reto-04/#reto-4)
 
 ## 🛡 Postwork
 
