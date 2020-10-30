@@ -3,7 +3,8 @@
 ## ❗ Importante
 
 + Para este curso **se recomienda tener** de preferencia **Sistema Operativo Linux**(**[Ubuntu](https://ubuntu.com)** como distribución de prefencia) o **[Mac OS](https://www.apple.com/mx/macos/what-is/)**, **no se recomienda Windows**,no por que no sea bueno, si no por que podemos tener dificultades con los comandos que estaremos ocuparemos en las siguientes sesiones.
-+ Si tienes como **Sistema Operativo Windows**, no te preocupes 😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opciones si **no quieres instalar un Sistema Operativo desde cero**.
++ Si tienes como **Sistema Operativo Windows**, no te preocupes😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCoc8TDW+xPZr6Xuv7B+8UYqR9DcyabuSJ4hGfhGRS4s+IdjHACMpv3kLi7C+zH2rOBSjRfeJSTaFLVG8M9SsN+Y4grs1EmmMt3YmjesD+EaJpO5wITBiuu4M1yhLlpGFmi0HqJgrZgWkvLSvXz0oMh8isOdyQaDQ+LOenVmjJDkkpAUX3UscdWkMlVqwAd2XNii7Dmx9PAaIagzLSePqX6stigs9FguvAHp8CPIYWdJHorx6GGDS9dqgbxL0qxcBP71VSb6l5RwoSIPpAutHXfvSO4bxq+NtmNa8u6K0mS9vJf3XdN11yyRf9XBB4ewFPaMkOxgTT7nvU8Cwhi9elKjTXhx4kguNNf5EY0dki9d1TX3w+iDyAuwqqf4E4Sjaer18NRynsrdmnt+acrGrh6Y1ynY7cbhNqXcwig0CEPG+yKNkqwKXJzrVr0U0dJ/ogkKQztuAcYg1VAe8JAZdWuiBlmzyBV8D/xw27d51pagCf3MDd34D/TJGjKKf3dUXk= uriel@UrielRdguez
+ciones si **no quieres instalar un Sistema Operativo desde cero**.
 
 **💡 Nota:**
 
@@ -17,9 +18,9 @@
 
 ## 🎯 Objetivos:
 
-- Brindarte las bases para comenzar a crear proyectos **desarrollando del lado del servidor.** 
+- Brindarte las bases para comenzar a crear proyectos **desarrollando del lado del servidor.**
 
-- Conocer los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción. 
+- Conocer los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción.
 
 - Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
 
@@ -33,7 +34,7 @@ Es recomendable que tengas los siguientes **conocimientos.**
 
 ## 🚀 Proyecto
 
-- Crearemos una [API desde cero](./Sesion-03/Ejemplo-02) para una aplicación de adopción de mascotas. 
+- Crearemos una [API desde cero](./Sesion-03/Ejemplo-02) para una aplicación de adopción de mascotas.
 
 ## 📋 Temario
 
