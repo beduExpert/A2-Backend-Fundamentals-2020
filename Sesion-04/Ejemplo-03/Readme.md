@@ -122,7 +122,7 @@ router.get('/', (req, res)=>{
   res.send('welcome to adoptapet api');
 })
 
-<b>router.use('/usuarios', require('./usuarios'));</b>
+router.use('/usuarios', require('./usuarios'));
 
 /* con el método use de nuestro router estamos indicando 
 * que en la ruta 'v1/usuarios' estarán anidadas las rutas 
