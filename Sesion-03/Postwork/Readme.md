@@ -23,7 +23,7 @@ Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus 
 - Familiarizarse con Docker
 - Descargar e instalar imagenes de docker y utilizarlas
 
-## Requerimientos
+**Requerimientos**
 
 + [Git](https://git-scm.com/downloads)
 + Instalar **docker**
