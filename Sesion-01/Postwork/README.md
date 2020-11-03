@@ -6,9 +6,9 @@ Recuerda que todo lo trabajado en tu prework, así como en el work, puede ser ap
 
 Asegurate de comprender: 
 
-- Las herramientas que te permitirán listar los permisos de archivos y directorios en tu file system.
-- Las herramientas que te permitirán modificar los permisos de archivos y directorios en tu file system.
-- Las herramientas que te permitirán llevar a cabo una conexión vía ssh.
+- Las herramientas que te permitirán listar, mover, crear, copiar, borrar elementos en tu file system.
+- Las herramientas que te permitirán editar un archivo de texto desde terminal de línea de comandos.
+- Las herramientas que te permitirán instalar paquetes en tu ambiente.
 
 Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
 
