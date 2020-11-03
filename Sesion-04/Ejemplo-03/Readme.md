@@ -1,138 +1,26 @@
-[`Backend Fundamentals`](../../README.md) > [`Sesión 03: API`](../README.md) > `Ejemplo 3`
+[`Backend Fundamentals`](../../README.md) > [`Sesión 04: API`](../README.md) > `Ejemplo 3`
 
 # Ejemplo 3
 
 ## Objetivo
 
-Entender los objetos de petición y respuesta que nos provee ExpressJS y cómo utilizarlos para agregar funcionalidad a nuestra API.
+Comprender el concepto de rutas en nuestra API y la mejor manera de establecerlas para acceder a recursos.
 
 ## Requerimientos
 
-Se recomienda tener NodeJS LTS instalado y funcionando correctamente. También es recomendable estar familiarizado con Javascript y programación orientada a objetos.
+Se recomienda tener NodeJS LTS y ExpressJS.
 
 ## Desarrollo
 
-En nuestra carpeta `models/` crearemos las clases de nuestras tres entidades con su respectivo nombre de archivo. Revisa que cada archivo tenga un código similar al siguiente
+### Configurando las rutas de nuestra API
 
-1. Archivo `models/Mascota.js`
+### Creando la estructura de un CRUD
 
-```jsx
-// Mascota.js
-/** Clase que representa un animalito a adoptar */
-class Mascota {
-  constructor(id, nombre, categoria, fotos, descripcion, anunciante, ubicacion) {
-    this.id = id;
-    this.nombre = nombre; // nombre de la mascota (o titulo del anuncio)
-    this.categoria = categoria; // perro | gato | otro
-    this.fotos = fotos; // links a las fotografías
-    this.descripcion = descripcion; // descripción del anuncio
-    this.anunciante = anunciante; // contacto con la persona que anuncia al animalito
-    this.ubicacion = ubicacion; // muy importante
-  }
+En los siguientes pasos crearemos el **esqueleto** de nuestra API para el recurso `usuarios`, declarando las rutas para crear, obtener, actualizar y eliminar usuarios (CRUD).
 
-}
+Los siguientes *endpoints* estarán siendo importados en el archivo `index.js` y bajo la ruta `v1/usuarios` de nuestra api.
 
-module.exports = Mascota;
-```
-
-2. Archivo `models/Usuario.js`
-
-```jsx
-// Usuario.js
-/** Clase que representa a un usuario de la plataforma*/
-class Usuario {
-  constructor(id, username, nombre, apellido, email, password, ubicacion, telefono, bio, fotos, tipo) {
-    this.id = id;
-    this.username = username;
-    this.nombre = nombre;
-    this.apellido = apellido;
-    this.email = email;
-    this.password = password;
-    this.ubicacion = ubicacion;
-    this.telefono = telefono;
-    this.bio = bio;
-    this.fotos = fotos;
-    this.tipo = tipo; // tipo normal o anunciante
-  }
-}
-
-module.exports = Usuario;
-```
-
-3. Archivo `models/Solicitud.js`
-
-```jsx
-// Solicitud.js
-/** Clase que representa una solicitud de adopción */
-class Solicitud {
-  constructor(id, idMascota, fechaDeCreacion, idUsuarioAnunciante, idUsuarioSolicitante, estado) {
-    this.id = id;
-    this.idMascota = idMascota;
-    this.fechaDeCreacion = fechaDeCreacion;
-    this.idUsuarioAnunciante = idUsuarioAnunciante;
-    this.idUsuarioSolicitante = idUsuarioSolicitante;
-    this.estado = estado;
-  }
-
-}
-
-module.exports = Solicitud;
-```
-
-### Creando nuestros controladores
-
-4. En la carpeta `controllers/` crearemos el archivo `usuarios.js` con la siguiente estructura:
-
-```jsx
-/*  Archivo controllers/usuarios.js
- *  Simulando la respuesta de objetos Usuario
- *  en un futuro aquí se utilizarán los modelos
- */
-
-const Usuario = require('../models/Usuario')
-
-function crearUsuario(req, res) {
-  // Instanciaremos un nuevo usuario utilizando la clase usuario
-  var usuario = new Usuario(req.body)
-  res.status(201).send(usuario)
-}
-
-function obtenerUsuarios(req, res) {
-  // Simulando dos usuarios y respondiendolos
-  var usuario1 = new Usuario(1, 'Juan', 'Vega', 'juan@vega.com')
-  var usuario2 = new Usuario(2, 'Monserrat', 'Vega', 'mon@vega.com')
-  res.send([usuario1, usuario2])
-}
-
-function modificarUsuario(req, res) {
-  // simulando un usuario previamente existente que el usuario utili
-  var usuario1 = new Usuario(req.params.id, 'Juan', 'Vega', 'juan@vega.com')
-  var modificaciones = req.body
-  usuario1 = { ...usuario1, ...modificaciones }
-  res.send(usuario1)
-}
-
-function eliminarUsuario(req, res) {
-  res.status(200).send(`Usuario ${req.params.id} eliminado`);
-}
-
-module.exports = {
-  crearUsuario,
-  obtenerUsuarios,
-  modificarUsuario,
-  eliminarUsuario
-}
-```
-
-En el código anterior jugamos con las clases de Javascript para simular el comportamiento esperado de nuestra API en las primeras tres funciones.
-
-Es importante entender los dos argumentos de nuestras funciones, (req y res).
-
-El objeto [Request (req)](http://expressjs.com/es/4x/api.html#req) contiene un gran número de propiedades referentes a la petición HTTP como los parámetros, los *headers,* el cuerpo de la petición y más.
-
-[Response (res)](http://expressjs.com/es/4x/api.html#res) es el objeto que utilizamos para componer la respuesta que enviaremos  con el método *send*.
-
-5. Modificaremos el archivo `routes/usuarios.js` con la siguiente estructura:
+1. Debajo de la carpeta routes, crea el archivo `usuarios.js`, agrega la siguiente estructura:
 
 ```jsx
 // Estructura del CRUD
@@ -152,10 +40,98 @@ router.delete('/:id', eliminarUsuario)
 module.exports = router;
 ```
 
-Lo que aquí sucedió es que hemos externalizado el código de nuestro router a funciones independientes en nuestra carpeta de controladores.
+- Lo que aquí sucedió es que hemos externalizado el código de nuestro router a funciones independientes en nuestra carpeta de controladores.
 
-### Conclusión
+- Aunque para este caso en particular podríamos seguir trabajando con la lógica de cada *endpoint* dentro del archivo `routes/usuarios.js` cuando los proyectos van creciendo, es conveniente modularizar nuestro código, y una manera de hacerlo es externalizando funciones en los controladores.
+Para hacer peticiones en una ruta (endpoint) en específico, debemos establecer una estructura específica.
 
-Aunque para este caso en particular podríamos seguir trabajando con la lógica de cada *endpoint* dentro del archivo `routes/usuarios.js` cuando los proyectos van creciendo, es conveniente modularizar nuestro código, y una manera de hacerlo es externalizando funciones en los controladores.
+- Para esto utilizaremos el Router que nos provee la librería Express.
+
+2. Dentro de la carpeta routes, crearemos el archivo `index.js` con el siguiente código:
+
+```jsx
+var router = require('express').Router();
+
+router.get('/', (req, res)=>{
+  res.send('welcome to adoptapet api');
+});
+
+module.exports = router;
+```
+La sintaxis `(req, res) => { ... }` representa una función que será ejecutada cuando llegue alguna petición en las direcciones uri que especificamos, también se le puede llamar ***handler*** o ***callback***. 
+
+3. Ahora modificaremos nuestro archivo `app.js` para agregar esta ruta:
+
+```jsx
+var express = require('express'),
+    bodyParser = require('body-parser'),
+    cors = require('cors');
+
+// Objeto global de la app
+var app = express();
+
+// Configuración de middlewares
+app.use(cors());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+**// Agregamos el código de nuestro router (routes/index.js)
+app.use('/v1', require('./routes'));**
+
+// Interceptando los errores 404
+app.use(function(req, res, next) {
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+
+// Iniciando el servidor...
+var server = app.listen(process.env.PORT || 3000, function(){
+  console.log('Escuchando en el puerto ' + server.address().port);
+});
+```
+
+Al hacer una petición a esta ruta podremos ver que nos está devolviendo información sobre la versión uno de nuestra API.
+
+![img/Screen_Shot_2020-05-28_at_18.59.55.png](img/Screen_Shot_2020-05-28_at_18.59.55.png)
+
+Es una buena práctica colocar la versión de nuestra app como una ruta principal, ya que así en un futuro si hay un cambio demasiado grande puede mantenerse funcionando ambas apis y conservar compatibilidad.
+
+4. Debajo de la carpeta `routes`, completa la siguiente estructura:
+
+routes/
+
+anunciantes.js
+
+index.js
+
+solicitudes.js
+
+usuarios.js
+
+mascotas.js
+
+![img/Screen_Shot_2020-06-03_at_22.41.30.png](img/Screen_Shot_2020-06-03_at_22.41.30.png)
+
+5. En el archivo `index.js` añadiremos lo siguiente
+
+```jsx
+var router = require('express').Router();
+
+router.get('/', (req, res)=>{
+  res.send('welcome to adoptapet api');
+})
+
+<b>router.use('/usuarios', require('./usuarios'));</b>
+
+/* con el método use de nuestro router estamos indicando 
+* que en la ruta 'v1/usuarios' estarán anidadas las rutas 
+* que vamos a crear en nuestro archivo usuarios.js,
+* la función require está importando este archivo */
+
+module.exports = router;
+```
+
+No olvides guardar y revisar que tu servidor se haya actualizado y esté corriendo.
 
 [`Atrás: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Reto-02) | [`Siguiente: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Reto-03)
