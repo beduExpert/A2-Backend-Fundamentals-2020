@@ -45,6 +45,6 @@ La arquitectura de software es de especial importancia ya que la manera en que s
 
 **Arquitectura de Microservicios**
 
-La arquitectura de microservicios es un estilo de arquitectura dónde una aplicación es creada por medio de una colección de servicios pequeños que se ejecutan como procesos independientes...[`leer mas`](Postwork/#postwork---arquitectura-de-microservicios)
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones...[`leer mas`](Postwork/#postwork---arquitectura-de-microservicios)
 
 
