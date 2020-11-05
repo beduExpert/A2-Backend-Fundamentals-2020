@@ -24,7 +24,8 @@ ciones si **no quieres instalar un Sistema Operativo desde cero**.
 
 - Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
 
-<img src="http://imgfz.com/i/zBy7oYL.png" width="500">
+
+<img src="img/img.png" width="400" align="center" >
 
 ## 💻 ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes **conocimientos.**
