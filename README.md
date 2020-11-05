@@ -15,6 +15,8 @@
   ### La segunda es:
   + [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
+<img src="img/img.png" width="400" align="left" >
+
 ## 🎯 Objetivos:
 
 - Brindarte las bases para comenzar a crear proyectos **desarrollando del lado del servidor.**
@@ -22,9 +24,6 @@
 - Conocer los fundamentos de la gestión de servidores y bases de datos, cómo funciona la comunicación entre el cliente y el servidor por medio de el desarrollo práctico de una API, los principales conceptos de la arquitectura de software y cómo poner en marcha una aplicación web en producción.
 
 - Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
-
-
-<img src="img/img.png" width="400" align="left" >
 
 ## 💻 ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes **conocimientos.**
