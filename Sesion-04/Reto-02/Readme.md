@@ -10,4 +10,4 @@ Crear la estructura CRUD para los anunciantes, las mascotas y las solicitudes de
 
 ![image](https://antonioperez.pro/wp-content/uploads/2017/12/crud-rails-1.png)
 
-[`Atrás: Reto-01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Reto-01) | [`Siguiente: Ejemplo 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Ejemplo-03)
+[`Atrás: Ejemplo 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/blob/master/Sesion-04/Ejemplo-02) | [`Siguiente: Ejemplo 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Ejemplo-03)
