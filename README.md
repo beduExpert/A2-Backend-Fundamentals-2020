@@ -15,7 +15,7 @@
   ### La segunda es:
   + [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
-<img src="img/img.png" width="300" align="left" >
+<img src="img/img.png" width="200" align="left" >
 
 ## 🎯 Objetivos:
 
