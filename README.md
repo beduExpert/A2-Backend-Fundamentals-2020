@@ -24,7 +24,7 @@
 - Todo esto con la finalidad de comprender las principales habilidades de un desarrollador backend y preparate para que seas capaz de utilizarlas en un proyecto.
 
 
-<img src="img/img.png" width="400" align="center" >
+<img src="img/img.png" width="400" align="left" >
 
 ## 💻 ¿Quién puede tomar este curso?
 Es recomendable que tengas los siguientes **conocimientos.**
