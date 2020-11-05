@@ -1,14 +1,29 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 03: Arquitectura de software`](../README.md) > `Postwork`
 
-# Postwork - Arquitectura de Microservicios
+# Postwork
 
-## Objetivo
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones:
+
+Asegurate de comprender: 
+
+- El concepto de la arquitectura cliente-servidor.
+- El reconocimiento de requerimientos funcionales y sus historias de usuario de tu aplicación.
+- El patron MVC ( Modelo Vista Controlador ).
+
+Desarrollo en Java Script:
+- Comienza a desarrollar las clases de las entidades identificadas en tu aplicación.
+
+Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
+
+## Arquitectura de Microservicios
+
+**Objetivo**
 
 - Entender las ventajas de una arquitectura basada en microservicios.
 - Familiarizarse con Docker
 - Descargar e instalar imagenes de docker y utilizarlas
 
-## Requerimientos
+**Requerimientos**
 
 + [Git](https://git-scm.com/downloads)
 + Instalar **docker**

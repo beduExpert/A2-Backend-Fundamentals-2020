@@ -1,188 +1,135 @@
-[`Backend Fundamentals`](../../README.md) > [`Sesión 03: API`](../README.md) > `Ejemplo 2`
+[`Backend Fundamentals`](../../README.md) > [`Sesión 04: API`](../README.md) > `Ejemplo 2`
 
 # Ejemplo 2
 
 ## Objetivo
 
-Comprender el concepto de rutas en nuestra API y la mejor manera de establecerlas para acceder a recursos.
+Entender los objetos de petición y respuesta que nos provee ExpressJS y cómo utilizarlos para agregar funcionalidad a nuestra API.
 
 ## Requerimientos
 
-Se recomienda tener NodeJS LTS y ExpressJS.
+Se recomienda tener NodeJS LTS instalado y funcionando correctamente. También es recomendable estar familiarizado con Javascript y programación orientada a objetos.
 
 ## Desarrollo
 
-### Configurando las rutas de nuestra API
+En nuestra carpeta `models/` crearemos las clases de nuestras tres entidades con su respectivo nombre de archivo. Revisa que cada archivo tenga un código similar al siguiente
 
-Para hacer peticiones en una ruta (endpoint) en específico, debemos establecer una estructura específica.
-
-Para esto utilizaremos el Router que nos provee la librería Express.
-
-1. Dentro de la carpeta routes/ crearemos el archivo `index.js` con el siguiente código:
+1. Archivo `models/Mascota.js`
 
 ```jsx
-var router = require('express').Router();
+// Mascota.js
+/** Clase que representa un animalito a adoptar */
+class Mascota {
+  constructor(id, nombre, categoria, fotos, descripcion, anunciante, ubicacion) {
+    this.id = id;
+    this.nombre = nombre; // nombre de la mascota (o titulo del anuncio)
+    this.categoria = categoria; // perro | gato | otro
+    this.fotos = fotos; // links a las fotografías
+    this.descripcion = descripcion; // descripción del anuncio
+    this.anunciante = anunciante; // contacto con la persona que anuncia al animalito
+    this.ubicacion = ubicacion; // muy importante
+  }
 
-router.get('/', (req, res)=>{
-  res.send('welcome to adoptapet api');
-});
+}
 
-module.exports = router;
+module.exports = Mascota;
 ```
 
-La sintaxis `(req, res) => { ... }` representa una función que será ejecutada cuando llegue alguna petición en las direcciones uri que especificamos, también se le puede llamar ***handler*** o ***callback***. 
-
-2. Ahora modificaremos nuestro archivo `app.js` para agregar esta ruta:
+2. Archivo `models/Usuario.js`
 
 ```jsx
-var express = require('express'),
-    bodyParser = require('body-parser'),
-    cors = require('cors');
+// Usuario.js
+/** Clase que representa a un usuario de la plataforma*/
+class Usuario {
+  constructor(id, username, nombre, apellido, email, password, ubicacion, telefono, bio, fotos, tipo) {
+    this.id = id;
+    this.username = username;
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.password = password;
+    this.ubicacion = ubicacion;
+    this.telefono = telefono;
+    this.bio = bio;
+    this.fotos = fotos;
+    this.tipo = tipo; // tipo normal o anunciante
+  }
+}
 
-// Objeto global de la app
-var app = express();
-
-// Configuración de middlewares
-app.use(cors());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-
-**// Agregamos el código de nuestro router (routes/index.js)
-app.use('/v1', require('./routes'));**
-
-// Interceptando los errores 404
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
-
-// Iniciando el servidor...
-var server = app.listen(process.env.PORT || 3000, function(){
-  console.log('Escuchando en el puerto ' + server.address().port);
-});
+module.exports = Usuario;
 ```
 
-Al hacer una petición a esta ruta podremos ver que nos está devolviendo información sobre la versión uno de nuestra API.
-
-![img/Screen_Shot_2020-05-28_at_18.59.55.png](img/Screen_Shot_2020-05-28_at_18.59.55.png)
-
-Es una buena práctica colocar la versión de nuestra app como una ruta principal, ya que así en un futuro si hay un cambio demasiado grande puede mantenerse funcionando ambas apis y conservar compatibilidad.
-
-3. Crearemos la siguiente estructura de archivos en nuestra carpeta `routes`:
-
-routes/
-
-anunciantes.js
-
-index.js
-
-solicitudes.js
-
-usuarios.js
-
-mascotas.js
-
-![img/Screen_Shot_2020-06-03_at_22.41.30.png](img/Screen_Shot_2020-06-03_at_22.41.30.png)
-
-4. En el archivo `index.js` añadiremos lo siguiente
+3. Archivo `models/Solicitud.js`
 
 ```jsx
-var router = require('express').Router();
+// Solicitud.js
+/** Clase que representa una solicitud de adopción */
+class Solicitud {
+  constructor(id, idMascota, fechaDeCreacion, idUsuarioAnunciante, idUsuarioSolicitante, estado) {
+    this.id = id;
+    this.idMascota = idMascota;
+    this.fechaDeCreacion = fechaDeCreacion;
+    this.idUsuarioAnunciante = idUsuarioAnunciante;
+    this.idUsuarioSolicitante = idUsuarioSolicitante;
+    this.estado = estado;
+  }
 
-router.get('/', (req, res)=>{
-  res.send('welcome to adoptapet api');
-})
-router.use('/usuarios', require('./usuarios'));
-/* con el método use de nuestro router estamos indicando 
-* que en la ruta 'v1/usuarios' estarán anidadas las rutas 
-* que vamos a crear en nuestro archivo usuarios.js,
-* la función require está importando este archivo */
+}
 
-module.exports = router;
+module.exports = Solicitud;
 ```
 
-### Creando la estructura de un CRUD
+### Creando nuestros controladores
 
-En los siguientes pasos crearemos el **esqueleto** de nuestra API para el recurso `usuarios`, declarando las rutas para crear, obtener, actualizar y eliminar usuarios (CRUD).
-
-Los siguientes *endpoints* estarán siendo importados en el archivo `index.js` y bajo la ruta `v1/usuarios` de nuestra api.
-
-5. Para establecer las rutas de los usuarios también utilizaremos el router de ExpressJS. Para la obtención de nuevos usuarios utilizaremos el método get, así que *mapearemos* esa ruta dentro de nuestro archivo `usuarios.js`
+4. En la carpeta `controllers/` crearemos el archivo `usuarios.js` con la siguiente estructura:
 
 ```jsx
-// usuarios.js Estructura del CRUD
-var router = require('express').Router();
+/*  Archivo controllers/usuarios.js
+ *  Simulando la respuesta de objetos Usuario
+ *  en un futuro aquí se utilizarán los modelos
+ */
 
-router.get('/', (req, res) => {
-  // código para consultar usuarios de la DB (próximamente...)
-  res.send('Todos los usuarios');
-})
-router.post('/', (req, res) => {
-  // código para crear el nuevo usuario en la DB (próximamente...)
-  res.send('Usuario creado');
-})
-router.put('/:id', (req, res) => {
-  // código para crear el nuevo usuario en la DB (próximamente...)
-  res.send('Usuario modificado');
-})
-router.delete('/:id', (req, res) => {
-  // código para crear el nuevo usuario en la DB (próximamente...)
-  res.send('Usuario eliminado');
-})
+const Usuario = require('../models/Usuario')
 
-module.exports = router;
+function crearUsuario(req, res) {
+  // Instanciaremos un nuevo usuario utilizando la clase usuario
+  var usuario = new Usuario(req.body)
+  res.status(201).send(usuario)
+}
+
+function obtenerUsuarios(req, res) {
+  // Simulando dos usuarios y respondiendolos
+  var usuario1 = new Usuario(1, 'Juan', 'Vega', 'juan@vega.com')
+  var usuario2 = new Usuario(2, 'Monserrat', 'Vega', 'mon@vega.com')
+  res.send([usuario1, usuario2])
+}
+
+function modificarUsuario(req, res) {
+  // simulando un usuario previamente existente que el usuario utili
+  var usuario1 = new Usuario(req.params.id, 'Juan', 'Vega', 'juan@vega.com')
+  var modificaciones = req.body
+  usuario1 = { ...usuario1, ...modificaciones }
+  res.send(usuario1)
+}
+
+function eliminarUsuario(req, res) {
+  res.status(200).send(`Usuario ${req.params.id} eliminado`);
+}
+
+module.exports = {
+  crearUsuario,
+  obtenerUsuarios,
+  modificarUsuario,
+  eliminarUsuario
+}
 ```
 
-6. Leyendo parámetros.
+En el código anterior jugamos con las clases de Javascript para simular el comportamiento esperado de nuestra API en las primeras tres funciones.
 
-Si necesitamos eliminar o modificar un usuario en específico debemos solicitar su identificador único (`id`).
+Es importante entender los dos argumentos de nuestras funciones, (req y res).
 
-para leer ese id modificaremos el método PUT y el método DELETE de nuestros usuarios.
+El objeto [Request (req)](http://expressjs.com/es/4x/api.html#req) contiene un gran número de propiedades referentes a la petición HTTP como los parámetros, los *headers,* el cuerpo de la petición y más.
 
-```jsx
-...
-router.put('/:id', (req, res) => {
-  var id = req.params.id;
-  // código para crear el nuevo usuario en la DB (próximamente...)
-  res.send(`Usuario ${id} modificado`);
-})
-router.delete('/:id', (req, res) => {
-  var id = req.params.id;
-  // código para crear el nuevo usuario en la DB (próximamente...)
-  res.send(`Usuario ${id} eliminado`);
-})
-...
-```
-
-7. Revisa que tu archivo usuarios.js haya quedado similar a esto
-
-```jsx
-// Estructura del CRUD
-var router = require('express').Router();
-
-router.get('/', (req, res) => {
-  // código para consultar usuarios de la DB (próximamente...)
-  res.send('Todos los usuarios');
-})
-router.post('/', (req, res) => {
-  // código para crear el nuevo usuario en la DB (próximamente...)
-  res.send('Usuario creado');
-})
-router.put('/:id', (req, res) => {
-  var id = req.params.id;
-  // código para crear el nuevo usuario en la DB (próximamente...)
-  res.send(`Usuario ${id} modificado`)
-})
-router.delete('/:id', (req, res) => {
-  var id = req.params.id;
-  // código para crear el nuevo usuario en la DB (próximamente...)
-  res.send(`Usuario ${id} eliminado`)
-})
-
-module.exports = router;
-```
-
-Si es así no olvides guardar y revisar que tu servidor se haya actualizado y esté corriendo.
+[Response (res)](http://expressjs.com/es/4x/api.html#res) es el objeto que utilizamos para componer la respuesta que enviaremos  con el método *send*.
 
 [`Atrás: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/blob/master/Sesion-04/Reto-01) | [`Siguiente: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-04/Reto-02)
