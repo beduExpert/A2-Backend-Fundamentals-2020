@@ -20,9 +20,9 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 - [`Ejemplo 1: Fundamentos de una API REST`](Ejemplo-01/)
 
-- [`Ejemplo 2: Rutas en una API`](Ejemplo-02/)
+- [`Ejemplo 2: Objetos de petición y respuesta de ExpressJS`](Ejemplo-02/)
 
-- [`Ejemplo 3: Objetos de petición y respuesta de ExpressJS`](Ejemplo-03/)
+- [`Ejemplo 3: Rutas en una API`](Ejemplo-03/)
 
 ## 💻 Retos:
 
@@ -30,9 +30,9 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 - [`Reto 02: Creación de un CRUD para los anunciantes, las mascotas y solicitudes`](Reto-02/#reto-2)
 
-- [`Reto 03: Ejecutar peticiones de  un CRUD con insomnia o postman`](Reto-03/#reto-3)
+- [`Reto 03: Crear controladores para mascotas y solicitudes`](Reto-03/#reto-3)
 
-- [`Reto 04: Crear controladores para mascotas y solicitudes`](Reto-04/#reto-4)
+- [`Reto 04: Ejecutar peticiones de  un CRUD con insomnia o postman`](Reto-04/#reto-4)
 
 ## 🛡 Postwork
 
@@ -42,4 +42,4 @@ Crear un aplicación tipo Uber o hacer cobros por Internet. **¿Te imaginas cóm
 
 **Sesiones en una API**
 
-Para mantener el control de quién realiza peticiones a nuestra API necesitamos una manera de identificar quién está peticionando...[`leer mas`](Postwork/#postwork)
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones...[`leer mas`](Postwork/#postwork)

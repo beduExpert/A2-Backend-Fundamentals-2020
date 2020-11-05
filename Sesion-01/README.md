@@ -38,6 +38,5 @@ La consola también conocida como terminal, shell o línea de comandos (Command-
 
 ## 🛡 Postwork
 
-**Mejorando nuestra experiencia con la terminal**
+Recuerda que todo lo trabajado en tu prework, así como en el work, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones ...[`leer más`](Postwork/#postwork)
 
-ZSH es una shell que mejora a bash en aspectos como el autocompletado y la navegación entre directorios...[`leer más`](Postwork/#postwork)
