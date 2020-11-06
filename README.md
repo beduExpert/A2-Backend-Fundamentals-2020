@@ -15,8 +15,6 @@
   ### La segunda es:
   + [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
-<img src="img/img.png" width="200" align="right" >
-
 ## 🎯 Objetivos:
 
 - Brindarte las bases para comenzar a crear proyectos **desarrollando del lado del servidor.**
