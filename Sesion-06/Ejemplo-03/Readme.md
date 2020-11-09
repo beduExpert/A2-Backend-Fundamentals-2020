@@ -285,7 +285,6 @@ En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos tr
 
 - <b>Importante:</b> Para referenciar a este documento posteriormente, guarda el ObjectId del mismo.
 ![img/PostsInsertado.png](img/PostsInsertado.png)    
-
 7. Inserta documentos en la colección <b>comentarios</b>.
 
     ```jsx
@@ -315,7 +314,6 @@ En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos tr
 
 - <b>Importante:</b> Para referenciar a estos documentos posteriormente, guarda los ObjectsId de los mismos. 
 ![img/ComentariosObjectId.png](img/ComentariosObjectId.png)
-
 8. Actualizar el documento del post creado para agregar las referencias de los comentarios creados. 
 
     <b>OJO:</b>
@@ -349,7 +347,7 @@ En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos tr
         upsertedCount: 0
     }
     ```
-
+    
 9. Utilizando <b>MongoDB Compass</b>, observa el único documento de tipo <b>posts</b> que tienes agregado. Debe de tener un arreglo de comentarios cuyos ObjectId, corresponden a los comentarios agregados en la colección <b>comentarios</b>
 
 10. En <b>MongoDB Shell</b>, con la función find, busca los comentarios publicados en Junio.
