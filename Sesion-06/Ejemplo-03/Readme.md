@@ -167,7 +167,7 @@ En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos tr
 
 2. Utilizaremos las funciones antes listadas, con las cuales haremos operaciones tipo <b>CRUD</b> en nuestra base de datos <b>BlogsModeloEmbebido</b>.
 
-- Crea la colección "usuarios":
+- Crea la colección <b>usuarios</b>:
 
     ```jsx
     db.createCollection('usuarios')
@@ -283,7 +283,7 @@ En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos tr
     }
     ```
 
-- <b>Importante:</b> Para referenciar a este documento posteriormente, guarda el ObjectsId del mismo.
+- <b>Importante:</b> Para referenciar a este documento posteriormente, guarda el ObjectId del mismo.
 
 ![img/PostsInsertado.png](img/PostsInsertado.png)    
 
