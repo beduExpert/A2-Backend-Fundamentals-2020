@@ -18,7 +18,7 @@ Veamos un ejemplo muy gráfico:
 
 A su vez, MongoDB almacena los documentos en **colecciones**, veamos una analogía de entre MongoDB y un RDBMS:
 
-![img/Screen_Shot_2020-06-18_at_12.16.16.png](img/Screen_Shot_2020-06-18_at_12.16.16.png)
+![img/Tabla.png](img/Tabla.png)
 
 ### Estructura de un documento en MongoDB
 
