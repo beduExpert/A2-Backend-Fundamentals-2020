@@ -116,7 +116,7 @@ Prerequisitos:
 
     ![img/Screen_Shot_2020-06-18_at_11.16.44.png](img/Screen_Shot_2020-06-18_at_11.16.44.png)
 
-4. Clic **I have the mongo shell installed** y copiar la url que nos proporcione
+4. Click **I have the mongo shell installed** y copiar la url que nos proporcione
 
     ![img/Screen_Shot_2020-06-18_at_11.18.13.png](img/Screen_Shot_2020-06-18_at_11.18.13.png)
 
@@ -152,9 +152,9 @@ Guía de instalación: <b>https://docs.mongodb.com/compass/master/install</b>
 
     ![img/Screen_Shot_2020-06-18_at_11.16.44.png](img/Screen_Shot_2020-06-18_at_11.16.44.png)
 
-4. Clic **I have the MongoDB Compass installed** y copiar la url que nos proporcione
+4. Click **I have the MongoDB Compass installed** y copiar la url que nos proporcione
 
-    ![img/InstalledMongoDB.png](img/InstalledMongo.png)
+    ![img/InstalledMongoDB.png](img/InstalledMongoDB.png)                                  
 
 Donde, 
 
