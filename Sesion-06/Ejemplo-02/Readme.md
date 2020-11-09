@@ -62,24 +62,24 @@ Los datos en MongoDB tienen un esquema flexible, los documentos en una colecció
 
     - Se tiene relaciones *Uno a uno* entre documentos. Ve más detalles en [Model One-to-One Relationships with Embedded Documents](https://docs.mongodb.com/manual/tutorial/model-embedded-one-to-one-relationships-between-documents/#data-modeling-example-one-to-one)
 
-        Ilustrando esta relación con un ejemplo de MongoDB:
+    - Ilustrando esta relación con un ejemplo de MongoDB:
 
-        ```json
-        {
-           "_id": "joe",
-           "name": "Joe Bookreader",
-           "address": {
-                "street": "123 Fake Street",
-                "city": "Faketon",
-                "state": "MA",
-                "zip": "12345"
-            }
-        }
-        ```
+```json
+{
+   "_id": "joe",
+   "name": "Joe Bookreader",
+   "address": {
+      "street": "123 Fake Street",
+      "city": "Faketon",
+      "state": "MA",
+      "zip": "12345"
+    }
+ }
+```
 
-    - Se tiene relaciones *Uno a muchos.* Ve más detalles en [Model One-to-Many Relationships with Embedded Documents.](https://docs.mongodb.com/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/#data-modeling-example-one-to-many)
+   - Se tiene relaciones *Uno a muchos.* Ve más detalles en [Model One-to-Many Relationships with Embedded Documents.](https://docs.mongodb.com/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/#data-modeling-example-one-to-many)
 
-        Ilustrando esta relación con un ejemplo de MongoDB:
+   - Ilustrando esta relación con un ejemplo de MongoDB:
 
         ```json
         {
@@ -167,46 +167,46 @@ ModeloCreado.png
 
 ![img/Editor.png](img/Editor.png)
 
-Copia las siguientes líenas en el editor, antes de oprimir <b>INSERT</b>, analiza el código JSON.
+Copia las siguientes líneas en el editor, antes de oprimir <b>INSERT</b>, analiza el código JSON.
 
-    ```json
-    {
-        "_id": 1234,
-        "nombre": "Bases de Datos Relacionales",
-        "fecha_publicacion": "2020-05-12",
-        "texto": "Las bases de datos...",
-        "autor": {
-            "_id": 35,
-            "nombre": "Diego Lugo",
-            "email": "dieguitolu@gmail.com",
-            "tipo_cuenta": "experto"
-        },
-        "comentarios": [
-            {   
-                "_id": 23456,
-                "nombre": "Sergio Medina",
-                "email": "sergiomedina@hotmail.com",
-                "fecha_publicacion": "2020-05-23",
-                "texto": "Excelente post, me ayudo a comprender más...",
-                "puntuacion": 5
-            },
-            {
-                "_id": 78901,
-                "nombre": "Emmanuel Martínez",
-                "email": "emmamtz@gmail.com",
-                "fecha_publicacion": "2020-06-01",
-                "texto": "Hay ciertos conceptos que no me quedaron claros...",
-                "puntuacion": 3
-            }
-        ],
-        "etiquetas": [
-            "Bases de Datos Relacionales", "Modelo E/R"
-        ],
-        "categorias": [
-            "TI", "Desarrollo de Software"
-        ]
-    }
-    ```
+```json
+{
+   "_id": 1234,
+   "nombre": "Bases de Datos Relacionales",
+   "fecha_publicacion": "2020-05-12",
+   "texto": "Las bases de datos...",
+   "autor": {
+      "_id": 35,
+      "nombre": "Diego Lugo",
+      "email": "dieguitolu@gmail.com",
+      "tipo_cuenta": "experto"
+    },
+    "comentarios": [
+      {   
+         "_id": 23456,
+         "nombre": "Sergio Medina",
+         "email": "sergiomedina@hotmail.com",
+         "fecha_publicacion": "2020-05-23",
+         "texto": "Excelente post, me ayudo a comprender más...",
+         "puntuacion": 5
+      },
+      {
+         "_id": 78901,
+         "nombre": "Emmanuel Martínez",
+         "email": "emmamtz@gmail.com",
+         "fecha_publicacion": "2020-06-01",
+         "texto": "Hay ciertos conceptos que no me quedaron claros...",
+         "puntuacion": 3
+      }
+    ],
+    "etiquetas": [
+      "Bases de Datos Relacionales", "Modelo E/R"
+      ],
+    "categorias": [
+      "TI", "Desarrollo de Software"
+     ]
+}
+```
 
     Este ejemplo es un documento embebido que contiene todos lo datos a almacenar de un post, podemos notar que en comentarios podemos tener un número ilimitado, dependerá del impacto del post cause a una audiencia interesada, pero más allá de eso podría darse el caso en el que el documento sea demasiado grande y hasta podría alcanzar el límite de almacenamiento de un documento.
     
@@ -224,35 +224,36 @@ Inserta el nombre: <b>BlogsModeloConReferencias</b> y Collection Name: <b>autore
 
 Inserta los siguientes autores (como lo hicimos en el punto 3 ). Nota: Inserta uno por uno.
 
-        ```json
-        {
-            "_id": 35,
-            "nombre": "Diego Lugo",
-            "email": "dieguitolu@gmail.com",
-            "tipo_cuenta": "experto"
-        }
+```json
+{
+   "_id": 35,
+   "nombre": "Diego Lugo",
+   "email": "dieguitolu@gmail.com",
+   "tipo_cuenta": "experto"
+}
+        
+{
+   "_id": 189,
+   "nombre": "Alejandro Martínez",
+   "email": "alexmtz@gmail.com",
+   "tipo_cuenta": "legendario"
+}
 
-        {
-            "_id": 189,
-            "nombre": "Alejandro Martínez",
-            "email": "alexmtz@gmail.com",
-            "tipo_cuenta": "legendario"
-        }
+{   
+   "_id": 23456,
+   "nombre": "Sergio Medina",
+   "email": "sergiomedina@hotmail.com",
+   "tipo_cuenta": "aficionado"
+}
 
-        {   
-            "_id": 23456,
-            "nombre": "Sergio Medina",
-            "email": "sergiomedina@hotmail.com",
-            "tipo_cuenta": "aficionado"
-        }
+{
+   "_id": 78901,
+   "nombre": "Emmanuel Martínez",
+   "email": "emmamtz@gmail.com",
+   "tipo_cuenta": "legendario"
+}
+```
 
-        {
-            "_id": 78901,
-            "nombre": "Emmanuel Martínez",
-            "email": "emmamtz@gmail.com",
-            "tipo_cuenta": "legendario"
-        }
-        ```
 ![img/ColecciónAutores.png](img/ColecciónAutores.png)
 
 6. Agreguemos una nueva colección al model <b>BlogsModeloConReferencia</b>, llámala <b>posts</b>:
@@ -263,45 +264,46 @@ Inserta los siguientes autores (como lo hicimos en el punto 3 ). Nota: Inserta u
 
 Tal como lo hiciste en el ejemplo 5, inserta el siguiente documento en la colección <b>posts</b>. 
 
-        ```json
-        {
-            "_id": 1234,
-            "nombre": "Bases de Datos Relacionales",
-            "fecha_publicacion": "2020-05-12",
-            "texto": "Las bases de datos...",
-            "autor": [35, 189],
-            "comentarios": [23456, 78901],
-            "etiquetas": [
-                "Bases de Datos Relacionales", "Modelo E/R"
-            ],
-            "categorias": [
-                "TI", "Desarrollo de Software"
-            ]
-        }
-        ```
+```json
+{
+   "_id": 1234,
+   "nombre": "Bases de Datos Relacionales",
+   "fecha_publicacion": "2020-05-12",
+   "texto": "Las bases de datos...",
+   "autor": [35, 189],
+   "comentarios": [23456, 78901],
+   "etiquetas": [
+      "Bases de Datos Relacionales", "Modelo E/R"
+    ],
+    "categorias": [
+      "TI", "Desarrollo de Software"
+      ]
+}
+```
 Nota: Observa el contenido del campo <b>autor</b>. En el podrás encontrar en un arreglo, los valores correspondientes a los id's de los autores que crearon este post.  (Si revisas la colección autores, podrás encontrar estos id's en diferentes autores). De esta forma estamos referenciando desde la colección <b>posts</b> a los id's de documentos en la colección <b>autores</b>.
 
 ![img/PostsReferenciandoAutores.png](img/PostsReferenciandoAutores.png)
 
 8. Agreguemos una nueva colección al model <b>BlogsModeloConReferencia</b>, llámala <b>comentarios</b>, inserta los siguientes documentos:
 
-        ```json
-        {
-            "_id": 23456,
-            "autor": 1001,
-            "fecha_publicacion": "2020-05-23",
-            "texto": "Excelente post, me ayudo a comprender más...",
-            "puntuacion": 5
-        }
+```json
+{
+   "_id": 23456,
+   "autor": 1001,
+   "fecha_publicacion": "2020-05-23",
+   "texto": "Excelente post, me ayudo a comprender más...",
+   "puntuacion": 5
+}
+        
+{            
+   "_id": 78901,
+   "autor": 3,
+   "fecha_publicacion": "2020-06-01",
+   "texto": "Hay ciertos conceptos que no me quedaron claros...",
+   "puntuacion": 3
+}
+```
 
-        {
-            "_id": 78901,
-            "autor": 3,
-            "fecha_publicacion": "2020-06-01",
-            "texto": "Hay ciertos conceptos que no me quedaron claros...",
-            "puntuacion": 3
-        }
-        ```
 Nota: Desde la colección <b>posts</b>, estaremos referenciando vía los id's a los comentarios encontrados en la colección <b>comentarios</b>.
 
 [`Atrás: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-02) | [`Siguiente: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-03)
