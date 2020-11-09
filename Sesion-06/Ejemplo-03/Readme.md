@@ -284,7 +284,6 @@ En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos tr
     ```
 
 - <b>Importante:</b> Para referenciar a este documento posteriormente, guarda el ObjectId del mismo.
-
 ![img/PostsInsertado.png](img/PostsInsertado.png)    
 
 7. Inserta documentos en la colección <b>comentarios</b>.
@@ -315,15 +314,13 @@ En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos tr
     ```    
 
 - <b>Importante:</b> Para referenciar a estos documentos posteriormente, guarda los ObjectsId de los mismos. 
-
 ![img/ComentariosObjectId.png](img/ComentariosObjectId.png)
-
 
 8. Actualizar el documento del post creado para agregar las referencias de los comentarios creados. 
 
-<b>OJO:</b>
-- Remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 6.
-- En la función <b>$push</b> que inserta un comentario al arreglo de comentarios del post, remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 7.
+    <b>OJO:</b>
+    - Remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 6.
+    - En la función <b>$push</b> que inserta un comentario al arreglo de comentarios del post, remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 7.
 
     ```jsx
     db.posts.updateOne({ _id: ObjectId("5fa9c4cd90d998195a954865")}, {$push: { comentarios: ObjectId("5fa9ca8d90d998195a954866")}})
@@ -367,9 +364,9 @@ En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos tr
 
 11. Ahora eliminaremos un comentario del posts exitente en la colección <b>posts</b>
 
-<b>OJO:</b>
-- Remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 6.
-- En la función <b>$pull</b> que elimina un comentario del arreglo de comentarios del post, remplaza el <b>ObjectId</b> del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 7.
+    <b>OJO:</b>
+    - Remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 6.
+    - En la función <b>$pull</b> que elimina un comentario del arreglo de comentarios del post, remplaza el <b>ObjectId</b> del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 7.
 
     1. Eliminar la referencia del comentario en el post
 
