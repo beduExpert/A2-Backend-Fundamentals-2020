@@ -64,18 +64,18 @@ Los datos en MongoDB tienen un esquema flexible, los documentos en una colecció
 
     - Ilustrando esta relación con un ejemplo de MongoDB:
 
-```json
-{
-   "_id": "joe",
-   "name": "Joe Bookreader",
-   "address": {
-      "street": "123 Fake Street",
-      "city": "Faketon",
-      "state": "MA",
-      "zip": "12345"
-    }
- }
-```
+         ```json
+         {
+            "_id": "joe",
+               "name": "Joe Bookreader",
+               "address": {
+               "street": "123 Fake Street",
+               "city": "Faketon",
+               "state": "MA",
+               "zip": "12345"
+            }
+         }
+         ```
 
    - Se tiene relaciones *Uno a muchos.* Ve más detalles en [Model One-to-Many Relationships with Embedded Documents.](https://docs.mongodb.com/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/#data-modeling-example-one-to-many)
 
@@ -148,7 +148,7 @@ Los datos en MongoDB tienen un esquema flexible, los documentos en una colecció
 
 Supongamos una base de datos para una aplicación de blogs, donde es necesario almacenar: usuarios, posts, comentarios, etiquetas, etc.
 
-Vamos a modelar estos documentos de las formas que ya se explicaron; Por el momento utilizarmeos MongoDB, en el siguiente ejemplo estaremos utilizando Mongo Shell para continuar con el modelado.
+Vamos a modelar estos documentos de las formas que ya se explicaron; Por el momento utilizarmeos <b>MongoDB Compass</b>, en el siguiente ejemplo estaremos utilizando <b>Mongo Shell</b> para continuar con el modelado.
 
 1. Una vez que lograste conectarte a tu cluster, vamos a crear una nueva base de datos utilizando MongoDB Compass. Da click en <b>CREATE DATABASE</b>
 
