@@ -154,7 +154,7 @@ Guía de instalación: <b>https://docs.mongodb.com/compass/master/install</b>
 
 4. Clic **I have the MongoDB Compass installed** y copiar la url que nos proporcione
 
-    ![img/InstalledMongo.png](img/InstalledMongo.png)
+    ![img/InstalledMongoDB.png](img/InstalledMongo.png)
 
 Donde, 
 
@@ -170,7 +170,7 @@ mongodb+srv://introabd:<password>@cluster0.kbuns.mongodb.net/<dbname>
     
 5. Crea una nueva conexión desde MongoDB Compass insertando el link copiado en el punto anterior, remplaza los elementos indicados anteriormente. Prueba la conexión.
 
-    ![img/Conexion.png](img/Conexión.png)
+    ![img/Conexion.png](img/Conexion.png)
 
 6. De aquí en adelante, utiliza MongoDB Compass para ratificar las configuraciones realizadas desde MongoDB Shell.
 
