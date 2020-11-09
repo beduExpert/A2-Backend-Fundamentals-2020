@@ -161,7 +161,6 @@ Vamos a modelar estos documentos de las formas que ya se explicaron; Por el mome
 En la lista de Bases de Datos de tu cluster, ya podrás ver la Base de Datos recientemente creda.
 
 ![img/ModeloCreado.png](img/ModeloCreado.png)
-ModeloCreado.png
 
 3. Selecciona el modelo creado en los puntos anteriores, selecciona la colección <b>posts</b>, oprime <b>ADD DATA</b>, <b>Insert Document</b>. Se abrirá una especie de editor: 
 
