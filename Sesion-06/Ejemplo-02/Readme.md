@@ -154,7 +154,7 @@ Vamos a modelar estos documentos de las formas que ya se explicaron; Por el mome
 
 ![img/CreateDatabase.png](img/CreateDatabase.png)
 
-2. En Databas Name, inserta: <b>BlogsModeloEmbebido</b>, en Collation Name, inserta: <b>posts</b>, oprime <b>CREATE DATABASE</b>.
+2. En Database Name, inserta: <b>BlogsModeloEmbebido</b>, en Collation Name, inserta: <b>posts</b>, oprime <b>CREATE DATABASE</b>.
 
 ![img/CreateDatabaseCollection.png](img/CreateDatabaseCollection.png)
 
