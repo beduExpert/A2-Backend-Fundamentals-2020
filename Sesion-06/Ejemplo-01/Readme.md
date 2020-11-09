@@ -135,7 +135,7 @@ mongo "mongodb+srv://cluster0-xmea4.mongodb.net/<*dbname*>" --username <*usernam
 
 ### Instalar MongoDB Compass
 
-MongoDB Compass es un GUI para MongoDB, permite nos permitirá visualizar y explorar los datos en nuestras colecciones.
+MongoDB Compass es un GUI para MongoDB, nos permitirá visualizar y explorar los datos en nuestras colecciones. Instala <b>MongoDB Compass</b> tomando en cuenta las siguientes instrucciones:
 
 Guía de instalación: <b>https://docs.mongodb.com/compass/master/install</b>
 
@@ -152,7 +152,7 @@ Guía de instalación: <b>https://docs.mongodb.com/compass/master/install</b>
 
     ![img/Screen_Shot_2020-06-18_at_11.16.44.png](img/Screen_Shot_2020-06-18_at_11.16.44.png)
 
-4. Clic **I have the mongo shell installed** y copiar la url que nos proporcione
+4. Clic **I have the MongoDB Compass installed** y copiar la url que nos proporcione
 
     ![img/InstalledMongo.png](img/InstalledMongo.png)
 
