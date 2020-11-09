@@ -2,7 +2,7 @@
 	
 ### Reto 1
 
-- Crea un clúster en MongoDB Atlas y has la configuración de los pasos anteriores.
+- Crea un clúster en MongoDB Atlas y desarrolla la configuración de los pasos anteriores.
 - Conéctate al clúster con MongoDB Shell siguiendo los pasos previamente explicados.
 - Una vez creado el clúster podrás ver en tu Dashboard de MongoDB Atlas un resultado parecido al siguiente:
 
