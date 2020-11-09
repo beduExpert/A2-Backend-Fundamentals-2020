@@ -102,7 +102,7 @@ Los datos en MongoDB tienen un esquema flexible, los documentos en una colecció
          }
         ```
 
-- **Modelado Referencial**
+- **Modelado utilizando referencias**
 
     Es almacenar **referencias** entre documentos para indicar la existencia de una relación entre los datos de cada documento.
 
@@ -148,9 +148,26 @@ Los datos en MongoDB tienen un esquema flexible, los documentos en una colecció
 
 Supongamos una base de datos para una aplicación de blogs, donde es necesario almacenar: usuarios, posts, comentarios, etiquetas, etc.
 
-Vamos a modelar estos documentos de las formas que ya se explicaron:
+Vamos a modelar estos documentos de las formas que ya se explicaron; Por el momento utilizarmeos MongoDB, en el siguiente ejemplo estaremos utilizando Mongo Shell para continuar con el modelado.
 
-1. Creación de un modelo embebido con una sola colección que será de posts
+1. Una vez que lograste conectarte a tu cluster, vamos a crear una nueva base de datos utilizando MongoDB Compass. Da click en <b>CREATE DATABASE</b>
+
+![img/CreateDatabase.png](img/CreateDatabase.png)
+
+2. En Databas Name, inserta: <b>BlogsModeloEmbebido</b>, en Collation Name, inserta: <b>posts</b>, oprime <b>CREATE DATABASE</b>.
+
+![img/CreateDatabaseCollection.png](img/CreateDatabaseCollection.png)
+
+En la lista de Bases de Datos de tu cluster, ya podrás ver la Base de Datos recientemente creda.
+
+![img/ModeloCreado.png](img/ModeloCreado.png)
+ModeloCreado.png
+
+3. Selecciona el modelo creado en los puntos anteriores, selecciona la colección <b>posts</b>, oprime <b>ADD DATA</b>, <b>Insert Document</b>. Se abrirá una especie de editor: 
+
+![img/Editor.png](img/Editor.png)
+
+Copia las siguientes líenas en el editor, antes de oprimir <b>INSERT</b>, analiza el código JSON.
 
     ```json
     {
@@ -192,9 +209,20 @@ Vamos a modelar estos documentos de las formas que ya se explicaron:
     ```
 
     Este ejemplo es un documento embebido que contiene todos lo datos a almacenar de un post, podemos notar que en comentarios podemos tener un número ilimitado, dependerá del impacto del post cause a una audiencia interesada, pero más allá de eso podría darse el caso en el que el documento sea demasiado grande y hasta podría alcanzar el límite de almacenamiento de un documento.
+    
+Después de la inserción, podrás ver el documento con los datos de autor embebidos dentro de su estrucutra:
 
-2. Creación un modelado referencial para la base de datos de blogs:
-    1. Crear una colección de usuarios que podrán comentar posts o ser autores de varios posts
+![img/ResultadoInserción.png](img/ResultadoInserción.png)
+
+4. Ahora, vamos a crear una nueva base de datos, está utilizará referencias en lugar del modelo embebido. Da click en <b>CREATE DATABASE</b>:
+
+![img/CreateDatabase2.png](img/CreateDatabase2.png)
+
+Inserta el nombre: <b>BlogsModeloConReferencias</b> y Collection Name: <b>autores</b>
+
+5. Selecciona la base de datos recien creada, después selecciona la colección autores.
+
+Inserta los siguientes autores (como lo hicimos en el punto 3 ). Nota: Inserta uno por uno.
 
         ```json
         {
@@ -208,7 +236,7 @@ Vamos a modelar estos documentos de las formas que ya se explicaron:
             "_id": 189,
             "nombre": "Alejandro Martínez",
             "email": "alexmtz@gmail.com",
-            "tipo_cuenta": "legendario",
+            "tipo_cuenta": "legendario"
         }
 
         {   
@@ -225,8 +253,15 @@ Vamos a modelar estos documentos de las formas que ya se explicaron:
             "tipo_cuenta": "legendario"
         }
         ```
+![img/ColecciónAutores.png](img/ColecciónAutores.png)
 
-    2. Crear una colección de posts, en el ejemplo anterior, definimos que un post sólo pertenece a un autor pero en una aplicación real en un post podría participar más de una persona, por lo que,  hay que definir que puede haber más de un autor
+6. Agreguemos una nueva colección al model <b>BlogsModeloConReferencia</b>, llámala <b>posts</b>:
+
+![img/CreandoPostsCollection.png](img/CreandoPostsCollection.png)
+
+7. En el ejemplo anterior (modelo emebido), definimos que un post sólo pertenece a un autor pero en una aplicación real en un post podría participar más de una persona, por lo que, hay que definir que puede haber más de un autor. 
+
+Tal como lo hiciste en el ejemplo 5, inserta el siguiente documento en la colección <b>posts</b>. 
 
         ```json
         {
@@ -244,8 +279,11 @@ Vamos a modelar estos documentos de las formas que ya se explicaron:
             ]
         }
         ```
+Nota: Observa el contenido del campo <b>autor</b>. En el podrás encontrar en un arreglo, los valores correspondientes a los id's de los autores que crearon este post.  (Si revisas la colección autores, podrás encontrar estos id's en diferentes autores). De esta forma estamos referenciando desde la colección <b>posts</b> a los id's de documentos en la colección <b>autores</b>.
 
-    3. Crear una colección de comentarios
+![img/PostsReferenciandoAutores.png](img/PostsReferenciandoAutores.png)
+
+8. Agreguemos una nueva colección al model <b>BlogsModeloConReferencia</b>, llámala <b>comentarios</b>, inserta los siguientes documentos:
 
         ```json
         {
@@ -264,5 +302,6 @@ Vamos a modelar estos documentos de las formas que ya se explicaron:
             "puntuacion": 3
         }
         ```
+Nota: Desde la colección <b>posts</b>, estaremos referenciando vía los id's a los comentarios encontrados en la colección <b>comentarios</b>.
 
 [`Atrás: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-02) | [`Siguiente: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-03)
