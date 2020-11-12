@@ -2,10 +2,10 @@
 
 # Reto 1
 
-### Instrucciones
+# Instrucciones
 
 
-Crea la carpeta **bedu** dentro de **documentos** y dentro de ella crea la siguiente estructura.
+- Dentro de la carpeta **Documents** crea la carpeta **bedu** y dentro de ella crea la siguiente estructura.
 
 
 ```terminal
