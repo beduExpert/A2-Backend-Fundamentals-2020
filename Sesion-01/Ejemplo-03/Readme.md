@@ -29,19 +29,19 @@ Al utilizar el prefijo **sudo**, estamos dando el permiso a nuestro gestor de pa
 ## Instalando paquetes
 
 
-**Sintaxis:**
+### Sintaxis:
 
 `[sudo] apt-get install [nombre del paquete o paquetes separados por espacio]`
 
-**Instalaremos** un paquete simple llamado cowsay ejecutando el siguiente comando:
+**Instalaremos** un paquete simple llamado **cowsay** ejecutando el siguiente comando:
 
 `sudo apt-get install cowsay`
 
 En caso de que nos pida **confirmación para continuar ingresaremos la opción**  `Y` y presionamos **enter.**
 
-si todo ha sido exitoso ahora tendremos un nuevo ***comando*** instalado en nuestra terminal el cual ejecutaremos de la siguiente manera:
+Si todo ha sido exitoso ahora tendremos un nuevo ***comando*** instalado en nuestra terminal el cual ejecutaremos de la siguiente manera:
 
-**Sintaxis:**
+### Sintaxis:
 
 `cowsay [mensaje]`
 
