@@ -4,22 +4,22 @@
 	
 # Reto 2
 
-### Instrucciones:
+# Instrucciones:
 
 Con la estructura creada en el [Reto 1](../Reto-01/Readme.md) realiza las siguientes ediciones de los archivos.
 
-0. Verifica que el archivo **README.md** que se encuentra dentro de tu carpeta **bedu**. 
+1. Verifica que el archivo **README.md** que se encuentra dentro de tu carpeta **bedu**. 
 
    **Arquitectura:** `Documents/bedu/README.md`, si no existe crealo.
 
-1. Al archivo `README.md` agrega la siguiente información:
+2. Al archivo `README.md` agrega la siguiente información:
 
     ```markdown
     # Consola
     Clase de consola del curso Back-end fudamentals.
     ```
 
-2. Edita el archivo **inicio.sh** que se encuentra dentro de tu carpeta **src**. 
+3. Edita el archivo **inicio.sh** que se encuentra dentro de tu carpeta **src**. 
 
    **Arquitectura:** `Documents/bedu/src/incicio.sh`
 
@@ -27,7 +27,7 @@ Con la estructura creada en el [Reto 1](../Reto-01/Readme.md) realiza las siguie
     echo "Hola desde la consola"
     ```
 
-3. Edita el archivo **main.js** que se encuentra dentro de tu carpeta **src**.
+4. Edita el archivo **main.js** que se encuentra dentro de tu carpeta **src**.
 
    **Arquitectura:** `Documents/bedu/src/main.js`
 
