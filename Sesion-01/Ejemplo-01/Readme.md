@@ -83,11 +83,5 @@ El siguiente ejemplo `man man` despliega el manual del mismo comando `man`
 
 <img src="img/man.png" width="650px">
 
-Otros ejemplos:
-
-- `man rm`
-- `man ifconfig`
-
--------
 
 [`Atrás: Sesión 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-01) | [`Siguiente: Reto-01`](../Reto-01)
