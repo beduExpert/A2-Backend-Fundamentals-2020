@@ -14,11 +14,11 @@
 
 **Sintaxis: `nano [nombre del archivo]`**
 
-![img/Untitled.png](img/Untitled.png)
+<img src="img/Untitled.png" width="650px">
 
 **Esto nos muestra la siguiente interfaz**
 
-<img src="img/Screen_Shot_2020-03-16_at_22.21.11.png" width="450px"> 
+<img src="img/Screen_Shot_2020-03-16_at_22.21.11.png" width="650px"> 
 
 Ahora, copiaremos el siguiente código:
 
