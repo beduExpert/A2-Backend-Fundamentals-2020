@@ -14,7 +14,7 @@
 
 Lista el contenido del directorio dónde estamos posicionados.
 
-![1](img/ls.png)
+<img src="img/ls.png" width="650px">
 
 ## `cd`
 
@@ -22,7 +22,7 @@ Nos permite posicionarnos en una ruta en específico, o *entrar* en una carpeta.
 
 **Sintaxis básica:** `cd [ruta o nombre de la carpeta]`
 
-![2](img/cd.png)
+<img src="img/cd.png" width="650px">
 
 >💡 **Nota:**
 >
@@ -39,7 +39,7 @@ Crea una nueva carpeta.
 
 **Sintaxis básica:** `mkdir [nombre carpeta]`
 
-![2](img/mkdir.png)
+<img src="img/mkdir.png" width="650px">
 
 ## `touch`
 
@@ -47,7 +47,7 @@ Crea un nuevo archivo.
 
 **Sintaxis básica:** `touch [nombre del archivo con extensión]`
 
-![2](img/tocuh.png)
+<img src="img/tocuh.png" width="650px">
 
 ## `cp`
 
@@ -55,7 +55,7 @@ Copia un nuevo archivo.
 
 **Sintaxis básica:** `cp [ruta del archivo a copiar] [nueva ruta]`
 
-![2](img/cp.png)
+<img src="img/cp.png" width="650px">
 
 ## `mv`
 
@@ -63,7 +63,7 @@ Mover o renombrar archivos.
 
 **Sintaxis básica:** `mv [ruta del archivo] [nueva ruta / nuevo nombre]`
 
-![2](img/mv.png)
+<img src="img/mv.png" width="650px">
 
 ## `rm`
 
@@ -71,7 +71,7 @@ Eliminar un archivo. Con la opción `-r` podemos también eliminar folders y sus
 
 **Sintaxis básica:** `rm [opciones] [ruta del archivo]`
 
-![2](img/rm.png)
+<img src="img/rm.png" width="650px">
 
 ## `man`
 
@@ -81,7 +81,7 @@ Despliega información del manual de algún comando
 
 El siguiente ejemplo `man man` despliega el manual del mismo comando `man`
 
-![2](img/man.png)
+<img src="img/man.png" width="650px">
 
 Otros ejemplos:
 
