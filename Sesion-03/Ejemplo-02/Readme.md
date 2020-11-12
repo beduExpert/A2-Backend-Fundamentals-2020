@@ -12,7 +12,7 @@
 
 - Cuaderno o aplicación para tomar notas y resolver preguntas.
 
-## Desarrollo
+# Desarrollo
 
 - AdoptaPet será una aplicación web que permita a la gente adoptar mascotas y poner mascotas en adopción.
 
