@@ -1,10 +1,10 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) > `Ejemplo 03`
 
-**Requerimientos**
+# Requerimientos
 
-Tener **instalado** sistema operativo **Linux** o **MacOS**.
+- Tener **instalado** sistema operativo **Linux** o **MacOS**.
 
-## Desarrollo
+# Desarrollo
 
 # Instalando paquetes
 
@@ -18,7 +18,7 @@ Tener **instalado** sistema operativo **Linux** o **MacOS**.
 
 `sudo apt-get update`
 
-![img/Screen_Shot_2020-03-21_at_16.33.43.png](img/Screen_Shot_2020-03-21_at_16.33.43.png)
+<img src="img/Screen_Shot_2020-03-21_at_16.33.43.png" width="650px">
 
 Al utilizar el prefijo **sudo**, estamos dando el permiso a nuestro gestor de paquetes de **hacer cambios en nuestro sistema**
 
@@ -45,8 +45,7 @@ si todo ha sido exitoso ahora tendremos un nuevo ***comando*** instalado en nues
 
 `cowsay [mensaje]`
 
-![img/Untitled.png](img/Untitled.png)
+<img src="img/Untitled.png" width="650px">
 
--------
 
 [`Atrás: Reto-02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-01/Reto-02) | [`Siguiente: Reto-03`](../Reto-03)
