@@ -40,4 +40,4 @@
 
 **Funciones y Procedimientos Almacenados**
 
-Es importante mantener la seguridad en las bases de datos de lo intentos por robar o modificar datos ya que el impacto puede ser catastrófico...[`leer mas`](Postwork/#postwork)
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones...[`leer mas`](Postwork/#postwork)

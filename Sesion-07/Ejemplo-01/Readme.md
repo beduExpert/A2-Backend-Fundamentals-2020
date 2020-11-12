@@ -16,96 +16,102 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 
 [Mongoose](https://mongoosejs.com/) es una librería ODM que nos ayuda a trabajar con MongoDB y Node de manera más dinámica, permitiéndonos comunicarnos con el servidor de MongoDB y crear Modelos con una estructura y reglas que se adaptan a nuestra base de datos.
 
-1. Instalaremos mongoose con el comando
+1. Entra a la carpeta de tu proyecto desarrollado en la Sesión 4, en ella instalaremos mongoose con el comando:
 
     ```bash
     npm install mongoose
     ```
 
-    para importarlo en nuestros modelos podemos hacerlo con la siguiente línea.
+    En los siguientes puntos del ejemplo, importaremos mongoose en nuestros modelos agregando la siguiente línea: 
 
     ```jsx
     const mongoose = require('mongoose');
     ```
 
-2. Modificaremos el modelo Usuario utilizando la clase `Schema` de mongoose.
+2. Para definir la estrucutra que tendrán los documentos de una colección en MongoDB, es necesario definir un <b>schema</b> con mongoose. 
+
+- Generemos el schema para el modelo <b>Usuario</b>, utilizando la clase `Schema` de mongoose. Abre el código de tu modelo Usuario, comenta el código actual e inserta la siguiente definición de schema.
+
+    ```jsx
+   // Usuario.js
+   const mongoose = require('mongoose');            //Importando mongoose.
+
+   const UsuarioSchema = new mongoose.Schema({      //Definiendo el objeto UsuarioSchema con el constructor Schema.
+     username: String,                              //Definiendo cada campo con su respectivo tipo de dato.
+     nombre: String,
+     apellido: String, 
+     email: String,
+     password: String,
+     ubicacion: String,
+     telefono: String,
+     bio: String,
+     foto: String,
+     tipo: String,
+   }, { timestamps: true });                    
+
+   mongoose.model("Usuario", UsuarioSchema);        //Define el modelo Usuario, utilizando el esquema UsuarioSchema.
+    ```    
+- El modelo ahora no tiene un id ya que por defecto Mongoose le agrega el atributo `_id` a un documento cuando es creado.
+- La opción `{ timestamps: true }` agrega automáticamente la hora y fecha de creación (`createdAt` and `updatedAt`) cada que se crea o actualiza un documento.
+    
+3. Añadiendo validaciones al modelo de <b>Usuario</b>. 
 
     ```jsx
     // Usuario.js
-    const mongoose = require('mongoose');
+   const mongoose = require('mongoose');                         //Importando mongoose.
+   const uniqueValidator = require("mongoose-unique-validator"); //Importando módulo mongoose-unique-validator, pendiente de instalar.
 
-    const UsuarioSchema = new mongoose.Schema({
-      username: String,
-      nombre: String,
-      apellido: String, 
-      email: String,
-      password: String,
-      ubicacion: String,
-      telefono: String,
-      bio: String,
-      foto: String,
-      tipo: String,
-    }, { timestamps: true });
-    mongoose.model("Usuario", UsuarioSchema);
-    ```
-
-    - El modelo ahora no tiene un id ya que por defecto Mongoose le agrega el atributo `_id` a un documento cuando es creado.
-    - La opción `{ timestamps: true }` agrega automáticamente la hora y fecha de creación (`createdAt` and `updatedAt`) cada que se crea o actualiza un documento.
-3. Añadir validaciones al modelo de Usuario
-
-    ```jsx
-    // Usuario.js
-    const mongoose = require("mongoose");
-    const uniqueValidator = require("mongoose-unique-validator");
-
-    const UsuarioSchema = new mongoose.Schema(
-      {
-        username: {
-          type: String,
-          unique: true, //este campo no se puede repetir
-          lowercase: true,
-          required: [true, "no puede estar vacío"],
-          match: [/^[a-zA-Z0-9]+$/, "es inválido"],
-          index: true,
-        },
-        nombre: { type: String, required: true },
-        apellido: { type: String, required: true },
-        email: {
-          type: String,
-          unique: true, //este campo no se puede repetir
-          lowercase: true,
-          required: [true, "no puede estar vacío"],
-          match: [/\S+@\S+\.\S+/, "es inválido"],
-          index: true,
-        },
-        ubicacion: String,
-        telefono: String,
-        bio: String,
-        foto: String,
-        tipo: { type: String, enum: ['normal', 'anunciante'] },
-        hash: String, //este campo se utilizará para la sesión
-        salt: String, //este campo se utilizará para la sesión
-      },
-      { timestamps: true }
+   const UsuarioSchema = new mongoose.Schema({                   //Definiendo el objeto UsuarioSchema con el constructor Schema.
+    username: {                                                  //Definiendo cada campo con sus tipo sde datos y validaciones.
+      type: String,
+      unique: true, //este campo no se puede repetir
+      lowercase: true,
+      required: [true, "no puede estar vacío"],
+      match: [/^[a-zA-Z0-9]+$/, "es inválido"],
+      index: true,
+    },                                           
+    nombre: { type: String, required: true },
+    apellido: { type: String, required: true },
+    email: {
+      type: String,
+      unique: true, //este campo no se puede repetir
+      lowercase: true,
+      required: [true, "no puede estar vacío"],
+      match: [/\S+@\S+\.\S+/, "es inválido"],
+      index: true,
+    },
+    ubicacion: String,
+    telefono: String,
+    bio: String,
+    foto: String,
+    tipo: { type: String, enum: ['normal', 'anunciante'] },
+    hash: String, //este campo se utilizará para la sesión
+    salt: String, //este campo se utilizará para la sesión
+    },
+    { timestamps: true }
     );
 
     // usando plugin de validación para que no se repitan correos ni usernames
-    UsuarioSchema.plugin(uniqueValidator, { message: "Ya existe" });
+    UsuarioSchema.plugin(uniqueValidator, { message: "Ya existe" }); 
+    mongoose.model("Usuario", UsuarioSchema);    //Define el modelo Usuario, utilizando el esquema UsuarioSchema.
     ```
 
-    La opción `{index: true}` optimizará los queries para el campo username e email.
+    - La opción `{index: true}` optimizará los queries para el campo username e email.
 
-4. Para crear un nuevo usuario con password y autenticación añadiremos algunos *helper methods* a nuestro modelo para crear, validar contraseñas y generar el JWT. Para generar y validar hashes se utilizará el algoritmo pbkdf2 que viene en la librería crypto de Node.
+4. Para crear un nuevo usuario con password y autenticación añadiremos algunos <b>helper methods</b> a nuestro modelo. Estos nos permitirán:
 
-    Añadiremos la siguiente línea arriba
+- Crea y valida contraseñas, así como generar el <b>JWT</b>. 
+- Utilizar el algoritmo pbkdf2 econtrado en la libería crypto de Node. Con el cual generaremos y validaremos hashes.
+- Para todos los helper methods, requeriremos algunos módulos. Añade las siguientes líneas en la parte alta de nuestro modelo <b>Usuarios</b>.
 
     ```jsx
-    const crypto = require('crypto');
-    const jwt = require('jsonwebtoken');
-    const secret = require('../config').secret;
+    const crypto = require('crypto');                             //Importando módulo crypto, pendiente de instalar.
+    const jwt = require('jsonwebtoken');                          //Importando módulo jsonwebtoken, pendiente de instalar.
+    const secret = require('../config').secret;                   
     ```
+5. Agrega los siguientes métodos a nuestro modelo <b>Usuario</b>:
 
-5. Agregamos los siguientes métodos a nuestro modelo
+- Colócalos justo antes de la definición del modelo Usuario, es decir antes de la última línea.
 
     ```jsx
     ...
@@ -175,23 +181,30 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     mongoose.model("Usuario", UsuarioSchema);
     ```
 
-6. Añadiremos las siguientes modificaciones a nuestro archivo `app.js` teniendo cuidado de que esté arriba de la declaración de las rutas.
+6. En nuestro archivo <b>app.js</b>, agrega las líneas que importan y configuran <b>mongoose</b>. En ellas podraś encontrar la invocacióna la función <b>connect</b> donde configuramos nuestra conexión a mongo, habilitamos el modo de debugeo en true, así como importamos el modelo previamente creado.
+
+Nota: 
+- Agrega las líneas justo arriba de la declaración de nuestro <b>router</b>.
+- Recuerda reemplazar los campos que están entre `<>` en la url de conexión con los datos correctos de tu cluster encontrado en MongoDB Atlas.
 
     ```jsx
+    
+    /*********************** Mongoose Configuration *******************************/
     const mongoose = require("mongoose");
 
     mongoose.connect(
-      "mongodb+srv://<usuario>:<password>@cluster0-xmea4.mongodb.net/<dbname>?retryWrites=true&w=majority"
+        "mongodb+srv://<usuario>:<password>@cluster0-xmea4.mongodb.net/<dbname>?retryWrites=true&w=majority"
     );
+
     mongoose.set("debug", true);
 
     require("./models/Usuario");
     // Aquí se importarán los modelos Mascota y Solicitud cuando estén listos
+
+    /*********************** Mongoose Configuration *******************************/
+    
     ```
-
-    recuerda reemplazar los campos que están entre `<>` en la url de conexión con la información de tu cuenta de MongoDB Atlas
-
-7. No olvides instalar los paquetes necesarios
+7. Instalar el paquete <b>mongoose-unique-validator</b>.
 
     ```bash
     npm install mongoose-unique-validator
@@ -201,7 +214,9 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 
 ## Configurando sesiones con Passport.js
 
-1. Modificaremos el archivo `config/index.js`
+1. Para hacer algunas configuraciones de nuestro ambiente, agregarás el archivo <b>index.js</b> debajo de la carpeta <b>config</b>, es decir: `config/index.js`
+
+- Inserta las siguientes líneas. Quedará clara su utilidad en el siguiente módulo.
 
     ```jsx
     module.exports = {
@@ -212,12 +227,12 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 2. Crea un nuevo archivo `config/passport.js`con lo siguiente  
 
     ```jsx
-    const passport = require('passport');
-    const LocalStrategy = require('passport-local').Strategy;
+    const passport = require('passport');                       //Importando passport, middleware para autenticación.
+    const LocalStrategy = require('passport-local').Strategy;   //Importando estrategia autenticación. --> passport-local
     const mongoose = require('mongoose');
     const Usuario = mongoose.model('Usuario');
 
-    passport.use(new LocalStrategy({
+    passport.use(new LocalStrategy({                            //Configurando elementos utilizados para habilitar sesión.
       usernameField: 'email',
       passwordField: 'password'
     }, function (email, password, done) {
@@ -251,7 +266,10 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     require('./config/passport');
     ```
 
-5. Crearemos dos *middlewares*  en el archivo `routes/auth.js` para decodificar el código JWT
+5. Para configurar autorizaciones sobre los distintos endpoints de nuestro proyecto, crearemos dos *middlewares* en el archivo `routes/auth.js`. Estos nos permitiran decodificar el código JWT.
+
+- Crea el archivo <b>auth.js</b> debajo de la carpeta routes.
+- Copia el siguiente código en el archivo recién creado.
 
     ```jsx
     const jwt = require('express-jwt');
@@ -285,10 +303,16 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     module.exports = auth;
     ```
 
-    - El *middleware* `requerido` se utilizará para endpoints donde se requiera tener una sesión y `opcional` donde no sean necesarioas.
+    - El *middleware* `requerido` se utilizará para endpoints donde se requiera tener una sesión y `opcional` donde no sean necesarios.
     - La función `getTokenFromHeader()` es una función que utlizarán los dos middlewares para extraer el token del header de `Authorization` de una petición http.
-    - La propiedad `userProperty` es donde vendrá el JWT descifrado y que podrémos utilizar después en el objeto request por medio de `req.usuario`
-6. Ahora utilizaremos los métodos que nos proporciona Mongoose en nuestro archivo  `controllers/usuarios.js`. 
+    - La propiedad `userProperty` es donde vendrá el JWT descifrado y que podrémos utilizar después en el objeto request por medio de `req.usuario`.
+    
+6. Ahora implementaremos los métodos que nos proporciona Mongoose en nuestro controlador <b>usuarios</b>, es decir:  `controllers/usuarios.js`. 
+
+- Abre el archivo <b>controllers/usuarios.js</b> y comenta el código.
+- Copia el siguiente código. 
+- Analiza las funciones, encontrarás aquellas que te permitirán hacer operaciones <b>CRUD</b> sobre tu modelo Usuario.
+- Recuerda: <b>C - Create, R - Read, U - Update, D - Delete</b>.
 
     ```jsx
     // controllers/usuarios.js
@@ -304,12 +328,12 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
       delete body.password
       const usuario = new Usuario(body)
       usuario.crearPassword(password)
-      usuario.save().then(user => {
+      usuario.save().then(user => {                                         //Guardando nuevo usuario en MongoDB.
         return res.status(201).json(user.toAuthJSON())
       }).catch(next)
     }
 
-    function obtenerUsuarios(req, res, next) {
+    function obtenerUsuarios(req, res, next) {                              //Obteniendo usuario desde MongoDB.
       Usuario.findById(req.usuario.id, (err, user) => {
         if (!user || err) {
           return res.sendStatus(401)
@@ -335,7 +359,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
           user.telefono = nuevaInfo.telefono
         if (typeof nuevaInfo.password !== 'undefined')
           user.crearPassword(nuevaInfo.password)
-        user.save().then(updatedUser => {
+        user.save().then(updatedUser => {                                   //Guardando usuario modificado en MongoDB.
           res.status(201).json(updatedUser.publicData())
         }).catch(next)
       }).catch(next)
@@ -343,7 +367,7 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 
     function eliminarUsuario(req, res) {
       // únicamente borra a su propio usuario obteniendo el id del token
-      Usuario.findOneAndDelete({ _id: req.usuario.id }).then(r => {
+      Usuario.findOneAndDelete({ _id: req.usuario.id }).then(r => {         //Buscando y eliminando usuario en MongoDB.
         res.status(200).send(`Usuario ${req.params.id} eliminado: ${r}`);
       })
     }
@@ -378,7 +402,11 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
     }
     ```
 
-7. Por último, actualizar el archivo `routes/usuarios.js` utilizando el middleware de autenticación para proteger información sensible de los usuarios.
+7. Por último, actualizar el archivo `routes/usuarios.js` utilizando los middleware de autorización para proteger información sensible de los usuarios.
+
+- Abre el archivo de configuración de endopoints de usuarios, es decir: <b>routes/usuarios.js</b>
+- Comenta el código encontrado.
+- Inserta el siguiente codigo:
 
     ```jsx
     const router = require('express').Router();
@@ -400,5 +428,8 @@ Contar con el código de la API que estaba en desarrollo desde la lección 4.
 
     module.exports = router;
     ```
-    
+- Analiza el código, observa en que endpoints será necesario el <b>JWT</b> (Su contenido definirá si un usuario tiene o no autorización sobre el endpoint, así como que información puede ver. )
+
+8. Recomendación: [`Pasa al Reto 1:`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-01)
+
     [`Atrás: Sesión 07`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07) | [`Siguiente: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-01)

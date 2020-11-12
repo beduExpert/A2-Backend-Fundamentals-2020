@@ -1,5 +1,19 @@
 # Postwork
 
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones:
+
+Asegurate de comprender: 
+
+- Como instalar y configurar MySQL.
+- La sintaxis SQL para crear tu base de datos, tablas, insertar registros, así como consultar estas estructuras.
+
+Desarrollo:
+
+- Analiza las necesidades de tu proyecto personal y desarrolla tu diagrama ERD.
+- Tomando como base tu ERD, crea la base de datos, tablas e inserta los datos necesarios para tu proyecto.
+
+Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
+
 ## Objetivo
 
 Reflexionar sobre el alcance de las bases de datos relacionales y la importancia de su implementación.

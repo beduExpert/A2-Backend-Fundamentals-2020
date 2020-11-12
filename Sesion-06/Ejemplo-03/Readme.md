@@ -159,9 +159,15 @@ MongoDB proporciona los siguientes métodos para eliminar documentos:
 
 ### Ejemplo
 
-Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de los métodos para hacer operaciones CRUD:
+En el ejemplo anterior utilizamos MongoDB Compass. En este ejemplo, estaremos trabjando con <b>MongoDB Shell</b>.
 
-1. Crear la colección de "usuarios"
+1. Utilizando MongoDB Shell, conéctacte a tu cluster a la base de datos <b>BlogsModeloEmbebido</b>:
+
+![img/ConnectionMongoDBShell.png](img/ConnectionMongoDBShell.png)
+
+2. Utilizaremos las funciones antes listadas, con las cuales haremos operaciones tipo <b>CRUD</b> en nuestra base de datos <b>BlogsModeloEmbebido</b>.
+
+- Crea la colección <b>usuarios</b>:
 
     ```jsx
     db.createCollection('usuarios')
@@ -180,25 +186,24 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
     	"operationTime" : Timestamp(1592800772, 5)
     }
     ```
+- Para comprobar que tu colección se generó, puedes utilizar la siguiente función: <b>db.getCollectionNames();</b>
+
+![img/ColecciónCreada.png](img/ColecciónCreada.png)
 
 2. Insertar un documento en la colección de "usuarios"
 
     ```jsx
-    db.usuarios.insertOne({
-         "nombre": "Diego Lugo",
-         "email": "dieguitolu@gmail.com",
-         "tipo_cuenta": "experto"
-    })
+    db.usuarios.insertOne({"nombre": "Diego Lugo","email": "dieguitolu@gmail.com","tipo_cuenta": "experto"})
     ```
 
     ```json
-    {
-    	"acknowledged" : true,
-    	"insertedId" : ObjectId("5ef036f1d761235365aa9ca2")
-    }
+    { acknowledged: 1, insertedId: ObjectId("5fa9c13890d998195a954861") }
     ```
+- Para listar el documento agregado, puedes utilizar la siguiente función: <b>db.usuarios.find();</b>
 
-3. Insert varios documentos en la colección "usuarios"
+![img/UsuarioCreado.png](img/UsuarioCreado.png)
+
+3. Inserta varios documentos en la colección "usuarios"
 
     ```jsx
     db.usuarios.insertMany([{
@@ -228,8 +233,7 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
     	]
     }
     ```
-
-4. Leer los documentos existentes en la colección "usuarios"
+4. Leer los documentos existentes en la colección <b>usuarios</b>:
 
     ```jsx
     db.usuarios.find()
@@ -242,7 +246,7 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
     { "_id" : ObjectId("5ef03837d761235365aa9ca5"), "nombre" : "Emmanuel Martínez", "email" : "emmamtz@gmail.com", "tipo_cuenta" : "legendario" }
     ```
 
-5. Leer los documentos cuyo "tipo_cuenta" es *legendario*
+5. Despliega los documentos cuyo <b>tipo_cuenta</b> tiene el valor <b>legendario</b>
 
     ```jsx
     db.usuarios.find({"tipo_cuenta":"legendario"})
@@ -253,7 +257,9 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
     { "_id" : ObjectId("5ef03837d761235365aa9ca5"), "nombre" : "Emmanuel Martínez", "email" : "emmamtz@gmail.com", "tipo_cuenta" : "legendario" }
     ```
 
-6. Crear un post en la colección "posts"
+6. Antes de insertar un nuevo documento en la colección <b>posts</b>, se recomienda eliminar vía <b>MongoDB Compass</b>, el documento creado en el <b>Ejemplo 2</b>. 
+
+- Inserta el siguiente documento en la colección <b>posts</b>:
 
     ```jsx
     db.posts.insertOne({
@@ -277,7 +283,9 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
     }
     ```
 
-7. Crear comentarios  para el post insertado anteriormente
+- <b>Importante:</b> Para referenciar a este documento posteriormente, guarda el ObjectId del mismo.
+![img/PostsInsertado.png](img/PostsInsertado.png)    
+7. Inserta documentos en la colección <b>comentarios</b>.
 
     ```jsx
     db.comentarios.insertMany([{
@@ -302,43 +310,47 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
     		ObjectId("5ef03e5cd761235365aa9ca8")
     	]
     }
-    ```
+    ```    
 
-8. Actualizar el documento del post creado para agregar las referencias de los comentarios creados
+- <b>Importante:</b> Para referenciar a estos documentos posteriormente, guarda los ObjectsId de los mismos. 
+![img/ComentariosObjectId.png](img/ComentariosObjectId.png)
+8. Actualizar el documento del post creado para agregar las referencias de los comentarios creados. 
+
+    <b>OJO:</b>
+    - Remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 6.
+    - En la función <b>$push</b> que inserta un comentario al arreglo de comentarios del post, remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 7.
 
     ```jsx
-    db.posts.updateOne(
-        { _id: ObjectId("5ef03c44d761235365aa9ca6") },
-        { $push: { comentarios: ObjectId("5ef03e5cd761235365aa9ca7") } }
-    )
+    db.posts.updateOne({ _id: ObjectId("5fa9c4cd90d998195a954865")}, {$push: { comentarios: ObjectId("5fa9ca8d90d998195a954866")}})
     ```
 
     ```json
-    { "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+    {
+        acknowledged: 1,
+        insertedId: null,
+        matchedCount: 1,
+        modifiedCount: 1,
+        upsertedCount: 0
+    }
     ```
 
     ```jsx
-    db.posts.updateOne(
-        { _id: ObjectId("5ef03c44d761235365aa9ca6") },
-        { $push: { comentarios: ObjectId("5ef03e5cd761235365aa9ca8") } }
-    )
+    db.posts.updateOne({ _id: ObjectId("5fa9c4cd90d998195a954865")},{$push:{comentarios: ObjectId("5fa9ca8d90d998195a954867")}})
     ```
 
     ```json
-    { "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+    {
+        acknowledged: 1,
+        insertedId: null,
+        matchedCount: 1,
+        modifiedCount: 1,
+        upsertedCount: 0
+    }
     ```
+    
+9. Utilizando <b>MongoDB Compass</b>, observa el único documento de tipo <b>posts</b> que tienes agregado. Debe de tener un arreglo de comentarios cuyos ObjectId, corresponden a los comentarios agregados en la colección <b>comentarios</b>
 
-9. Ver que las referencias de los comentarios se hayan almacenando
-
-    ```jsx
-    db.posts.find({ "_id" : ObjectId("5ef03c44d761235365aa9ca6") }, { "_id" : 1, comentarios : 1 })
-    ```
-
-    ```json
-    { "_id" : ObjectId("5ef03c44d761235365aa9ca6"), "comentarios" : [ ObjectId("5ef03e5cd761235365aa9ca7"), ObjectId("5ef03e5cd761235365aa9ca8") ] }
-    ```
-
-10. Leer los documentos de los comentarios que publicaron en junio
+10. En <b>MongoDB Shell</b>, con la función find, busca los comentarios publicados en Junio.
 
     ```jsx
     db.comentarios.find({ fecha_publicacion: { $gte: "2020-06-01", $lt: "2020-07-01" }})
@@ -348,36 +360,48 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
     { "_id" : ObjectId("5ef03e5cd761235365aa9ca8"), "autor" : ObjectId("5ef03837d761235365aa9ca5"), "fecha_publicacion" : "2020-06-01", "texto" : "Hay ciertos conceptos que no me quedaron claros...", "puntuacion" : 3 }
     ```
 
-11. Eliminar un comentario
+11. Ahora eliminaremos un comentario del posts exitente en la colección <b>posts</b>
+
+    <b>OJO:</b>
+    - Remplaza el <b>ObjectId</b> del post del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 6.
+    - En la función <b>$pull</b> que elimina un comentario del arreglo de comentarios del post, remplaza el <b>ObjectId</b> del codigo del ejemplo, por el <b>ObjectId</b> guardado en el punto 7.
+
     1. Eliminar la referencia del comentario en el post
 
         ```jsx
-        db.posts.updateOne(
-            { _id: ObjectId("5ef03c44d761235365aa9ca6") },
-            { $pull: { comentarios: ObjectId("5ef03e5cd761235365aa9ca8") } }
-        )
+        db.posts.updateOne({ _id: ObjectId("5fa9c4cd90d998195a954865")},{$pull:{comentarios: ObjectId("5fa9ca8d90d998195a954866")}})
         ```
 
         ```json
-        { "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+        {
+            acknowledged: 1,
+            insertedId: null,
+            matchedCount: 1,
+            modifiedCount: 1,
+            upsertedCount: 0
+        }
         ```
 
     2. Ver que los cambios funcionaron
 
         ```jsx
-        db.posts.find({ "_id" : ObjectId("5ef03c44d761235365aa9ca6") }, { "_id" : 1, comentarios : 1 })
+        db.posts.find({ "_id" : ObjectId("5fa9c4cd90d998195a954865") }, { "_id" : 1, comentarios : 1 })
         ```
 
         ```json
-        { "_id" : ObjectId("5ef03c44d761235365aa9ca6"), "comentarios" : [ ObjectId("5ef03e5cd761235365aa9ca7") ] }
+          [
+            {
+                _id: ObjectId("5fa9c4cd90d998195a954865"),
+                comentarios: [ ObjectId("5fa9ca8d90d998195a954867") ]
+            }
+          ]
         ```
 
     3. Eliminar el documento en la colección "comentarios"
-
+ 
         ```jsx
-        db.comentarios.deleteOne({ _id: ObjectId("5ef03e5cd761235365aa9ca8") })
+        db.comentarios.deleteOne({ _id: ObjectId("5fa9ca8d90d998195a954866") })
         ```
-
         ```jsx
         { "acknowledged" : true, "deletedCount" : 1 }
         ```
@@ -389,7 +413,16 @@ Del modelado embebido realizado en el ejercicio 2 de esta sesión haremos uso de
         ```
 
         ```json
-        { "_id" : ObjectId("5ef03e5cd761235365aa9ca7"), "autor" : ObjectId("5ef03837d761235365aa9ca4"), "fecha_publicacion" : "2020-05-23", "texto" : "Excelente post, me ayudo a comprender más...", "puntuacion" : 5 }
+        [
+            {
+                _id: ObjectId("5fa9ca8d90d998195a954867"),
+                autor: ObjectId("5ef03837d761235365aa9ca5"),
+                fecha_publicacion: '2020-06-01',
+                texto: 'Hay ciertos conceptos que no me quedaron claros...',
+                puntuacion: 3
+            }
+        ]
+
         ```
 
 [`Atrás: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-03) | [`Siguiente: Reto 04`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-04)

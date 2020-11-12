@@ -415,8 +415,13 @@ La función de una base de datos es persistir información, en las bases de dato
 ```sql
 INSERT INTO *nombre_tabla*(atributo1, ...) **VALUES(*valor1,...);*
 ```
+Ejemplo: Se requiere registrar una <b>sucursal</b> nueva.
 
-Ej. Se requiere registrar un nuevo empleado en la sucursal
+```sql
+INSERT INTO sucursal VALUES ("El Taquito Feliz SA de CV", "TAF261020666", "Taco Feliz", "CDMX");
+```
+
+Ejemplo. Se requiere registrar un nuevo empleado en la sucursal antes creada.
 
 ```sql
 INSERT INTO empleado VALUES(

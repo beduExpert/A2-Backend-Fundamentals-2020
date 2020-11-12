@@ -116,7 +116,7 @@ Prerequisitos:
 
     ![img/Screen_Shot_2020-06-18_at_11.16.44.png](img/Screen_Shot_2020-06-18_at_11.16.44.png)
 
-4. Clic **I have the mongo shell installed** y copiar la url que nos proporcione
+4. Click **I have the mongo shell installed** y copiar la url que nos proporcione
 
     ![img/Screen_Shot_2020-06-18_at_11.18.13.png](img/Screen_Shot_2020-06-18_at_11.18.13.png)
 
@@ -131,5 +131,47 @@ mongo "mongodb+srv://cluster0-xmea4.mongodb.net/<*dbname*>" --username <*usernam
 <*username*> : Nombre de usuario 
 
 5. Reemplaza los valores indicados y ejecuta el comando anterior.
+
+
+### Instalar MongoDB Compass
+
+MongoDB Compass es un GUI para MongoDB, nos permitirá visualizar y explorar los datos en nuestras colecciones. Instala <b>MongoDB Compass</b> tomando en cuenta las siguientes instrucciones:
+
+Guía de instalación: <b>https://docs.mongodb.com/compass/master/install</b>
+
+
+### Conexión a clúster con MongoDB Compass
+
+1. Inicia sesión en [https://account.mongodb.com/account/login](https://account.mongodb.com/account/login?nds=true)
+
+2. Seleccionar **Connect** en el dashboard
+
+    ![img/Screen_Shot_2020-06-18_at_11.10.43.png](img/Screen_Shot_2020-06-18_at_11.10.43.png)
+
+3. Seleccionar **Connect with MongoDB Compass**
+
+    ![img/Screen_Shot_2020-06-18_at_11.16.44.png](img/Screen_Shot_2020-06-18_at_11.16.44.png)
+
+4. Click **I have the MongoDB Compass installed** y copiar la url que nos proporcione
+
+    ![img/InstalledMongoDB.png](img/InstalledMongoDB.png)                                  
+
+Donde, 
+
+```
+mongodb+srv://introabd:<password>@cluster0.kbuns.mongodb.net/<dbname>
+```
+
+<*dbname*> : Es el nombre de la base de datos
+
+<*username*> : Nombre de usuario    
+
+<*password*> : Passowrd de usuario
+    
+5. Crea una nueva conexión desde MongoDB Compass insertando el link copiado en el punto anterior, remplaza los elementos indicados anteriormente. Prueba la conexión.
+
+    ![img/Conexion.png](img/Conexion.png)
+
+6. De aquí en adelante, utiliza MongoDB Compass para ratificar las configuraciones realizadas desde MongoDB Shell.
 
 [`Atrás: Sesión 06`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06) | [`Siguiente: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-06/Reto-01)
