@@ -2,7 +2,7 @@
 	
 ## Reto 3:
 
-### Instrucciones:
+# Instrucciones:
 
 1. Instala el paquete `fortune` desde la terminal.
 2. Ejecuta los siguientes comandos y observa lo que sucede.
