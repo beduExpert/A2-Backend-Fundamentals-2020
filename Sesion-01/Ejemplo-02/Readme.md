@@ -18,7 +18,7 @@
 
 **Esto nos muestra la siguiente interfaz**
 
-![img/Screen_Shot_2020-03-16_at_22.21.11.png](img/Screen_Shot_2020-03-16_at_22.21.11.png)
+<img src="img/Screen_Shot_2020-03-16_at_22.21.11.png" width="450px"> 
 
 Ahora, copiaremos el siguiente código:
 
