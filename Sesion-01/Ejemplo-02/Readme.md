@@ -76,7 +76,7 @@ Ahora añadiremos la línea `<p>Editando desde VIM</p>` debajo de nuestro encabe
 
 Esto nos llevará al modo de comandos, aquí ingresaremos el comando `:w` para **guardar,** ó podemos usar `:wq` para **guardar y salir**, luego presionamos **enter.**
 
-Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en el intento.
+Si haz seguido bien los pasos **¡felicidades!** 🎉, has salido de vim sin morir en el intento.
 
 ## Mas comandos de vim
 
