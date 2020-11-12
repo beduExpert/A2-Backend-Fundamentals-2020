@@ -27,7 +27,7 @@ Los requerimientos a grandes rasgos para este sistema son los siguientes:
 
 ## 2. Creando User Stories
 
-Las historias de usuario son descripciones cortas y simples de una funcionalidad contada desde la perspectiva de la persona que la desea (usuario o cliente del sistema). 
+Las historias de usuario son **descripciones cortas** y **simples** de una funcionalidad contada desde la perspectiva de la persona que la desea (usuario o cliente del sistema). 
 
 Estas historias tienen una **estructura simple**
 
