@@ -50,11 +50,11 @@ vim es una **versión mejorada de vi** un editor de texto que viene instalado po
 
 A continuación abriremos el archivo anterior con el comando `vim + [nombre de archivo]`
 
-![img/Untitled%201.png](img/Untitled%201.png)
+<img src="img/Untitled%201.png" width="650px">
 
 **Esto nos mostrará una interfaz como la siguiente**
 
-![img/Untitled%202.png](img/Untitled%202.png)
+<img src="img/Untitled%202.png" width="650px">
 
 Te darás cuenta que vim **no** nos permite **editar** directamente cuando abrimos un archivo, ya que vim tiene diferentes **modos** de trabajo.
 
@@ -62,17 +62,17 @@ Te darás cuenta que vim **no** nos permite **editar** directamente cuando abrim
 >
 >Para activar el modo edición **(insert mode)** presionaremos la tecla `i`
 
-![img/Screen_Shot_2020-03-21_at_14.35.53.png](img/Screen_Shot_2020-03-21_at_14.35.53.png)
+<img src="img/Screen_Shot_2020-03-21_at_14.35.53.png" width="650px">
 
 Ahora añadiremos la línea `<p>Editando desde VIM</p>` debajo de nuestro encabezado desplazandonos con las teclas de flecha.
 
-![img/Untitled%203.png](img/Untitled%203.png)
+<img src="img/Untitled%203.png" width="650px">
 
 >💡 **Nota:**
 >
 >Para guardar primero debemos salir del modo edición, presionando la tecla `ESC`
 
-![img/Screen_Shot_2020-03-21_at_15.37.45.png](img/Screen_Shot_2020-03-21_at_15.37.45.png)
+<img src="img/Screen_Shot_2020-03-21_at_15.37.45.png" width="650px">
 
 Esto nos llevará al modo de comandos, aquí ingresaremos el comando `:w` para **guardar,** ó podemos usar `:wq` para **guardar y salir**, luego presionamos **enter.**
 
