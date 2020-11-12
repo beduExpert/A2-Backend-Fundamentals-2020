@@ -1,11 +1,10 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) > `Ejemplo 1`
 
-**Requerimientos**
+# Requerimientos
 
-Tener **instalado** sistema operativo **Linux** o **MacOS**.
+- Tener **instalado** sistema operativo **Linux** o **MacOS**.
 
-## Desarrollo
-
+# Desarrollo
 
 # Navegación (File system)
 
