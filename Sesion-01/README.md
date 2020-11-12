@@ -1,6 +1,6 @@
 # Sesión 01 - Consola
 
-# 🎯 Objetivo:
+# 🎯 Objetivos Generales:
 
 - Utilizar la terminal, sus principales ventajas y comandos.
 - Editar archivos e instalar paquetes en el sistema operativo por medio de la consola.
