@@ -8,7 +8,7 @@
 
 # Editando Archivos
 
-- En UNIX (Linux/MacOS) existen diversas maneras de editar un archivo sin necesidad de **salir de la terminal.**
+- En Linux y MacOS existen diversas maneras de editar un archivo sin necesidad de **salir de la terminal.**
 
 ## nano
 
