@@ -1,10 +1,10 @@
 [`Backend Fundamentals`](../../README.md) > [`Sesión 01: Consola`](../README.md) `Ejemplo 02`
 
-**Requerimientos**
+# Requerimientos
 
-Tener **instalado** sistema operativo **Linux** o **MacOS**.
+- Tener **instalado** sistema operativo **Linux** o **MacOS**.
 
-## Desarrollo
+# Desarrollo
 
 # Editando Archivos
 
@@ -16,7 +16,7 @@ Tener **instalado** sistema operativo **Linux** o **MacOS**.
 
 ![img/Untitled.png](img/Untitled.png)
 
-Esto nos muestra la siguiente interfaz.
+**Esto nos muestra la siguiente interfaz**
 
 ![img/Screen_Shot_2020-03-16_at_22.21.11.png](img/Screen_Shot_2020-03-16_at_22.21.11.png)
 
@@ -52,7 +52,7 @@ A continuación abriremos el archivo anterior con el comando `vim + [nombre de a
 
 ![img/Untitled%201.png](img/Untitled%201.png)
 
-Esto nos mostrará una interfaz como la siguiente
+**Esto nos mostrará una interfaz como la siguiente**
 
 ![img/Untitled%202.png](img/Untitled%202.png)
 
@@ -87,7 +87,5 @@ Si haz seguido bien los pasos felicidades 🎉, has salido de vim sin morir en e
 `ctrl + r` Rehacer
 
 `:set number` mostrar numeración de líneas
-
--------
 
 [`Atŕas: Reto-01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-01/Reto-01) | [`Siguiente: Reto-02`](../Reto-02)
