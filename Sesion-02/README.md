@@ -1,23 +1,19 @@
 # Sesión 2 - Administración de servidores
 
-🎯  **Objetivo:**
+# 🎯  Objetivo:
 
 - Gestionar usuarios y permisos de archivos, cómo conectarse, utilizar un servidor remoto por medio de ssh y enviar archivos remotamente con SCP.
 
 ### Secciones:
 
-## 🛠 Prework
+# 🛠 Prework
 
 **Objetivo:**
 
 - Leer el contenido que se muestra a continuación, se que puede parecer mucha información, pero tienes que comprender las bases y por qué suceden las cosas.
 - Resolver las preguntas que se encuentran al final del prework.
 
-**Diferentes tipos de servidores**
-
-Conocer la terminal y sus principales ventajas con respecto a las interfaces gráficas. Ejecutar los primeros comandos....[`leer mas`](Prework/#prework---diferentes-tipos-de-servidores)
-
-## 🕵 Ejemplos:
+# 🕵 Ejemplos:
 
 - [`Ejemplo 1: Usuarios y permisos`](Ejemplo-01/#ejemplo-1-usuarios-y-permisos)
 
@@ -25,7 +21,7 @@ Conocer la terminal y sus principales ventajas con respecto a las interfaces gr�
 
 - [`Ejemplo 3: Utilizando el servidor remoto`](Ejemplo-03/#ejemplo-3-utilizando-el-servidor-remoto)
 
-## 💻 Retos:
+# 💻 Retos:
 
 - [`Reto 01: Permisos actuales de tus archivos`](Reto-01/#reto-1)
 
@@ -34,7 +30,7 @@ Conocer la terminal y sus principales ventajas con respecto a las interfaces gr�
 - [`Reto 03: Crea tu propio archivo en el servidor`](Reto-03/#reto-3)
 
 
-## 🛡 Postwork
+# 🛡 Postwork
 
 **Objetivo:**
 
