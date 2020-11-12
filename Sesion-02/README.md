@@ -36,6 +36,4 @@
 
 - Aprender a utilizar SCP y conocer FTP cómo protocolo para la transferencia de información a un servidor.
 
-**Transferencia de archivos a un servidor (SCP y FTP)**
-
 Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones...[`leer mas`](Postwork/#postwork-transferencia-de-archivos-a-un-servidor-scp-y-ftp)
