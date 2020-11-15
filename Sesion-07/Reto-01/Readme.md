@@ -13,7 +13,7 @@ Es momento de probar los endpoints recien creados en el API, así que ejecuta el
 			"nombre":"midory",
 			"apellido":"romero",
 			"email":"midoryr@gmail.com",
-    			"password":"midory",
+			"password":"midory",
 			"ubicacion":"cdmx",	
 			"telefono":"3312333",
 			"bio":"constante anunciante",
