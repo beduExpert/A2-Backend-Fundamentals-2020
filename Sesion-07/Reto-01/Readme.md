@@ -17,8 +17,8 @@ Es momento de probar los endpoints recien creados en el API, así que ejecuta el
 			"ubicacion":"cdmx",	
 			"telefono":"3312333",
 			"bio":"constante anunciante",
-			"foto":""
-    			"tipo":"anunciante"
+			"foto":"",
+			"tipo":"anunciante"
 		}  
 
 - No olvides guardar el <b>JWT</b>:
@@ -27,8 +27,9 @@ Es momento de probar los endpoints recien creados en el API, así que ejecuta el
 
 2. Ahora prueba el endpoint para obtener la información del usuario recien creado. Utiliza el endpoint `GET [/v1/usuarios](http://localhost:3000/v1/usuarios)`. 
 
-<b>Nota Importante</b>: 
-Debido a que en la configuración de <b>routes/usuarios.js</b>, indicamos que es necesaria autorización para el endpoint <b>GET-obtener usuarios</b>, debemos agregar los headers de autenticación. Es decir el JWT del usuario que solicitará la petición, de tal forma que el usuario solo podrá ver sus propios datos. Para lograr esto, selecciona el tipo de Auth <b>Bearer</b>. 
+- <b>Nota:</b>
+	
+	Debido a que en la configuración de <b>routes/usuarios.js</b>, indicamos que es necesaria autorización para el endpoint <b>GET-obtener usuarios</b>, debemos agregar los headers de autenticación. Es decir el JWT del usuario que solicitará la petición, de tal forma que el usuario solo podrá ver sus propios datos. Para lograr esto, selecciona el tipo de Auth <b>Bearer</b>. 
 
 - Seleccionando Tipo de Auth:
 
