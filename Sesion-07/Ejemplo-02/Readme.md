@@ -29,6 +29,19 @@ const MascotaSchema = new mongoose.Schema({
   estado:{type: String, enum:['adoptado', 'disponible', 'pendiente']},
 }, { timestamps: true })
 
+MascotaSchema.methods.publicData = function(){
+  return {
+    id: this.id,
+    nombre: this.nombre,
+    categoria: this.categoria,
+    fotos: this.fotos,
+    descripcion: this.descripcion,
+    anunciante: this.anunciante,
+    ubicacion: this.ubicacion,
+    estado: this.estado
+  };
+};
+
 mongoose.model('Mascota', MascotaSchema)
 ```
 
