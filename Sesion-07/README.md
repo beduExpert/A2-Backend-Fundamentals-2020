@@ -43,8 +43,7 @@ Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, l
 
 **Desarrolla un nuevo feature para guardar mascotas favoritas**
 
-Desarrolla una nueva característica para que un usuario sea capaz guardar mascotas que ha visto y que desea adoptar en un futuro...[`leer más`](Postwork/#postwork)
-
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones...[`leer más`](Postwork/#postwork)
 
 > 💡**Importante:**
 >
