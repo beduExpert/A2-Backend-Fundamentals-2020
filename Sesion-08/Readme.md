@@ -23,7 +23,7 @@
 
 - [`Ejemplo 2: Deploy con Heroku`](Ejemplo-02/#ejemplo-2---deploy-con-heroku)
 
-- [`Ejemplo 3: Últimos pasos`](Ejemplo-03/#ejemplo-3---últimos-pasos)
+- [`Ejemplo 3: Demostración - Publicación en Dominio`](Ejemplo-03/#ejemplo-3---últimos-pasos)
 
 ## 💻 Retos:
 
@@ -37,4 +37,4 @@
 
 **Conocer conceptos para cerrar el curso y continuar aprendiendo.**
 
-Ahora conoces muchos conceptos y técnicas fundamentales del desarrollo backend, pero esto es únicamente la superficie...[`leer más`](Postwork/#postwork)
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones...[`leer más`](Postwork/#postwork)
