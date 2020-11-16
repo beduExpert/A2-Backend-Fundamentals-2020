@@ -33,6 +33,8 @@ Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, l
 
 - [`Reto 03: Crea el método modificarSolicitud`](Reto-03/#reto-3)
 
+- [`Reto 04: Pruebando endpoints.`](Reto-04/#reto-4)
+
 ## 🛡 Postwork
 
 **Objetivo:**
