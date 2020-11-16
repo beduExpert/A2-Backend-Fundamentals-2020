@@ -1,16 +1,14 @@
-# Ejemplo 3 - Últimos pasos
+# Ejemplo 3 - Demostración
 
 ## Objetivo
 
-Conocer y comprender los fundamentos de conceptos como dominio, DNS y configuraciones iniciales para conectar una aplicación.
+- Conocer y comprender los fundamentos de conceptos como dominio, DNS y configuraciones iniciales para conectar una aplicación.
 
 ## Requerimientos
 
-Contar con el código de la API en una cuenta de Github y una cuenta en Heroku.
-
-Contar con un dominio y llaves de acceso a su configuración DNS. 
-
-Es recomendable que la clase se ponga de acuerdo para registrar un dominio y pagarlo entre todos o que el experto tenga preparado ya un dominio.
+- Este ejemplo se mostrará como una <b>demostración</b> por parte del experto. ( En caso de que cuentes con un dominio personal, pudes intentar llevarlo a cabo. )
+- Contar con el código de la API en una cuenta de Github y una cuenta en Heroku.
+- Contar con un dominio y llaves de acceso a su configuración DNS. 
 
 ## Desarrollo
 
@@ -22,8 +20,6 @@ Es recomendable que la clase se ponga de acuerdo para registrar un dominio y pag
 - **Proveedor DNS:** La empresa que nos proporciona servicios de gestión de los archivos de configuración de nuestro dominio y comúnmente también nos permite registrar y gestionar nuevos dominios.
 
 ### Conectar un dominio
-
-Para llevar a la práctica el siguiente ejercicio, es probable que necesites una tarjeta de crédito o débito. En caso de no contar con ella no debes preocuparte, estar atento a la parte teórica es suficiente.
 
 Al hacer deploy de nuestra aplicación, Heroku automáticamente le asigna un dominio personalizado a nuestra API.
 
