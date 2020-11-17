@@ -39,4 +39,4 @@ SQL es un sistema de gestión de bases de datos relacional, multihilo y multiusu
 
 - Comprender en qué situaciones utilizar SQL o NoSQL y sus diferentes aplicaciones.
 
-Las bases de datos NoSQL tienen estructuras que permiten almacenar información en aquellas situaciones en las que las BD relacionales generan ciertos problemas como escalabilidad y rendimiento...[`leer mas`](Postwork/#postwork)
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones...[`leer mas`](Postwork/#postwork)
