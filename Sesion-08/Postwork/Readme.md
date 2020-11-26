@@ -1,5 +1,20 @@
 # Postwork
 
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones:
+
+Asegurate de comprender:
+
+  - Para que son útil configurar tu API para un ambiente de producción.
+  - Para que es útil Heroku, así como el proceso de publicación de tu API en el.
+  - Para que es útil un Dominio y en su caso, el proceso de publicación de tu API en el.
+
+Desarrollo:
+
+  - Publica tu API en Heroku, recuerda que es necesario habilitar un repositorio en GitHub para lograrlo.
+  - En caso de que cuentes con un dominio, publica tu API en el mismo.
+  
+Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
+
 ## Objetivo
 
 Conocer conceptos para cerrar el curso y continuar aprendiendo.

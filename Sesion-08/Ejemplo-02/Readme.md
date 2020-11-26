@@ -6,7 +6,8 @@ Conocer una de las plataformas más sencillas para lanzamiento de aplicaciones d
 
 ## Requerimientos
 
-Contar con el código de la API en una cuenta de Github.
+- ¿Recuerdas tus lecciones con GitHub?. Necesitas contar con el código del API en tu cuenta de GitHub. 
+- Ejecuta los pasos necesarios para llevarlo a cabo.
 
 ## Desarrollo
 

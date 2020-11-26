@@ -1,5 +1,20 @@
 # Postwork
 
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones:
+
+Asegurate de comprender:
+
+- La utilidad de tendrá MongoDB en el desarrollode tu API.
+- Los fundamentos para poner en operación y trabajar con MongoDB.
+- Las funciones de MongoDB para realizar operaciones CRUD en MongoDB.
+
+Desarrollo:
+
+- Habilita un ambiente en MongoDB para persistir la información con la que trabajará tu API.
+- Crea el modelo de base de datos en MongoDB con el cual trabajará tu API.
+
+Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
+
 ## Objetivo
 
 Comprender en qué situaciones utilizar SQL o NoSQL y sus diferentes aplicaciones.

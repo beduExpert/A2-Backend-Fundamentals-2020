@@ -1,5 +1,16 @@
 # Postwork
 
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones:
+
+Asegurate de comprender:
+
+  - Diferenciar entre el papel que desempeña un Modelo y un Controlador en el patrón de diseño MVC.
+  - Para que sirve mongoose.
+  - Como generar un Modelo para cada entidad y la importancia de un modelo con mongoose implementado.
+  - Analiza las necesidades de tu proyecto personal y aplica los cambios necesarios en tu API para que aproveches los beneficios que te aporta mongoose.
+
+Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
+
 ## Objetivo
 
 Desarrollar un nuevo feature sobre el código que se ha trabajado hasta ahora.

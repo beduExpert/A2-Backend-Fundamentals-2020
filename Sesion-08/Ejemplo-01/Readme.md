@@ -52,7 +52,9 @@ process.env.NOMBRE_VARIABLE
 
 ### Variables de entorno en adoptapet
 
-1. Crea un archivo `env.sh` para guardar las variables de entorno y añade lo siguiente
+1. Dentro del directorio <b>config</b>, crea un archivo `env.sh` . 
+
+- En este archivo definiremos las variables de entorno, ingresa las siguientes líneas:
 
     ```bash
     export NODE_ENV='development'
@@ -60,16 +62,19 @@ process.env.NOMBRE_VARIABLE
     export SECRET='secret' # para mayor seguridad puedes cambiar esto por el secreto de tu preferencia
     export MONGODB_URI='mongodb+srv://<username>:<password>@cluster0-xmea4.mongodb.net/adoptapet?retryWrites=true&w=majority'
     ```
+- Recuerda sustituir los campos entre `<>` dentro de la `MONGODB_URI`.
+- En el caso de que tu base de datos tenga un nombre distinto, no olvides hacer el cambio en el URI.
 
-    Recuerda sustituir los campos entre `<>` dentro de la `MONGODB_URI`
-
-2. Para cargar las variables de manera local debes posicionarte en la ruta del archivo `env.sh` y ejecutar
+2. Para cargar las variables a tu entorno local debes posicionarte en la ruta del archivo `env.sh` y ejecutar el script.
 
     ```bash
     source ./env.sh
     ```
 
-3. Ahora podremos saber si la API está en producción o no por medio de la variable `NODE_ENV` . Así que modificaremos el archivo `app.js`
+3. Ahora podremos saber si el API está en producción o no por medio de la variable `NODE_ENV`. Así que modificaremos el archivo `app.js`.
+
+- Ubica las líneas donde mongoose se conecta a la base de datos `mongoose.connect...`. Comenta estas líneas.
+- Inserta en su lugar las siguientes líneas:
 
     ```jsx
     var isProduction = process.env.NODE_ENV === 'production';
@@ -80,7 +85,10 @@ process.env.NOMBRE_VARIABLE
     );
     ```
 
-4. Para visualizar errores explícitamente en el entorno de desarrollo puedes agregar la siguiente condición
+4. Tomando en cuenta el valor de la variable isProduction configurada en el punto 3, se habilitará o no mensajes debug en la consola de nuestra API. De tal forma que su habilitación dependerá de estár o no ejecutando el API en un ambiente de producción.
+
+- Comenta la línea actual que configura los mensajes debug. Es decir: `mongoose.set("debug", true);`
+- Inserta las siguientes líneas justo después de la línea comentada.
 
     ```jsx
     const errorhandler = require('errorhandler')
@@ -100,10 +108,9 @@ process.env.NOMBRE_VARIABLE
       })
     }
     ```
+- Para utilizar <b>errorhandler</b> debes instalarlo con: `npm i errorhandler`
 
-    Para utilizar errorhandler debes instalarlo con `npm i errorhandler`
-
-5. Revisa que al llamar al método `app.listen` se esté utilizando la variable PORT
+5. Revisa que al llamar al método `app.listen` se esté utilizando la variable PORT.
 
     ```jsx
     // Iniciando el servidor...
@@ -119,7 +126,5 @@ process.env.NOMBRE_VARIABLE
       secret: process.env.NODE_ENV === "production" ? process.env.SECRET : "secret",
     };
     ```
-
-    Aquí estamos obteniendo la variable de entorno `SECRET` para verificar la autenticidad de los tokens de los usuarios con JWT. 
-
-    Más adelante cambiaremos este *secret* en producción por algo más seguro y que puedas recordar.
+- En estas líneas, estamos obteniendo la variable de entorno `SECRET` para verificar la autenticidad de los tokens de los usuarios con JWT. 
+- Más adelante cambiaremos este *secret* en producción por algo más seguro y que puedas recordar.

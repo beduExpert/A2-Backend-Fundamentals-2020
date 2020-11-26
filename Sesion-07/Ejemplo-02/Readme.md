@@ -6,11 +6,15 @@ Crear un nuevo modelo (Mascota) junto con la lógica de sus controladores
 
 ## Requerimientos
 
-Contar con el código de la API que estaba en desarrollo desde la lección 4.
+Contar con el código de la API que se encuentra en desarrollo desde la lección 4.
 
 ## Desarrollo
 
-1. Crearemos el modelo Mascota en `models/Mascota.js` 
+1. Creando modelo Mascota:
+
+- Abre el archivo:`models/Mascota.js` 
+- En este archivo se encuentra la configuración del modelo <b>Mascota</b> previa a utilizar mongoose.
+- Comenta el código en el archivo e inserta la declaración del esquema <b>Mascota</b>: 
 
 ```jsx
 const mongoose = require("mongoose");
@@ -21,16 +25,28 @@ const MascotaSchema = new mongoose.Schema({
   fotos: [String], // links a las fotografías
   descripcion: {type:String, required: true}, // descripción del anuncio
   anunciante: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario'}, // contacto con la persona que anuncia al animalito
-  ubicacion: {String}, // muy importante
+  ubicacion: { type: String }, // muy importante
   estado:{type: String, enum:['adoptado', 'disponible', 'pendiente']},
 }, { timestamps: true })
+
+MascotaSchema.methods.publicData = function(){
+  return {
+    id: this.id,
+    nombre: this.nombre,
+    categoria: this.categoria,
+    fotos: this.fotos,
+    descripcion: this.descripcion,
+    anunciante: this.anunciante,
+    ubicacion: this.ubicacion,
+    estado: this.estado
+  };
+};
 
 mongoose.model('Mascota', MascotaSchema)
 ```
 
-Para la propiedad categoría utilizaremos un `enum` el cuál nos permite pasar únicamente los valores 'perro', 'gato' u 'otro'.
-
-Para la propiedad anunciante, crearemos una referencia el modelo Usuario que contendrá el id de un usuario y nos servirá más adelante.
+- Para la propiedad categoría utilizaremos un `enum` el cuál nos permite pasar únicamente los valores 'perro', 'gato' u 'otro'.
+- Para la propiedad anunciante, crearemos una referencia el modelo Usuario que contendrá el id de un usuario y nos servirá más adelante.
 
 2. Recuerda importar el modelo en `app.js` debajo de dónde importamos el modelo Usuario.
 
@@ -43,8 +59,7 @@ require('./models/Mascota');
 ...
 ```
 
-3. Actualiza las rutas del archivo `routes/mascotas.js` para asegurar los endpoints que requieran actualizar mascotas y eliminarlas
-
+3. Modifica las rutas del archivo `routes/mascotas.js`,  agregar las siguientes autorizaciones:
 ```jsx
 const router = require('express').Router();
 const {
@@ -64,7 +79,7 @@ router.delete('/:id',auth.requerido, eliminarMascota)
 module.exports = router;
 ```
 
-4. Ahora actualiza la función `crearMascota` en `controllers/mascotas.js`
+4. En el controlador mascotas, es decir: `controllers/mascotas.js`, actualiza la función `crearMascota` con el siguiente código:
 
 ```jsx
 const mongoose = require('mongoose')
@@ -81,7 +96,7 @@ function crearMascota(req, res, next) {
 
 ```
 
-5. Actualizaremos la función obtenerMascotas para obtener todas las mascotas
+5. En el controlador mascotas, es decir: `controllers/mascotas.js`, actualiza la función `obtenerMascotas` con el siguiente código:
 
 ```jsx
 function obtenerMascotas(req, res, next) {
@@ -95,7 +110,9 @@ function obtenerMascotas(req, res, next) {
 
 El método populate nos sirve para *poblar* documentos que son integrados dentro de otros documentos.
 
-6. Cuando queramos obtener una mascota en específico en el endpoint 'v1/mascotas/:id', será necesario mostrar la información de su anunciante, así que agregaremos una condición para que cuándo un id esté presente se agreguen los campos username, nombre, apellido, bio y foto del anunciante
+6. Cuando queramos obtener una mascota en específico, en el endpoint 'v1/mascotas/:id'. Será necesario mostrar la información de su anunciante, así que agregaremos una condición para que cuándo un id esté presente se agreguen los campos username, nombre, apellido, bio y foto del anunciante.
+
+- De nuevo, actualiza el controlador mascotas, es decir: `controllers/mascotas.js`, muestra los datos del anunciante de una mascota, modificando la función `obtenerMascotas` con el siguiente código:
 
 ```jsx
 function obtenerMascotas(req, res, next) {
@@ -112,7 +129,7 @@ function obtenerMascotas(req, res, next) {
 }
 ```
 
-esto nos devolverá una respuesta cómo la siguiente:
+Obtendremos una respuesta como está:
 
 ```json
 {
@@ -141,5 +158,6 @@ esto nos devolverá una respuesta cómo la siguiente:
   "__v": 0
 }
 ```
+7. Recomendación: [`Pasa al Ejemplo 3:`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Ejemplo-03)
 
-[`Atrás: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-01) | [`Siguiente: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-02)
+[`Atrás: Reto 01`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Ejemplo-03) | [`Siguiente: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-02)

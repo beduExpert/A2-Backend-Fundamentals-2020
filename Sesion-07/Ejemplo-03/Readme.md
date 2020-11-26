@@ -6,11 +6,14 @@ Crear un nuevo modelo (Solicitud) junto con la lógica de sus controladores.
 
 ## Requerimientos
 
-Contar con el código de la API que estaba en desarrollo desde la lección 4.
+Contar con el código de la API que se encuentra en desarrollo desde la Sesión 4.
 
 ## Desarrollo
 
-1. Crearemos el modelo Solicitud en `models/Solicitud.js` 
+1. Crea el modelo Solicitud en: `models/Solicitud.js` 
+
+- Comenta el modelo previamente declarado.
+- Inserta el siguiente código.
 
 ```jsx
 const mongoose = require("mongoose");
@@ -37,11 +40,21 @@ var SolicitudSchema = new mongoose.Schema(
   { collection: "solicitudes", timestamps: true }
 );
 
+  SolicitudSchema.methods.publicData = function(){
+  return {
+     id: this.id,
+     idMascota: this.idMascota,
+     fechaCreacion: this.fechaCreacion,
+     idAnunciante: this.idAnunciante,
+     idSolicitante: this.idSolicitante,
+     estado: this.estado
+    };
+  };
+  
 mongoose.model('Solicitud', SolicitudSchema)
 ```
 
 >💡 **Nota:**
->
 > Si no se pasa el atributo `collection` en las opciones Mongoose nombrará la colección como `solicituds`, por eso es buena práctica pasar el nombre de la colección.
 >
 
@@ -56,7 +69,7 @@ require('./models/Solicitud');
 ...
 ```
 
-El orden es importante, ya que los modelos Usuario y Mascota son utilizados dentro del modelo Mascota, entonces debe estar declarado primero.
+- El orden es importante, ya que los modelos Usuario y Mascota son utilizados dentro del modelo Mascota, entonces debe estar declarado primero.
 
 3. Actualiza las rutas del archivo `routes/solicitudes.js` para usar el middleware de autorización.
 
@@ -112,9 +125,9 @@ function crearSolicitud(req, res, next) { // POST v1/solicitudes?mascota_id=021a
 }
 ```
 
-Para crear una solicitud la compondremos de un id de la mascota, del anunciante y del solicitante.
+- Para crear una solicitud la compondremos de un id de la mascota, id del anunciante, así como el id del solicitante.
 
-5. Actualizaremos la función obtenerSolicitud para obtener todas las solicitudes
+5. Actualiza la función obtenerSolicitud, esta te permitirá obtener todas las solicitudes.
 
 ```jsx
 function obtenerSolicitud(req, res, next) {
@@ -187,8 +200,8 @@ Aquí está el resultado de una solicitud que ha sido aceptada:
   "__v": 2
 }
 ```
+- Así nuestros usuarios podrán ponerse en contacto y concretar la adopción de su nuevo amigo.
 
-Así nuestros usuarios podrán ponerse en contacto y concretar la adopción de su nuevo amigo.
-
+6. Recomendación: [`Pasa al Reto 2:`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-02)
 
 [`Atrás: Reto 02`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-02) | [`Siguiente: Reto 03`](https://github.com/beduExpert/A2-Backend-Fundamentals-2020/tree/master/Sesion-07/Reto-03)

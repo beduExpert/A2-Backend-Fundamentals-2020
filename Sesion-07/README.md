@@ -33,6 +33,8 @@ Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, l
 
 - [`Reto 03: Crea el método modificarSolicitud`](Reto-03/#reto-3)
 
+- [`Reto 04: Probando endpoints.`](Reto-04/#reto-4)
+
 ## 🛡 Postwork
 
 **Objetivo:**
@@ -41,9 +43,4 @@ Para abstraer entidades (Modelos) y facilitar el trabajo de los programadores, l
 
 **Desarrolla un nuevo feature para guardar mascotas favoritas**
 
-Desarrolla una nueva característica para que un usuario sea capaz guardar mascotas que ha visto y que desea adoptar en un futuro...[`leer más`](Postwork/#postwork)
-
-
-> 💡**Importante:**
->
-> El [resultado final](adoptapet/) del código de esta sesión está en el folder
+Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones...[`leer más`](Postwork/#postwork)
