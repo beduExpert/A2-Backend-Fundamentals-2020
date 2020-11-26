@@ -2,7 +2,7 @@
 
 Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones:
 
-Asegurate de comprender:
+**Asegúrate de comprender:**
 
   - Diferenciar entre el papel que desempeña un Modelo y un Controlador en el patrón de diseño MVC.
   - Para que sirve mongoose.
@@ -15,13 +15,7 @@ Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus 
 
 Desarrollar un nuevo feature sobre el código que se ha trabajado hasta ahora.
 
-## Instrucciones
-
-Lee las indicaciones, escribe los cambios que vas  a hacer en los modelos y plantea pruebas antes de comenzar a codificarlos.
-
 ## Desarrolla un nuevo feature para guardar mascotas favoritas
-
-### Requerimientos
 
 Considerando los modelos que has desarrollado en los ejercicios anteriores. 
 
