@@ -2,27 +2,28 @@
 
 # Postwork: 
 
+## Requerimientos
+
+- Tener Git Bash si usas Windows
+- Acceso a un servidor remoto, su dirección IP y el archivo `.pem` de la llave para realizar la conexión
+
 Recuerda que todo lo trabajado en tu prework, así como en el work, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones:
 
-Asegúrate de comprender:
+**Asegúrate de comprender:**
 
 - Las herramientas que te permitirán listar los permisos de archivos y directorios en tu file system.
 - Las herramientas que te permitirán modificar los permisos de archivos y directorios en tu file system.
 - Las herramientas que te permitirán llevar a cabo una conexión vía ssh.
 
+## Objetivo
+
+- Aprender a utilizar SCP y conocer FTP cómo protocolo para la transferencia de información a un servidor.
+
 Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
 
-## ¿Qué es la Transferencia de archivos a un servidor (SCP y FTP)?
-
-**Objetivo**
-
-Aprender a utilizar SCP y conocer FTP cómo protocolo para la transferencia de información a un servidor.
-
-**Requerimientos**
-
-Acceso a un servidor remoto, su dirección IP y el archivo .pem de la llave para realizar la conexión
-
 ## Desarrollo
+
+## ¿Qué es la Transferencia de archivos a un servidor (SCP y FTP)?
 
 Para transferir archivos de nuestro ordenador a un servidor remoto podemos utilizar diversas opciones. La más simple y parecida a SSH es la herramienta SCP.
 
@@ -77,7 +78,7 @@ Si contamos con archivo de identidad (llave privada) tenemos que utilizar la opc
 scp -i llaves/llave_host2.pem /home/bedu/proyecto/archivo.txt ubuntu@18.209.88.100:/home/usuario
 ```
 
-### FTP (File Transfer Protocol)
+## FTP (File Transfer Protocol)
 
 Cuando hacemos transferencias de archivos de manera constante, otra opción para enviarlos es configurando un servidor FTP.
 
