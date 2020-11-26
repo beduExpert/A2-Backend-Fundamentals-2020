@@ -9,11 +9,11 @@ Recuerda que todo lo trabajado en tu prework, así como durante la sesión, pued
   - Como generar un Modelo para cada entidad y la importancia de un modelo con mongoose implementado.
   - Analiza las necesidades de tu proyecto personal y aplica los cambios necesarios en tu API para que aproveches los beneficios que te aporta mongoose.
 
-Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
-
 ## Objetivo
 
-Desarrollar un nuevo feature sobre el código que se ha trabajado hasta ahora.
+- Desarrollar un nuevo feature sobre el código que se ha trabajado hasta ahora
+
+Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
 
 ## Desarrolla un nuevo feature para guardar mascotas favoritas
 
