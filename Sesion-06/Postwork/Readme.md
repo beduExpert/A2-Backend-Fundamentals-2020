@@ -2,9 +2,9 @@
 
 Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones:
 
-Asegurate de comprender:
+Asegúrate de comprender:
 
-- La utilidad de tendrá MongoDB en el desarrollode tu API.
+- La utilidad que tendrá MongoDB en el desarrollo de tu API.
 - Los fundamentos para poner en operación y trabajar con MongoDB.
 - Las funciones de MongoDB para realizar operaciones CRUD en MongoDB.
 
