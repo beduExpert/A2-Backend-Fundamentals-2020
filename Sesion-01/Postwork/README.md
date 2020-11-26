@@ -24,7 +24,7 @@ ZSH es una shell que mejora a bash en aspectos como el autocompletado y la naveg
 
 ### **Terminator / iTerm**
 
-Terminator para ubuntu y iTerm para MacOS son terminales que nos permiten trabajar de manera más eficiente con la terminal, con esto instalado podrás utilizar paneles y pestañas con diferentes consolas abiertas, así cómo personalizar a tu manera tu consola en apariencia y comportamiento.
+Terminator para Ubuntu y iTerm para MacOS son terminales que nos permiten trabajar de manera más eficiente con la terminal, con esto instalado podrás utilizar paneles y pestañas con diferentes consolas abiertas, así cómo personalizar a tu manera tu consola en apariencia y comportamiento.
 
 + **[Instalar Terminator Ubuntu](https://www.ingenieriazeros.com/2018/03/instalar-terminator-ubuntu.html)**
 
