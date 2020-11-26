@@ -4,11 +4,11 @@
 
 Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones:
 
-Asegurate de comprender: 
+Asegúrate de comprender: 
 
 - El concepto de la arquitectura cliente-servidor.
 - El reconocimiento de requerimientos funcionales y sus historias de usuario de tu aplicación.
-- El patron MVC ( Modelo Vista Controlador ).
+- El patrón MVC ( Modelo Vista Controlador ).
 
 Desarrollo en Java Script:
 - Comienza a desarrollar las clases de las entidades identificadas en tu aplicación.
