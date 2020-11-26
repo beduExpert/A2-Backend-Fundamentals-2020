@@ -2,19 +2,20 @@
 
 Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones:
 
-Asegurate de comprender: 
+**Asegurate de comprender:**
+
 - Para qué son útiles herramientas como Insomnia y Postman en el desarrollo de un API.
 
-Desarrollo:
-- Crea las clases que conformarán tu modelo, los controladores y rutas que te permitirán interactuar con ellos.
+## Objetivo
+
+- Comprender los conceptos fundamentales de las técnicas para el manejo de sesiones y autenticación en una API.
 
 Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
 
+## Desarrollo:
+- Crea las clases que conformarán tu modelo, los controladores y rutas que te permitirán interactuar con ellos.
+
 ## Sesiones en una API
-
-**Objetivo**
-
-Comprender los conceptos fundamentales de las técnicas para el manejo de sesiones y autenticación en una API.
 
 **Desarrollo**
 
