@@ -4,7 +4,7 @@
 
 Recuerda que todo lo trabajado en tu prework, así como en el work, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones:
 
-Asegurate de comprender: 
+Asegúrate de comprender: 
 
 - Las herramientas que te permitirán listar, mover, crear, copiar, borrar elementos en tu file system.
 - Las herramientas que te permitirán editar un archivo de texto desde terminal de línea de comandos.
