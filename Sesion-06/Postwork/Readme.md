@@ -2,28 +2,24 @@
 
 Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal. Para lo cual, toma las siguientes consideraciones:
 
-Asegúrate de comprender:
+**Asegúrate de comprender:**
 
 - La utilidad que tendrá MongoDB en el desarrollo de tu API.
 - Los fundamentos para poner en operación y trabajar con MongoDB.
 - Las funciones de MongoDB para realizar operaciones CRUD en MongoDB.
 
-Desarrollo:
+## Objetivo
+
+Comprender en qué situaciones utilizar SQL o NoSQL y sus diferentes aplicaciones.
+
+## Desarrollo:
 
 - Habilita un ambiente en MongoDB para persistir la información con la que trabajará tu API.
 - Crea el modelo de base de datos en MongoDB con el cual trabajará tu API.
 
 Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
 
-## Objetivo
-
-Comprender en qué situaciones utilizar SQL o NoSQL y sus diferentes aplicaciones.
-
-## Instrucciones
-
-Lee el siguiente material e investiga más sobre los conceptos aquí mostrados.
-
-## Desarrollo
+## SQL vs NoSQL ¿Cuál debo usar?
 
 Las bases de datos NoSQL tienen estructuras que permiten almacenar información en aquellas situaciones en las que las BD relacionales generan ciertos problemas como escalabilidad y rendimiento. Por ejemplo en donde pueda haber una gran cantidad de usuarios concurrentes que accedan a muchos datos.
 
@@ -33,13 +29,13 @@ Al iniciar un proyecto en donde es necesario almacenar información y por lo tan
 
 Esto nos lleva a las siguientes preguntas:
 
-**¿Cuándo debo utilizar una base de datos NoSQL?**
+### ¿Cuándo debo utilizar una base de datos NoSQL?
 
 - Los requisitos de los datos son desconocidos, sujetos a cambiar o expandirse con facilidad.
 - Se necesita un alto rendimiento de escritura y de lectura de los datos.
 - Necesidad de escalabilidad horizontal de la base de datos.
 
-**¿Cuándo debo utilizar una bases de datos SQL?**
+## ¿Cuándo debo utilizar una bases de datos SQL?
 
 - Se necesita que los datos sean consistentes y transacciones atómicas.
 - Necesidad de un esquema estricto y gran dependencia de relaciones.
@@ -52,14 +48,14 @@ El siguiente artículo da un panorama de lo que conlleva la elección de una bas
 
 A continuación se muestran algunos ejemplos de donde aplicar las bases de datos NoSQL y SQL.
 
-**SQL**:
+### SQL:
 
 - Fines educativos: Aportar conocimiento lógico al estudiante.
 - Desarrollo web: Para mantener jerarquía de datos, siempre y cuando la capacidad de concurrencia o almacenamiento no sea considerable.
 - Negocios: Inteligencia y análisis de negocios, facilita el consumo de la información.
 - Empresarial: Tanto el software a la medida y empresarial tiene la característica de mantener los datos consistentes.
 
-**NoSQL**:
+### NoSQL:
 
 - Redes sociales: Altamente necesario.
 - Desarrollo web: Donde la concurrencia y almacenamiento es alta y por lo tanto la velocidad de lectura y escritura es fundamental.
