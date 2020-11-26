@@ -20,7 +20,7 @@ Recuerda que todo lo trabajado en tu prework, así como durante la sesión, pued
 Desarrollo en Java Script:
 - Comienza a desarrollar las clases de las entidades identificadas en tu aplicación.
 
-**Objetivo**
+## Objetivo
 
 - Entender las ventajas de una arquitectura basada en microservicios.
 - Familiarizarse con Docker
