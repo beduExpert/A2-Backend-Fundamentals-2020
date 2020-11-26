@@ -64,8 +64,8 @@ A continuación se muestran algunos ejemplos de donde aplicar las bases de datos
 
 Sin duda un tema muy interesante que se desprende de estas aplicaciones es *Big Data*, este video te da una introducción de qué es *Big Data* y por qué es tan importante, además te da una idea clara de por qué se utilizan bases de datos NoSQL:
 
-[¿Qué es el Big Data?](https://youtu.be/M26iIqmqWkI)
+- [¿Qué es el Big Data?](https://youtu.be/M26iIqmqWkI)
 
-Y ejemplos de *XaaS: Everything as a Service*
+Ejemplos de *XaaS: Everything as a Service*
 
-[XaaS: Everything as a Service](https://youtu.be/4G7u-wIpOvE)
+- [XaaS: Everything as a Service](https://youtu.be/4G7u-wIpOvE)
