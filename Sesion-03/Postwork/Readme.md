@@ -2,9 +2,16 @@
 
 # Postwork
 
+## Requerimientos
+
++ [Git](https://git-scm.com/downloads)
++ Instalar **docker**
+  +  Para **instalar** docker en ubuntu  [sigue el siguiente tutorial](https://docs.docker.com/engine/install/ubuntu/)
+  + Para **instalar** docker en mac y windows [sigue el siguiente tutorial](https://www.docker.com/products/docker-desktop)
+
 Recuerda que todo lo trabajado en tu prework, así como durante la sesión, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones:
 
-Asegúrate de comprender: 
+**Asegúrate de comprender:**
 
 - El concepto de la arquitectura cliente-servidor.
 - El reconocimiento de requerimientos funcionales y sus historias de usuario de tu aplicación.
@@ -13,24 +20,17 @@ Asegúrate de comprender:
 Desarrollo en Java Script:
 - Comienza a desarrollar las clases de las entidades identificadas en tu aplicación.
 
-Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
-
-## Arquitectura de Microservicios
-
 **Objetivo**
 
 - Entender las ventajas de una arquitectura basada en microservicios.
 - Familiarizarse con Docker
 - Descargar e instalar imagenes de docker y utilizarlas
 
-**Requerimientos**
-
-+ [Git](https://git-scm.com/downloads)
-+ Instalar **docker**
-  +  Para **instalar** docker en ubuntu  [sigue el siguiente tutorial](https://docs.docker.com/engine/install/ubuntu/)
-  + Para **instalar** docker en mac y windows [sigue el siguiente tutorial](https://www.docker.com/products/docker-desktop)
+Adicionalmente te aconsejamos leer los siguientes contenidos que ampliarán tus conocimientos:
 
 ## Desarrollo
+
+## Arquitectura de Microservicios
 
 La arquitectura de microservicios es un estilo de arquitectura dónde una aplicación es creada por medio de una colección de servicios pequeños que se ejecutan como procesos independientes.
 
@@ -70,7 +70,7 @@ Una de las ventajas más importantes de esta plataforma es la portabilidad. Cuá
 
 También el ecosistema docker permite poner a trabajar distintos contenedores de manera conjunta. Una vez dominandolo, por ejemplo, cada equipo en una empresa puede comenzar a crear sus propios servicios y levantar las instancias de bases de datos que necesiten.
 
-## **Ejercicio**
+**Ejercicio**
 
 1. Instalar docker en tu computadora siguiendo las instrucciones para la [instalación de docker](https://docs.docker.com/engine/install/)
 2. Después de instalarlo y correr docker, para probar tu instalación ejecuta el comando:
