@@ -4,7 +4,7 @@
 
 Recuerda que todo lo trabajado en tu prework, así como en el work, puede ser aplicado a tu proyecto personal; Para lo cual, toma las siguientes consideraciones:
 
-Asegurate de comprender:
+Asegúrate de comprender:
 
 - Las herramientas que te permitirán listar los permisos de archivos y directorios en tu file system.
 - Las herramientas que te permitirán modificar los permisos de archivos y directorios en tu file system.
