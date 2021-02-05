@@ -11,18 +11,18 @@
 
 >Para instalar Ubuntu necesitarás una [imagen ISO](https://www.aboutespanol.com/que-es-una-imagen-iso-3507896), a  continuación [podrás encontrar el link de descarga](https://ubuntu.com/download/desktop).
 
-  ### La primera opción es activar la terminal de Linux en Windows 10:
+  1. Activar la terminal de Linux en Windows 10:
   + A continuación te compartimos un link, de como puedes [**activar la terminal de Linux en Windows 10**](https://www.neoguias.com/activar-terminal-linux-windows-10/)
   
-  ### La segunda opción es crear una un servidor ubuntu en la nube con la herramienta **Google Cloud Platform**
+  2. Crear una un servidor ubuntu en la nube con la herramienta **Google Cloud Platform**
   + A continuación te compartimos una serie de [5 videos de como puedes realizar una instancia de un Sistema Operativo en la nube en Windows](https://drive.google.com/drive/folders/1bGdxuIY8hnrRMvoO1Sy8GLI3EaZeel7a?usp=sharing), para tener un servidor Ubuntu.
 
-  ### La tercea opción es crear una Maquina Virtual que contenga Ubuntu:
+  3. Crear una Maquina Virtual que contenga Ubuntu:
   + Puedes usar [VirtualBox](https://www.genbeta.com/paso-a-paso/como-crear-una-maquina-virtual-en-windows-para-ejecutar-linux) ó
   + Puedes usar [VMware](https://www.codigonaranja.com/instalar-linux-windows-10-usando-una-maquina-virtual)
   
-  ### La curta opción es:
-  + [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
+  4. Particionar un disco duro:
+  + En el siguiente link te muestra como puedes [particionar tu disco duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
 # 🎯 Objetivos:
 
