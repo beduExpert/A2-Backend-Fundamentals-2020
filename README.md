@@ -17,7 +17,7 @@
   2. Crear una un servidor ubuntu en la nube con la herramienta **Google Cloud Platform**
   + A continuación te compartimos una serie de [5 videos de como puedes realizar una instancia de un Sistema Operativo en la nube en Windows](https://drive.google.com/drive/folders/1bGdxuIY8hnrRMvoO1Sy8GLI3EaZeel7a?usp=sharing), para tener un servidor Ubuntu.
 
-  3. Crear una Maquina Virtual que contenga Ubuntu:
+  3. Crear una Máquina Virtual que contenga Ubuntu:
   + Puedes usar [VirtualBox](https://www.genbeta.com/paso-a-paso/como-crear-una-maquina-virtual-en-windows-para-ejecutar-linux) ó
   + Puedes usar [VMware](https://www.codigonaranja.com/instalar-linux-windows-10-usando-una-maquina-virtual)
   
