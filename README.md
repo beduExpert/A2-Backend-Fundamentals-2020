@@ -7,7 +7,7 @@
 
 ### 💡 Nota:
 
-+ Si tienes como **Sistema Operativo Windows**, no te preocupes😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opsciones si **no quieres instalar un Sistema Operativo desde cero**.
++ Si tienes como **Sistema Operativo Windows**, no te preocupes😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opciones si **no quieres instalar un Sistema Operativo desde cero**.
 
 >Para instalar Ubuntu necesitarás una [imagen ISO](https://www.aboutespanol.com/que-es-una-imagen-iso-3507896), a  continuación [podrás encontrar el link de descarga](https://ubuntu.com/download/desktop).
 
