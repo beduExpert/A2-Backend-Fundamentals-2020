@@ -12,7 +12,7 @@
 >Para instalar Ubuntu necesitarás una [imagen ISO](https://www.aboutespanol.com/que-es-una-imagen-iso-3507896), a  continuación [podrás encontrar el link de descarga](https://ubuntu.com/download/desktop).
 
   ### La primera opción es activar la terminal de Linux en Windows 10:
-  A continuación te compartimos un link, de como puedes [**activar la terminal de Linux en Windows 10**](https://www.neoguias.com/activar-terminal-linux-windows-10/)
+  + A continuación te compartimos un link, de como puedes [**activar la terminal de Linux en Windows 10**](https://www.neoguias.com/activar-terminal-linux-windows-10/)
   
   ### La segunda opción es crear una un servidor ubuntu en la nube con la herramienta **Google Cloud Platform**
   + A continuación te compartimos una serie de 5 videos de como puedes realizar una instancia de un Sistema Operativo en la nube en Windows, para tener un servidor Ubuntu.
