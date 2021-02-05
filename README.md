@@ -22,7 +22,7 @@
   + Puedes usar [VMware](https://www.codigonaranja.com/instalar-linux-windows-10-usando-una-maquina-virtual)
   
   4. Particionar un disco duro:
-  + En el siguiente link te muestra como puedes [particionar tu disco duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
+  + El siguiente link te muestra como puedes [particionar tu disco duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
 # 🎯 Objetivos:
 
