@@ -2,17 +2,29 @@
 
 # ❗ Importante
 
-+ Para este curso **se recomienda tener** de preferencia **Sistema Operativo Linux**(**[Ubuntu](https://ubuntu.com)** como distribución de prefencia) o **[Mac OS](https://www.apple.com/mx/macos/what-is/)**, **no se recomienda Windows**,no por que no sea bueno, si no por que podemos tener dificultades con los comandos que estaremos ocuparemos en las siguientes sesiones.
-+ Si tienes como **Sistema Operativo Windows**, no te preocupes😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opsciones si **no quieres instalar un Sistema Operativo desde cero**.
++ Para este curso **se recomienda tener** de preferencia **Sistema Operativo Linux**(**[Ubuntu](https://ubuntu.com)** como distribución de prefencia) o **[Mac OS](https://www.apple.com/mx/macos/what-is/)**, **no se recomienda Windows** ,no por que no sea bueno, si no por que podemos tener dificultades con los comandos que estaremos ocuparemos en las siguientes sesiones.
+
 
 ### 💡 Nota:
 
++ Si tienes como **Sistema Operativo Windows**, no te preocupes😉, puedes trabajar con **Ubuntu** y para ello existen hay varias opsciones si **no quieres instalar un Sistema Operativo desde cero**.
+
 >Para instalar Ubuntu necesitarás una [imagen ISO](https://www.aboutespanol.com/que-es-una-imagen-iso-3507896), a  continuación [podrás encontrar el link de descarga](https://ubuntu.com/download/desktop).
 
-  ### La primera opción es crear una Maquina Virtual que contenga Ubuntu
+  ### La primera opción es activar la terminal de Linux en Windows 10:
+  A continuación te compartimos un link, de como puedes [**activar la terminal de Linux en Windows 10**](https://www.neoguias.com/activar-terminal-linux-windows-10/)
+  
+  ### La segunda opción es crear una un servidor ubuntu en la nube con la herramienta **Google Cloud Platform**
+  + A continuación te compartimos una serie de 5 videos de como puedes realizar una instancia de un Sistema Operativo en la nube en Windows, para tener un servidor Ubuntu.
+  
+  [![Watch the video](https://namtech.com.au/wp-content/uploads/2019/10/8-1.png)](https://loom.com/share/folder/3a5b3c00881045f1812cb6363503a192)
+
+
+  ### La tercea opción es crear una Maquina Virtual que contenga Ubuntu:
   + Puedes usar [VirtualBox](https://www.genbeta.com/paso-a-paso/como-crear-una-maquina-virtual-en-windows-para-ejecutar-linux) ó
   + Puedes usar [VMware](https://www.codigonaranja.com/instalar-linux-windows-10-usando-una-maquina-virtual)
-  ### La segunda es:
+  
+  ### La curta opción es:
   + [Particionar tu Disco Duro](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
 
 # 🎯 Objetivos:
