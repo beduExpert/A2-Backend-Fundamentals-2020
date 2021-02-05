@@ -15,10 +15,7 @@
   + A continuación te compartimos un link, de como puedes [**activar la terminal de Linux en Windows 10**](https://www.neoguias.com/activar-terminal-linux-windows-10/)
   
   ### La segunda opción es crear una un servidor ubuntu en la nube con la herramienta **Google Cloud Platform**
-  + A continuación te compartimos una serie de 5 videos de como puedes realizar una instancia de un Sistema Operativo en la nube en Windows, para tener un servidor Ubuntu.
-  
-  [![Watch the video](https://namtech.com.au/wp-content/uploads/2019/10/8-1.png)](https://loom.com/share/folder/3a5b3c00881045f1812cb6363503a192)
-
+  + A continuación te compartimos una serie de [5 videos de como puedes realizar una instancia de un Sistema Operativo en la nube en Windows](https://loom.com/share/folder/3a5b3c00881045f1812cb6363503a192), para tener un servidor Ubuntu.
 
   ### La tercea opción es crear una Maquina Virtual que contenga Ubuntu:
   + Puedes usar [VirtualBox](https://www.genbeta.com/paso-a-paso/como-crear-una-maquina-virtual-en-windows-para-ejecutar-linux) ó
